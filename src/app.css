@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb: 40, 40, 40;
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
+    Arial, sans-serif;
+  background: rgb(var(--background-rgb));
+  color: rgb(var(--foreground-rgb));
+}
+
+.zh-name {
+  text-align: justify;
+  height: 1em;
+}
+
+.zh-name:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
