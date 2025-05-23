@@ -20,6 +20,8 @@ export default defineConfig({
         "/2025/en/venue",
         "/2025/zh/challenge",
         "/2025/en/challenge",
+        "/2025/zh/volunteer",
+        "/2025/en/volunteer",
       ],
       failOnError: true,
     },
