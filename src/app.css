@@ -34,3 +34,27 @@ b,
 strong {
   font-weight: bold;
 }
+
+.page {
+  @apply list-outside text-justify font-light text-sm sm:text-base leading-7 hyphens-auto;
+}
+
+.page h2 {
+  @apply text-xl sm:text-2xl pl-5 sm:pl-6 mt-6 mb-4 uppercase font-bold relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-sky-600;
+}
+
+.page p {
+  @apply indent-8;
+}
+
+.page ul {
+  @apply list-disc ml-8;
+}
+
+.page ol {
+  @apply list-decimal ml-8;
+}
+
+.page li {
+  @apply indent-0;
+}
