@@ -20,12 +20,7 @@ export default function Home() {
             <>
               <Title>{t("PageTitle")}</Title>
               <Page>
-                <Section title={t("ConferenceInformation")!}>
-                  <div class="space-y-2" innerHTML={t('ConferenceInformationContent')}></div>
-                </Section>
-                <Section title={t('Sponsors')!}>
-                  <p>{t("ToBeAnnounced")}</p>
-                </Section>
+                <div innerHTML={t("Content")}></div>
               </Page>
             </>
           );
