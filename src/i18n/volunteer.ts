@@ -44,8 +44,6 @@ export const zh = {
     - 后备 ChinaVis 举办地所属大学的申请者。
     - 博士、硕士研究生。
 
-    <br />
-
     注：
 
     - 本着鼓励广泛交流的原则，同一导师的申请者入选者不超过 2 人，同一学校的申请者入选者不超过 4 人。
@@ -120,8 +118,6 @@ export const en = {
     - Volunteer experience in other conferences/activities.
     - Applicants from universities will hold subsequent ChinaVis conferences.
     - Doctoral students or postgraduate students are preferred.
-
-    <br />
 
     Notes:
 
