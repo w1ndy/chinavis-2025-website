@@ -13,6 +13,8 @@ export const zh = {
 
     入选的同学将按照志愿者优惠缴纳注册费，未入选同学按照大会注册类型缴纳注册费，<span style="color: red">**请申请志愿者的同学等待选拔结果公布后再进行缴费。**</span>
 
+    如有任何申请相关问题，请联系：chinavis_volunteer@163.com
+
     ## 志愿者申请资格
 
     - 身体健康。
@@ -87,6 +89,8 @@ export const en = {
 
     Selected students will pay the registration fee at a discounted rate for volunteers, while those not selected will pay according to the regular conference registration type. <span style="color: red">**Please wait for the announcement of the selection results before making any payments.**</span>
 
+    If you have any problems with the application, please contact chinavis_volunteer@163.com.
+
     ## Application Qualifications
 
     - Good physical condition.
@@ -133,10 +137,6 @@ export const en = {
     Venue: TBD
 
     Address: TBD
-
-    If you are interested in our program, please submit your volunteer application as soon as possible. The recruited volunteers will be notified by email or phone in time.
-
-    Please register after confirming the result of your application. The volunteers will register with discount fees.
 
 
     ## Important dates
