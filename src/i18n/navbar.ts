@@ -6,6 +6,7 @@ export const zh = {
   Submission: "投稿",
   Venue: "会址及住宿预定",
   Challenge: "可视化竞赛",
+  DoctoralColloquium: "博士生论坛",
   Volunteer: "志愿者",
   History: "历届会议",
 };
@@ -16,6 +17,7 @@ export const en = {
   Submission: "Submission",
   Venue: "Venue & Hotels",
   Challenge: "Data Challenge",
+  DoctoralColloquium: "Doctoral Colloquium",
   Volunteer: "Volunteer",
   History: "History",
 };

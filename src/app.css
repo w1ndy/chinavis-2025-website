@@ -36,7 +36,7 @@ strong {
 }
 
 .page {
-  @apply list-outside text-justify font-light text-sm sm:text-base leading-7 hyphens-auto;
+  @apply text-justify font-light text-sm sm:text-base leading-7 hyphens-auto;
 }
 
 .page h2 {
@@ -48,11 +48,11 @@ strong {
 }
 
 .page ul {
-  @apply list-disc ml-8;
+  @apply list-disc list-outside ml-8;
 }
 
 .page ol {
-  @apply list-decimal ml-8;
+  @apply list-decimal list-outside ml-8;
 }
 
 .page li {

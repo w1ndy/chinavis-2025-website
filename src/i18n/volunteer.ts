@@ -70,8 +70,9 @@ export const zh = {
 
     ## 志愿者主席
 
-    - **王伽臣**，浙江大学
-    - **谢潇**，浙江大学
+    **王伽臣**　浙江大学
+
+    **谢　潇**　浙江大学
   `.replace(/  +/g, "")
   ),
 };
@@ -149,8 +150,9 @@ export const en = {
 
     ## Volunteer Chairs
 
-    - **Jiachen Wang**, Zhejiang University
-    - **Xiao Xie**, Zhejiang University
+    **Jiachen Wang**, Zhejiang University
+
+    **Xiao Xie**, Zhejiang University
   `.replace(/  +/g, "")
   ),
 };
