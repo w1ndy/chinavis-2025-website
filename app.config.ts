@@ -22,6 +22,8 @@ export default defineConfig({
         "/2025/en/challenge",
         "/2025/zh/volunteer",
         "/2025/en/volunteer",
+        "/2025/zh/doctoralcolloquium",
+        "/2025/en/doctoralcolloquium",
       ],
       failOnError: true,
     },
