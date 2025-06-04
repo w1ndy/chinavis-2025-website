@@ -17,9 +17,10 @@ export default function Challenge() {
           const t = i18n.translator(dict);
           return (
             <>
-              <Title>{t("Title")}</Title>
-              <Page title={<span innerHTML={t("PageTitle")}></span>} class="list-outside [&_li]:indent-0 [&_ul]:list-disc [&_ul]:ml-8 [&_ol]:list-decimal [&_ol]:ml-8">
-                <Section title={t("Introduction.Title")}>
+              <Title>{t("PageTitle")}</Title>
+              <Page title={<span innerHTML={t("Title")}></span>} class="list-outside [&_li]:indent-0 [&_ul]:list-disc [&_ul]:ml-8 [&_ol]:list-decimal [&_ol]:ml-8">
+                <div innerHTML={t("Content")}></div>
+                {/* <Section title={t("Introduction.Title")}>
                   {t("Introduction.Content")}
                 </Section>
 
@@ -79,7 +80,7 @@ export default function Challenge() {
 
                 <Section title={t("History.Title")}>
                   <div class="space-y-2" innerHTML={t("History.Content")}></div>
-                </Section>
+                </Section> */}
               </Page>
             </>
           );

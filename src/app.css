@@ -40,11 +40,19 @@ strong {
 }
 
 .page h2 {
-  @apply text-xl sm:text-2xl pl-5 sm:pl-6 not-first:mt-6 mb-4 uppercase font-bold relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-sky-600;
+  @apply text-xl sm:text-2xl pl-5 sm:pl-6 not-first:mt-6 mb-4 text-left uppercase font-bold relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-sky-600;
 }
 
 .page p {
   @apply indent-8 mt-2;
+}
+
+.page div > ul {
+  @apply mt-2;
+}
+
+.page div > ol {
+  @apply mt-2;
 }
 
 .page ul {
@@ -57,4 +65,12 @@ strong {
 
 .page li {
   @apply indent-0;
+}
+
+.page h3 {
+  @apply inline-block px-2 mt-4 mb-2 leading-8 bg-sky-600 text-white text-center font-bold indent-0;
+}
+
+.page h4 {
+  @apply relative font-bold mt-2 pb-1 w-fit underline underline-offset-6 decoration-sky-600 decoration-4;
 }
