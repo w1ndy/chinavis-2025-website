@@ -24,6 +24,8 @@ export default defineConfig({
         "/2025/en/volunteer",
         "/2025/zh/doctoralcolloquium",
         "/2025/en/doctoralcolloquium",
+        "/2025/zh/committee",
+        "/2025/en/committee",
       ],
       failOnError: true,
     },

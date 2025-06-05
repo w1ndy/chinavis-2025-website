@@ -1,68 +1,74 @@
-import PhotoCW from "~/assets/committee/cw.png";
-import PhotoQHM from "~/assets/committee/qhm.jpg";
-import PhotoQHX from "~/assets/committee/qhx.jpg";
-import PhotoWYC from "~/assets/committee/wyc.jpg";
-import PhotoSGD from "~/assets/committee/sgd.png";
-import PhotoLCH from "~/assets/committee/lch.jpg";
-import PhotoCSM from "~/assets/committee/csm.png";
-import PhotoZJW from "~/assets/committee/zjw.png";
-import PhotoWCB from "~/assets/committee/wcb.png";
-import PhotoGWJ from "~/assets/committee/gwj.png";
-import PhotoJC from "~/assets/committee/jc.jpg";
-import PhotoLJ from "~/assets/committee/lj.jpeg";
-import PhotoSXH from "~/assets/committee/sxh.png";
-import PhotoLYH from "~/assets/committee/lyh.png";
-import PhotoCWP from "~/assets/committee/cwp.jpeg";
-import PhotoMX from "~/assets/committee/mx.png";
-import PhotoYZQ from "~/assets/committee/yzq.png";
-import PhotoTT from "~/assets/committee/tt.png";
-import PhotoZJJ from "~/assets/committee/zjj.png";
-import PhotoWGY from "~/assets/committee/wgy.jpg";
-import PhotoLF from "~/assets/committee/lf.png";
-import PhotoLTM from "~/assets/committee/ltm.jpg";
-import PhotoLXL from "~/assets/committee/lxl.jpeg";
-import PhotoCSJ from "~/assets/committee/csj.jpg";
-import PhotoZHJ from "~/assets/committee/zhj.jpg";
-import PhotoCJ from "~/assets/committee/cj.jpg";
-import PhotoXJ from "~/assets/committee/xj.jpeg";
-import PhotoZZG from "~/assets/committee/zzg.png";
-import PhotoCJZ from "~/assets/committee/cjz.jpg";
-import PhotoXCQ from "~/assets/committee/xcq.jpg";
-import PhotoYWW from "~/assets/committee/yww.jpg";
-import PhotoCWF from "~/assets/committee/cwf.png";
-import PhotoYSN from "~/assets/committee/ysn.jpg";
-import PhotoDXJ from "~/assets/committee/dxj.jpg";
-import PhotoDJF from "~/assets/committee/djf.png";
-import PhotoZF from "~/assets/committee/zf.jpg";
-import PhotoZYH from "~/assets/committee/zyh.jpg";
-import PhotoZQ from "~/assets/committee/zq.jpg";
-import PhotoHS from "~/assets/committee/hs.jpg";
-import PhotoLRC from "~/assets/committee/lrc.png";
-import PhotoWXM from "~/assets/committee/wxm.jpg";
-import PhotoWXH from "~/assets/committee/wxh.jpg";
-import PhotoLM from "~/assets/committee/lm.jpg";
-import PhotoLGZ from "~/assets/committee/lgz.png";
-import PhotoXX from "~/assets/committee/xx.jpg";
-import PhotoSXY from "~/assets/committee/sxy.png";
-import PhotoLLY from "~/assets/committee/lly.jpg";
-import PhotoTYB from "~/assets/committee/tyb.png";
-import PhotoLQ from "~/assets/committee/lq.jpg";
-import PhotoLJing from "~/assets/committee/ljing.jpg";
-import PhotoWD from "~/assets/committee/wd.jpg";
-import PhotoLXJ from "~/assets/committee/lxj.png";
-import PhotoWJC from "~/assets/committee/wjc.jpg";
-import PhotoHHB from "~/assets/committee/hhb.png";
-import PhotoDDZ from "~/assets/committee/ddz.jpg";
-import PhotoWX from "~/assets/committee/wx.jpg";
-import PhotoDZY from "~/assets/committee/dzy.jpg";
-import PhotoWZC from "~/assets/committee/wzc.jpg";
-import PhotoWJH from "~/assets/committee/wjh.png";
-import PhotoTXB from "~/assets/committee/txb.png";
-import PhotoLYUH from "~/assets/committee/lyuh.png";
-import PhotoJYB from "~/assets/committee/jyb.png";
-import PhotoZJM from "~/assets/committee/zjm.jpg";
+import PhotoCW from "~/assets/committee/cw.avif?inline";
+import PhotoQHM from "~/assets/committee/qhm.avif?inline";
+import PhotoQHX from "~/assets/committee/qhx.avif?inline";
+import PhotoWYC from "~/assets/committee/wyc.avif?inline";
+import PhotoSGD from "~/assets/committee/sgd.avif?inline";
+import PhotoLCH from "~/assets/committee/lch.avif?inline";
+import PhotoCSM from "~/assets/committee/csm.avif?inline";
+import PhotoZJW from "~/assets/committee/zjw.avif?inline";
+import PhotoWCB from "~/assets/committee/wcb.avif?inline";
+import PhotoGWJ from "~/assets/committee/gwj.avif?inline";
+import PhotoJC from "~/assets/committee/jc.avif?inline";
+import PhotoLJ from "~/assets/committee/lj.avif?inline";
+import PhotoSXH from "~/assets/committee/sxh.avif?inline";
+import PhotoLYH from "~/assets/committee/lyh.avif?inline";
+import PhotoCWP from "~/assets/committee/cwp.avif?inline";
+import PhotoMX from "~/assets/committee/mx.avif?inline";
+import PhotoYZQ from "~/assets/committee/yzq.avif?inline";
+import PhotoTT from "~/assets/committee/tt.avif?inline";
+import PhotoZJJ from "~/assets/committee/zjj.avif?inline";
+import PhotoWGY from "~/assets/committee/wgy.avif?inline";
+import PhotoLF from "~/assets/committee/lf.avif?inline";
+import PhotoLTM from "~/assets/committee/ltm.avif?inline";
+import PhotoLXL from "~/assets/committee/lxl.avif?inline";
+import PhotoCSJ from "~/assets/committee/csj.avif?inline";
+import PhotoZHJ from "~/assets/committee/zhj.avif?inline";
+import PhotoCJ from "~/assets/committee/cj.avif?inline";
+import PhotoXJ from "~/assets/committee/xj.avif?inline";
+import PhotoZZG from "~/assets/committee/zzg.avif?inline";
+import PhotoCJZ from "~/assets/committee/cjz.avif?inline";
+import PhotoXCQ from "~/assets/committee/xcq.avif?inline";
+import PhotoYWW from "~/assets/committee/yww.avif?inline";
+import PhotoCWF from "~/assets/committee/cwf.avif?inline";
+import PhotoYSN from "~/assets/committee/ysn.avif?inline";
+import PhotoDXJ from "~/assets/committee/dxj.avif?inline";
+import PhotoDJF from "~/assets/committee/djf.avif?inline";
+import PhotoZF from "~/assets/committee/zf.avif?inline";
+import PhotoZYH from "~/assets/committee/zyh.avif?inline";
+import PhotoZQ from "~/assets/committee/zq.avif?inline";
+import PhotoHS from "~/assets/committee/hs.avif?inline";
+import PhotoLRC from "~/assets/committee/lrc.avif?inline";
+import PhotoWXM from "~/assets/committee/wxm.avif?inline";
+import PhotoWXH from "~/assets/committee/wxh.avif?inline";
+import PhotoLM from "~/assets/committee/lm.avif?inline";
+import PhotoLGZ from "~/assets/committee/lgz.avif?inline";
+import PhotoXX from "~/assets/committee/xx.avif?inline";
+import PhotoSXY from "~/assets/committee/sxy.avif?inline";
+import PhotoLLY from "~/assets/committee/lly.avif?inline";
+import PhotoTYB from "~/assets/committee/tyb.avif?inline";
+import PhotoLQ from "~/assets/committee/lq.avif?inline";
+import PhotoLJing from "~/assets/committee/ljing.avif?inline";
+import PhotoWD from "~/assets/committee/wd.avif?inline";
+import PhotoLXJ from "~/assets/committee/lxj.avif?inline";
+import PhotoWJC from "~/assets/committee/wjc.avif?inline";
+import PhotoHHB from "~/assets/committee/hhb.avif?inline";
+import PhotoDDZ from "~/assets/committee/ddz.avif?inline";
+import PhotoWX from "~/assets/committee/wx.avif?inline";
+import PhotoDZY from "~/assets/committee/dzy.avif?inline";
+import PhotoWZC from "~/assets/committee/wzc.avif?inline";
+import PhotoWJH from "~/assets/committee/wjh.avif?inline";
+import PhotoTXB from "~/assets/committee/txb.avif?inline";
+import PhotoLYUH from "~/assets/committee/lyuh.avif?inline";
+import PhotoJYB from "~/assets/committee/jyb.avif?inline";
+import PhotoZJM from "~/assets/committee/zjm.avif?inline";
+import PhotoLZ from "~/assets/committee/lz.avif?inline";
+import PhotoYXR from "~/assets/committee/yxr.avif?inline";
+import PhotoCBQ from "~/assets/committee/cbq.avif?inline";
+import PhotoLSX from "~/assets/committee/lsx.avif?inline";
+import PhotoXRG from "~/assets/committee/xrg.avif?inline";
+import PhotoWJJ from "~/assets/committee/wjj.avif?inline";
 
-import PhotoUndefined from "~/assets/committee/undefined.png";
+import PhotoUndefined from "~/assets/committee/undefined.avif?inline";
 
 export const zh = {
   PageTitle: "委员会成员 - ChinaVis 2025",
@@ -191,12 +197,12 @@ export const committee = {
           photo: PhotoZJJ,
         },
         { name: "王冠云", affiliation: "浙江大学", photo: PhotoWGY },
-        { name: "梁芳", affiliation: "云南艺术学院设计学院", photo: PhotoLF },
+        { name: "梁芳", affiliation: "云南艺术学院", photo: PhotoLF },
         { name: "李铁萌", affiliation: "北京邮电大学", photo: PhotoLTM },
         { name: "顾文佳", affiliation: "中国美术学院", photo: PhotoGWJ },
         { name: "李雪亮", affiliation: "南方科技大学", photo: PhotoLXL },
         { name: "蔡淑娟", affiliation: "南京艺术学院", photo: PhotoCSJ },
-        { name: "魏倩倩", affiliation: "", photo: PhotoUndefined },
+        { name: "魏婧婧", affiliation: "南京艺术学院", photo: PhotoWJJ },
       ],
     },
     {
@@ -270,7 +276,7 @@ export const committee = {
         {
           name: "刘真",
           affiliation: "杭州电子科技大学",
-          photo: PhotoUndefined,
+          photo: PhotoLZ,
         },
         { name: "谢潇", affiliation: "浙江大学", photo: PhotoXX },
         { name: "史晓颖", affiliation: "杭州电子科技大学", photo: PhotoSXY },
@@ -333,6 +339,18 @@ export const committee = {
       members: [
         { name: "唐谈", affiliation: "浙江大学", photo: PhotoTT },
         { name: "邓达臻", affiliation: "浙江大学", photo: PhotoDDZ },
+      ],
+    },
+    {
+      role: "指导委员会",
+      members: [
+        { name: "袁晓如", affiliation: "北京大学", photo: PhotoYXR },
+        { name: "陈宝权", affiliation: "北京大学", photo: PhotoCBQ },
+        { name: "陈为", affiliation: "浙江大学", photo: PhotoCW },
+        { name: "刘世霞", affiliation: "清华大学", photo: PhotoLSX },
+        { name: "屈华民", affiliation: "香港科技大学", photo: PhotoQHM },
+        { name: "张加万", affiliation: "天津大学", photo: PhotoZJW },
+        { name: "徐瑞鸽", affiliation: "雪城大学", photo: PhotoXRG },
       ],
     },
   ],
