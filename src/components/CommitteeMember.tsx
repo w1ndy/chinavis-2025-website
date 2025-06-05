@@ -7,7 +7,7 @@ export function CommitteeMember(props: { name: string; affiliation: string; phot
         alt={`${props.name} 的照片`}
       />
       <div class="indent-0 leading-8 font-semibold">{props.name}</div>
-      <div class="indent-0 leading-4 pt-2 text-gray-500 text-xs w-full border-t border-gray-500">{props.affiliation}</div>
+      <div class="indent-0 leading-4 pt-2 text-gray-500 text-xs w-full border-t border-gray-500 hyphens-auto text-left">{props.affiliation}</div>
     </div>
   );
 }

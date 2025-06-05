@@ -22,15 +22,15 @@ export default function Committee() {
             <>
               <Title>{t("PageTitle")}</Title>
               <Page class="list-outside [&_li]:indent-0 [&_ul]:list-disc [&_ul]:ml-8 [&_ol]:list-decimal [&_ol]:ml-8">
-                <For each={committee[locale()]}>
+                <For each={committee}>
                   {(committee) => (
-                    <Section title={committee.role}>
+                    <Section title={committee.role[locale()]}>
                       <div class="grid grid-cols-[repeat(auto-fill,minmax(8rem,1fr))] gap-x-8 gap-y-6 my-8">
                         <For each={committee.members}>
                           {(member) => (
                             <CommitteeMember
-                              name={member.name}
-                              affiliation={member.affiliation}
+                              name={member.name[locale()]}
+                              affiliation={member.affiliation[locale()]}
                               photo={member.photo}
                             />
                           )}
