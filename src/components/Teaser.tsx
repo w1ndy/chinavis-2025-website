@@ -1,5 +1,5 @@
-import Logo from "../assets/logo.png";
-import Bg1 from "../assets/bg/bg-1.jpg";
+import Logo from "../assets/logo.avif";
+import Bg1 from "../assets/bg/bg-1.avif?inline";
 
 export function Teaser() {
   return (

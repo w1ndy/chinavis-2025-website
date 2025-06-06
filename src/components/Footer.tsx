@@ -1,5 +1,5 @@
 import { Page } from "./Page";
-import Logo from "~/assets/logo.png";
+import Logo from "~/assets/logo.avif";
 
 export function Footer() {
   return (

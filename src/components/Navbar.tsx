@@ -4,7 +4,7 @@ import { useWindowSize } from "@solid-primitives/resize-observer";
 import * as i18n from "@solid-primitives/i18n";
 
 import { useLocale, useDictionary } from "~/locale";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.avif";
 
 function NavLink(props: { title: string, href: string }) {
   return (
