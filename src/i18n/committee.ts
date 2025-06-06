@@ -17,7 +17,6 @@ import PhotoMX from "~/assets/committee/mx.avif?inline";
 import PhotoYZQ from "~/assets/committee/yzq.avif?inline";
 import PhotoTT from "~/assets/committee/tt.avif?inline";
 import PhotoZJJ from "~/assets/committee/zjj.avif?inline";
-import PhotoWGY from "~/assets/committee/wgy.avif?inline";
 import PhotoLF from "~/assets/committee/lf.avif?inline";
 import PhotoLTM from "~/assets/committee/ltm.avif?inline";
 import PhotoLXL from "~/assets/committee/lxl.avif?inline";
@@ -88,8 +87,13 @@ import PhotoMH from "~/assets/committee/mh.avif?inline";
 import PhotoLJC from "~/assets/committee/ljc.avif?inline";
 import PhotoGL from "~/assets/committee/gl.avif?inline";
 import PhotoLJJ from "~/assets/committee/ljj.avif?inline";
-
-import PhotoUndefined from "~/assets/committee/undefined.avif?inline";
+import PhotoWYH from "~/assets/committee/wyh.avif?inline";
+import PhotoCN from "~/assets/committee/cn.avif?inline";
+import PhotoBY from "~/assets/committee/by.avif?inline";
+import PhotoBCK from "~/assets/committee/bck.avif?inline";
+import PhotoHJ from "~/assets/committee/hj.avif?inline";
+import PhotoLG from "~/assets/committee/lg.avif?inline";
+import PhotoLZP from "~/assets/committee/lzp.avif?inline";
 
 export const zh = {
   PageTitle: "委员会成员 - ChinaVis 2025",
@@ -129,14 +133,14 @@ export const committee: {
     role: { zh: "程序委员会主席", en: "Program Committee Chairs" },
     members: [
       {
-        name: { zh: "秦红星", en: "Hongxing Qin" },
-        affiliation: { zh: "重庆大学", en: "Chongqing University" },
-        photo: PhotoQHX,
-      },
-      {
         name: { zh: "巫英才", en: "Yingcai Wu" },
         affiliation: { zh: "浙江大学", en: "Zhejiang University" },
         photo: PhotoWYC,
+      },
+      {
+        name: { zh: "秦红星", en: "Hongxing Qin" },
+        affiliation: { zh: "重庆大学", en: "Chongqing University" },
+        photo: PhotoQHX,
       },
     ],
   },
@@ -160,6 +164,11 @@ export const committee: {
         name: { zh: "陈思明", en: "Siming Chen" },
         affiliation: { zh: "复旦大学", en: "Fudan University" },
         photo: PhotoCSM,
+      },
+      {
+        name: { zh: "孙效华", en: "Xiaohua Sun" },
+        affiliation: { zh: "同济大学", en: "Tongji University" },
+        photo: PhotoSXH,
       },
     ],
   },
@@ -274,6 +283,21 @@ export const committee: {
           en: "Hong Kong University of Science and Technology (Guangzhou)",
         },
         photo: PhotoYWK,
+      },
+    ],
+  },
+  {
+    role: { zh: "Panel主席", en: "Panel Chairs" },
+    members: [
+      {
+        name: { zh: "汪云海", en: "Yunhai Wang" },
+        affiliation: { zh: "中国人民大学", en: "Renmin University of China" },
+        photo: PhotoWYH,
+      },
+      {
+        name: { zh: "曹楠", en: "Nan Cao" },
+        affiliation: { zh: "同济大学", en: "Tongji University" },
+        photo: PhotoCN,
       },
     ],
   },
@@ -457,11 +481,6 @@ export const committee: {
         photo: PhotoZJJ,
       },
       {
-        name: { zh: "王冠云", en: "Guanyun Wang" },
-        affiliation: { zh: "浙江大学", en: "Zhejiang University" },
-        photo: PhotoWGY,
-      },
-      {
         name: { zh: "梁芳", en: "Fang Liang" },
         affiliation: { zh: "云南艺术学院", en: "Yunnan Arts University" },
         photo: PhotoLF,
@@ -503,6 +522,19 @@ export const committee: {
         },
         photo: PhotoWJJ,
       },
+      {
+        name: { zh: "陈晓皎", en: "Xiaojiao Chen" },
+        affiliation: { zh: "浙江大学", en: "Zhejiang University" },
+        photo: PhotoCXJ,
+      },
+      {
+        name: { zh: "邴寅", en: "Yin Bing" },
+        affiliation: {
+          zh: "西安邮电大学",
+          en: "Xi'an University of Posts & Telecommunications",
+        },
+        photo: PhotoBY,
+      },
     ],
   },
   {
@@ -530,6 +562,29 @@ export const committee: {
         name: { zh: "徐进", en: "Jin Xu" },
         affiliation: { zh: "杭州师范大学", en: "Hangzhou Normal University" },
         photo: PhotoXJ,
+      },
+    ],
+  },
+  {
+    role: { zh: "国际论坛委员会主席", en: "International Forum Chairs" },
+    members: [
+      {
+        name: { zh: "毕重科", en: "Chongke Bi" },
+        affiliation: { zh: "天津大学", en: "Tianjin University" },
+        photo: PhotoBCK,
+      },
+      {
+        name: { zh: "韩俊", en: "Jun Han" },
+        affiliation: {
+          zh: "香港中文大学（深圳）",
+          en: "Chinese University of Hong Kong (Shenzhen)",
+        },
+        photo: PhotoHJ,
+      },
+      {
+        name: { zh: "阳芷倩", en: "Zhiqian Yang" },
+        affiliation: { zh: "湖北美术学院", en: "Hubei Institute of Fine Arts" },
+        photo: PhotoYZQ,
       },
     ],
   },
@@ -869,6 +924,45 @@ export const committee: {
         name: { zh: "邓达臻", en: "Dazhen Deng" },
         affiliation: { zh: "浙江大学", en: "Zhejiang University" },
         photo: PhotoDDZ,
+      },
+    ],
+  },
+  {
+    role: { zh: "档案主席", en: "Archive Chairs" },
+    members: [
+      {
+        name: { zh: "刘刚", en: "Gang Liu" },
+        affiliation: {
+          zh: "中国地质大学（武汉）",
+          en: "China University of Geosciences (Wuhan)",
+        },
+        photo: PhotoLG,
+      },
+      {
+        name: { zh: "刘子鹏", en: "Zipeng Liu" },
+        affiliation: { zh: "北京航空航天大学", en: "Beihang University" },
+        photo: PhotoLZP,
+      },
+    ],
+  },
+  {
+    role: { zh: "档案委员会委员", en: "Archive Committee Members" },
+    members: [
+      {
+        name: { zh: "魏婧婧", en: "Jingjing Wei" },
+        affiliation: {
+          zh: "南京艺术学院",
+          en: "Nanjing University of the Arts",
+        },
+        photo: PhotoWJJ,
+      },
+      {
+        name: { zh: "谢继武", en: "Jiwu Xie" },
+        affiliation: {
+          zh: "内蒙古师范大学",
+          en: "Inner Mongolia Normal University",
+        },
+        photo: PhotoXJW,
       },
     ],
   },
