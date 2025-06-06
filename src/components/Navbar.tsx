@@ -8,7 +8,7 @@ import Logo from "../assets/logo.avif";
 
 function NavLink(props: { title: string, href: string }) {
   return (
-    <A href={props.href} class="px-6 sm:px-0 sm:mx-2 py-2 sm:py-0 leading-8 sm:inline-block block border-b sm:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100">
+    <A href={props.href} class="px-6 md:px-0 md:mx-2 py-2 md:py-0 leading-8 md:inline-block block border-b md:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100">
       {props.title}
     </A>
   );
@@ -16,7 +16,7 @@ function NavLink(props: { title: string, href: string }) {
 
 function ExternalNavLink(props: { title: string, href: string }) {
   return (
-    <a href={props.href} class="px-6 sm:px-0 sm:mx-2 py-2 sm:py-0 leading-8 sm:inline-block block border-b sm:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100" target="_blank">
+    <a href={props.href} class="px-6 md:px-0 md:mx-2 py-2 md:py-0 leading-8 md:inline-block block border-b md:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100" target="_blank">
       {props.title}
     </a>
   );
@@ -51,7 +51,7 @@ export default function Navbar() {
   const size = useWindowSize();
 
   createEffect(() => {
-    if (size.width < 640) {
+    if (size.width < 768) {
       setMenuExpandable(true);
       setMenuExpanded(false);
     } else {
@@ -75,8 +75,8 @@ export default function Navbar() {
               <div class="flex-none mr-4 h-full flex flex-col justify-center">
                 <img class="w-36 inline-block" src={Logo} alt="logo" />
               </div>
-              <div class="flex-1 sm:flex-0"></div>
-              <div class="absolute sm:relative sm:flex-1 left-0 top-full sm:top-0 w-full sm:w-auto h-[calc(100vh-80px)] sm:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
+              <div class="flex-1 md:flex-0"></div>
+              <div class="absolute md:relative md:flex-1 left-0 top-full md:top-0 w-full md:w-auto h-[calc(100vh-80px)] md:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
                 <NavLink href={`/2025/${locale()}/`} title={t("Home")!} />
                 <NavLink href={`/2025/${locale()}/registration`} title={t("Registration")!} />
                 <NavLink href={`/2025/${locale()}/callforpaper`} title={t("Submission")!} />
@@ -107,7 +107,7 @@ export default function Navbar() {
               <div class="flex-none h-full flex flex-col justify-center">
                 <LanguageButton />
               </div>
-              <button class="sm:hidden flex-none ml-2 w-8 h-8 relative text-center rounded border border-gray-400 text-xl" classList={{ "bg-gray-800 border-sky-500": menuExpanded() }} onClick={toggleMenu}><span class="absolute top-1/2 left-1/2 -translate-1/2">&#9776;</span></button>
+              <button class="md:hidden flex-none ml-2 w-8 h-8 relative text-center rounded border border-gray-400 text-xl" classList={{ "bg-gray-800 border-sky-500": menuExpanded() }} onClick={toggleMenu}><span class="absolute top-1/2 left-1/2 -translate-1/2">&#9776;</span></button>
             </nav>
           );
         }}
