@@ -83,6 +83,7 @@ export default function Navbar() {
                 <NavLink href={`/2025/${locale()}/venue`} title={t("Venue")!} />
                 <NavLink href={`/2025/${locale()}/challenge`} title={t("Challenge")!} />
                 <NavLink href={`/2025/${locale()}/doctoralcolloquium`} title={t("DoctoralColloquium")!} />
+                <NavLink href={`/2025/${locale()}/committee`} title={t("Committee")!} />
                 <NavLink href={`/2025/${locale()}/volunteer`} title={t("Volunteer")!} />
                 {/* <NavLink title="注册" />
               <NavLink title="国际论坛" />

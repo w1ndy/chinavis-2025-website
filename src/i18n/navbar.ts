@@ -8,6 +8,7 @@ export const zh = {
   Challenge: "可视化竞赛",
   DoctoralColloquium: "博士生论坛",
   Volunteer: "志愿者",
+  Committee: "委员会名单",
   History: "历届会议",
 };
 
@@ -19,5 +20,6 @@ export const en = {
   Challenge: "Data Challenge",
   DoctoralColloquium: "Doctoral Colloquium",
   Volunteer: "Volunteer",
+  Committee: "Committee",
   History: "History",
 };
