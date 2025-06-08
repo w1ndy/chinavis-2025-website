@@ -1,5 +1,3 @@
-import Volunteer from "~/routes/2025/[locale]/volunteer";
-
 export const zh = {
   Home: "首页",
   Registration: "注册",
@@ -9,6 +7,7 @@ export const zh = {
   DoctoralColloquium: "博士生论坛",
   Volunteer: "志愿者",
   Committee: "委员会名单",
+  ArtProgram: "艺术项目",
   History: "历届会议",
 };
 
@@ -21,5 +20,6 @@ export const en = {
   DoctoralColloquium: "Doctoral Colloquium",
   Volunteer: "Volunteer",
   Committee: "Committee",
+  ArtProgram: "Art Program",
   History: "History",
 };

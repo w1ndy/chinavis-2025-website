@@ -102,6 +102,7 @@ export default function Navbar() {
               <NavLink title="志愿者" />
               <NavLink title="委员会成员" />
               <NavLink title="艺术项目" /> */}
+                <ExternalNavLink href="http://chinavisap.net/" title={t("ArtProgram")!} />
                 <ExternalNavLink href={`https://chinavis.org/history${locale() == "en" ? "_en" : ""}.html`} title={t("History")!} />
               </div>
 
