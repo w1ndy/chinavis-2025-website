@@ -8,7 +8,7 @@ import PhotoCSM from "~/assets/committee/csm.avif?inline";
 import PhotoZJW from "~/assets/committee/zjw.avif?inline";
 import PhotoWCB from "~/assets/committee/wcb.avif?inline";
 import PhotoGWJ from "~/assets/committee/gwj.avif?inline";
-import PhotoJC from "~/assets/committee/jc.avif?inline";
+import PhotoXC from "~/assets/committee/xc.avif?inline";
 import PhotoLJ from "~/assets/committee/lj.avif?inline";
 import PhotoSXH from "~/assets/committee/sxh.avif?inline";
 import PhotoLYH from "~/assets/committee/lyh.avif?inline";
@@ -729,7 +729,7 @@ export const committee: {
       {
         name: { zh: "解翠", en: "Cui Xie" },
         affiliation: { zh: "中国海洋大学", en: "Ocean University of China" },
-        photo: PhotoJC,
+        photo: PhotoXC,
       },
       {
         name: { zh: "李杰", en: "Jie Li" },
