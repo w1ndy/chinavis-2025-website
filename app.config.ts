@@ -28,6 +28,8 @@ export default defineConfig({
         "/2025/en/committee",
         "/2025/zh/poster",
         "/2025/en/poster",
+        "/2025/zh/specialtopic",
+        "/2025/en/specialtopic",
       ],
       failOnError: true,
     },
