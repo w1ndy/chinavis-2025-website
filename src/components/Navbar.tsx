@@ -79,7 +79,8 @@ export default function Navbar() {
               <div class="absolute md:relative md:flex-1 left-0 top-full md:top-0 w-full md:w-auto h-[calc(100vh-80px)] md:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
                 <NavLink href={`/2025/${locale()}/`} title={t("Home")!} />
                 <NavLink href={`/2025/${locale()}/registration`} title={t("Registration")!} />
-                <NavLink href={`/2025/${locale()}/callforpaper`} title={t("Submission")!} />
+                <NavLink href={`/2025/${locale()}/callforpaper`} title={t("Paper")!} />
+                <NavLink href={`/2025/${locale()}/poster`} title={t("Poster")!} />
                 <NavLink href={`/2025/${locale()}/venue`} title={t("Venue")!} />
                 <NavLink href={`/2025/${locale()}/challenge`} title={t("Challenge")!} />
                 <NavLink href={`/2025/${locale()}/doctoralcolloquium`} title={t("DoctoralColloquium")!} />

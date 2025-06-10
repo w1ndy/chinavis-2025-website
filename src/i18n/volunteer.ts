@@ -81,7 +81,8 @@ export const zh = {
 
 export const en = {
   PageTitle: "Call for Volunteers - ChinaVis 2025",
-  Title: "ChinaVis 2025 Volunteer CFP",
+  Title:
+    '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />Call for Volunteers',
   Content: marked.parse(
     `
     ## Student Volunteer Program

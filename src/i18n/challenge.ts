@@ -203,7 +203,7 @@ export const zh = {
 export const en = {
   PageTitle: "Data Challenge - ChinaVis 2025",
   Title:
-    '<span style="font-size: 0.8em">The 12th China Visualization and Visual Analytics Conference</span><br />ChinaVis 2025<br />Data Visualization Competition - Call for Papers',
+    '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />Data Visualization Competition - Call for Participation',
   Content: marked.parse(
     `
     ## Data Visualization Competition Introduction

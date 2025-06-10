@@ -6,9 +6,9 @@ import { Page } from "~/components/Page";
 import { Section } from "~/components/Section";
 import { useDictionary, useLocale } from "~/locale";
 
-export default function Submission() {
+export default function Paper() {
   const locale = useLocale();
-  const dict = useDictionary("submission");
+  const dict = useDictionary("paper");
   return (
     <Suspense>
       <Show when={dict()}>

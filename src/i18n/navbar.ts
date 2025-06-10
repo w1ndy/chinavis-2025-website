@@ -1,7 +1,8 @@
 export const zh = {
   Home: "首页",
   Registration: "注册",
-  Submission: "投稿",
+  Paper: "论文",
+  Poster: "海报",
   Venue: "会址及住宿预定",
   Challenge: "可视化竞赛",
   DoctoralColloquium: "博士生论坛",
@@ -14,7 +15,8 @@ export const zh = {
 export const en = {
   Home: "Home",
   Registration: "Registration",
-  Submission: "Submission",
+  Paper: "Paper",
+  Poster: "Poster",
   Venue: "Venue & Hotels",
   Challenge: "Data Challenge",
   DoctoralColloquium: "Doctoral Colloquium",

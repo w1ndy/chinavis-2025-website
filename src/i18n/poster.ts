@@ -69,7 +69,7 @@ export const zh = {
 export const en = {
   PageTitle: "Posters - ChinaVis 2025",
   Title:
-    "The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025) <br /> Call for Posters",
+    '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />Call for Posters',
   Content: marked.parse(
     `
     The 12th China Visualization and Visual Analytics Conference (ChinaVis 2025) will be held in Hangzhou from July 19th to 22nd, 2025. ChinaVis Poster Program aims to promote communication between scholars in visualization with interactive and dynamic presentation on the latest results and ideas of visualization research. The ChinaVis 2025 Poster Program encourages the submission of any work related to visualization, especially those that have not been officially published and are in progress, or published that can trigger new thinking through visualization. The Poster Program welcomes any topics in visualization and visual analytics, including but not limited to:
