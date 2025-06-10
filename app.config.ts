@@ -26,6 +26,8 @@ export default defineConfig({
         "/2025/en/doctoralcolloquium",
         "/2025/zh/committee",
         "/2025/en/committee",
+        "/2025/zh/poster",
+        "/2025/en/poster",
       ],
       failOnError: true,
     },
