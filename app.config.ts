@@ -30,6 +30,8 @@ export default defineConfig({
         "/2025/en/poster",
         "/2025/zh/specialtopic",
         "/2025/en/specialtopic",
+        "/2025/zh/exhibition",
+        "/2025/en/exhibition",
       ],
       failOnError: true,
     },

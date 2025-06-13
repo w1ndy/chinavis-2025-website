@@ -1,5 +1,3 @@
-import SpecialTopic from "~/routes/2025/[locale]/specialtopic";
-
 export const zh = {
   Home: "首页",
   Registration: "注册",
@@ -9,8 +7,9 @@ export const zh = {
   Venue: "会址及住宿预定",
   Challenge: "可视化竞赛",
   DoctoralColloquium: "博士生论坛",
+  Exhibition: "参展",
   Volunteer: "志愿者",
-  Committee: "委员会名单",
+  Committee: "委员会成员",
   ArtProgram: "艺术项目",
   History: "历届会议",
 };
@@ -24,6 +23,7 @@ export const en = {
   Venue: "Venue & Hotels",
   Challenge: "Data Challenge",
   DoctoralColloquium: "Doctoral Colloquium",
+  Exhibition: "Exhibition",
   Volunteer: "Volunteer",
   Committee: "Committee",
   ArtProgram: "Art Program",
