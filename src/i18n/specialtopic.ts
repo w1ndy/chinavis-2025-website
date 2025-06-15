@@ -2,7 +2,8 @@ import { marked } from "marked";
 
 export const zh = {
   PageTitle: "专题 - ChinaVis 2025",
-  Title: "第十二届中国可视化与可视分析大会（ChinaVis 2025）<br />专题征题通知",
+  Title:
+    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />专题征题通知',
   Content: marked.parse(
     `
     ## 征集信息

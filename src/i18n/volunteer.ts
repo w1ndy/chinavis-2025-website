@@ -1,8 +1,9 @@
 import { marked } from "marked";
 
 export const zh = {
-  PageTitle: "志愿者招募 - ChinaVis 2025",
-  Title: "ChinaVis 2025 志愿者 CFP",
+  PageTitle: "志愿者 - ChinaVis 2025",
+  Title:
+    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />志愿者招募',
   Content: marked.parse(
     `
     ## 学生志愿者项目
@@ -80,7 +81,7 @@ export const zh = {
 };
 
 export const en = {
-  PageTitle: "Call for Volunteers - ChinaVis 2025",
+  PageTitle: "Volunteers - ChinaVis 2025",
   Title:
     '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />Call for Volunteers',
   Content: marked.parse(

@@ -2,7 +2,8 @@ import { marked } from "marked";
 
 export const zh = {
   PageTitle: "博士生论坛 - ChinaVis 2025",
-  Title: "第十二届中国可视化与可视分析大会（ChinaVis 2025）<br />博士生论坛",
+  Title:
+    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />博士生论坛',
   Content: marked.parse(
     `
     ChinaVis 2025 博士生论坛是为博士研究生提供一个浓厚的学习氛围，在与同行和专家探讨个人研究课题的过程中，获得前沿知识和专业性指导的平台。同时，该论坛也为博士研究生提供了与领域专家密切交流和合作的机会。我们鼓励正在探索或已确定学位论文研究方向的博士研究生申请参加，但仅限通过申请者参加。

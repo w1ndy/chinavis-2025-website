@@ -3,7 +3,7 @@ import { marked } from "marked";
 export const zh = {
   PageTitle: "可视化竞赛 - ChinaVis 2025",
   Title:
-    "第十二届中国可视化与可视分析大会（ChinaVis 2025）<br />数据可视化竞赛征稿通知",
+    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />数据可视化竞赛征稿通知',
   Content: marked.parse(
     `
     ## 数据可视化竞赛简介

@@ -2,7 +2,8 @@ import { marked } from "marked";
 
 export const zh = {
   PageTitle: "海报 - ChinaVis 2025",
-  Title: "第十二届中国可视化与可视分析大会（ChinaVis 2025）<br />海报项目",
+  Title:
+    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />海报项目',
   Content: marked.parse(
     `
     第十二届中国可视化与可视分析大会 (ChinaVis 2025) 将于 2025 年 7 月 19 日至 22 日在杭州举行。ChinaVis 2025 ⼤会海报环节旨在通过交互、动态地展现最新的可视化研究成果及思路，增进可视化领域学者间的相互交流。大会海报环节鼓励提交任何与可视化相关的工作，可以是未经正式发表或正在进行中的工作，也可以是已经正式发表的能触发新思考的优秀工作。海报征集范围包括可视化与可视分析中的任何研究方向（但不局限于）：

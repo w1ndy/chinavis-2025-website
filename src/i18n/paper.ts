@@ -1,7 +1,7 @@
 export const zh = {
   PageTitle: "投稿 - ChinaVis 2025",
   CallForPaperTitle:
-    "第十二届中国可视化与可视分析大会（ChinaVis 2025）<br />征文通知",
+    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />征文通知',
   CallForPaperIntro:
     "第十二届中国可视化与可视分析大会（ChinaVis 2025）将于2025年7月19日-22日在杭州举行。本次会议由中国图象图形学学会主办，可视化与可视分析专委会、浙江大学、浙大城市学院、杭州全息智能技术研究院、浙江工业大学、杭州电子科技大学、浙江工商大学、浙江传媒学院、中国美术学院承办，多家赞助单位协办。",
   SubmissionGuide: "投稿方式",
