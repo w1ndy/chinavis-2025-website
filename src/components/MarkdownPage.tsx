@@ -1,12 +1,12 @@
-import { Title } from "@solidjs/meta";
 import { Show, Suspense } from "solid-js";
 import * as i18n from "@solid-primitives/i18n";
+import { Title } from "@solidjs/meta";
 
-import { Page } from "~/components/Page";
 import { useDictionary } from "~/locale";
+import { Page } from "./Page";
 
-export default function Home() {
-  const dict = useDictionary("home");
+export function MarkdownPage(props: { dict: string }) {
+  const dict = useDictionary(props.dict);
   return (
     <Suspense>
       <Show when={dict()}>
@@ -15,11 +15,11 @@ export default function Home() {
           return (
             <>
               <Title>{t("PageTitle")}</Title>
-              <Page>
+              <Page title={<span innerHTML={t("Title")}></span>}>
                 <div innerHTML={t("Content")}></div>
               </Page>
             </>
-          );
+          )
         }}
       </Show>
     </Suspense>
