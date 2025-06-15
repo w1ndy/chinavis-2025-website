@@ -32,6 +32,8 @@ export default defineConfig({
         "/2025/en/specialtopic",
         "/2025/zh/exhibition",
         "/2025/en/exhibition",
+        "/2025/zh/sponsor",
+        "/2025/en/sponsor",
       ],
       failOnError: true,
     },
