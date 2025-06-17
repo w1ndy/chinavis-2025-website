@@ -1,17 +1,21 @@
-import Logo from "../assets/logo.avif";
-import Bg1 from "../assets/bg/bg-1.avif?inline";
+import Logo from "../assets/logo.svg";
+import Bg from "../assets/bg/bg.avif?inline";
 
 export function Teaser() {
   return (
-    <div class="aspect-[24/9] w-full text-white relative">
+    <div class="aspect-[22/9] w-full text-black relative">
       <div class="absolute left-0 top-0 w-full h-full">
-        <img class="w-full h-full object-cover object-center brightness-75" src={Bg1} />
+        <img class="w-full h-full object-cover object-top" src={Bg} />
       </div>
-      <img class="absolute right-[6vw] top-[3vw] w-[12vw]" src={Logo} alt="logo" />
-      <div class="absolute left-[6vw] top-[8vw] text-[3vw] font-bold text-shadow">第十二届</div>
-      <div class="absolute left-[6vw] top-[12vw] text-[5vw] font-bold text-shadow">中国可视化与可视分析大会</div>
-      <div class="absolute left-[6vw] top-[19vw] text-[2vw] leading-[2.6vw] text-shadow">The 12th China Visualization and Visual Analytics Conference</div>
-      <div class="absolute right-[6vw] top-[26vw] text-[2vw] text-right leading-[2.8vw] text-shadow">中国 &centerdot; 杭州<br />Hangzhou, China<br />2025.07.19 - 2025.07.22</div>
+      <img class="absolute left-[2vw] top-[3vw] w-[36vw] invert" src={Logo} alt="logo" />
+      <div class="absolute left-[39vw] top-[1.5vw] text-[4vw] font-bold">2025</div>
+      <div class="absolute left-[3.5vw] top-[10vw] text-[2.8vw]">第十二届</div>
+      <div class="absolute left-[3.5vw] top-[13vw] text-[2.8vw]">中国可视化与可视分析大会</div>
+      <div class="absolute left-[3.5vw] bottom-[4vw] text-[2.2vw] font-thin">The 12th China Visualization</div>
+      <div class="absolute left-[3.5vw] bottom-[2vw] text-[2.2vw] font-thin">and Visual Analytics Conference</div>
+      <div class="absolute right-[2vw] top-[22vw] text-[2.5vw] text-right font-medium">中国&centerdot;杭州</div>
+      <div class="absolute right-[2vw] top-[24.6vw] text-[2vw] text-right font-thin">China&centerdot;Hangzhou</div>
+      <div class="absolute right-[2vw] top-[27.2vw] text-[3.5vw] text-right leading-[2.8vw] font-bold">2025.07.19-22</div>
     </div>
   )
 }

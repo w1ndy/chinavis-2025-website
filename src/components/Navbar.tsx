@@ -4,11 +4,11 @@ import { useWindowSize } from "@solid-primitives/resize-observer";
 import * as i18n from "@solid-primitives/i18n";
 
 import { useLocale, useDictionary } from "~/locale";
-import Logo from "../assets/logo.avif";
+import Logo from "../assets/logo.svg";
 
 function NavLink(props: { title: string, href: string }) {
   return (
-    <A href={props.href} class="px-6 md:px-0 md:mx-2 py-2 md:py-0 leading-8 md:inline-block block border-b md:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100">
+    <A href={props.href} class="px-6 lg:px-0 lg:mx-2 py-2 lg:py-0 leading-8 lg:inline-block block border-b lg:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:translate-y-1 lg:after:translate-y-0 after:w-full after:border-b-2 after:border-primary after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100">
       {props.title}
     </A>
   );
@@ -16,7 +16,7 @@ function NavLink(props: { title: string, href: string }) {
 
 function ExternalNavLink(props: { title: string, href: string }) {
   return (
-    <a href={props.href} class="px-6 md:px-0 md:mx-2 py-2 md:py-0 leading-8 md:inline-block block border-b md:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100" target="_blank">
+    <a href={props.href} class="px-6 lg:px-0 lg:mx-2 py-2 lg:py-0 leading-8 lg:inline-block block border-b lg:border-none border-b-gray-700 cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-primary after:opacity-0 after:transition-opacity hover:after:opacity-100 [&.active]:after:opacity-100" target="_blank">
       {props.title}
     </a>
   );
@@ -35,7 +35,7 @@ function LanguageButton() {
   }
 
   return (
-    <a class="mx-2 h-8 leading-8 inline-block cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-sky-600 after:opacity-0 after:transition-opacity hover:after:opacity-100" onClick={toggleLanguage}>
+    <a class="mx-2 h-8 leading-8 inline-block cursor-pointer relative after:content-[''] after:absolute after:left-0 after:bottom-[2px] after:w-full after:border-b-2 after:border-primary after:opacity-0 after:transition-opacity hover:after:opacity-100" onClick={toggleLanguage}>
       {locale() === "zh" ? "EN" : "中文"}
     </a>
   );
@@ -51,7 +51,7 @@ export default function Navbar() {
   const size = useWindowSize();
 
   createEffect(() => {
-    if (size.width < 768) {
+    if (size.width < 1024) {
       setMenuExpandable(true);
       setMenuExpanded(false);
     } else {
@@ -73,10 +73,10 @@ export default function Navbar() {
           return (
             <nav class="bg-black text-white text-sm h-20 px-6 w-full flex flex-row items-center relative">
               <div class="flex-none mr-4 h-full flex flex-col justify-center">
-                <img class="w-36 inline-block" src={Logo} alt="logo" />
+                <img class="w-48 inline-block" src={Logo} alt="logo" />
               </div>
-              <div class="flex-1 md:flex-0"></div>
-              <div class="absolute md:relative md:flex-1 left-0 top-full md:top-0 w-full md:w-auto h-[calc(100vh-80px)] md:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
+              <div class="flex-1 lg:flex-0"></div>
+              <div class="absolute lg:relative lg:flex-1 left-0 top-full lg:top-0 w-full lg:w-auto h-[calc(100vh-80px)] lg:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
                 <NavLink href={`/2025/${locale()}/`} title={t("Home")!} />
                 <NavLink href={`/2025/${locale()}/registration`} title={t("Registration")!} />
                 <NavLink href={`/2025/${locale()}/callforpaper`} title={t("Paper")!} />
@@ -113,7 +113,7 @@ export default function Navbar() {
               <div class="flex-none h-full flex flex-col justify-center">
                 <LanguageButton />
               </div>
-              <button class="md:hidden flex-none ml-2 w-8 h-8 relative text-center rounded border border-gray-400 text-xl" classList={{ "bg-gray-800 border-sky-500": menuExpanded() }} onClick={toggleMenu}><span class="absolute top-1/2 left-1/2 -translate-1/2">&#9776;</span></button>
+              <button class="lg:hidden flex-none ml-2 w-8 h-8 relative text-center rounded border border-gray-400 text-xl" classList={{ "bg-gray-800 border-primary": menuExpanded() }} onClick={toggleMenu}><span class="absolute -mt-0.5 top-1/2 left-1/2 -translate-1/2">&#9776;</span></button>
             </nav>
           );
         }}

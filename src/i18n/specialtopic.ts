@@ -21,9 +21,9 @@ export const zh = {
 
     ## 联系人
 
-    袁晓如　北京大学
+    **袁晓如**　北京大学
 
-    陶　钧　中山大学
+    **陶　钧**　中山大学
 
     联系邮箱：chinavis.topic@gmail.com
   `.replace(/  +/g, "")

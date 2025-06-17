@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: rgb(240, 48, 255);
+  --color-primary-lighter: rgb(255, 119, 255);
+  --color-primary-darker: rgb(179, 0, 191);
+}
+
 :root {
   --background-rgb: 255, 255, 255;
   --foreground-rgb: 0, 0, 0;
@@ -13,8 +19,9 @@
 }
 
 body {
-  font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
-    Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB,
+    Microsoft Yahei, sans-serif;
   background: rgb(var(--background-rgb));
   color: rgb(var(--foreground-rgb));
 }
@@ -40,7 +47,7 @@ strong {
 }
 
 .page h2 {
-  @apply text-lg sm:text-2xl pl-5 sm:pl-6 not-first:mt-6 mb-4 text-left uppercase font-bold relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-sky-600;
+  @apply text-lg sm:text-xl pl-5 sm:pl-6 not-first:mt-6 mb-4 text-left uppercase font-bold w-fit text-white relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-primary-darker after:content-[''] after:absolute after:left-3 after:-z-10 after:w-full after:h-full after:bg-primary-darker;
 }
 
 .page p {
@@ -68,9 +75,14 @@ strong {
 }
 
 .page h3 {
-  @apply inline-block px-2 mt-4 mb-2 leading-8 bg-sky-600 text-white text-center font-bold indent-0;
+  @apply relative font-bold mt-2 pb-1 w-fit underline -underline-offset-4 decoration-primary-lighter decoration-8;
+  text-decoration-skip-ink: none;
 }
 
 .page h4 {
-  @apply relative font-bold mt-2 pb-1 w-fit underline underline-offset-6 decoration-sky-600 decoration-4;
+  @apply relative font-bold mt-2;
+}
+
+.page a {
+  @apply text-primary no-underline hover:underline;
 }
