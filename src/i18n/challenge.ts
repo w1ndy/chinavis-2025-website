@@ -28,7 +28,7 @@ export const zh = {
 
     **提供数据：详细信息请见赛道1数据。**
 
-    **<span style="color: #8b0000; font-weight: 700">注：本赛道赛题I数据集为指定数据集，请勿使用自选数据集。</span>**
+    **<span style="color: #de0000; font-weight: 700">注：本赛道赛题I数据集为指定数据集，请勿使用自选数据集。</span>**
 
     #### 赛道1-II：「怀古论今」人文可视化创意赛
 
@@ -42,7 +42,7 @@ export const zh = {
 
     **提供数据：详细信息请见赛道1数据。**
 
-    **<span style="color: #8b0000">注：本赛道赛题II可选用指定数据集或自选数据集。</span>**
+    **<span style="color: #de0000">注：本赛道赛题II可选用指定数据集或自选数据集。</span>**
 
     ### 赛道2：艺术可视化竞赛
 
@@ -234,7 +234,7 @@ export const en = {
 
     **Provided Data: For detailed information, please refer to Track 1 Data.**
 
-    **<span style="color: #8b0000">Note: The dataset for Track 1-I is designated, please do not use self-selected datasets.</span>**
+    **<span style="color: #de0000">Note: The dataset for Track 1-I is designated, please do not use self-selected datasets.</span>**
 
     #### Track 1-II: "Reflecting on the Past, Discussing the Present" Visualization Creative Challenge
 
@@ -252,7 +252,7 @@ export const en = {
 
     **Provided Data: For detailed information, please refer to Track 1 Data.**
 
-    **<span style="color: #8b0000">Note: For Track 1-II, participants may use either the designated dataset or self-selected datasets.</span>**
+    **<span style="color: #de0000">Note: For Track 1-II, participants may use either the designated dataset or self-selected datasets.</span>**
 
     ### Track 2: Art Visualization Competition
 

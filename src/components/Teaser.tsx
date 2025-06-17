@@ -15,7 +15,7 @@ export function Teaser() {
       <div class="absolute left-[3.5vw] bottom-[2vw] text-[2.2vw] font-thin">and Visual Analytics Conference</div>
       <div class="absolute right-[2vw] top-[22vw] text-[2.5vw] text-right font-medium">中国&centerdot;杭州</div>
       <div class="absolute right-[2vw] top-[24.6vw] text-[2vw] text-right font-thin">China&centerdot;Hangzhou</div>
-      <div class="absolute right-[2vw] top-[27.2vw] text-[3.5vw] text-right leading-[2.8vw] font-bold">2025.07.19-22</div>
+      <div class="absolute right-[2vw] top-[27.6vw] text-[3.5vw] text-right leading-[2.8vw] font-bold">2025.07.19-22</div>
     </div>
   )
 }

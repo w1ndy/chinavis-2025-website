@@ -76,7 +76,7 @@ export default function Navbar() {
                 <img class="w-48 inline-block" src={Logo} alt="logo" />
               </div>
               <div class="flex-1 lg:flex-0"></div>
-              <div class="absolute lg:relative lg:flex-1 left-0 top-full lg:top-0 w-full lg:w-auto h-[calc(100vh-80px)] lg:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
+              <div class="absolute lg:relative lg:flex-1 left-0 top-full lg:top-0 w-full lg:w-auto min-h-[calc(100vh-80px)] lg:min-h-0 lg:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
                 <NavLink href={`/2025/${locale()}/`} title={t("Home")!} />
                 <NavLink href={`/2025/${locale()}/registration`} title={t("Registration")!} />
                 <NavLink href={`/2025/${locale()}/callforpaper`} title={t("Paper")!} />

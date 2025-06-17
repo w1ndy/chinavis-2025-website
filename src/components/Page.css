@@ -1,0 +1,53 @@
+@reference "../app.css";
+
+.page {
+  @apply text-justify font-light text-sm sm:text-base leading-7 hyphens-auto;
+}
+
+.page h2 {
+  @apply text-lg sm:text-xl pl-5 sm:pl-6 not-first:mt-6 mb-4 text-left uppercase font-bold w-fit text-white relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-primary-darker after:content-[''] after:absolute after:left-3 after:-z-10 after:w-full after:h-full after:bg-primary-darker;
+}
+
+.page h3 {
+  @apply relative font-bold mt-2 pb-1 w-fit underline -underline-offset-6 decoration-14;
+  text-decoration-skip-ink: none;
+  text-decoration-color: color-mix(in oklab, var(--color-primary) 30%, white);
+}
+
+@media (prefers-color-scheme: dark) {
+  .page h3 {
+    text-decoration-color: color-mix(in oklab, var(--color-primary) 60%, black);
+  }
+}
+
+.page h4 {
+  @apply relative font-bold mt-2;
+}
+
+.page p {
+  @apply indent-8 mt-2;
+}
+
+.page div > ul {
+  @apply mt-2;
+}
+
+.page div > ol {
+  @apply mt-2;
+}
+
+.page ul {
+  @apply list-disc list-outside ml-8;
+}
+
+.page ol {
+  @apply list-decimal list-outside ml-8;
+}
+
+.page li {
+  @apply indent-0;
+}
+
+.page a {
+  @apply text-primary no-underline hover:underline;
+}
