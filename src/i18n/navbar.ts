@@ -1,9 +1,12 @@
+import CJKWorkshop from "~/routes/2025/[locale]/cjkworkshop";
+
 export const zh = {
   Home: "首页",
   Registration: "注册",
   Paper: "论文",
   Poster: "海报",
   SpecialTopic: "专题",
+  CJKWorkshop: "中日韩论坛",
   Venue: "会址及住宿预定",
   Challenge: "可视化竞赛",
   DoctoralColloquium: "博士生论坛",
@@ -21,6 +24,7 @@ export const en = {
   Paper: "Paper",
   Poster: "Poster",
   SpecialTopic: "Special Topic",
+  CJKWorkshop: "CJK Workshop",
   Venue: "Venue & Hotels",
   Challenge: "Data Challenge",
   DoctoralColloquium: "Doctoral Colloquium",

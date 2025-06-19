@@ -34,6 +34,8 @@ export default defineConfig({
         "/2025/en/exhibition",
         "/2025/zh/sponsor",
         "/2025/en/sponsor",
+        "/2025/zh/cjkworkshop",
+        "/2025/en/cjkworkshop",
       ],
       failOnError: true,
     },
