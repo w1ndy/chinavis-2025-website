@@ -1,0 +1,17 @@
+@reference "../../../app.css";
+
+.registration {
+  @apply w-full mt-4 mb-8 text-center overflow-x-auto;
+}
+
+.registration table {
+  @apply my-2 border-t border-primary-darker min-w-5xl w-full;
+}
+
+.registration thead {
+  @apply text-center font-bold;
+}
+
+.registration td {
+  @apply border-b border-primary-darker py-1;
+}
