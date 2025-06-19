@@ -2,21 +2,17 @@ import { marked } from "marked";
 
 export const zh = {
   PageTitle: "注册 - ChinaVis 2025",
-  Title:
-    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />会议注册',
+  Title: "会议注册",
   Content: marked.parse(
     `
-    参会者请先在线注册个人信息，根据注册类型获知注册费用。 参会者可以通过银行汇款，支付宝或者微信转账的方式缴费，不接受邮局汇款。 请在转账附言里填写“可视化+注册编号”，便于到账金额查询。学生注册的参会者请在会议报道时提供学生证或者其他证明学生身份的证件。
+    ## 注册二维码及链接
 
-    会议注册通道：[ChinaVis 2025 会议注册](https://meeting.csig.org.cn/exh/default2/baoming?fair_id=339&role_id=22&q=1)
+    <img src="{{ qrcodeImage }}" alt="注册二维码" style="width: 200px; height: 200px; display: block; margin: 0 auto;" />
+    <p style="text-align: center; text-indent: 0; margin-top: 0">扫描二维码注册</p>
 
-    会议通知下载： 待公布
+    **会议注册通道：** [ChinaVis 2025 会议注册](https://meeting.csig.org.cn/exh/default2/baoming?fair_id=339&role_id=22&q=1)
 
-    会址及酒店信息： [ChinaVis 2025 会议地址](/2025/zh/venue)
-
-    ## 个人信息注册
-
-    请在线注册个人信息，所注册的个人信息将用于铭牌打印。注册成功后系统会向注册邮箱发送注册编号。请妥善保管注册编号，此编号将在会议签到以及支付注册费中使用。请所有与会人员**务必**在线注册个人信息。
+    **会议通知下载：** 待公布
 
     ## 注册费类型
 
@@ -108,35 +104,7 @@ export const zh = {
       </table>
     </div>
 
-    ## 会议费支付
-
-    **请在汇款/转账附言里填写"可视化+注册编号"，便于到账金额查询。转账完成后，将转账凭证的电子版（扫描或照片）作为附件，邮件标题为“ChinaVis2025注册费 + 注册编号 + 姓名”，发邮件至 chinavis2025_reg@163.com，** 同时提供以下信息：注册编号，姓名，单位，文章编号（如果有文章）。如需要开增值税发票，请注册时提供单位名称、纳税人识别号及发票内容等信息。 **十人以上团体提前注册有优惠，团体注册每人减免100元，请联系 chinavis2025_reg@163.com 咨询具体支付方式; 暑期学校+会议注册也请联系 chinavis2025_reg@163.com 咨询具体支付方式。**
-
-    <div class="methods">
-      <table>
-        <thead>
-          <tr>
-            <td>支付方式1：银行转账</td>
-            <td>支付方式2：支付宝转账</td>
-            <td>支付方式3：微信转账</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <strong>户　名：</strong>中国图象图形学学会<br />
-              <strong>账　号：</strong>0200049609200073436<br />
-              <strong>开户行：</strong>工行海淀支行
-            </td>
-            <td>
-              支付宝二维码
-            </td>
-            <td>
-              微信二维码
-            </td>
-          </tr>
-      </table>
-    </div>
+    十人以上团体提前注册有优惠，团体注册每人减免 100 元，请联系 chinavis2025_reg@163.com 报名注册；暑期学校+会议注册也请联系 chinavis2025_reg@163.com 报名注册。
 
     ## 退费政策
 
@@ -147,29 +115,25 @@ export const zh = {
     ## 注意事项
 
     1. 每篇文章至少有一人为非学生注册。
-    2. 转账时，请务必注明“可视化+注册编号”。
-    3. 会议注册费电子发票统一发送到注册人邮箱，如需纸质发票可在会议现场领取。
-    4. 有关于注册的任何问题请发邮件至 chinavis2025_reg@163.com 咨询。
+    2. 会议注册费电子发票统一发送到注册人邮箱，如需纸质发票可在会议现场领取。
+    3. 有关于注册的任何问题请发邮件至 chinavis2025_reg@163.com 咨询。
     `.replace(/  +/g, "")
   ),
 };
+
 export const en = {
   PageTitle: "Registration - ChinaVis 2025",
-  Title:
-    '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />Conference Registration',
+  Title: "Conference Registration",
   Content: marked.parse(
     `
-    Participants are required to register their personal information online first and learn about the registration fees based on their registration type. Participants can pay through bank transfer, Alipay, or WeChat transfer. Postal remittance is not accepted. Please include "Visualization + Registration Number" in the transfer note for easy tracking of received payments. Student registrants must provide their student ID or other proof of student status during conference check-in.
+    ## Registration QR Code and Link
 
-    Conference Registration Portal: [ChinaVis 2025 Conference Registration](https://meeting.csig.org.cn/exh/default2/baoming?fair_id=339&role_id=22&q=1)
+    <img src="{{ qrcodeImage }}" alt="Registration QR Code" style="width: 200px; height: 200px; display: block; margin: 0 auto;" />
+    <p style="text-align: center; text-indent: 0; margin-top: 0">Scan QR Code to Register</p>
 
-    Conference Notice Download: To be announced
+    **Conference Registration Portal:** [ChinaVis 2025 Conference Registration](https://meeting.csig.org.cn/exh/default2/baoming?fair_id=339&role_id=22&q=1)
 
-    Venue and Hotel Information: [ChinaVis 2025 Conference Venue](/2025/en/venue)
-
-    ## Personal Information Registration
-
-    Please register your personal information online. The registered information will be used for name tag printing. After successful registration, the system will send a registration number to your registered email address. Please keep your registration number safe, as it will be used for conference check-in and registration fee payment. All attendees **must** register their personal information online.
+    **Conference Notice Download:** To be announced
 
     ## Registration Fee Types
 
@@ -261,35 +225,7 @@ export const en = {
       </table>
     </div>
 
-    ## Conference Fee Payment
-
-    **Please include "Visualization + Registration Number" in the transfer note for easy tracking of received payments. After completing the transfer, please send an email with the electronic copy of the transfer receipt (scan or photo) as an attachment to chinavis2025_reg@163.com. The email subject should be "ChinaVis2025 Registration Fee + Registration Number + Name".** Please also provide the following information: registration number, name, institution, paper ID (if applicable). If you need a VAT invoice, please provide the company name, taxpayer identification number, and invoice content during registration. **Group registrations of 10 or more people receive early registration discounts with 100 RMB reduction per person. Please contact chinavis2025_reg@163.com for specific payment methods. For Summer School + Conference registration, please also contact chinavis2025_reg@163.com for specific payment methods.**
-
-    <div class="methods">
-      <table>
-        <thead>
-          <tr>
-            <td>Payment Method 1: Bank Transfer</td>
-            <td>Payment Method 2: Alipay Transfer</td>
-            <td>Payment Method 3: WeChat Transfer</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <strong>Account Name:</strong> China Society of Image and Graphics<br />
-              <strong>Account Number:</strong> 0200049609200073436<br />
-              <strong>Bank:</strong> ICBC Haidian Branch
-            </td>
-            <td>
-              Alipay QR Code
-            </td>
-            <td>
-              WeChat QR Code
-            </td>
-          </tr>
-      </table>
-    </div>
+    Group registrations of 10 or more people receive early registration discounts with 100 RMB reduction per person. Please contact chinavis2025_reg@163.com for group registration. For Summer School + Conference registration, please also contact chinavis2025_reg@163.com.
 
     ## Refund Policy
 
@@ -300,9 +236,8 @@ export const en = {
     ## Important Notes
 
     1. Each paper must have at least one non-student registration.
-    2. When transferring, be sure to include "Visualization + Registration Number".
-    3. Electronic invoices for conference registration fees will be sent to the registrant's email address. Paper invoices can be collected at the conference venue if needed.
-    4. For any questions regarding registration, please email chinavis2025_reg@163.com.
+    2. Electronic invoices for conference registration fees will be sent to the registrant's email address. Paper invoices can be collected at the conference venue if needed.
+    3. For any questions regarding registration, please email chinavis2025_reg@163.com.
     `.replace(/  +/g, "")
   ),
 };

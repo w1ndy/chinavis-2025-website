@@ -5,18 +5,19 @@ import { Title } from "@solidjs/meta";
 import { useDictionary } from "~/locale";
 import { Page } from "./Page";
 
-export function MarkdownPage(props: { dict: string }) {
+export function MarkdownPage(props: { dict: string, variables?: Record<string, string> }) {
   const dict = useDictionary(props.dict);
   return (
     <Suspense>
       <Show when={dict()}>
         {(dict) => {
-          const t = i18n.translator(dict);
+          const t = i18n.translator(dict, i18n.resolveTemplate);
+          console.log(t("Content"));
           return (
             <>
               <Title>{t("PageTitle")}</Title>
               <Page title={<span innerHTML={t("Title")}></span>}>
-                <div innerHTML={t("Content")}></div>
+                <div innerHTML={t("Content", props.variables)}></div>
               </Page>
             </>
           )

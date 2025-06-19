@@ -2,7 +2,7 @@
 
 .registration,
 .methods {
-  @apply w-full mt-4 mb-8 overflow-x-auto;
+  @apply w-full mt-4 mb-4 overflow-x-auto;
 }
 
 .registration {
