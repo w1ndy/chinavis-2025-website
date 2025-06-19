@@ -1,17 +1,33 @@
 @reference "../../../app.css";
 
+.registration,
+.methods {
+  @apply w-full mt-4 mb-8 overflow-x-auto;
+}
+
 .registration {
-  @apply w-full mt-4 mb-8 text-center overflow-x-auto;
+  @apply text-center;
+}
+
+.registration table,
+.methods table {
+  @apply my-2 border-t border-primary-darker;
 }
 
 .registration table {
-  @apply my-2 border-t border-primary-darker min-w-5xl w-full;
+  @apply min-w-5xl w-full;
 }
 
-.registration thead {
+.methods table {
+  @apply min-w-3xl mx-auto;
+}
+
+.registration thead,
+.methods thead {
   @apply text-center font-bold;
 }
 
-.registration td {
-  @apply border-b border-primary-darker py-1;
+.registration td,
+.methods td {
+  @apply border-b border-primary-darker py-1 px-2;
 }
