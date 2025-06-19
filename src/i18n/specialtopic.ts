@@ -2,8 +2,7 @@ import { marked } from "marked";
 
 export const zh = {
   PageTitle: "专题 - ChinaVis 2025",
-  Title:
-    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />专题征题通知',
+  Title: "专题征题通知",
   Content: marked.parse(
     `
     ## 征集信息
@@ -32,8 +31,7 @@ export const zh = {
 
 export const en = {
   PageTitle: "Special Topics - ChinaVis 2025",
-  Title:
-    '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />Special Topics - Call for Proposals',
+  Title: "Special Topics - Call for Proposals",
   Content: marked.parse(
     `
     ## Introduction

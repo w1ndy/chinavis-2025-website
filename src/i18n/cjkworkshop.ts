@@ -5,8 +5,7 @@ import PhotoNaohisaSakamoto from "~/assets/cjkworkshop/naohisa_sakamoto.avif?inl
 
 export const zh = {
   PageTitle: "中日韩论坛 - ChinaVis 2025",
-  Title:
-    '<span style="font-size: 0.8em">第十二届中国可视化与可视分析大会（ChinaVis 2025）</span><br />第八届中日韩可视化论坛',
+  Title: "第八届中日韩可视化论坛",
   Content: marked.parse(
     `
     ## 论坛信息
@@ -29,8 +28,7 @@ export const zh = {
 
 export const en = {
   PageTitle: "CJK Workshop - ChinaVis 2025",
-  Title:
-    '<span style="font-size: 0.8em">The 12th China Conference on Visualization and Visual Analytics (ChinaVis 2025)</span><br />The Eighth China-Japan-Korea Joint Visualization Workshop',
+  Title: "The Eighth China-Japan-Korea Joint Visualization Workshop",
   Content: marked.parse(
     `
     ## Information
