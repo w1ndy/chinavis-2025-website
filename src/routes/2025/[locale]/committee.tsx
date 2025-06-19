@@ -7,7 +7,6 @@ import { useDictionary, useLocale } from "~/locale";
 import { Section } from "~/components/Section";
 import { CommitteeMember } from "~/components/CommitteeMember";
 
-import QHM from "~/assets/committee/qhm.jpg";
 import { committee } from "~/i18n/committee";
 
 export default function Committee() {
