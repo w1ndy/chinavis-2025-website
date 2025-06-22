@@ -1,0 +1,9 @@
+@reference "../../../app.css";
+
+.wide_image {
+  @apply w-full my-5 overflow-x-auto;
+}
+
+.wide_image img {
+  @apply w-200 mx-auto my-1 block max-w-200;
+}

@@ -1,28 +1,19 @@
-import { Title } from "@solidjs/meta";
-import { Show, Suspense } from "solid-js";
-import * as i18n from "@solid-primitives/i18n";
+import { MarkdownPage } from "~/components/MarkdownPage";
 
-import { Page } from "~/components/Page";
-import { Section } from "~/components/Section";
-import { useDictionary } from "~/locale";
+import "./venue.css";
 
-export default function Registration() {
-  const dict = useDictionary("venue");
+import wenlaiBuildingImage from "~/assets/venue/wenlai_building.avif";
+import wenlaiQrCodeImage from "~/assets/venue/wenlai_qrcode.avif";
+import wenlaiLobbyImage from "~/assets/venue/wenlai_lobby.avif";
+import wenlaiRoomImage from "~/assets/venue/wenlai_room.avif";
+import hiltonLobbyImage from "~/assets/venue/hilton_lobby.avif";
+import hiltonRoomImage from "~/assets/venue/hilton_room.avif";
+import mercureQrCodeImage from "~/assets/venue/mercure_qrcode.avif";
+import mercureLobbyImage from "~/assets/venue/mercure_lobby.avif";
+import mercureRoomImage from "~/assets/venue/mercure_room.avif";
+
+export default function Venue() {
   return (
-    <Suspense>
-      <Show when={dict()}>
-        {(dict) => {
-          const t = i18n.translator(dict);
-          return (
-            <>
-              <Title>{t("PageTitle")}</Title>
-              <Page title={<span innerHTML={t("VenueTitle")}></span>}>
-                <Section><p class="**:indent-0 text-center">{t("ToBeAnnounced")}</p></Section>
-              </Page>
-            </>
-          );
-        }}
-      </Show>
-    </Suspense>
+    <MarkdownPage dict="venue" variables={{ wenlaiBuildingImage, wenlaiQrCodeImage, wenlaiLobbyImage, wenlaiRoomImage, hiltonLobbyImage, hiltonRoomImage, mercureQrCodeImage, mercureLobbyImage, mercureRoomImage }} />
   );
 }
