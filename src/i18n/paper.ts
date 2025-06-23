@@ -5,7 +5,7 @@ export const zh = {
   Title: "征文通知",
   Content: marked.parse(
     `
-    第十二届中国可视化与可视分析大会（ChinaVis 2025）将于2025年7月19日-22日在杭州举行。本次会议由中国图象图形学学会主办，可视化与可视分析专委会、浙江大学、杭州全息智能技术研究院、杭州电子科技大学、中国美术学院、浙江工业大学、浙江传媒学院、浙大城市学院等承办，多家赞助单位协办。
+    第十二届中国可视化与可视分析大会（ChinaVis 2025）将于2025年7月19日-22日在杭州举行。本次会议由中国图象图形学学会主办，可视化与可视分析专委会、浙江大学计算机辅助设计与图形系统全国重点实验室、杭州全息智能技术研究院、杭州电子科技大学、中国美术学院、浙江工业大学、浙江传媒学院、浙大城市学院等承办，多家赞助单位协办。
 
     ## 投稿方式
 
@@ -73,7 +73,7 @@ export const en = {
   Title: "Call for Papers",
   Content: marked.parse(
     `
-    The 12th China Visualization and Visual Analytics Conference (ChinaVis 2025) will be held in Hangzhou, China, from July 19 to 22, 2025. The conference is hosted by China Society of Image and Graphics, Technical Committee on Visualization and Visual Analysis, Zhejiang University, Hangzhou Institute for Advanced Study in Holographic Intelligence, Hangzhou Dianzi University, China Academy of Art, Zhejiang University of Technology, Communication University of Zhejiang and Hangzhou City University with multiple sponsorships.
+    The 12th China Visualization and Visual Analytics Conference (ChinaVis 2025) will be held in Hangzhou, China, from July 19 to 22, 2025. The conference is hosted by China Society of Image and Graphics, Technical Committee on Visualization and Visual Analysis, State Key Lab of CAD&CG of Zhejiang University, Hangzhou Institute for Advanced Study in Holographic Intelligence, Hangzhou Dianzi University, China Academy of Art, Zhejiang University of Technology, Communication University of Zhejiang and Hangzhou City University with multiple sponsorships.
 
     ## Submission Guide
 

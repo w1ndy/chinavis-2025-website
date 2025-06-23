@@ -5,7 +5,7 @@ export const zh = {
   Title: "诚招企业合作",
   Content: marked.parse(
     `
-    中国可视化与可视分析大会（ChinaVis）是国内最具规模的可视化专业领域盛会，至今已举办 11 届，参会人数每年上升，近年参会人数超过 600 人，产生了广泛的影响。第十二届中国可视化与可视分析大会（ChinaVis 2025）将于 2025 年 7 月 19 日 - 22 日在杭州举行，由中国图象图形学学会主办，可视化与可视分析专委会、浙江大学、杭州全息智能技术研究院、杭州电子科技大学、中国美术学院、浙江工业大学、浙江传媒学院、浙大城市学院等承办，多家赞助单位协办。
+    中国可视化与可视分析大会（ChinaVis）是国内最具规模的可视化专业领域盛会，至今已举办 11 届，参会人数每年上升，近年参会人数超过 600 人，产生了广泛的影响。第十二届中国可视化与可视分析大会（ChinaVis 2025）将于 2025 年 7 月 19 日 - 22 日在杭州举行，由中国图象图形学学会主办，可视化与可视分析专委会、浙江大学计算机辅助设计与图形系统全国重点实验室、杭州全息智能技术研究院、杭州电子科技大学、中国美术学院、浙江工业大学、浙江传媒学院、浙大城市学院等承办，多家赞助单位协办。
 
     此刻，我们寻找志同道合者——诚征赞助单位，共同提升大会的规模和质量，并以此提高相关企业和机构在国内可视化领域的影响力，促进产学研用合作。
 
@@ -63,7 +63,7 @@ export const en = {
     '<span style="font-size: 0.8em">The 12th China Visualization and Visual Analytics Conference (ChinaVis 2025)</span><br />Call for Sponsorship',
   Content: marked.parse(
     `
-    The China Visualization and Visual Analytics Conference (ChinaVis) is the largest professional event in the field of visualization in China. It has been held 11 times, with the number of participants increasing each year and exceeding 600 in recent years, generating a wide impact. The 12th China Visualization and Visual Analytics Conference (ChinaVis 2025) will be held in Hangzhou from July 19 to 22, 2025, hosted by the China Society of Image and Graphics, and co-organized by the Technical Committee on Visualization and Visual Analysis, Zhejiang University, Hangzhou Institute for Advanced Study in Holographic Intelligence, Hangzhou Dianzi University, China Academy of Art, Zhejiang University of Technology, Communication University of Zhejiang and Hangzhou City University, with support from multiple sponsors.
+    The China Visualization and Visual Analytics Conference (ChinaVis) is the largest professional event in the field of visualization in China. It has been held 11 times, with the number of participants increasing each year and exceeding 600 in recent years, generating a wide impact. The 12th China Visualization and Visual Analytics Conference (ChinaVis 2025) will be held in Hangzhou from July 19 to 22, 2025, hosted by the China Society of Image and Graphics, and co-organized by the Technical Committee on Visualization and Visual Analysis, State Key Lab of CAD&CG of Zhejiang University, Hangzhou Institute for Advanced Study in Holographic Intelligence, Hangzhou Dianzi University, China Academy of Art, Zhejiang University of Technology, Communication University of Zhejiang and Hangzhou City University, with support from multiple sponsors.
 
     We are now seeking like-minded partners — sincerely inviting sponsors to join us in enhancing the scale and quality of the conference, increasing the influence of related enterprises and institutions in the domestic visualization field, and promoting industry-academia-research collaboration.
 

@@ -4,7 +4,7 @@ import Logo from "~/assets/logo.svg";
 export function Footer() {
   return (
     <div class="bg-black text-white w-full">
-      <Page class="py-10 text-2xl font-thin">
+      <Page class="text-2xl font-thin">
         <div class="flex flex-row items-center justify-center">
           <img class="w-36 mr-2" src={Logo} alt="logo" />
           <div class="text-sm text-left flex flex-col mt-1">
