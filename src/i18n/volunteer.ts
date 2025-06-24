@@ -9,7 +9,7 @@ export const zh = {
 
     本届会议我们广泛召集学生志愿者为 ChinaVis 2025 大会提供服务，你们的热情参与将提高所有参会者的会议体验。学生志愿者能够在第一时间了解可视化与可视分析研究的最新进展，近距离接触来自世界各地的专家学者，建立属于自己的学术网络。同时，学生志愿者项目旨在寻找可靠、热心、有责任心的学生志愿者，为他们提供一次宝贵的经历，同时协助会议主办方提供更好的会议服务。
 
-    有意愿申请志愿者的同学，请在完成大会注册并成功收到组委会通过邮件发送的注册号后，前往 https://www.wjx.cn/vm/Ok2D5wU.aspx 提交志愿者申请，申请时需提交导师推荐意见（<a href="/2025/volunteer/rec_form_cn.docx" target="_blank">模板</a>），我们将根据您填写的资料进行志愿者资格审核和志愿者选拔，选拔结果会通过邮件或电话通知到志愿者。
+    有意愿申请志愿者的同学，前往 https://www.wjx.cn/vm/Ok2D5wU.aspx 提交志愿者申请，申请时需提交导师推荐意见（<a href="/2025/volunteer/rec_form_cn.docx" target="_blank">模板</a>），我们将根据您填写的资料进行志愿者资格审核和志愿者选拔，选拔结果会通过邮件或电话通知到志愿者。
 
     入选的同学将按照志愿者优惠缴纳注册费，未入选同学按照大会注册类型缴纳注册费，<span style="color: red">**请申请志愿者的同学等待选拔结果公布后再进行缴费。**</span>
 
@@ -88,7 +88,7 @@ export const en = {
 
     We are calling for student volunteers for ChinaVis 2025.This program looks for reliable and responsible student volunteers to assist the conference organizers in providing better conference services. Student volunteers can obtain the latest research progress in visualization and visual analysis and work with visualization scholars from all over the world.
 
-    Students interested in applying as volunteers should submit their volunteer application at https://www.wjx.cn/vm/mBK2953.aspx with a recommendation letter (<a href="/2025/volunteer/rec_form_en.docx" target="_blank">template</a>) after completing the conference registration and successfully receiving a registration number via email from the organizing committee. We will review the qualifications and select volunteers based on the information provided. The selection results will be notified to the volunteers via email or phone.
+    Students interested in applying as volunteers should submit their volunteer application at https://www.wjx.cn/vm/mBK2953.aspx with a recommendation letter (<a href="/2025/volunteer/rec_form_en.docx" target="_blank">template</a>). We will review the qualifications and select volunteers based on the information provided. The selection results will be notified to the volunteers via email or phone.
 
     Selected students will pay the registration fee at a discounted rate for volunteers, while those not selected will pay according to the regular conference registration type. <span style="color: red">**Please wait for the announcement of the selection results before making any payments.**</span>
 

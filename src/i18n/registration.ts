@@ -55,17 +55,6 @@ export const zh = {
             <td>1400元</td>
           </tr>
           <tr>
-            <td>暑期学校 + 会议注册</td>
-            <td>1500元</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-          </tr>
-          <tr>
             <td rowspan="2">普通注册</td>
             <td>会议注册</td>
             <td>2200元</td>
@@ -76,17 +65,6 @@ export const zh = {
             <td>3800元</td>
             <td>1200元</td>
             <td>1500元</td>
-          </tr>
-          <tr>
-            <td>暑期学校 + 会议注册</td>
-            <td>4200元</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
           </tr>
           <tr>
             <td>志愿者注册</td>
@@ -104,7 +82,7 @@ export const zh = {
       </table>
     </div>
 
-    十人以上团体提前注册有优惠，团体注册每人减免 100 元，请联系 chinavis2025_reg@163.com 报名注册；暑期学校+会议注册也请联系 chinavis2025_reg@163.com 报名注册。
+    十人以上团体提前注册有优惠，团体注册每人减免 100 元，请联系 chinavis2025_reg@163.com 报名注册。
 
     ## 退费政策
 
@@ -176,17 +154,6 @@ export const en = {
             <td>¥1400</td>
           </tr>
           <tr>
-            <td>Summer School + Conference Registration</td>
-            <td>¥1500</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-          </tr>
-          <tr>
             <td rowspan="2">Regular Registration</td>
             <td>Conference Registration</td>
             <td>¥2200</td>
@@ -197,17 +164,6 @@ export const en = {
             <td>¥3800</td>
             <td>¥1200</td>
             <td>¥1500</td>
-          </tr>
-          <tr>
-            <td>Summer School + Conference Registration</td>
-            <td>¥4200</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
           </tr>
           <tr>
             <td>Volunteer Registration</td>
@@ -225,7 +181,7 @@ export const en = {
       </table>
     </div>
 
-    Group registrations of 10 or more people receive early registration discounts with 100 RMB reduction per person. Please contact chinavis2025_reg@163.com for group registration. For Summer School + Conference registration, please also contact chinavis2025_reg@163.com.
+    Group registrations of 10 or more people receive early registration discounts with 100 RMB reduction per person. Please contact chinavis2025_reg@163.com for group registration.
 
     ## Refund Policy
 
