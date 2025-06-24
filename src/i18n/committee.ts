@@ -167,7 +167,10 @@ export const committee: {
       },
       {
         name: { zh: "孙效华", en: "Xiaohua Sun" },
-        affiliation: { zh: "同济大学", en: "Tongji University" },
+        affiliation: {
+          zh: "南方科技大学",
+          en: "Southern University of Science and Technology",
+        },
         photo: PhotoSXH,
       },
     ],
@@ -257,7 +260,7 @@ export const committee: {
       {
         name: { zh: "王昉", en: "Fang Wang" },
         affiliation: {
-          zh: "中国空气动力研究所",
+          zh: "中国空气动力研究与发展中心",
           en: "China Aerodynamics Research and Development Center",
         },
         photo: PhotoWF,
@@ -452,7 +455,10 @@ export const committee: {
     members: [
       {
         name: { zh: "孙效华", en: "Xiaohua Sun" },
-        affiliation: { zh: "同济大学", en: "Tongji University" },
+        affiliation: {
+          zh: "南方科技大学",
+          en: "Southern University of Science and Technology",
+        },
         photo: PhotoSXH,
       },
       {
