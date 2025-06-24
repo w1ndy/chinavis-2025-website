@@ -24,7 +24,7 @@ export const zh = {
       <table>
         <thead>
           <tr>
-            <td rowspan="2" colspan="2">注册类型</td>
+            <td rowspan="2">注册类型</td>
             <td colspan="2">提前注册<br />（截至 6 月 30 日 23:59）</td>
             <td colspan="2">正常注册<br />（7 月 1 日 - 7 月 19 日）</td>
             <td colspan="2">现场注册<br />（7 月 20 日 - 7 月 22 日）</td>
@@ -43,8 +43,7 @@ export const zh = {
         </thead>
         <tbody>
           <tr>
-            <td rowspan="2">学生注册</td>
-            <td>会议注册</td>
+            <td>学生注册</td>
             <td>1400元</td>
             <td>1800元</td>
             <td>1800元</td>
@@ -55,8 +54,7 @@ export const zh = {
             <td>1400元</td>
           </tr>
           <tr>
-            <td rowspan="2">普通注册</td>
-            <td>会议注册</td>
+            <td>普通注册</td>
             <td>2200元</td>
             <td>2800元</td>
             <td>2800元</td>
@@ -68,7 +66,6 @@ export const zh = {
           </tr>
           <tr>
             <td>志愿者注册</td>
-            <td></td>
             <td>700元</td>
             <td>--</td>
             <td>--</td>
@@ -123,7 +120,7 @@ export const en = {
       <table>
         <thead>
           <tr>
-            <td rowspan="2" colspan="2">Registration Type</td>
+            <td rowspan="2">Registration Type</td>
             <td colspan="2">Early Registration<br />(Until June 30, 23:59)</td>
             <td colspan="2">Regular Registration<br />(July 1 - July 19)</td>
             <td colspan="2">On-site Registration<br />(July 20 - July 22)</td>
@@ -142,8 +139,7 @@ export const en = {
         </thead>
         <tbody>
           <tr>
-            <td rowspan="2">Student Registration</td>
-            <td>Conference Registration</td>
+            <td>Student Registration</td>
             <td>¥1400</td>
             <td>¥1800</td>
             <td>¥1800</td>
@@ -154,8 +150,7 @@ export const en = {
             <td>¥1400</td>
           </tr>
           <tr>
-            <td rowspan="2">Regular Registration</td>
-            <td>Conference Registration</td>
+            <td>Regular Registration</td>
             <td>¥2200</td>
             <td>¥2800</td>
             <td>¥2800</td>
@@ -167,7 +162,6 @@ export const en = {
           </tr>
           <tr>
             <td>Volunteer Registration</td>
-            <td></td>
             <td>¥700</td>
             <td>--</td>
             <td>--</td>
