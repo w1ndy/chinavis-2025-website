@@ -64,7 +64,8 @@ export const zh = {
     **陈思明**　复旦大学
 
     **孙效华**　南方科技大学
-  `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -132,6 +133,7 @@ export const en = {
     **Siming Chen**, Fudan University
 
     **Xiaohua Sun**, Southern University of Science and Technology
-  `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

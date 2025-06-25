@@ -1,16 +1,14 @@
-import { Suspense } from "solid-js";
-import { clientOnly } from "@solidjs/start";
 import { Router } from "@solidjs/router";
 import { MetaProvider } from "@solidjs/meta";
 import { FileRoutes } from "@solidjs/start/router";
 
 import "./app.css";
 
-import { Teaser } from "./components/Teaser";
-import { Footer } from "./components/Footer";
-import { ScrollToTopButton } from "./components/ScrollToTopButton";
-
-const Navbar = clientOnly(() => import("~/components/Navbar"));
+import { Navbar } from "~/components/Navbar";
+import { Teaser } from "~/components/Teaser";
+import { Footer } from "~/components/Footer";
+import { ScrollToTopButton } from "~/components/ScrollToTopButton";
+import { Suspense } from "solid-js";
 
 export default function App() {
   return (
@@ -18,7 +16,7 @@ export default function App() {
       <Router
         root={props => (
           <>
-            <Navbar />
+            <Suspense><Navbar /></Suspense>
             <Teaser />
             <Suspense>{props.children}</Suspense>
             <Footer />

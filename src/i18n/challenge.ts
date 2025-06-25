@@ -195,7 +195,8 @@ export const zh = {
     - [2019年数据可视分析挑战赛](http://chinavis.org/2019/challenge.html)
 
     更多信息可访问历史网站：[http://chinavis.org/history.html](http://chinavis.org/history.html)
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -405,6 +406,7 @@ export const en = {
 
     For more information, please visit the history website: [http://chinavis.org/history.html](http://chinavis.org/history.html)
 
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

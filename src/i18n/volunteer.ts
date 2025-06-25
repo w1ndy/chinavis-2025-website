@@ -75,7 +75,8 @@ export const zh = {
     **谢　潇**　浙江大学
 
     **刘晓静**　青海大学
-  `.replace(/  +/g, "")
+  `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -157,6 +158,7 @@ export const en = {
     **Xiao Xie**, Zhejiang University
 
     **Xiaojing Liu**, Qinghai University
-  `.replace(/  +/g, "")
+  `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

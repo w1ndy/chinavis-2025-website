@@ -20,7 +20,8 @@ export const zh = {
     ## 论坛议程
 
     _待定_
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
   SpeakerSectionTitle: "论坛讲者",
   MoreSpeakersTBD: "更多讲者待定",
@@ -43,7 +44,8 @@ export const en = {
     ## Program
 
     _TBD_
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
   SpeakerSectionTitle: "Speakers",
   MoreSpeakersTBD: "More speakers to be determined",

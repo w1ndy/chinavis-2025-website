@@ -25,7 +25,8 @@ export const zh = {
     **陶　钧**　中山大学
 
     联系邮箱：chinavis.topic@gmail.com
-  `.replace(/  +/g, "")
+  `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -62,6 +63,7 @@ export const en = {
     **Jun Tao**, Sun Yat-sen University
 
     Email: chinavis.topic@gmail.com
-  `.replace(/  +/g, "")
+  `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

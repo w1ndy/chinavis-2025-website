@@ -3,6 +3,7 @@ import { useParams } from '@solidjs/router'
 import { createMemo, createResource } from 'solid-js'
 
 export type Locale = 'en' | 'zh'
+export type Dict = Record<Locale, Record<string, string>>
 
 const useLocale = () => {
   const params = useParams() as { locale?: Locale }
@@ -11,13 +12,10 @@ const useLocale = () => {
   })
 }
 
-const useDictionary = (module: string) => {
+const useTranslator = (staticDict: Dict) => {
   const locale = useLocale()
-  const [dict] = createResource(locale, async () => {
-    const dict = (await import(`~/i18n/${module}.ts`))[locale()]
-    return i18n.flatten(dict as Record<string, string>)
-  });
-  return dict;
+  const dict = createMemo(() => i18n.flatten(staticDict[locale()] || {}))
+  return i18n.translator(dict, i18n.resolveTemplate)
 }
 
-export { useLocale, useDictionary }
+export { useLocale, useTranslator }

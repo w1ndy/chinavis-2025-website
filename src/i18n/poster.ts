@@ -62,7 +62,8 @@ export const zh = {
     **俞凌云**　西交利物浦大学
 
     **马昱欣**　南方科技大学
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -128,6 +129,7 @@ The poster chairs will award a "Best Poster" award and several "Best Poster Hono
     **Yu Lingyun**, Xi'an Jiaotong-Liverpool University
 
     **Ma Yuxin**, Southern University of Science and Technology
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

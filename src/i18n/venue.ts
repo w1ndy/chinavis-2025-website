@@ -104,7 +104,8 @@ export const zh = {
     乘坐出租车（全程约59分钟），费用约80元
 
     公共交通：萧山国际机场乘坐19号线到文三路，换乘10号线到北大桥A口，出站步行约400米至杭州城北文澜大酒店（全程约40分钟）
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -212,6 +213,7 @@ export const en = {
     **By Taxi:** (Approx. 59 minutes), cost around 80 RMB.
 
     **By Public Transport:** From Xiaoshan International Airport, take Line 19 to Wensan Road Station, transfer to Line 10 to Beidaqiao Station (Exit A). Walk about 400 meters to the hotel. (Total time: approx. 40 minutes).
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

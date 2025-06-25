@@ -659,7 +659,7 @@ export const committee: {
     role: { zh: "赞助主席", en: "Sponsor Chairs" },
     members: [
       {
-        name: { zh: "董笑菊", en: "Xiaojv Dong" },
+        name: { zh: "董笑菊", en: "Xiaoju Dong" },
         affiliation: {
           zh: "上海交通大学",
           en: "Shanghai Jiao Tong University",

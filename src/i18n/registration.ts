@@ -92,7 +92,8 @@ export const zh = {
     1. 每篇文章至少有一人为非学生注册。
     2. 会议注册费电子发票统一发送到注册人邮箱，如需纸质发票可在会议现场领取。
     3. 有关于注册的任何问题请发邮件至 chinavis2025_reg@163.com 咨询。
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -108,7 +109,7 @@ export const en = {
 
     **Conference Registration Portal:** [ChinaVis 2025 Conference Registration](https://meeting.csig.org.cn/exh/default2/baoming?fair_id=339&role_id=22&q=1)
 
-    **Conference Notice Download:** To be announced
+    **Conference Notice Download:** <a href="/2025/registration/announcement.pdf" target="_blank">Download</a>
 
     ## Registration Fee Types
 
@@ -188,6 +189,7 @@ export const en = {
     1. Each paper must have at least one non-student registration.
     2. Electronic invoices for conference registration fees will be sent to the registrant's email address. Paper invoices can be collected at the conference venue if needed.
     3. For any questions regarding registration, please email chinavis2025_reg@163.com.
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

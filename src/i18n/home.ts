@@ -13,7 +13,8 @@ export const zh = {
     ## 会议赞助
 
     待公布
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -30,6 +31,7 @@ export const en = {
     ## Sponsors
 
     To be announced
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

@@ -53,7 +53,8 @@ export const zh = {
     **董笑菊**　上海交通大学
 
     **董建锋**　浙江工商大学
-  `.replace(/  +/g, "")
+  `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -111,6 +112,7 @@ export const en = {
     **Xiaoju Dong**, Shanghai Jiao Tong University
 
     **Jianfeng Dong**, Zhejiang Gongshang University
-    `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

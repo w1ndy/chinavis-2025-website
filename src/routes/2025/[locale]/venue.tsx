@@ -1,4 +1,5 @@
 import { MarkdownPage } from "~/components/MarkdownPage";
+import * as Dict from "~/i18n/venue";
 
 import "./venue.css";
 
@@ -14,6 +15,6 @@ import mercureRoomImage from "~/assets/venue/mercure_room.avif";
 
 export default function Venue() {
   return (
-    <MarkdownPage dict="venue" variables={{ wenlaiBuildingImage, wenlaiQrCodeImage, wenlaiLobbyImage, wenlaiRoomImage, hiltonLobbyImage, hiltonRoomImage, mercureQrCodeImage, mercureLobbyImage, mercureRoomImage }} />
+    <MarkdownPage dict={Dict} variables={{ wenlaiBuildingImage, wenlaiQrCodeImage, wenlaiLobbyImage, wenlaiRoomImage, hiltonLobbyImage, hiltonRoomImage, mercureQrCodeImage, mercureLobbyImage, mercureRoomImage }} />
   );
 }

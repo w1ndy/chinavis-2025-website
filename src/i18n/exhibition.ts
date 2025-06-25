@@ -56,7 +56,8 @@ export const zh = {
 
     1. 有意者请下载填写<a href="/2025/exhibits/application.docx" target="_blank">申请表</a>后发送到表格指定邮箱
     2. 如申请成功，将收到确认通知邮件。
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -123,6 +124,7 @@ export const en = {
     - Download and fill the <a href="/2025/exhibits/application_en.docx" target="_blank">Application Form</a>, then send it to the specified email.
     - Receive the notification mail of confirmation.
     - Please apply for booth space before 22nd June, 2025
-    `.replace(/^    /gm, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };

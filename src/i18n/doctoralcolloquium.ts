@@ -40,7 +40,8 @@ export const zh = {
     **陶煜波**　浙江大学
 
     **李　权**　上海科技大学
-  `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
 
@@ -84,6 +85,7 @@ export const en = {
     **Yubo Tao**, Zhejiang University
 
     **Quan Li**, ShanghaiTech University
-  `.replace(/  +/g, "")
+    `.replace(/^    /gm, ""),
+    { async: false }
   ),
 };
