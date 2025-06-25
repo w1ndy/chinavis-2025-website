@@ -1,10 +1,10 @@
-import { A, useLocation, useNavigate } from "@solidjs/router";
+import { A, useLocation } from "@solidjs/router";
 import { createEffect, createSignal, Show, Suspense } from "solid-js";
 import { useWindowSize } from "@solid-primitives/resize-observer";
 import * as i18n from "@solid-primitives/i18n";
 
 import { useLocale, useDictionary } from "~/locale";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.svg?inline";
 
 function NavLink(props: { title: string, href: string }) {
   return (

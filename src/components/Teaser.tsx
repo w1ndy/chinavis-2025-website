@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.svg?inline";
 import Bg from "../assets/bg/bg.avif?inline";
 
 export function Teaser() {

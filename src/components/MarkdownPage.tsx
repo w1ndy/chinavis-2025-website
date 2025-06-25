@@ -12,7 +12,6 @@ export function MarkdownPage(props: { dict: string, variables?: Record<string, s
       <Show when={dict()}>
         {(dict) => {
           const t = i18n.translator(dict, i18n.resolveTemplate);
-          console.log(t("Content"));
           return (
             <>
               <Title>{t("PageTitle")}</Title>
