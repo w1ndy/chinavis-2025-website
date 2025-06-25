@@ -12,7 +12,7 @@ export const zh = {
 
     **会议注册通道：** [ChinaVis 2025 会议注册](https://meeting.csig.org.cn/exh/default2/baoming?fair_id=339&role_id=22&q=1)
 
-    **会议通知下载：** 待公布
+    **会议通知下载：** <a href="/2025/registration/announcement.pdf" target="_blank">点击下载</a>
 
     ## 注册费类型
 
