@@ -5,7 +5,7 @@
 }
 
 .page h2 {
-  @apply text-lg sm:text-xl pl-5 sm:pl-6 not-first:mt-6 mb-4 text-left uppercase font-bold w-fit text-white relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-primary-darker after:content-[''] after:absolute after:left-3 after:-z-10 after:w-full after:h-full after:bg-primary-darker;
+  @apply text-lg sm:text-xl pl-5 sm:pl-6 not-first:mt-6 mb-4 text-left uppercase font-bold w-fit text-white relative before:content-[''] before:absolute before:w-2 before:h-full before:left-0 before:bg-primary-darker after:content-[''] after:absolute after:left-3 after:top-0 after:-z-10 after:w-full after:h-full after:bg-primary-darker;
 }
 
 .page h3 {
