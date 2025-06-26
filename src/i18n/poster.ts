@@ -41,7 +41,7 @@ export const zh = {
 
     ## 重要⽇期
 
-    - 征稿截⽌： 2025 年 6 月 26 日
+    - 征稿截⽌： 2025 年 7 月 3 日
     - 录⽤通知： 2025 年 7 月 10 日
     - 最终版提交：2025 年 7 月 15 日
 
@@ -107,7 +107,7 @@ export const en = {
 
     ## Important Dates
 
-    - Submission deadline: Jun. 26, 2025
+    - Submission deadline: Jul. 3, 2025
     - Notification of acceptance: Jul. 10, 2025
     - Final submission of camera ready versions: Jul. 15, 2025
 
