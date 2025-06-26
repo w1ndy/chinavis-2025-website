@@ -24,8 +24,8 @@ export default function Course() {
                 <h2>{index() + 1}. {title()}</h2>
 
                 <h3>{t("Schedule")}</h3>
-                <p><b>{t("Date")}</b>{date()}</p>
-                <p><b>{t("Location")}</b>{location()}</p>
+                <p class="!indent-0"><b>{t("Date")}</b>{date()}</p>
+                <p class="!indent-0"><b>{t("Location")}</b>{location()}</p>
 
                 <h3>{t("Description")}</h3>
                 <p innerHTML={description()}></p>
