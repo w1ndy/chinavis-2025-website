@@ -1,9 +1,11 @@
 import { marked } from "marked";
 
+import { Speaker } from "~/components/SpeakerInfo";
+
 import PhotoKenjiOno from "~/assets/cjkworkshop/kenji_ono.avif?inline";
 import PhotoNaohisaSakamoto from "~/assets/cjkworkshop/naohisa_sakamoto.avif?inline";
 import PhotoSL from "~/assets/cjkworkshop/sl.avif?inline";
-import { Speaker } from "~/components/SpeakerInfo";
+import PhotoLL from "~/assets/cjkworkshop/ll.avif?inline";
 
 export const zh = {
   PageTitle: "中日韩论坛 - ChinaVis 2025",
@@ -98,6 +100,26 @@ export const speakers: Speaker[] = [
     abstract: {
       zh: 'Understanding the evolution of scholarly research is essential for many real-life decision-making processes in academia, such as research planning, frontier exploration, and award selection. Popular platforms like Google Scholar and Web of Science rely on numerical indicators that are too abstract to convey the context and content of scientific research, while most existing visualizations on mapping science do not consider the presentation of individual scholars’ research evolution. This work builds on an open academic database with up to 500 million papers/authors and proposes an integrated pipeline to visualize a scholar’s research evolution from multiple topic facets. A novel 3D prism-shaped visual metaphor is introduced, along with versatile designs by topic chord diagram, six-degree-impact glyph, streamgraph visualization, and inter-topic flow map, all optimized by elaborate layout algorithms. An online platform - <a href="http://genetic-flow.com" target="_blank">http://genetic-flow.com</a>, has been launched since Jan. 2025, attracting more than 200,000 visits from 74 countries by now, and receiving written feedback from Turing award laureates and ACM fellows.',
       en: 'Understanding the evolution of scholarly research is essential for many real-life decision-making processes in academia, such as research planning, frontier exploration, and award selection. Popular platforms like Google Scholar and Web of Science rely on numerical indicators that are too abstract to convey the context and content of scientific research, while most existing visualizations on mapping science do not consider the presentation of individual scholars’ research evolution. This work builds on an open academic database with up to 500 million papers/authors and proposes an integrated pipeline to visualize a scholar’s research evolution from multiple topic facets. A novel 3D prism-shaped visual metaphor is introduced, along with versatile designs by topic chord diagram, six-degree-impact glyph, streamgraph visualization, and inter-topic flow map, all optimized by elaborate layout algorithms. An online platform - <a href="http://genetic-flow.com" target="_blank">http://genetic-flow.com</a>, has been launched since Jan. 2025, attracting more than 200,000 visits from 74 countries by now, and receiving written feedback from Turing award laureates and ACM fellows.',
+    },
+  },
+  {
+    name: { zh: "刘乐", en: "Le Liu" },
+    affiliation: {
+      zh: "西北工业大学",
+      en: "Northwestern Polytechnical University",
+    },
+    description: {
+      zh: "Dr. Le Liu is an associate professor in the School of Computer Science at Northwestern Polytechnical University. He earned his PhD from Clemson University. His current research focuses on the intersection of visualization, visual perception, computer graphics, and artificial intelligence.",
+      en: "Dr. Le Liu is an associate professor in the School of Computer Science at Northwestern Polytechnical University. He earned his PhD from Clemson University. His current research focuses on the intersection of visualization, visual perception, computer graphics, and artificial intelligence.",
+    },
+    photo: PhotoLL,
+    talk: {
+      zh: "Representative Sampling for Implicit Uncertainty Visualization of Multidimensional Ensembles",
+      en: "Representative Sampling for Implicit Uncertainty Visualization of Multidimensional Ensembles",
+    },
+    abstract: {
+      zh: "Ensemble datasets are widely employed in predictive modeling and scientific simulations to capture and communicate uncertainty in complex systems. While implicit uncertainty visualizations offer a promising means of representing ensemble data, existing methods often face trade-offs between interpretability and fidelity. These challenges are exacerbated by high dimensionality, visual clutter, and the presence of multimodal distributions. To address these issues, we introduce a novel sampling strategy tailored for high-dimensional spaces that enhances ensemble visualization by preserving the underlying uncertainty while significantly reducing data complexity.",
+      en: "Ensemble datasets are widely employed in predictive modeling and scientific simulations to capture and communicate uncertainty in complex systems. While implicit uncertainty visualizations offer a promising means of representing ensemble data, existing methods often face trade-offs between interpretability and fidelity. These challenges are exacerbated by high dimensionality, visual clutter, and the presence of multimodal distributions. To address these issues, we introduce a novel sampling strategy tailored for high-dimensional spaces that enhances ensemble visualization by preserving the underlying uncertainty while significantly reducing data complexity.",
     },
   },
 ];
