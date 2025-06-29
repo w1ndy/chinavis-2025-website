@@ -51,3 +51,7 @@
 .page a {
   @apply text-primary no-underline hover:underline;
 }
+
+.page .speaker-grid {
+  @apply grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
+}

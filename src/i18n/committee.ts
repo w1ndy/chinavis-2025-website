@@ -643,8 +643,8 @@ export const committee: {
       {
         name: { zh: "韩俊", en: "Jun Han" },
         affiliation: {
-          zh: "香港中文大学（深圳）",
-          en: "Chinese University of Hong Kong (Shenzhen)",
+          zh: "香港科技大学",
+          en: "Hong Kong University of Science and Technology",
         },
         photo: PhotoHJ,
       },
