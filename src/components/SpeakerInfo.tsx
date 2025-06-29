@@ -39,8 +39,8 @@ export function SpeakerInfo(props: { speaker: Speaker }) {
       <div class="flex flex-row items-center my-2">
         <img class="w-13 h-13 object-cover border border-gray-300 rounded-full mr-3" src={props.speaker.photo} alt={name()} />
         <div class="flex flex-col justify-center">
-          <div class="font-semibold leading-6">{name()}</div>
-          <div class="text-gray-600 dark:text-gray-400  leading-6">{affiliation()}</div>
+          <div class="font-semibold leading-6 text-left">{name()}</div>
+          <div class="text-gray-600 dark:text-gray-400  leading-6 text-left">{affiliation()}</div>
         </div>
       </div>
       <Show when={abstract}>
