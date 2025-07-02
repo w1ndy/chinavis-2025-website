@@ -102,13 +102,17 @@ export const sessions: {
           en: "Kyushu University",
         },
         description: {
-          zh: "",
-          en: "",
+          zh: "Kenji Ono is currently a director of Pan-Omics Data-Driven Research Innovation Center in Kyushu University, and he holds an appointment at Kumamoto University, after working on RIKEN Advanced Institute for Computational Science and Nissan Motor company. He received his degrees of Dr. Eng. in mechanical engineering from Kumamoto University in 2000. His research fields are computational fluid dynamics, parallel computation, visualization and equation discovery from large-scale dataset.",
+          en: "Kenji Ono is currently a director of Pan-Omics Data-Driven Research Innovation Center in Kyushu University, and he holds an appointment at Kumamoto University, after working on RIKEN Advanced Institute for Computational Science and Nissan Motor company. He received his degrees of Dr. Eng. in mechanical engineering from Kumamoto University in 2000. His research fields are computational fluid dynamics, parallel computation, visualization and equation discovery from large-scale dataset.",
         },
         photo: PhotoKenjiOno,
         talk: {
-          zh: "报告题目待定",
-          en: "Talk title to be announced",
+          zh: "Equation Discovery as a Form of Visualization: Understanding Phenomena through Data",
+          en: "Equation Discovery as a Form of Visualization: Understanding Phenomena through Data",
+        },
+        abstract: {
+          zh: "Simulations play a crucial role in science and engineering, and their execution relies on equations that describe the phenomena of interest. But how are such equations discovered in the first place? They are the result of accumulated knowledge derived from theory, observation, and experimentation. Each term in an equation carries meaning, representing the underlying mechanisms of the phenomenon.<br />Today, however, the range of phenomena we seek to understand extends beyond physics and chemistry into domains such as social sciences and economics, where explicit governing laws are often elusive. Fortunately, the increasing availability of diverse and abundant data has opened up new possibilities. Even for phenomena lacking well-defined laws, it is now feasible to infer descriptive equations directly from data, offering a new path toward understanding.<br />In this talk, we introduce an approach for discovering equations using genetic programming, a method that explores candidate equations through evolutionary computation. We will present the underlying concept along with examples of its application.",
+          en: "Simulations play a crucial role in science and engineering, and their execution relies on equations that describe the phenomena of interest. But how are such equations discovered in the first place? They are the result of accumulated knowledge derived from theory, observation, and experimentation. Each term in an equation carries meaning, representing the underlying mechanisms of the phenomenon.<br />Today, however, the range of phenomena we seek to understand extends beyond physics and chemistry into domains such as social sciences and economics, where explicit governing laws are often elusive. Fortunately, the increasing availability of diverse and abundant data has opened up new possibilities. Even for phenomena lacking well-defined laws, it is now feasible to infer descriptive equations directly from data, offering a new path toward understanding.<br />In this talk, we introduce an approach for discovering equations using genetic programming, a method that explores candidate equations through evolutionary computation. We will present the underlying concept along with examples of its application.",
         },
       },
       {
