@@ -158,13 +158,17 @@ export const sessions: {
           en: "Sejong University",
         },
         description: {
-          zh: "",
-          en: "",
+          zh: "Yun Jang is a Professor of Computer Engineering at Sejong University, Seoul, South Korea. He received his Ph.D. in Electrical and Computer Engineering from Purdue University in 2007, specializing in data visual analytics, scientific visualization, and computer graphics. He also holds an M.S. from Purdue University (2002) and a B.S. in Electrical Engineering from Seoul National University (2000). Before joining Sejong University in 2012, Dr. Jang worked as a researcher at ETH Zürich and the Swiss National Supercomputing Center. His research focuses on data visualization, visual analytics, artificial intelligence, and machine learning. He develops AI-driven solutions for volume rendering, social media analytics, smart city applications, traffic optimization, and healthcare monitoring. His work combines theoretical research with practical applications to help extract meaningful insights from complex data.",
+          en: "Yun Jang is a Professor of Computer Engineering at Sejong University, Seoul, South Korea. He received his Ph.D. in Electrical and Computer Engineering from Purdue University in 2007, specializing in data visual analytics, scientific visualization, and computer graphics. He also holds an M.S. from Purdue University (2002) and a B.S. in Electrical Engineering from Seoul National University (2000). Before joining Sejong University in 2012, Dr. Jang worked as a researcher at ETH Zürich and the Swiss National Supercomputing Center. His research focuses on data visualization, visual analytics, artificial intelligence, and machine learning. He develops AI-driven solutions for volume rendering, social media analytics, smart city applications, traffic optimization, and healthcare monitoring. His work combines theoretical research with practical applications to help extract meaningful insights from complex data.",
         },
         photo: PhotoYunJang,
         talk: {
-          zh: "报告题目待定",
-          en: "Talk title to be announced",
+          zh: "Machine Learning Approaches to Transfer Function Design: Automated CNN Colorization and Interactive t-SNE Segmentation",
+          en: "Machine Learning Approaches to Transfer Function Design: Automated CNN Colorization and Interactive t-SNE Segmentation",
+        },
+        abstract: {
+          zh: "Transfer function design in direct volume rendering remains challenging, requiring extensive expertise and time. This work presents two complementary machine learning approaches: automated CNN-based colorization and interactive t-SNE segmentation. The CNN approach automatically generates volume renderings similar to target images using a modified VGGNet architecture. The system labels intensity-gradient magnitude transfer functions via grid subdivision and Borda count voting, then maps primary colors extracted from target images to labeled transfer functions. The t-SNE approach proposes a two-level transfer function design that combines classical 2D TF with t-SNE dimensionality reduction to address the trade-off between multidimensional TF complexity and low-dimensional TF limitations. This method extracts multidimensional attributes from volume data and applies t-SNE for dimensionality reduction, enabling easy manipulation of multidimensional attributes while maintaining visualization quality. Experimental evaluation demonstrates that the CNN method achieves significant time reduction compared to manual approaches, while the t-SNE approach effectively allows manipulation of complex attributes with simplified control. Together, these methods advance transfer function design through automated colorization and intelligent dimensionality reduction.",
+          en: "Transfer function design in direct volume rendering remains challenging, requiring extensive expertise and time. This work presents two complementary machine learning approaches: automated CNN-based colorization and interactive t-SNE segmentation. The CNN approach automatically generates volume renderings similar to target images using a modified VGGNet architecture. The system labels intensity-gradient magnitude transfer functions via grid subdivision and Borda count voting, then maps primary colors extracted from target images to labeled transfer functions. The t-SNE approach proposes a two-level transfer function design that combines classical 2D TF with t-SNE dimensionality reduction to address the trade-off between multidimensional TF complexity and low-dimensional TF limitations. This method extracts multidimensional attributes from volume data and applies t-SNE for dimensionality reduction, enabling easy manipulation of multidimensional attributes while maintaining visualization quality. Experimental evaluation demonstrates that the CNN method achieves significant time reduction compared to manual approaches, while the t-SNE approach effectively allows manipulation of complex attributes with simplified control. Together, these methods advance transfer function design through automated colorization and intelligent dimensionality reduction.",
         },
       },
       {
@@ -174,13 +178,17 @@ export const sessions: {
           en: "Yonsei University",
         },
         description: {
-          zh: "",
-          en: "",
+          zh: "Dae Hyun Kim is an Assistant Professor in the Department of Computer Science and Engineering at Yonsei University. Prior to joining Yonsei, he was a postdoctoral scholar at KAIST, working with Juho Kim. He received his MS and PhD in Computer Science from Stanford University, and his BS in Computer Science from the California Institute of Technology. His research focuses on developing natural language tools to support human-human and human-AI communication and collaboration.",
+          en: "Dae Hyun Kim is an Assistant Professor in the Department of Computer Science and Engineering at Yonsei University. Prior to joining Yonsei, he was a postdoctoral scholar at KAIST, working with Juho Kim. He received his MS and PhD in Computer Science from Stanford University, and his BS in Computer Science from the California Institute of Technology. His research focuses on developing natural language tools to support human-human and human-AI communication and collaboration.",
         },
         photo: PhotoDaeHyunKim,
         talk: {
-          zh: "报告题目待定",
-          en: "Talk title to be announced",
+          zh: "How to (Correctly) Use AI as a Facilitator of NL+VIS Communication",
+          en: "How to (Correctly) Use AI as a Facilitator of NL+VIS Communication",
+        },
+        abstract: {
+          zh: "Communication that combines natural language and data visualizations (NL+VIS) is increasingly common, appearing in news/research articles with charts, dashboards with annotations, and natural language interfaces for visual analytics. With the rapid improvements in the capabilities of AI in comprehending natural language and multimodal content, we have seen the growing adoption of AI in NL+VIS communication. In this talk. I will explore a specific role that AI can play in this space: a facilitator of NL+VIS communication between humans. Drawing on insights from a series of NL+VIS projects, I will outline guidelines for effectively incorporating AI into NL+VIS communication.",
+          en: "Communication that combines natural language and data visualizations (NL+VIS) is increasingly common, appearing in news/research articles with charts, dashboards with annotations, and natural language interfaces for visual analytics. With the rapid improvements in the capabilities of AI in comprehending natural language and multimodal content, we have seen the growing adoption of AI in NL+VIS communication. In this talk. I will explore a specific role that AI can play in this space: a facilitator of NL+VIS communication between humans. Drawing on insights from a series of NL+VIS projects, I will outline guidelines for effectively incorporating AI into NL+VIS communication.",
         },
       },
     ],
