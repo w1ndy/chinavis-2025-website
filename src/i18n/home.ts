@@ -12,7 +12,12 @@ export const zh = {
 
     ## 会议赞助
 
-    待公布
+    ### 钻石赞助
+
+    <div style="margin-top: 20px;">
+      <img style="height: 150px;" src="{{ AIHLogo }}" alt="杭州全息智能技术研究院"/>
+    </div>
+
     `.replace(/^    /gm, ""),
     { async: false }
   ),
@@ -26,11 +31,15 @@ export const en = {
 
     The China Visualization and Visual Analytics Conference (ChinaVis) is co-launched by scholars and researchers in the visualization field in China. ChinaVis aims to improve the communication of the Visualization and Visual Analytics communities in China and surrounding regions, discuss the direction and opportunity of Visualization and Visual Analytics in the era of big data, promote the development and progress of related research and applications, facilitate the talents training and communication, promote the development of disciplines, and deepen the integration of art and technology. ChinaVis builds a communication platform for famous experts, entrepreneurs, and application departments at home and abroad to satisfy the need of face to face and further discuss frontier technologies and applications of visualization, so that a new ecosystem including producing, learning, researching, and applying can be formed. ChinaVis has been held successfully in Beijing (2014), Tianjin (2015), Changsha (2016), Qingdao (2017), Shanghai (2018), Chengdu (2019), Xi'an (2020), Wuhan (2021), Xining (2022), Chongqing (2023) and Hong Kong (2024), with the presence of domestic and overseas researchers and experts.
 
-    **The 12th China Visualization and Visual Analytics Conference** (ChinaVis 2025) will be held in **Hangzhou, China**, **19 to 22 July 2025**, hosted by China Society of Image and Graphics, Technical Committee on Visualization and Visual Analysis, State Key Lab of CAD&CG of Zhejiang University, Hangzhou Institute for Advanced Study in Holographic Intelligence, Hangzhou Dianzi University, China Academy of Art, Zhejiang University of Technology, Communication University of Zhejiang and Hangzhou City University with multiple sponsorships. ChinaVis 2025 will consist of invited lectures, thesis reports, posters, exhibitions, symposiums, and art projects. Renowned experts will deliver reports about the latest progress of related research and applications and introduce the development trend to expand research ideas. Welcome all the research personnel in the relevant areas and industrial community to write articles and attend the conference.
+    **The 12th China Visualization and Visual Analytics Conference** (ChinaVis 2025) will be held in **Hangzhou, China**, **19 to 22 July 2025**, hosted by China Society of Image and Graphics, Technical Committee on Visualization and Visual Analysis, State Key Lab of CAD&CG of Zhejiang University, Hangzhou Research Institute of AI and Holographic Technology, Hangzhou Dianzi University, China Academy of Art, Zhejiang University of Technology, Communication University of Zhejiang and Hangzhou City University with multiple sponsorships. ChinaVis 2025 will consist of invited lectures, thesis reports, posters, exhibitions, symposiums, and art projects. Renowned experts will deliver reports about the latest progress of related research and applications and introduce the development trend to expand research ideas. Welcome all the research personnel in the relevant areas and industrial community to write articles and attend the conference.
 
     ## Sponsors
 
-    To be announced
+    ### Diamond
+
+    <div style="margin-top: 20px;">
+      <img style="height: 150px;" src="{{ AIHLogo }}" alt="Hangzhou Research Institute of AI and Holographic Technology"/>
+    </div>
     `.replace(/^    /gm, ""),
     { async: false }
   ),
