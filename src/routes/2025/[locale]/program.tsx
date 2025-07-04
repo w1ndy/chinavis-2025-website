@@ -67,7 +67,7 @@ function ProgramTableDay(props: { day: Dict.ProgramDay }) {
 export default function Program() {
   const t = useTranslator(Dict);
 
-  const [filter, setFilter] = createSignal<Dict.ProgramSessionType | "">("keynote");
+  const [filter, setFilter] = createSignal<Dict.ProgramSessionType | "">("");
   const filteredProgram = () => {
     return Dict.program.map(day => ({
       ...day,
