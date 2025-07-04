@@ -14,7 +14,7 @@ export default function CJKWorkshop() {
   return (
     <>
       <Title>{t("PageTitle")}</Title>
-      <Page title={<span innerHTML={t("Title")}></span>}>
+      <Page class="cjkworkshop" title={<span innerHTML={t("Title")}></span>}>
         <div innerHTML={t("Information")}></div>
         <div>
           <h2>{t("Organizers")}</h2>

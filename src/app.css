@@ -4,6 +4,7 @@
   --color-primary: rgb(240, 48, 255);
   --color-primary-lighter: rgb(255, 119, 255);
   --color-primary-darker: rgb(179, 0, 191);
+  --color-primary-darkest: rgb(121, 0, 137);
 }
 
 :root {

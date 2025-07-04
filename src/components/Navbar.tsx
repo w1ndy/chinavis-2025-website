@@ -74,6 +74,7 @@ export function Navbar() {
       <div class="absolute lg:relative lg:flex-1 left-0 top-full lg:top-0 w-full lg:w-auto min-h-[calc(100vh-80px)] lg:min-h-0 lg:h-auto z-50 bg-black" classList={{ "hidden": menuExpandable() && !menuExpanded() }} onClick={toggleMenu}>
         <NavLink href={`/2025/${locale()}/`} title={t("Home")!} />
         <NavLink href={`/2025/${locale()}/registration`} title={t("Registration")!} />
+        <NavLink href={`/2025/${locale()}/program`} title={t("Program")!} />
         <NavLink href={`/2025/${locale()}/callforpaper`} title={t("Paper")!} />
         <NavLink href={`/2025/${locale()}/poster`} title={t("Poster")!} />
         <NavLink href={`/2025/${locale()}/specialtopic`} title={t("SpecialTopic")!} />

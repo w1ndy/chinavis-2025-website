@@ -1,8 +1,10 @@
 import CJKWorkshop from "~/routes/2025/[locale]/cjkworkshop";
+import Program from "~/routes/2025/[locale]/program";
 
 export const zh = {
   Home: "首页",
   Registration: "注册",
+  Program: "会议议程",
   Paper: "论文",
   Poster: "海报",
   SpecialTopic: "专题",
@@ -22,6 +24,7 @@ export const zh = {
 export const en = {
   Home: "Home",
   Registration: "Registration",
+  Program: "Program",
   Paper: "Paper",
   Poster: "Poster",
   SpecialTopic: "Special Topic",

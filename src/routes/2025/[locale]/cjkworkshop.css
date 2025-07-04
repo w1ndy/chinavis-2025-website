@@ -1,17 +1,17 @@
 @reference "../../../app.css";
 
-table {
+.cjkworkshop table {
   @apply my-2 border-t border-primary-darker w-full;
 }
 
-thead {
+.cjkworkshop thead {
   @apply text-center font-bold border-b border-primary-darker;
 }
 
-td {
+.cjkworkshop td {
   @apply border-b border-primary-darker py-1 px-2;
 }
 
-td:first-child {
+.cjkworkshop td:first-child {
   @apply min-w-28 text-center;
 }

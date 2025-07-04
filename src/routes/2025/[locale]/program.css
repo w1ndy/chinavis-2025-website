@@ -1,0 +1,6 @@
+@reference "../../../app.css";
+
+.program th,
+.program td {
+  @apply border-b border-primary-darker px-2;
+}

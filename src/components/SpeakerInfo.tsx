@@ -3,6 +3,7 @@ import { useTranslation, useTranslator } from "~/locale";
 
 export interface Speaker {
   name: { zh: string; en: string };
+  suffix?: { zh: string; en: string };
   affiliation: { zh: string; en: string };
   photo: string;
 
@@ -26,6 +27,7 @@ export function SpeakerInfo(props: { speaker: Speaker }) {
   const t = useTranslator(Dict);
 
   const name = useTranslation(props.speaker.name);
+  const suffix = props.speaker.suffix ? useTranslation(props.speaker.suffix) : undefined;
   const affiliation = useTranslation(props.speaker.affiliation);
   const description = props.speaker.description ? useTranslation(props.speaker.description) : undefined;
   const talk = props.speaker.talk ? useTranslation(props.speaker.talk) : undefined;
@@ -39,7 +41,7 @@ export function SpeakerInfo(props: { speaker: Speaker }) {
       <div class="flex flex-row items-center my-2">
         <img class="w-13 h-13 object-cover border border-gray-300 rounded-full mr-3" src={props.speaker.photo} alt={name()} />
         <div class="flex flex-col justify-center">
-          <div class="font-semibold leading-6 text-left">{name()}</div>
+          <div class="font-semibold leading-6 text-left">{name()} <Show when={suffix}>{suffix!()}</Show></div>
           <div class="text-gray-600 dark:text-gray-400  leading-6 text-left">{affiliation()}</div>
         </div>
       </div>

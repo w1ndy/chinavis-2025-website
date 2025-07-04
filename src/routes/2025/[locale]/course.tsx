@@ -21,7 +21,7 @@ export default function Course() {
             const description = useTranslation(course.description);
             return (
               <div class="course">
-                <h2>{index() + 1}. {title()}</h2>
+                <h2><a id={course.id}></a>{index() + 1}. {title()}</h2>
 
                 <h3>{t("Schedule")}</h3>
                 <p class="!indent-0"><b>{t("Date")}</b>{date()}</p>

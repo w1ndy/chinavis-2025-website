@@ -49,7 +49,7 @@
 }
 
 .page a {
-  @apply text-primary no-underline hover:underline;
+  @apply text-primary-darker no-underline hover:underline;
 }
 
 .page .speaker-grid {
