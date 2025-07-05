@@ -29,6 +29,8 @@ export const zh = {
 
     **地理位置：** 杭州拱墅区莫干山路566号
 
+    **联系人：** 徐经理 18657181139
+
     **大床/双床房 协议价：** 450元/单早，500元/双早
 
     酒店位于杭州市拱墅区莫干山路，毗邻城北大悦城购物中心。距杭州东站12公里、杭州西站17公里、萧山国际机场39公里、杭州站12公里。
@@ -44,6 +46,8 @@ export const zh = {
     ### （二）杭州西溪紫金港希尔顿欢朋酒店（配套酒店）
 
     **地理位置：** 杭州拱墅区莫干山路987号壹方汇A座南8楼酒店大堂（距会议酒店1公里 步行约15分钟）
+
+    **酒店前台：** 0571-86098089
 
     **大床/双床房 协议价：** 430元/晚（含双早）
 
@@ -62,6 +66,8 @@ export const zh = {
     ### （三）杭州紫金港美居酒店（配套酒店）
 
     **地理位置：** 杭州拱墅区申花路99号（距会议酒店2公里，步行约30分钟）
+
+    **联系人：** 王经理 15757594555
 
     **大床/双床房 协议价：** 380元/晚（双早）
 
@@ -138,6 +144,8 @@ export const en = {
 
     **Location:** No. 566 Moganshan Road, Gongshu District, Hangzhou
 
+    **Contact Person:** Manager Xu 18657181139
+
     **King/Twin Room Conference Rate:** 450 RMB/night (with single breakfast), 500 RMB/night (with double breakfast)
 
     The hotel is located on Moganshan Road in Gongshu District, Hangzhou, adjacent to the Joy City shopping center. It is 12 km from Hangzhou East Railway Station, 17 km from Hangzhou West Railway Station, 39 km from Xiaoshan International Airport, and 12 km from Hangzhou Railway Station.
@@ -153,6 +161,8 @@ export const en = {
     ### (2) Hampton by Hilton Hangzhou Xixi Zijingang (Partner Hotel)
 
     **Location:** Hotel Lobby, 8th Floor South, Block A, Yifanghui, No. 987 Moganshan Road, Gongshu District, Hangzhou (1 km from the conference hotel, about a 15-minute walk)
+
+    **Hotel Front Desk:** 0571-86098089
 
     **King/Twin Room Conference Rate:** 430 RMB/night (including double breakfast)
 
@@ -171,6 +181,8 @@ export const en = {
     ### (3) Mercure Hangzhou Zijingang Hotel (Partner Hotel)
 
     **Location:** No. 99 Shenhua Road, Gongshu District, Hangzhou (2 km from the conference hotel, about a 30-minute walk)
+
+    **Contact Person:** Manager Wang 15757594555
 
     **King/Twin Room Conference Rate:** 380 RMB/night (with double breakfast)
 

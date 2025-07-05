@@ -877,7 +877,7 @@ export const program: ProgramDay[] = [
           {
             type: "activity",
             title: {
-              zh: "集体文化学习活动",
+              zh: "家国情怀文化学习活动",
               en: "Cultural Learning",
             },
             location: {
