@@ -23,7 +23,7 @@ const Dict = {
   },
 }
 
-export function SpeakerInfo(props: { speaker: Speaker }) {
+export function SpeakerInfo(props: { center?: boolean; speaker: Speaker }) {
   const t = useTranslator(Dict);
 
   const name = useTranslation(props.speaker.name);
@@ -38,7 +38,7 @@ export function SpeakerInfo(props: { speaker: Speaker }) {
       <Show when={talk}>
         <h3>{talk!()}</h3>
       </Show>
-      <div class="flex flex-row items-center my-2">
+      <div class="flex flex-row items-center my-2" classList={{ "justify-center": props.center }}>
         <img class="w-13 h-13 object-cover border border-gray-300 rounded-full mr-3" src={props.speaker.photo} alt={name()} />
         <div class="flex flex-col justify-center">
           <div class="font-semibold leading-6 text-left">{name()} <Show when={suffix}>{suffix!()}</Show></div>

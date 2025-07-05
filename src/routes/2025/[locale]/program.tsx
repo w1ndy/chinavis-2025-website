@@ -18,24 +18,24 @@ function ProgramTableTimeSlot(props: { timeslot: Dict.ProgramTimeSlot }) {
         return (
           <tr>
             <Show when={index() == 0}>
-              <td rowSpan={props.timeslot.sessions.length} class="text-center">
+              <td rowSpan={props.timeslot.sessions.length} class="text-center py-2">
                 {props.timeslot.time}
               </td>
             </Show>
             <td>
-              <div class="flex flex-row justify-between items-center">
+              <div class="flex flex-col md:flex-row justify-between items-center py-2">
                 <div class="flex-1">
-                  <div class="font-bold my-2">
+                  <div class="font-bold text-center md:text-left">
                     <Show when={href} fallback={<span>{title()}</span>}>
                       <a href={href!()}>{title()}</a>
                     </Show>
                   </div>
                   <Show when={session.speaker}>
-                    <SpeakerInfo speaker={session.speaker!} />
+                    <SpeakerInfo center speaker={session.speaker!} />
                   </Show>
                 </div>
                 <Show when={session.location}>
-                  <span class="ml-2 flex-none text-gray-500">{location!()} 📍</span>
+                  <span class="md:ml-2 flex-none text-gray-500">{location!()} 📍</span>
                 </Show>
               </div>
             </td>
@@ -96,7 +96,7 @@ export default function Program() {
         <table class="my-2 border-t border-primary-darker w-full text-left">
           <thead class="text-center font-bold border-b bg-primary-darkest text-white">
             <tr>
-              <th class="w-14 sm:w-28 md:w-36 lg:w-48 py-1">{t("Time")}</th>
+              <th class="w-20 sm:w-28 md:w-36 lg:w-48 py-1">{t("Time")}</th>
               <th>{t("Session")}</th>
             </tr>
           </thead>
