@@ -469,7 +469,7 @@ export const program: ProgramDay[] = [
         ],
       },
       {
-        time: "15:55 - 18:25",
+        time: "16:55 - 18:25",
         sessions: [
           {
             type: "topic",
