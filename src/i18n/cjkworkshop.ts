@@ -21,7 +21,7 @@ export const zh = {
     ## 论坛信息
 
     - **时间：** 2025 年 7 月 19 日上午 9-12 点
-    - **地点：** 浙江大学紫金港校区（浙江省杭州市西湖区余杭塘路 866 号）
+    - **地点：** 杭州城北文澜大酒店 青芝坞厅
     `.replace(/^    /gm, ""),
     { async: false }
   ),
@@ -54,7 +54,7 @@ export const en = {
     ## Information
 
     - **Date:** July 19, 2025, 9:00 AM - 12:00 PM
-    - **Location:** Zijingang Campus, Zhejiang University (866 Yuhangtang Road, Xihu District, Hangzhou, Zhejiang Province)
+    - **Location:** Wenlan Hotel Northern Hangzhou, Qingzhuwu Hall
     `.replace(/^    /gm, ""),
     { async: false }
   ),

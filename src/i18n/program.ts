@@ -90,6 +90,11 @@ export const program: ProgramDay[] = [
               en: "Hotel Lobby",
             },
           },
+        ],
+      },
+      {
+        time: "9:00 - 12:00",
+        sessions: [
           {
             type: "course",
             title: {
@@ -112,8 +117,8 @@ export const program: ProgramDay[] = [
               en: "Course 2: Our Forest Growth Tree",
             },
             location: {
-              zh: "澜语厅",
-              en: "Lanyu Hall",
+              zh: "清河坊厅",
+              en: "Qinghefang Hall",
             },
             href: {
               zh: "/2025/zh/course#growing-trees-with-our-forest",
@@ -127,8 +132,8 @@ export const program: ProgramDay[] = [
               en: "Doctoral Colloquium",
             },
             location: {
-              zh: "清河坊",
-              en: "Qinghefang",
+              zh: "兰桥厅",
+              en: "Lanqiao Hall",
             },
             href: {
               zh: "/2025/zh/doctoralcolloquium",
@@ -142,8 +147,8 @@ export const program: ProgramDay[] = [
               en: "China-Japan-Korea Joint Visualization Workshop",
             },
             location: {
-              zh: "文悦厅",
-              en: "Wenyue Hall",
+              zh: "青芝坞厅",
+              en: "Qingzhuwu Hall",
             },
             href: {
               zh: "/2025/zh/cjkworkshop",
@@ -346,23 +351,23 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展",
-              en: "Industry Exhibition",
+              zh: "企业与竞赛展",
+              en: "Industry and Challenge Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文澜厅门口",
+              en: "Wenlan Hall Entrance",
             },
           },
           {
             type: "exhibition",
             title: {
-              zh: "论文海报展",
+              zh: "海报展",
               en: "Poster Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文锦厅门口",
+              en: "Wenjing Hall Entrance",
             },
           },
           {
@@ -512,23 +517,23 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展",
-              en: "Industry Exhibition",
+              zh: "企业与竞赛展",
+              en: "Industry and Challenge Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文澜厅门口",
+              en: "Wenlan Hall Entrance",
             },
           },
           {
             type: "exhibition",
             title: {
-              zh: "论文海报展",
+              zh: "海报展",
               en: "Poster Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文锦厅门口",
+              en: "Wenjing Hall Entrance",
             },
           },
           {
@@ -684,23 +689,23 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展",
-              en: "Industry Exhibition",
+              zh: "企业与竞赛展",
+              en: "Industry and Challenge Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文澜厅门口",
+              en: "Wenlan Hall Entrance",
             },
           },
           {
             type: "exhibition",
             title: {
-              zh: "论文海报展",
+              zh: "海报展",
               en: "Poster Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文锦厅门口",
+              en: "Wenjing Hall Entrance",
             },
           },
           {
@@ -834,23 +839,23 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展",
-              en: "Industry Exhibition",
+              zh: "企业与竞赛展",
+              en: "Industry and Challenge Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文澜厅门口",
+              en: "Wenlan Hall Entrance",
             },
           },
           {
             type: "exhibition",
             title: {
-              zh: "论文海报展",
+              zh: "海报展",
               en: "Poster Exhibition",
             },
             location: {
-              zh: "待定",
-              en: "TBD",
+              zh: "文锦厅门口",
+              en: "Wenjing Hall Entrance",
             },
           },
           {
@@ -872,8 +877,8 @@ export const program: ProgramDay[] = [
           {
             type: "activity",
             title: {
-              zh: "杭州特色演出",
-              en: "Hangzhou Cultural Performance",
+              zh: "集体文化学习活动",
+              en: "Cultural Learning",
             },
             location: {
               zh: "待定",
