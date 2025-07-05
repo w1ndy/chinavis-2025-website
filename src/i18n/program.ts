@@ -93,7 +93,7 @@ export const program: ProgramDay[] = [
           {
             type: "course",
             title: {
-              zh: "课程1：数据可视化中的视觉编码与交互分析",
+              zh: "课程 1：数据可视化中的视觉编码与交互分析",
               en: "Course 1: Visual Encoding and Interactive Analysis in Data Visualization",
             },
             location: {
@@ -108,7 +108,7 @@ export const program: ProgramDay[] = [
           {
             type: "course",
             title: {
-              zh: "课程2：《我们的森林》成长树",
+              zh: "课程 2：《我们的森林》成长树",
               en: "Course 2: Our Forest Growth Tree",
             },
             location: {
@@ -231,7 +231,7 @@ export const program: ProgramDay[] = [
             id: "keynote-1",
             type: "keynote",
             title: {
-              zh: "大会特邀报告1：拥抱人工智能，实现数字孪生：关键技术与发展趋势",
+              zh: "大会特邀报告 1：拥抱人工智能，实现数字孪生：关键技术与发展趋势",
               en: "Keynote 1: Embracing AI for Digital Twins: Key Technologies and Trends",
             },
             location: {
@@ -279,7 +279,7 @@ export const program: ProgramDay[] = [
             id: "keynote-2",
             type: "keynote",
             title: {
-              zh: "大会特邀报告2：我们是否正站在可视化领域变革的前夜？",
+              zh: "大会特邀报告 2：我们是否正站在可视化领域变革的前夜？",
               en: "Keynote 2: Are We on the Verge of a Revolution in Visualization?",
             },
             location: {
@@ -314,7 +314,7 @@ export const program: ProgramDay[] = [
           {
             type: "panel",
             title: {
-              zh: "圆桌论坛1：可视化学科发展战略论坛",
+              zh: "圆桌论坛 1：可视化学科发展战略论坛",
               en: "Panel 1: Development Strategy of Visualization Discipline",
             },
             location: {
@@ -392,7 +392,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题1：大模型与可视分析",
+              zh: "专题 1：大模型与可视分析",
               en: "Topic 1: Large Models and Visual Analytics",
             },
             location: {
@@ -442,7 +442,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题2：面向工业制造的高性能科学可视化",
+              zh: "专题 2：面向工业制造的高性能科学可视化",
               en: "Topic 2: High-Performance Scientific Visualization for Industrial Manufacturing",
             },
             location: {
@@ -453,7 +453,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题3: 文化遗产可视化",
+              zh: "专题 3: 文化遗产可视化",
               en: "Topic 3: Cultural Heritage Visualization",
             },
             location: {
@@ -469,7 +469,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题4：可视化叙事",
+              zh: "专题 4：可视化叙事",
               en: "Topic 4: Visual Storytelling",
             },
             location: {
@@ -574,7 +574,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题5：沉浸式可视化与交互",
+              zh: "专题 5：沉浸式可视化与交互",
               en: "Topic 5: Immersive Visualization and Interaction",
             },
             location: {
@@ -585,7 +585,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题6：青年学者经验分享",
+              zh: "专题 6：青年学者经验分享",
               en: "Topic 6: Experience Sharing by Young Scholars",
             },
             location: {
@@ -607,7 +607,7 @@ export const program: ProgramDay[] = [
           {
             type: "panel",
             title: {
-              zh: "圆桌论坛2：青年可视化学者的机遇与挑战",
+              zh: "圆桌论坛 2：青年可视化学者的机遇与挑战",
               en: "Panel 2: Opportunities and Challenges for Young Visualization Scholars",
             },
             location: {
@@ -635,7 +635,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题7：可视化“她”视角",
+              zh: "专题 7：可视化“她”视角",
               en: "Topic 7: Visualization from a Female Perspective",
             },
             location: {
@@ -646,7 +646,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题8：数据驱动艺术可视化",
+              zh: "专题 8：数据驱动艺术可视化",
               en: "Topic 8: Data-Driven Art Visualization",
             },
             location: {
@@ -668,7 +668,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题9：工业界可视化应用",
+              zh: "专题 9：工业界可视化应用",
               en: "Topic 9: Industrial Visualization Applications",
             },
             location: {
@@ -730,7 +730,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题10：可视化历史溯源",
+              zh: "专题 10：可视化历史溯源",
               en: "Topic 10: Historical Origins of Visualization",
             },
             location: {
@@ -741,7 +741,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题11：前沿论文专题1",
+              zh: "专题 11：前沿论文专题 1",
               en: "Topic 11: Frontier Papers Session 1",
             },
             location: {
@@ -780,7 +780,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题12：可视化与文化记忆的艺术转化",
+              zh: "专题 12：可视化与文化记忆的艺术转化",
               en: "Topic 12: Artistic Transformation of Visualization and Cultural Memory",
             },
             location: {
@@ -791,7 +791,7 @@ export const program: ProgramDay[] = [
           {
             type: "topic",
             title: {
-              zh: "专题13：前沿论文专题2",
+              zh: "专题 13：前沿论文专题 2",
               en: "Topic 13: Frontier Papers Session 2",
             },
             location: {
@@ -897,7 +897,7 @@ export const program: ProgramDay[] = [
             id: "keynote-3",
             type: "keynote",
             title: {
-              zh: "大会特邀报告3：全局全频光照的实时神经绘制技术与流水线",
+              zh: "大会特邀报告 3：全局全频光照的实时神经绘制技术与流水线",
               en: "Keynote 3: Real-time Neural Rendering Technology and Pipeline for Global Full-spectrum Illumination",
             },
             location: {
@@ -944,7 +944,7 @@ export const program: ProgramDay[] = [
           {
             type: "panel",
             title: {
-              zh: "圆桌论坛3：可视化研究的时代浪潮：坚守与传承",
+              zh: "圆桌论坛 3：可视化研究的时代浪潮：坚守与传承",
               en: "Panel 3: The Tide of the Times in Visualization Research: Adherence and Inheritance",
             },
             location: {

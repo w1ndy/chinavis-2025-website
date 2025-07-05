@@ -31,7 +31,7 @@ function ProgramTableTimeSlot(props: { timeslot: Dict.ProgramTimeSlot }) {
                     </Show>
                   </div>
                   <Show when={session.speaker}>
-                    <SpeakerInfo center speaker={session.speaker!} />
+                    <SpeakerInfo class="justify-center md:justify-start" speaker={session.speaker!} />
                   </Show>
                 </div>
                 <Show when={session.location}>
