@@ -2,178 +2,280 @@ import { marked } from "marked";
 
 export const zh = {
   PageTitle: "可视化竞赛 - ChinaVis 2025",
-  Title: "数据可视化竞赛征稿通知",
+  Title: "数据可视化竞赛",
   Content: marked.parse(
     `
     ## 数据可视化竞赛简介
 
     数据可视化竞赛是中国可视化与可视分析大会的一个重要环节。竞赛邀请研究人员、开发人员、学生和爱好者使用他们最有效的可视化与可视分析技术和工具来完成数据分析以及可视化任务。竞赛旨在帮助研究人员、开发人员、学生和爱好者评估他们的技术和工具在解决复杂问题中的有效性、新颖性和艺术性，并促进我国可视化与可视分析相关研究与应用的发展与进步。
 
-    ## 数据可视化竞赛内容
+    [征稿通知](/2025/zh/challenge_call_for_participation)
 
-    本次数据可视化竞赛提供两个赛道，参赛选手可以选择其中的对应赛题进行比赛。每个赛道单独设定评委成员。
+    ## 竞赛获奖名单
 
     ### 赛道1：人文数据可视分析与可视化创意挑战赛
 
     #### 赛道1-I：「析城观史」可视分析挑战赛
 
-    北京，这座拥有三千多年建城史、八百多年建都史的东方古都，自古以来便是中国政治、文化与交通的核心枢纽。其城市演化不仅仅是朝代更替、建制更迭的宏观展演，更深刻地体现在水脉走向的变迁、气候环境的波动、人口与产业的集聚流动，以及自然灾害与战争冲突带来的剧烈冲击中。这些多元且交织的时空因素，共同塑造了北京的空间格局与城市功能，也见证了中华文明在北方平原上绵延不绝的历史厚度与动态变迁。伴随着历史地理信息系统（HGIS）、文献数字化整理、语义标注与知识图谱构建等新一代技术的发展，学者与公众得以跨越时间限制，系统性地重构北京在不同时空尺度下的演化轨迹。这一技术进步为我们多维度理解北京“如何成为今天的北京”提供了前所未有的可能。本次可视分析挑战赛聚焦于北京历史时空演变过程，涵盖了包括水系、气候、植被、灾害、人口、物产、交通、战争、建制沿革、商业手工业与重大历史事件等在内的多源异构时空数据。我们鼓励参赛者突破传统线性历史叙述的限制，充分利用数据分析与可视表达的手段，多维度还原北京城市发展的复杂时空演化模式等，为理解历史演变提供新视角，并为当代城市治理与未来发展带来一些启示。请参赛者设计并实现一套可视分析解决方案，具体完成以下内容：
+    ChinaVis 2025 数据可视化竞赛赛道 1-I 共收到 22 个作品，经评审，15 个作品入选，其中一、二、三等作品为 9 个，比例为 40.9%，提名作品 6 个，总入选比例 68.2%，入选名单如下：
 
-    - 请结合水系、气候等自然地理数据，从时空维度刻画北京生态环境的长期演化轨迹。通过图表展示如河流改道、气候波动、植被覆盖变化等重要趋势，揭示其对城市格局演化、人类活动聚落及生计方式的影响。（建议参赛者回答此题文字不多于800字，图片不多于5张）
-    - 灾害、战争、大事件等常是城市变迁的重要触发因素，在完成生态环境基础描绘的前提下，请基于自然灾害记录、战争、以及大事件等数据，构建重大事件的时空分布图，识别其与城市建成区扩展、人口迁移、政权更替等关键变量的关联性等，以揭示冲击事件如何塑造城市演变轨迹。（建议参赛者回答此题文字不多于800字，图片不多于5张）
-    - 在理解环境与外部冲击的基础上，聚焦城市系统内部的持续演进机制，请整合历史人口数据、交通与代表性物产分布记录，分析人口增长与流动、交通通达性变化、区域资源禀赋等因素如何协同驱动北京功能核心与城市空间结构的形成与演化。（建议参赛者回答此题文字不多于800字，图片不多于5张）
-    - 为进一步探讨城市治理结构和经济组织对城市形态的深层影响。请依据建制沿革记录与商业手工业活动分布数据等，梳理北京各历史时期的行政区划变迁、城市职能转变与经济活动中心的空间重构过程，分析制度逻辑如何嵌入城市空间与生产网络之中。（建议参赛者回答此题文字不多于800字，图片不多于5张）
-    - 在上述多维因素分析基础上，请围绕如制度改革、灾变等关键历史节点，构建具有时空双重线索的事件叙事图谱，并将其与前四项任务中提取的因素进行联动展示。总结北京城市演化中的共性机制、关键转折点与制度经验，探索其对当代城市可持续发展与空间治理的启示。（建议参赛者回答此题文字不多于800字，图片不多于5张）
+   <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">一等作品</span></div>
 
-    **提供数据：详细信息请见赛道1数据。**
+    1. **参赛单位：** 重庆大学    <a href="/2025/challenge/1-cqu-yyq.zip" target="_blank">作品下载</a>
 
-    **<span style="color: #de0000; font-weight: 700">注：本赛道赛题I数据集为指定数据集，请勿使用自选数据集。</span>**
+      **提名人员：** 姚颖茜 唐葆程 黄茜 梁兴竞 曾余茹 王昕月 胡海波（指导老师）
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">二等作品</span></div>
+
+    1. **参赛单位：** 信息工程大学    <a href="/2025/challenge/2-ieu-tzw.zip" target="_blank">作品下载</a>
+
+      **提名人员：** 涂泽文 邱阳 冯智博 张炜 蒋禹 李硕 陈晓慧（指导老师） 李静（指导老师）
+
+    2. **参赛单位：** 西安电子科技大学    <a href="/2025/challenge/2-xdu-ywc.zip" target="_blank">作品下载</a>
+
+      **提名人员：** 杨文川 张庆 李瑞雨 李杨 职芮铭 董画心 权义宁（指导老师） 韩晓阳（指导老师）
+
+    3. **参赛单位：** 东北师范大学   <a href="/2025/challenge/2-nenu-lx.zip" target="_blank">作品下载</a>
+
+      **提名人员：** 刘欣 于芷川 鹿雅秋 李佳欣 国馨元 周楠 张慧杰（指导老师） 封子军（指导老师）
+
+    4. **参赛单位：** 重庆大学    <a href="/2025/challenge/2-cqu-dyj.zip" target="_blank">作品下载</a>
+
+      **提名人员：** 邓怡杰 曹陆铖 付婉婷 朱清杨 陈研 胡海波（指导老师）
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">三等作品</span></div>
+
+    1. **参赛单位：** 四川大学
+
+      **提名人员：** 徐骏驰 周寅杰 邓子祎 王艺蒙 杨鑫月 王启鹏 朱敏（指导老师）
+
+    2. **参赛单位：** 信息工程大学
+
+      **提名人员：** 周家轩 韩子堯 贾忠宝 张继轩 侯佳奇 张紫煊 陈晓慧（指导老师） 李静（指导老师）
+
+    3. **参赛单位：** 重庆大学
+
+      **提名人员：** 俞珂柔 吴安婷 董小菲 花蕊 李思齐 胡海波（指导老师）
+
+    4. **参赛单位：** 中山大学
+
+      **提名人员：** 唐逸豪 李峻峰 曾彦潮 莫皓迪 曾海鹏（指导老师）
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">提名作品</span></div>
+
+    1. **参赛单位：** 重庆大学
+
+      **提名人员：** 虞快 刘宇铖 林诗颖 陈子洋 胡海波（指导老师）
+
+    2. **参赛单位：** 深圳技术大学
+
+      **提名人员：** 姬辛格 张宝幸 陈雨欢 潘远浩 严亮 李文 施明鸿（指导老师）
+
+    3. **参赛单位：** 浙江工业大学
+
+      **提名人员：** 王明聪 吴均宇（指导老师）
+
+    4. **参赛单位：** 复旦大学
+
+      **提名人员：** 郑廷涛 符航 陈静静 陈思明（指导老师）
+
+    5. **参赛单位：** 洛阳理工学院
+
+      **提名人员：** 蒋宏图 夏文凯 张乐 李天琦 李志先（指导老师）
+
+    6. **参赛单位：** 天津大学
+
+      **提名人员：** 章艺卓 杨炼鹏 刘晟钰 计俊杰 吴华明（指导老师）
 
     #### 赛道1-II：「怀古论今」人文可视化创意赛
 
-    北京作为具有“三千年建城史，八百年建都史”的历史文化名城，其城市空间在历史变迁之中积淀了深厚且丰富的“文化地层”。城市演变不仅带来了城市形态、空间布局、区位功能等城市物质结构方面的变化，也带来了空间认知、市文学、城市图像等文化层面的演变与充盈，更促生了独具特色的风土人情、生活方式、民俗信仰……在这多重演变过程中，“地标”成为城市政治、经济、文化、宗教、艺术等各类事件发生的“场所”，同时也成为时人谈论的“话题”以及承载地方“文化记忆”的载体与符号。
+    ChinaVis 2025 数据可视化竞赛赛道 1-II 共收到 45 个作品，经评审，15 个作品入选，其中一、二、三等作品为 10 个，比例为 22.2%，提名作品 5 个，总入选比例 33.3%，入选名单如下：
 
-    在人文学科“空间转向”的理论背景，以及以文献和图像数字化、3D建模、历史地理信息系统（HGIS）、知识图谱、人工智能等技术背景下，研究者、图博档从业者能够从数字人文的角度，对城市历史信息进行深度挖掘、知识重构、叙事建构、历史重现，从多个维度构建城市的多重空间网络。本赛道聚焦于北京城市空间中的“文化地标”，并提供了历史事件、水系、气候、植被、灾害、人口、物产、交通、战争、建制沿革、商业手工业、人物、建筑等多种文本数据。我们鼓励参赛者从数字人文视角出发，应用本赛题提供的数据或自行整理的新数据，充分发挥数据可视化的优势，为城市地标文化信息的深度挖掘、阐释与呈现提供新的视角与创意，以人文视角和数字方法挖掘城市地标文化信息，进行历史重建。具体完成以下内容：
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">一等作品</span></div>
 
-    - 文化地标生命历程及其历史重建：文化地标往往以“不可移动文物”的面貌呈现在我们面前，但它实际上是一系列历史进程的最终结果——历经营造、改建、毁坏、重修乃至搬迁，其生命历程又往往与时代思潮、政治环境、文化氛围、历史人物等紧密相关。请结合具体的北京文化地标，以数据挖掘、视觉呈现等方式，展现北京文化地标的“生命历程”。
-    - 文化地标影响力及重要性评估：什么因素使得一个文化地标变得重要？文化地标因何获得广泛得影响力和认知度？众多官方评级、大众讨论、文本书写都试图回答这些问题。请从多个角度构建文化地标评价体系，对北京文化地标的重要性、影响力、认知度（包括但不限于）等进行评价。我们鼓励参赛者不仅关注历史文化因素，更要关注文化地标的日常性、当代性特征，不仅回答“文化地标在历史进程中获得怎样的文化价值”，更要回答“我们今天在塑造怎样的未来遗产，为文化地标附益怎样的当代价值
-    - 作为叙事场所的文化地标：一个文化地标往往与某些事件、人物、活动等联系在一起形成种种记载、传闻、轶事、风俗……它们构成了文化地标最鲜活的一部分。请基于文化地标与多种文化因素（包括但不限于人物、事件）的联系，以数据驱动+创意叙事的方式，讲述北京文化地标的传奇故事。
+    1. **参赛单位：** 浙江工业大学
 
-    **提供数据：详细信息请见赛道1数据。**
+      **提名人员：** 陈嘉逸 李雯雯 杨颖萍 雷雨昕 冯祉祎 孙国道（指导老师）陈佳舟（指导老师）
 
-    **<span style="color: #de0000">注：本赛道赛题II可选用指定数据集或自选数据集。</span>**
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">二等作品</span></div>
+
+    1. **参赛单位：** 浙江大学
+
+      **提名人员：** 尤骥瑜 翟裕如 吴宛格 戴俊明 唐谈 陈晓皎（指导老师）
+
+    2. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 朱斯琪 黄迪 刘梓盈 杨壹琳 陈奕林（指导老师）
+
+    3. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 张育梦 涂琴 丹莉 刘畅 陈奕林（指导老师）
+
+    4. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 王艺彤 陆思语 陈奕林（指导老师）
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">三等作品</span></div>
+
+    1. **参赛单位：** 云南艺术学院
+
+      **提名人员：** 张一琳 王志平 梁芳（指导老师）
+
+    2. **参赛单位：** 香港科技大学（广州）
+
+      **提名人员：** 王圳洋 骆一乐 杨维铠（指导老师）骆昱宇（指导老师）
+
+    3. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 王瑀涵 裴凌浩 高熙 陈奕林（指导老师）
+
+    4. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 邢秉淑 薛雨桐 郭涛涛 杨茜 贾涵斐 李宛霖 陈奕林（指导老师）
+
+    5. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 毕天硕 孙秀颖 马睿点 田立群 陈奕林（指导老师）
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">提名作品</span></div>
+
+    1. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 王悦 由汶苑 赵洋 李文坷 陈奕林（指导老师）田立群（指导老师）
+
+    2. **参赛单位：** 湖北美术学院
+
+      **提名人员：** 吴瑞
+
+    3. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 贾涵斐 李宛霖 杨茜 邢秉淑 薛雨桐 郭涛涛 陈奕林（指导老师）
+
+    4. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 周嘉欣 袭慧鑫 孙靓 陈奕林（指导老师）
+
+    5. **参赛单位：** 吉林动画学院
+
+      **提名人员：** 袁莹莹 陈婉秋 李嘉俊 杨成烨 陈奕林（指导老师）
 
     ### 赛道2：艺术可视化竞赛
 
-    #### 主题：“杭州 · 潮生万象”
+    ChinaVis 2025 数据可视化竞赛赛道 2 共收到 86 个作品，经评审，26 个作品入选，其中获金、银、铜牌作品为 9 个，比例为 10%，优秀作品 8 个，入围作品 9 个，总入选比例 30%，入选名单如下：
 
-    2025年第十二届中国可视化与可视分析大会艺术项目（China VISAP'25）将在杭州举行，与第十二届中国可视化与可视分析大会（China Vis) 会议同步进行。本届艺术项目包含：艺术展览、学生竞赛、创作工作坊、专题讲座以及一系列由艺术家、设计师与可视化科学家发起的精彩分享，旨在探索可视化艺术的未来方形和全新视野。
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">金牌作品</span></div>
 
-    本届主题“潮生万象”，旨在以“潮”为时代精神，“万象”迭涌，玄览古今。杭州以“潮”闻名，更以其独特的三重世界遗产格局（西湖、大运河、良渚古城）奠定其在人类文明史上的坐标。从新石器时代良渚玉琮的信仰图腾，到南宋临安的《西湖清趣图》笔意，再到明代丝绸之府的织机声，这座城市始终是中国古典美学的最高表达。而今，杭州更以数字文明实验室的姿态重塑未来：阿里巴巴的电商生态与蚂蚁链技术辐射全球，西湖大学引领合成生物与AI制药前沿，云栖小镇聚集了中国1/3的云计算算力。这里既有国家级工业设计中心数量之冠（占全国12%），也孕育了吉利极氪、零跑汽车的智能电动化浪潮；既诞生了挑战3A游戏边界的《黑神话：悟空》，也孵化了全球AI开源平台DeepSeek（深度求索）。当MCN机构在运河畔直播带货时，数字游民正用区块链技术激活乡村遗产——传统与未来在此缝合，正如西湖山水与钱江新城的天际线，构成一部“潮生万象”风云叱诧的文明史诗。
+    1. **参赛单位：** 湖北美术学院
 
-    China VISAP'25 愿与你一起在杭州发起一场以社会为现场，以数据为媒材，以视觉为语言的行动，期待我们可视、可感的珍贵相遇，能凝结出一种独特的知识生产范式，来共同面对这个潮生潮涌、万象奥妙的可能世界。"
+      **提名人员：** 陈海金 张俊杰 吴萍（指导老师）陈辉（指导老师）
 
-    #### 艺术可视化竞赛
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">银牌作品</span></div>
 
-    艺术可视化竞赛是中国可视化与可视分析大会的一个重要环节，与可视分析挑战赛共同构成大会的数据可视化竞赛，旨在促进中国艺术可视化创作与研究的交流合作，推进人才培养。艺术可视化竞赛指定主题范围，邀请国内外学习艺术、设计及可视化的高校学生，运用自己最擅长的表现手法，在规定期限内完成艺术可视化创作。竞赛设置一系列的奖项，颁发给优秀、新颖的创作作品。
+    1. **参赛单位：** 湖北美术学院
 
-    竞赛对于表现手法不做限定，旨在鼓励学生最大程度的发挥想象和自由创意。艺术可视化作品要求基于真实数据，并提供原始数据片段作为评价参考。作品评估的标准在于参赛队是否能够通过视觉或听觉形式有效表现一个以数据为依据的艺术思想、观点或者概念。
+      **提名人员：** 吴虹烨 魏骊谘
 
-    提交的可视化作品中允许包含由人工智能生成的内容，鼓励利用新的智能化、数字化技术探索和推动可视化创作流程与呈现形式的新方法。但请注意，作者需对人工智能生成的内容进行明确标记说明。评审委员会将会对生成内容与主题的相关性及是否违反法律，道德和公共秩序进行评估。
+    2. **参赛单位：** 哈尔滨工业大学
 
-    2025年中国可视化与可视分析大会艺术项目委员会向艺术家、设计师、研究人员、高校师生等各界专业人士发起号召，鼓励创作和提交有关“潮生万象”的艺术设计作品，展现可视化领域多维度的探索和精彩。该赛道要求作者在“潮生万象”的年度主题范围内，自行选择相关数据集进行艺术可视化的创作。对表现手法不做限定，旨在鼓励学生最大程度的发挥想象和自由创意，鼓励创作和提交有关“潮生万象”的艺术设计作品，展现可视化领域多维度的探索和精彩。
+      **提名人员：** 彭凌钰 葛畅 龙丽颖 胡骁 吴江月（指导老师）
 
-    该赛道作品将由国内艺术可视化专家团进行评审，评价原则是，参赛队是否能够通过视觉、听觉等艺术形式，有效表现以自选数据为依据的艺术思想、观点或者概念。
+    3. **参赛单位：** 清华大学
 
-    ## 参赛须知
+      **提名人员：** 李一凡 向帆（指导老师）
 
-    ### 报名须知
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">铜牌作品</span></div>
 
-    欢迎全国普通高等学校（含高职）和科研院所的师生和研究人员、企事业单位的开发人员和设计师、以及可视化与可视分析的爱好者、艺术家等参与竞赛。参赛者以组队的方式报名参赛：
+    1. **参赛单位：** 云南经济管理学院
 
-    - **赛道1：** 每队参赛者不能超过6人，外加1-2名指导老师；
-    - **赛道2：** 每队参赛者不能超过4人，外加1-2名指导老师。
+      **提名人员：** 黄正月 陈春梅 王瑾 范馨元 朵雯娟（指导老师）
 
-    队名规则：“单位-队长姓名”或“爱好者队-队长姓名”。例如：“天津大学-张三”、“爱好者队-李四”。每个参赛队排名第一的参赛者为队长，负责沟通事宜。非科研院所、企事业单位等单位名称请填写“爱好者队”（爱好者队表示参赛者是以个人身份组建的参赛队伍）。
+    2. **参赛单位：** 湖北美术学院
 
-    ### 报名方式
+      **提名人员：** 瞿嘉锋 宋丽君 刘佳艺 阳芷倩（指导老师）陈辉（指导老师）
 
-    - 竞赛采取线上报名方式，报名入口：[https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc75](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc75)
-    - 报名信息包括：通讯Email，队名，参赛人员（队长、队员、指导老师）、手机号、Email、单位（学校学院等）、职称（学历年级等）。
-    - 获奖证书署名按报名顺序印刷，学生在前，指导老师在后。
-    - 一个Email只能注册一个参赛队伍，参赛队伍编号唯一，并与通讯Email绑定。
-    - 忘记编号可在提交页面根据所填Email查询，请务必记住参赛的通讯Email。
+    3. **参赛单位：** 四川美术学院
 
-    ### 投稿须知
+      **提名人员：** 刘小涵
 
-    竞赛作品提交采取线上提交方式，请点击提交入口链接进行作品提交，尽量避免在截止日期高峰期提交作品。
+    4. **参赛单位：** 内蒙古师范大学
 
-    **提交入口：**
+      **提名人员：** 陈乃正 李雨瞳 柏林夫（指导老师）
 
-    **赛道1-I 作品提交链接（可视分析）：**[https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc76](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc76)
+    5. **参赛单位：** 内蒙古师范大学
 
-    **赛道1-II 作品提交链接（人文创意）：**[https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a)
+      **提名人员：** 张萌 郭晶晶 吴宏磊 朱家兴（指导老师）李晨璐（指导老师）
 
-    **赛道2 作品提交链接（艺术可视化）：**[https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a)
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">优秀作品</span></div>
 
-    - 提交信息包括：参赛队伍编号、作品赛道及主题、作品名称、作品摘要（100字）以及作品提交内容。
-    - 如更新作品，请用同一参赛编号再次提交作品即可，以同一参赛编号最后一次提交的同队名作品为准。作品名称以最后一次提交和作品说明文档为准。
-    - 建议参考往年优秀作品，具体见“历届挑战赛优秀作品回顾”；也可以参考IEEE VIS Conference组织的IEEE VAST Challenge的入选作品，作品库见：[http://cs.umd.edu/hcil/varepository/benchmarks.php](http://cs.umd.edu/hcil/varepository/benchmarks.php)；关于挑战赛2015-2017相关信息请参看文档[“数据可视分析挑战赛三年回顾”](http://t.cn/EflGyVM)。
+    1. **参赛单位：** 鲁迅美术学院
 
-    ### 作品提交材料要求
+      **提名人员：** 郑文雅 黄心怡
 
-    #### 赛道1-I：
+    2. **参赛单位：** 北京交通大学
 
-      1. **作品说明文档：** 赛道1要求参赛者根据组织方提供的文档推荐模板，用图文并茂的方式介绍作品，以Word或PDF格式提交。
-      2. **视频：** 赛道1要求参赛者制作带解说视频，围绕作品解释其可视分析流程，视频总长度不超过5分钟，视频数量1个，限MP4格式，视频大小严格要求控制在50M以内。
-      3. **作品代表性图片：** 请提供高清版本1张，限JPG格式，多图请拼接，图片大小不超过20M。
+      **提名人员：** 张力文 刘依琪刘 明洋 王逸菲 王征（指导老师）
 
-    #### 赛道1-II和赛道2：
+    3. **参赛单位：** 云南艺术学院
 
-    1. **作品解读（评审用）：**
-        - 1份 限pdf 文件，<10MB。
-        - 对参赛作品的必要创作解读或解说，包括原始数据的说明、作品截图及解读。
-    2. **作品文件（评审用）：**
-        - 作品视频或解说视频，务必提供在线链接。
-        - 代表性作品图片1张，图像格式作品限制 *.jpg / *.png 类型，单张图片<20MB。
-    3. **作品高清文件下载链接（展览用）：**
-        - 包括全部作品高清文件、作品解读。
-        - 建议百度云，确保评审期内链接有效。
-        - 视频格式作品限制 *.mp4 / *.mov / *.avi 类型，<50MB。
-        - 图像格式作品限制 *.jpg / *.png 类型，单张图片<20MB。
-        - 只需提交电子版，无需邮寄。
+      **提名人员：** 王志平 张一琳 梁芳（指导老师）
 
-    ## 评审规则
+    4. **参赛单位：** 南京艺术学院
 
-    所有参赛作品将同时提交给可视分析专家、领域专家、可视化相关的艺术家进行综合评审，评审将重点评价参赛作品的主题导向和应用价值，以及参赛作品在交互设计、数据利用程度、社会效益、分析思路与方法等方面的有效性、新颖性和艺术性。
+      **提名人员：** 夏雪 师悦（指导老师） 厉勉（指导老师）
 
-    所有符合资格的团队在活动截止日期前所提交的作品将会得到评审。对于任何在截止日期之后提交的作品竞赛组织方将不予以评审，同时，主办方不对任何因电脑、互联网、移动网络故障而造成的参赛作品损坏、缺失、提交延时等后果承担责任。
+    5. **参赛单位：** 中国美术学院
 
-    所有参赛作品不能包含违犯国家法律的内容，不能包含暴力、色情等不良内容，凡包含以上内容的作品，竞赛委员会有权利取消该作品参赛资格。
+      **提名人员：** 陈商引 胡晓琛（指导老师）
 
-    所有参赛作品必须为本人或本团队原创，不得包含侵犯他人著作权的内容，如参赛作品引起侵权纠纷，一切侵权责任由参赛者承担。
+    6. **参赛单位：** 鲁迅美术学院
 
-    参赛作者享有参赛作品的版权和著作权，如无特别声明，竞赛委员会有权在大会相关媒介进行宣传、展示、播放。
+      **提名人员：** 钟娉婷 朱佳宇 刘放（指导老师） 王抒婧（指导老师）
 
-    参赛作品已经提交后，不得更改参赛者及指导老师姓名。
+    7. **参赛单位：** 浙江工业大学
 
-    如提交的可视化作品中包含由人工智能生成的内容，作者需对人工智能生成的内容进行明确标记说明。
+      **提名人员：** 李业蕊 张清如 俞璐安 许新国（指导老师）
 
-    数据可视化竞赛所提供数据仅限于竞赛作品使用。
+    8. **参赛单位：** 北京邮电大学
 
-    ## 作品等级设置
+      **提名人员：** 田书君 张译心 奚誉宁 盛卿（指导老师）
 
-    竞赛委员会主席将根据专家评审结果，按比例评选出多项精彩作品。在ChinaVis 2025大会上，将为所有入选参赛队颁发等级证书，部分入选参赛队将被邀请在大会竞赛环节做现场报告。
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">入围作品</span></div>
 
-    ## 重要时间节点
+    1. **参赛单位：** 西安外国语大学
 
-    以下时间均指北京时间日末23：59。
+      **提名人员：** 王星瑶 周文玉 王秀丽（指导老师）
 
-    - 网上报名截止时间：**2025年5月30日**
-    - 作品提交截止时间：
-      - 赛道1-I（可视分析挑战赛）：**2025年6月9日**
-      - 赛道1-II（人文可视化创意赛）：**2025年6月16日**
-      - 赛道2（艺术可视化竞赛）：**2025年6月2日**
-    - 评审结果公布时间：**2025年7月2日**。
+    2. **参赛单位：** 内蒙古师范大学
 
-    ## 作品说明文档推荐模板和数据集下载
+      **提名人员：** 郭晶晶 张萌 陈佳佳 张帆（指导老师）
 
-    1. **赛道1-I： 可视分析挑战赛**
-        - 作品文档答卷模板 <a href="/2025/challenge/1i_answer_sheet.docx" target="_blank">Download</a>
-        - 数据下载链接 <a href="/2025/challenge/dataset.zip" target="_blank">Download</a>（数据可视化竞赛所提供数据仅限于竞赛作品使用）
-    2. **赛道1-II：人文可视化创意赛**
-        - 数据下载链接 <a href="/2025/challenge/dataset.zip" target="_blank">Download</a>（数据可视化竞赛所提供数据仅限于竞赛作品使用）
-    3. **赛道2： 艺术可视化竞赛**
-        - 自备数据集，并提供原始数据片段作为评价参考。
+    3. **参赛单位：** 湖北经济学院
 
-    ## 其他说明
+      **提名人员：** 严安邦 张立（指导老师）
 
-    1. 参赛作品不得违反国家相关法律法规，不得侵犯任何第三方知识产权或者其他权利。作品如引起知识产权异议和纠纷，其责任由参赛者承担；
-    2. 参赛者可以使用开源或商业数据分析与可视化软件，例如：[DataV](https://data.aliyun.com/visual/datav)、[Tableau](https://www.tableau.com/)、R和Excel等等，鼓励参赛者使用软件开发工具设计并实现自己的可视分析方案或艺术可视化作品，常见的可视化开发工具有[D3](https://d3js.org/)、[ECharts](https://echarts.apache.org/zh/index.html)、[AntV](https://antv.alipay.com/)和Processing等等。请参赛者在作品说明文档中明确写出使用的开发工具和使用的开源或商业软件；
-    3. 入选参赛队至少要有1人注册ChinaVis 2025；
-    4. 赛道1入选参赛队要求将自己的参赛作品制作为海报，并参加ChinaVis 2025的海报张贴环节，具体要求参照海报环节，赛道2（艺术可视化赛道）的入选作品将参加艺术项目展览；
-    5. 参赛作品的知识产权归参赛者所有。大会组织方有权将参赛作品、作品相关资料、参赛团队信息用于宣传品、授权媒体发布、官方网站浏览及下载、展览（含巡展）等活动项目；
-    6. 参赛作品已经提交后，不得更改参赛者姓名及顺序。
+    4. **参赛单位：** 上海大学、苏州大学
+
+      **提名人员：** 宋美君 李金燕
+
+    5. **参赛单位：** 北京交通大学、上海大学
+
+      **提名人员：** 骆永春 王瑞 马萱 谭蒴 李静雅（指导老师） 李谦升（指导老师）
+
+    6. **参赛单位：** 内蒙古师范大学
+
+      **提名人员：** 马琦瑜 柏林夫（指导老师）
+
+    7. **参赛单位：** 中国美术学院
+
+      **提名人员：** 宋依桐 李婧瑜 何佩霖 冯宇纯（指导老师） 成朝晖（指导老师）
+
+    8. **参赛单位：** 内蒙古师范大学
+
+      **提名人员：** 应佳鑫 韩甜甜 高元昊 李晨璐（指导老师） 朱家兴（指导老师）
+
+    9. **参赛单位：** 清华大学
+
+      **提名人员：** 宫欣君 肖岚茜 吴琼（指导老师） 章洁（指导老师）
 
     ## 可视化竞赛委员会
 
@@ -201,191 +303,284 @@ export const zh = {
 };
 
 export const en = {
-  PageTitle: "Data Challenge - ChinaVis 2025",
-  Title: "Data Visualization Competition - Call for Participation",
+  PageTitle: "Data Challenge",
+  Title: "Data Challenge",
   Content: marked.parse(
     `
-    ## Data Visualization Competition Introduction
+    ## Data Challenge Introduction
 
-    The Data Visualization Competition is an important part of the China Visualization and Visual Analytics Conference. The competition invites researchers, developers, students, and enthusiasts to use their most effective visualization and Visual Analytics techniques/tools to accomplish data analysis as well as visualization tasks. The competition aims to evaluate the effectiveness, novelty, and artistry of their techniques and tools in solving complex problems, and promote the development and advancement of research and applications related to visualization and Visual Analytics in China.
+    The Data Challenge is an important part of the China Visualization and Visual Analytics Conference. The competition invites researchers, developers, students, and enthusiasts to use their most effective visualization and Visual Analytics techniques/tools to accomplish data analysis as well as visualization tasks. The competition aims to evaluate the effectiveness, novelty, and artistry of their techniques and tools in solving complex problems, and promote the development and advancement of research and applications related to visualization and Visual Analytics in China.
 
-    ## Data Visualization Competition Content
+    [Call for Participation](/2025/en/challenge_call_for_participation)
 
-    The Data Visualization Competition offers two tracks, of which the participants can choose the corresponding topic to compete. Each track has its own judges.
+    ## Award Winners
 
     ### Track 1: Humanities Data Visual Analytics and Visualization Creative Challenge
 
     #### Track 1-I: "Analyzing the City, Reading History" Visual Analytics Challenge
 
-    Beijing, an ancient capital of the East with over 3,000 years of urban history and more than 800 years as a dynastic capital, has long been the political, cultural, and transportation heart of China. The evolution of this city is not merely a grand narrative of dynastic changes and administrative restructuring but is profoundly reflected in the shifts of water systems, fluctuations in climate, the aggregation and movement of populations and industries, as well as the dramatic impacts of natural disasters and conflicts. These multifaceted and intertwined spatiotemporal factors have collectively shaped Beijing’s spatial layout and urban functions, bearing witness to the enduring historical depth and dynamic transformations of Chinese civilization on the northern plains.
+    ChinaVis 2025 Data Visualization Competition Track 1-I received 22 submissions, after review, 15 works were selected, including 9 first, second, and third-place works, accounting for 40.9%, and 6 nominated works, with a total selection rate of 68.2%. The selected list is as follows:
 
-    With the advancement of new-generation technologies such as Historical Geographic Information Systems (HGIS), digital archival organization, semantic annotation, and knowledge graph construction, scholars and the public can now transcend temporal constraints to systematically reconstruct Beijing’s evolutionary trajectory across different spatiotemporal scales. This technological progress offers unprecedented possibilities for a multidimensional understanding of "how Beijing became what it is today."
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">First Prize</span></div>
 
-    This visual analytics challenge focuses on the historical spatiotemporal evolution of Beijing, incorporating diverse and heterogeneous spatiotemporal data, including water systems, climate, vegetation, disasters, population, local products, transportation, wars, administrative changes, commerce, handicrafts, and major historical events. We encourage participants to break free from the constraints of traditional linear historical narratives, fully leveraging data analysis and visual expression techniques to restore the complex spatiotemporal evolution patterns of Beijing’s urban development from multiple dimensions. This endeavor aims to provide fresh perspectives for understanding historical transformations and offer insights for contemporary urban governance and future development.
+    1. **Institution:** Chongqing University    <a href="/2025/challenge/1-cqu-yyq.zip" target="_blank">Download</a>
 
-    Please design and implement a visual analytics solution to accomplish the following:
+      **Team Members:** Yao Yingxi, Tang Baocheng, Huang Qian, Liang Xingjing, Zeng Yuru, Wang Xinyue, Hu Haibo (Supervisor)
 
-    - By integrating natural geographical data such as water systems and climate, depict the long-term evolutionary trajectory of Beijing's ecological environment from a spatiotemporal perspective. Use charts to illustrate key trends, such as river course changes, climate fluctuations, and vegetation coverage shifts, revealing their impact on urban layout evolution, human settlement patterns, and livelihood methods. (Participants are advised to limit their response to no more than 800 words and 5 images.)
-    - Disasters, conflicts, and major events often serve as critical catalysts for urban transformation. Building upon the foundational depiction of ecological environments, participants are tasked with constructing spatiotemporal distribution maps of significant events based on datasets documenting natural disasters, wars, and other major occurrences. These visualizations should identify correlations between such events and key urban development variables—including built-up area expansion, population migration, and regime changes—to reveal how disruptive incidents have shaped the city's evolutionary trajectory. (Participants are advised to limit their response to no more than 800 words and 5 images.)
-    - Building on an understanding of environmental and external shocks, focus on the internal mechanisms of urban system evolution. Integrate historical population data, transportation networks, and records of key regional products to analyze how factors such as population growth and mobility, changes in transportation accessibility, and regional resource endowments have collectively driven the formation and evolution of Beijing's functional cores and spatial structure. (Participants are advised to limit their response to no more than 800 words and 5 images.)
-    - To further explore the deep influence of urban governance structures and economic organization on urban morphology, use historical administrative records and data on commercial and handicraft activities to trace the evolution of Beijing’s administrative divisions, functional transformations, and the spatial restructuring of economic centers across different historical periods. Analyze how institutional logic has been embedded in urban space and production networks. (Participants are advised to limit their response to no more than 800 words and 5 images.)
-    - Based on the above multidimensional analyses, construct a dual-temporal-spatial narrative map centered on critical historical junctures, such as institutional reforms or catastrophic events, and link it with the factors extracted from the previous four tasks. Summarize the common mechanisms, pivotal turning points, and institutional lessons in Beijing’s urban evolution, exploring their implications for contemporary urban sustainability and spatial governance. (Participants are advised to limit their response to no more than 800 words and 5 images.)
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Second Prize</span></div>
 
-    **Provided Data: For detailed information, please refer to Track 1 Data.**
+    1. **Institution:** Information Engineering University    <a href="/2025/challenge/2-ieu-tzw.zip" target="_blank">Download</a>
 
-    **<span style="color: #de0000">Note: The dataset for Track 1-I is designated, please do not use self-selected datasets.</span>**
+      **Team Members:** Tu Zewen, Qiu Yang, Feng Zhibo, Zhang Wei, Jiang Yu, Li Shuo, Chen Xiaohui (Supervisor), Li Jing (Supervisor)
+
+    2. **Institution:** Xidian University    <a href="/2025/challenge/2-xdu-ywc.zip" target="_blank">Download</a>
+
+      **Team Members:** Yang Wenchuan, Zhang Qing, Li Ruiyu, Li Yang, Zhi Ruiming, Dong Huaxin, Quan Yining (Supervisor), Han Xiaoyang (Supervisor)
+
+    3. **Institution:** Northeast Normal University   <a href="/2025/challenge/2-nenu-lx.zip" target="_blank">Download</a>
+
+      **Team Members:** Liu Xin, Yu Zhichuan, Lu Yaqiu, Li Jiaxin, Guo Xinyuan, Zhou Nan, Zhang Huijie (Supervisor), Feng Zijun (Supervisor)
+
+    4. **Institution:** Chongqing University    <a href="/2025/challenge/2-cqu-dyj.zip" target="_blank">Download</a>
+
+      **Team Members:** Deng Yijie, Cao Lucheng, Fu Wanting, Zhu Qingyang, Chen Yan, Hu Haibo (Supervisor)
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Third Prize</span></div>
+
+    1. **Institution:** Sichuan University
+
+      **Team Members:** Xu Junchi, Zhou Yinjie, Deng Ziyi, Wang Yimeng, Yang Xinyue, Wang Qipeng, Zhu Min (Supervisor)
+
+    2. **Institution:** Information Engineering University
+
+      **Team Members:** Zhou Jiaxuan, Han Ziyao, Jia Zhongbao, Zhang Jixuan, Hou Jiaqi, Zhang Zixuan, Chen Xiaohui (Supervisor), Li Jing (Supervisor)
+
+    3. **Institution:** Chongqing University
+
+      **Team Members:** Yu Kerou, Wu Anting, Dong Xiaofei, Hua Rui, Li Siqi, Hu Haibo (Supervisor)
+
+    4. **Institution:** Sun Yat-sen University
+
+      **Team Members:** Tang Yihao, Li Junfeng, Zeng Yanchao, Mo Haodi, Zeng Haipeng (Supervisor)
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Nominated Works</span></div>
+
+    1. **Institution:** Chongqing University
+
+      **Team Members:** Yu Kuai, Liu Yucheng, Lin Shiying, Chen Ziyang, Hu Haibo (Supervisor)
+
+    2. **Institution:** Shenzhen Technology University
+
+      **Team Members:** Ji Xinge, Zhang Baoxing, Chen Yuhuan, Pan Yuanhao, Yan Liang, Li Wen, Shi Minghong (Supervisor)
+
+    3. **Institution:** Zhejiang University of Technology
+
+      **Team Members:** Wang Mingcong, Wu Junyu (Supervisor)
+
+    4. **Institution:** Fudan University
+
+      **Team Members:** Zheng Tingtao, Fu Hang, Chen Jingjing, Chen Siming (Supervisor)
+
+    5. **Institution:** Luoyang Institute of Technology
+
+      **Team Members:** Jiang Hongtu, Xia Wenkai, Zhang Le, Li Tianqi, Li Zhixian (Supervisor)
+
+    6. **Institution:** Tianjin University
+
+      **Team Members:** Zhang Yizhuo, Yang Lianpeng, Liu Shengyu, Ji Junjie, Wu Huaming (Supervisor)
 
     #### Track 1-II: "Reflecting on the Past, Discussing the Present" Visualization Creative Challenge
 
-    Beijing, a historic and cultural city with "three millennia of urban history and eight centuries as a capital," has accumulated profound and rich "cultural strata" within its urban space through historical transformations. The city's evolution has not only brought changes to its physical structure—such as urban form, spatial layout, and locational functions—but has also enriched cultural dimensions like spatial cognition, urban literature, and city imagery, fostering unique local customs, lifestyles, and folk beliefs. Amid these multifaceted changes, "landmarks" have become both the "sites" where political, economic, cultural, religious, and artistic events unfold and the "topics" of contemporary discourse, serving as carriers and symbols of local "cultural memory."
+    ChinaVis 2025 Data Visualization Competition Track 1-II received 45 submissions, after review, 15 works were selected, including 10 first, second, and third-place works, accounting for 22.2%, and 5 nominated works, with a total selection rate of 33.3%. The selected list is as follows:
 
-    Against the theoretical backdrop of the "spatial turn" in the humanities and advancements in digital technologies—such as the digitization of texts and images, 3D modeling, Historical Geographic Information Systems (HGIS), knowledge graphs, and artificial intelligence—researchers and professionals in libraries, museums, and archives can deeply mine urban historical data, reconstruct knowledge, build narratives, and recreate history from a digital humanities perspective. This enables the construction of multidimensional spatial networks of the city.
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">First Prize</span></div>
 
-    This competition track focuses on Beijing's "cultural landmarks" and provides diverse textual datasets, including historical events, water systems, climate, vegetation, disasters, population, local products, transportation, wars, administrative changes, commerce and handicrafts, notable figures, and architecture. We encourage participants to adopt a digital humanities approach, leveraging the provided datasets or newly curated data to harness the strengths of data visualization. The goal is to offer fresh perspectives and innovative methods for the in-depth excavation, interpretation, and presentation of urban landmark culture, blending humanistic inquiry with digital techniques to reconstruct history.
+    1. **Institution:** Zhejiang University of Technology
 
-    Please complete the following objectives:
+      **Team Members:** Chen Jiayi, Li Wenwen, Yang Yingping, Lei Yuxin, Feng Zhiyi, Sun Guodao (Supervisor), Chen Jiazhou (Supervisor)
 
-    - The Lifecycle and Historical Reconstruction of Cultural Landmarks: Cultural landmarks often appear before us as "immovable cultural relics," yet they are in fact the culmination of complex historical processes—construction, renovation, destruction, restoration, and even relocation. Their lifecycles are deeply intertwined with the intellectual trends, political climates, cultural milieus, and historical figures of their eras. Focusing on specific cultural landmarks in Beijing, employ data mining and visual storytelling to trace their "life journeys."
-    - Assessing the Influence and Significance of Cultural Landmarks: What elevates a cultural landmark to importance? How does it gain widespread recognition and impact? Official ratings, public discourse, and textual records all attempt to answer these questions. Develop a multidimensional evaluation framework to assess the significance, influence, and visibility (though not limited to these) of Beijing’s cultural landmarks. We encourage participants to look beyond historical and cultural factors, engaging also with the landmarks’ everyday relevance and contemporary traits. Address not only "what cultural value these landmarks accrued through history" but also "what future heritage we are shaping today, and what modern values we are embedding in them."
-    - Cultural Landmarks as Narrative Spaces: A cultural landmark often becomes entwined with events, figures, and activities, spawning records, legends, anecdotes, and customs that form its most vibrant legacy. Using data-driven methods and creative narration, craft compelling stories about Beijing’s landmarks by exploring their connections to diverse cultural elements (including but not limited to people and events).
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Second Prize</span></div>
 
-    **Provided Data: For detailed information, please refer to Track 1 Data.**
+    1. **Institution:** Zhejiang University
 
-    **<span style="color: #de0000">Note: For Track 1-II, participants may use either the designated dataset or self-selected datasets.</span>**
+      **Team Members:** You Jiyu, Zhai Yuru, Wu Wange, Dai Junming, Tang Tan, Chen Xiaojiao (Supervisor)
+
+    2. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Zhu Siqi, Huang Di, Liu Ziying, Yang Yilin, Chen Yilin (Supervisor)
+
+    3. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Zhang Yumeng, Tu Qin, Dan Li, Liu Chang, Chen Yilin (Supervisor)
+
+    4. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Wang Yitong, Lu Siyu, Chen Yilin (Supervisor)
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Third Prize</span></div>
+
+    1. **Institution:** Yunnan Arts University
+
+      **Team Members:** Zhang Yilin, Wang Zhiping, Liang Fang (Supervisor)
+
+    2. **Institution:** The Hong Kong University of Science and Technology (Guangzhou)
+
+      **Team Members:** Wang Zhenyang, Luo Yile, Yang Weikai (Supervisor), Luo Yuyu (Supervisor)
+
+    3. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Wang Yuhan, Pei Linghao, Gao Xi, Chen Yilin (Supervisor)
+
+    4. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Xing Bingshu, Xue Yutong, Guo Taotao, Yang Qian, Jia Hanfei, Li Wanlin, Chen Yilin (Supervisor)
+
+    5. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Bi Tianshuo, Sun Xiuying, Ma Ruidian, Tian Liqun, Chen Yilin (Supervisor)
+
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Nominated Works</span></div>
+
+    1. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Wang Yue, You Wenyuan, Zhao Yang, Li Wenke, Chen Yilin (Supervisor), Tian Liqun (Supervisor)
+
+    2. **Institution:** Hubei Institute of Fine Arts
+
+      **Team Members:** Wu Rui
+
+    3. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Jia Hanfei, Li Wanlin, Yang Qian, Xing Bingshu, Xue Yutong, Guo Taotao, Chen Yilin (Supervisor)
+
+    4. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Zhou Jiaxin, Xi Huixin, Sun Liang, Chen Yilin (Supervisor)
+
+    5. **Institution:** Jilin Animation Institute
+
+      **Team Members:** Yuan Yingying, Chen Wanqiu, Li Jiajun, Yang Chengye, Chen Yilin (Supervisor)
 
     ### Track 2: Art Visualization Competition
 
-    #### Theme: "Hangzhou · Tide of Myriad Phenomena"
+    ChinaVis 2025 Data Visualization Competition Track 2 received 86 submissions, after review, 26 works were selected, including 9 gold, silver, and bronze medal works, accounting for 10%, 8 excellence awards, and 9 finalists, with a total selection rate of 30%. The selected list is as follows:
 
-    The 12th China VIS Art Program (China VISAP'25) will be held in Hangzhou in 2025, concurrently with the 12th China Visualization and Visual Analytics Conference (ChinaVis). This year's art program includes: art exhibitions, student competitions, creative workshops, special lectures, and a series of exciting presentations initiated by artists, designers, and visualization scientists, aiming to explore the future directions and new horizons of visualization art.
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Gold Medal</span></div>
 
-    The theme "Tide of Myriad Phenomena" uses "tide" to symbolize the spirit of the times and "myriad phenomena" to represent the ceaseless changes that bridge past and present. Hangzhou is renowned for its tides and is further distinguished by its unique trio of UNESCO World Heritage sites (West Lake, the Grand Canal, and the Liangzhu Ancient City), establishing its coordinates in human civilization. From the Neolithic Liangzhu jade cong's totemic beliefs to the brushwork of the Southern Song Dynasty's "West Lake Scenes" and the looms of the Ming Dynasty's silk workshops, this city has always epitomized the pinnacle of Chinese classical aesthetics. Today, Hangzhou is reshaping the future as a digital civilization laboratory: Alibaba's e-commerce ecosystem and AntChain technologies have global reach, Westlake University leads in synthetic biology and AI-driven drug discovery, and the Yunqi Town cluster houses one-third of China's cloud computing power. It boasts the highest number of national industrial design centers (12% of the country's total) and has nurtured the intelligent electrification wave of Geely's Zeekr and Leapmotor. It is the birthplace of "Black Myth: Wukong," which pushes the boundaries of AAA games, and the incubator of the global AI open-source platform DeepSeek. While MCN agencies livestream commerce along the canal, digital nomads are using blockchain technology to revitalize rural heritage—tradition and future are seamlessly woven together here, much like how West Lake's landscapes merge with Qianjiang New City's skyline to compose a civilization epic of "Tide of Myriad Phenomena."
+    1. **Institution:** Hubei Institute of Fine Arts
 
-    China VISAP'25 looks forward to joining you in Hangzhou to launch an initiative that treats society as its stage, data as its medium, and visuals as its language. May our visible, tangible encounters crystallize a unique paradigm of knowledge production, allowing us to collectively engage with this possible world of surging tides and wondrous phenomena.
+      **Team Members:** Chen Haijin, Zhang Junjie, Wu Ping (Supervisor), Chen Hui (Supervisor)
 
-    #### Artistic Visualization Student Competition
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Silver Medal</span></div>
 
-    The Artistic Visualization Competition is a key component of the China Visualization and Visual Analytics Conference, forming the conference's data visualization competition alongside the Visual Analytics Challenge. It aims to foster exchange and collaboration in artistic visualization creation and research in China while advancing talent development. The competition specifies thematic boundaries and invites university students worldwide studying art, design, and visualization to complete artistic visualization works within the given timeframe using their most proficient techniques. A range of awards will be presented to outstanding and innovative creations.
+    1. **Institution:** Hubei Institute of Fine Arts
 
-    The competition imposes no restrictions on expressive techniques, encouraging students to maximize their imagination and creative freedom. Entries must be based on real data, with original data excerpts provided for evaluation reference. The judging criteria focus on whether teams can effectively convey data-driven artistic ideas, perspectives, or concepts through visual or auditory forms.
+      **Team Members:** Wu Hongye, Wei Lizi
 
-    Submitted visualization works may include AI-generated content, and the use of new intelligent and digital technologies to explore novel approaches in visualization creation and presentation is encouraged. However, authors must clearly label AI-generated content. The review committee will assess the relevance of such content to the theme and ensure compliance with legal, ethical, and public order standards.
+    2. **Institution:** Harbin Institute of Technology
 
-    The organizing committee of the 2025 China VIS Art Program calls upon artists, designers, researchers, faculty, students, and professionals from all fields to create and submit art and design works centered on "Hangzhou · Tide of Myriad Phenomena," showcasing multidimensional explorations and brilliance in visualization. This track requires participants to select relevant datasets for artistic visualization within the annual theme framework of "Hangzhou · Tide of Myriad Phenomena." There are no constraints on expressive methods, aiming to inspire maximum creativity and imagination.
+      **Team Members:** Peng Lingyu, Ge Chang, Long Liying, Hu Xiao, Wu Jiangyue (Supervisor)
 
-    Entries in this track will be evaluated by a panel of domestic artistic visualization experts. The core criterion is whether competing teams can effectively express data-driven artistic ideas, perspectives, or concepts through visual, auditory, or other artistic forms.
+    3. **Institution:** Tsinghua University
 
-    ## Instructions For Participation
+      **Team Members:** Li Yifan, Xiang Fan (Supervisor)
 
-    ### Registration
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Bronze Medal</span></div>
 
-    Teachers, students, and researchers from general higher education institutions (including higher education) and research institutes, developers and designers from enterprises and institutions, visualization and Visual Analytics enthusiasts as well as artists are welcome to participate in the competition. Participants are invented to sign up as teams:
+    1. **Institution:** Yunnan University of Economics and Management
 
-    - **Track 1:** Each team consists of up to 6 participants, and has 1-2 instructors.
-    - **Track 2:** Each team consists of up to 4 participants, and has 1-2 instructors.
+      **Team Members:** Huang Zhengyue, Chen Chunmei, Wang Jin, Fan Xinyuan, Duo Wenjuan (Supervisor)
 
-    Team Naming Rule: "Legal entity name - Captain's name" or "Enthusiast team - Captain's name". For example: "Tianjin University - Zhang San", "Enthusiast team - Li Si". The first ranked participant of each team is the team leader and is responsible for communication. Non-research institutes, enterprises, and institutions, etc. Please fill in the name of "Enthusiast team" (enthusiast team means that the participant is a team formed as an individual).
+    2. **Institution:** Hubei Institute of Fine Arts
 
-    ### Registration requirements
+      **Team Members:** Qu Jiafeng, Song Lijun, Liu Jiayi, Yang Zhiqian (Supervisor), Chen Hui (Supervisor)
 
-    - The competition is open for online registration, the registration portal: [https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc75](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc75)
-    - Registration information includes communication Email, team name, participants (instructor, team leader, and team members), cell phone number, Email, Legal entity (schools, colleges, etc.) and work title (educational background, grade, etc.)
-    - The signatures of the award certificates are printed in the order of registration, with students first and instructors last.
-    - One email can only register one team, and the team number is unique and bound to the communication Email.
-    - If you forget the number, you can check it on the submission page according to the Email you fill in. Please remember the communication Email of the competition.
+    3. **Institution:** Sichuan Fine Arts Institute
 
-    ### Submission requirements
+      **Team Members:** Liu Xiaohan
 
-    The submission of the competition works is online, please click on the submission portal to submit your works, and try to avoid submitting works during the peak period of the deadline.
+    4. **Institution:** Inner Mongolia Normal University
 
-    **Submission portal:**
+      **Team Members:** Chen Naizheng, Li Yutong, Bai Linfu (Supervisor)
 
-    **Track 1-I:** [https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc76](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc76)
+    5. **Institution:** Inner Mongolia Normal University
 
-    **Track 1-II:** [https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a)
+      **Team Members:** Zhang Meng, Guo Jingjing, Wu Honglei, Zhu Jiaxing (Supervisor), Li Chenlu (Supervisor)
 
-    **Track 2:** [https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a](https://s99x45wjic.jiandaoyun.com/f/68099429d63c22fce2cbdc6a)
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Excellence Award</span></div>
 
-    - Submission information includes team number, entry track, entry theme, entry title, entry summary (100 words), and entry submission content.
-    - If you want to update your work, please use the same entry number to submit your work again, and the last submitted work with the same team name with the same entry number will prevail. The title of the work is based on the last submission and the work description document.
-    - Participants are recommended to visit “overview of previous years’ ChinaVis Data Challenges” for more instructions. Award-winning entries of VAST Challenge organized by IEEE VIS Conference can be found in this repository: [http://cs.umd.edu/hcil/varepository/benchmarks.php](http://cs.umd.edu/hcil/varepository/benchmarks.php), which would also provide some hints and guidance. Paper ["ChinaVis Data Challenge from 2015 to 2017"](http://t.cn/EflGyVM) can be also referred for information.
+    1. **Institution:** Luxun Academy of Fine Arts
 
-    ### Content of Submission
+      **Team Members:** Zheng Wenya, Huang Xinyi
 
-    #### Track 1-I:
+    2. **Institution:** Beijing Jiaotong University
 
-    1. **Work description document:** Track 1 requires participants to introduce the work with illustrations and text according to the recommended template provided by the organizer and submit it in Word or PDF format.
-    2. **Video:** Track 1 requires participants to produce a video with commentary, explaining the visual analysis process around the work, the total length of the video should not exceed 5 minutes, the number of videos should be 1, the file format should be MP4, and the size of the video should be strictly controlled within 50M.
-    3. **Representative pictures of the work:** Please provide one high-definition version, limited to JPG format, and stitch together multiple pictures, the size of which should not exceed 20M.
+      **Team Members:** Zhang Liwen, Liu Yiqi, Liu Mingyang, Wang Yifei, Wang Zheng (Supervisor)
 
-    #### Track 1-II and Track 2:
+    3. **Institution:** Yunnan Arts University
 
-    1. **Project Description (for review):**
-        - 1 pdf file only, < 10MB.
-        - The Description should explain the concept of the submission, including a description of the original data. If necessary, the original data may be submitted separately to help the reviewers better understand the connotation of the submission.
-    2. **Project File (for review):**
-        - Project video or demo video, please submit available online link for review.
-        - 1 representative works, image format works limited *.jpg / *.png type, a single image < 20MB/file.
-    3. **Project High-quality file download Link (for exhibition):**
-        - All files submitted should be included for downloaing.
-        - Baidu Netdisk is recommended to ensure that the link is valid during the review period.
-        - Video format should be:  *.mp4 / *.mov / *.avi, < 50MB/file.
-        - Image formage should be: JPEG and PNG, < 20MB/file.
-        - Only electronic submission is required. No mailing.
+      **Team Members:** Wang Zhiping, Zhang Yilin, Liang Fang (Supervisor)
 
-    ## Judging Rules
+    4. **Institution:** Nanjing University of the Arts
 
-    All entries will be submitted to both visual analysis experts, domain experts, and visualization-related artists for comprehensive evaluation. The evaluation will focus on evaluating the thematic orientation and application value of the entries, as well as the effectiveness, novelty and artistry of the entries in terms of interaction design, degree of data utilization, social benefits, analytical ideas and methods, etc.
+      **Team Members:** Xia Xue, Shi Yue (Supervisor), Li Mian (Supervisor)
 
-    Entries submitted by all eligible teams by the event deadline will be judged. The competition organizers will not evaluate any entries submitted after the deadline, and the organizers will not be held responsible for any damage, missing entries, or delayed submissions due to computer, Internet, or mobile network failures.
+    5. **Institution:** China Academy of Art
 
-    All entries must not contain content that violates national laws, or contains violence, pornography, or other undesirable content. The competition committee reserves the right to disqualify any entry containing such content.
+      **Team Members:** Chen Shangyin, Hu Xiaochen (Supervisor)
 
-    All entries must be original by the participant or team and must not infringe on the copyright of others. If the entry causes copyright disputes, all liability shall be borne by the participant.
+    6. **Institution:** Luxun Academy of Fine Arts
 
-    The author(s) retain the copyright and authorship of the entry. Unless otherwise stated, the competition committee has the right to promote, display, and broadcast the entry in relevant media of the conference.
+      **Team Members:** Zhong Pingting, Zhu Jiayu, Liu Fang (Supervisor), Wang Shujing (Supervisor)
 
-    After the entry is submitted, the names of the participants and instructors may not be changed.
+    7. **Institution:** Zhejiang University of Technology
 
-    If the submitted visualization work contains AI-generated content, the author must clearly label the AI-generated content.
+      **Team Members:** Li Yerui, Zhang Qingru, Yu Lu'an, Xu Xinguo (Supervisor)
 
-    The data provided for the Data Visualization Competition is limited to use in competition entries.
+    8. **Institution:** Beijing University of Posts and Telecommunications
 
-    ## Awards
+      **Team Members:** Tian Shujun, Zhang Yixin, Xi Yuning, Sheng Qing (Supervisor)
 
-    The chairman of the competition committee will select a number of exciting entries in proportion to the results of expert evaluation. At the ChinaVis 2025 conference, award certificates will be presented to all winning teams, and some of the winning teams will be invited to make on-site presentations at the competition session of the conference.
+    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Finalists</span></div>
 
-    ## Important Time Points
+    1. **Institution:** Xi'an International Studies University
 
-    China Standard Time 23:59, (UTC+8)
+      **Team Members:** Wang Xingyao, Zhou Wenyu, Wang Xiuli (Supervisor)
 
-    - Deadline for online registration: **May 30, 2025**.
-    - Deadline for submission of entries:
-        - Track 1-I (Visual Analytics): **June 9, 2025**.
-        - Track 1-II (Digital Humanities Visualization): **June 16, 2025**.
-        - Track 2 (Art Visualization): **June 2, 2025**.
-    - Announcement date for judging results: **July 2, 2025**.
+    2. **Institution:** Inner Mongolia Normal University
 
-    ## Documentation Templates and Dataset Download
+      **Team Members:** Guo Jingjing, Zhang Meng, Chen Jiajia, Zhang Fan (Supervisor)
 
-    1. **Track 1-I: Visual Analytics Challenge**
-        - Work description document template: <a href="/2025/challenge/1i_answer_sheet.docx" target="_blank">Download</a>
-        - Data download link: <a href="/2025/challenge/dataset.zip" target="_blank">Download</a> (The data provided is limited to use in competition entries)
-    2. **Track 1-II: Visualization Creative Challenge**
-        - Data download link: <a href="/2025/challenge/dataset.zip" target="_blank">Download</a> (The data provided is limited to use in competition entries)
-    3. **Track 2：Art Visualization Competition**
-        - Self-selected dataset, and provide the original data snippet for evaluation reference along with the dataset.
+    3. **Institution:** Hubei University of Economics
 
-    ## Others
+      **Team Members:** Yan Anbang, Zhang Li (Supervisor)
 
-    1. Entries must not violate relevant national laws and regulations, and must not infringe on any third party intellectual property rights or other rights. If the work gives rise to intellectual property objections and disputes, the responsibility shall be borne by the participant.
-    2. Participants may use open source or commercial data analysis and visualization software, such as [DataV](https://data.aliyun.com/visual/datav), [Tableau](https://www.tableau.com/), R and Excel, etc. Participants are encouraged to use software development tools to design and implement their own visual analysis solutions or artistic visualization works. Common visualization development tools include [D3](https://d3js.org/), [ECharts](https://echarts.apache.org/zh/index.html), [AntV](https://antv.alipay.com/), and Processing, etc. Participants are requested to clearly state the development tools used and the open-source or commercial software used in the documentation of the work.
-    3. The winning team must have at least one person registered with ChinaVis 2025.
-    4. Track 1 winning teams are required to make their entries into posters and participate in the poster session of ChinaVis 2025, with specific requirements referring to the poster session. Track 2 (Art Visualization) winning entries will participate in the art project exhibition.
-    5. The intellectual property rights of the entries belong to the participants. The organizers of the conference have the right to use the entries, work-related materials, and team information for promotional materials, authorized media releases, official website browsing and downloading, exhibitions (including roving exhibitions), and other activities.
-    6. Names and order of participants cannot be changed after the entries have been submitted.
+    4. **Institution:** Shanghai University, Soochow University
 
-    ## Organizing Committee Of The Visualization Competition
+      **Team Members:** Song Meijun, Li Jinyan
+
+    5. **Institution:** Beijing Jiaotong University, Shanghai University
+
+      **Team Members:** Luo Yongchun, Wang Rui, Ma Xuan, Tan Shu, Li Jingya (Supervisor), Li Qiansheng (Supervisor)
+
+    6. **Institution:** Inner Mongolia Normal University
+
+      **Team Members:** Ma Qiyu, Bai Linfu (Supervisor)
+
+    7. **Institution:** China Academy of Art
+
+      **Team Members:** Song Yitong, Li Jingyu, He Peilin, Feng Yuchun (Supervisor), Cheng Zhaohui (Supervisor)
+
+    8. **Institution:** Inner Mongolia Normal University
+
+      **Team Members:** Ying Jiaxin, Han Tiantian, Gao Yuanhao, Li Chenlu (Supervisor), Zhu Jiaxing (Supervisor)
+
+    9. **Institution:** Tsinghua University
+
+      **Team Members:** Gong Xinjun, Xiao Lanxi, Wu Qiong (Supervisor), Zhang Jie (Supervisor)
+
+
+    ## Organizing Committee Of Data Challenge
 
     **Huijie Zhang**　Northeast Normal University
 
