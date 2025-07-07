@@ -1,5 +1,5 @@
 import PhotoGWJ from "~/assets/course/gwj.avif";
-import PhotoCMQ from "~/assets/course/cmq.avif";
+import PhotoRY from "~/assets/course/ry.avif";
 import PhotoLM from "~/assets/course/lm.avif";
 import PhotoTJ from "~/assets/course/tj.avif";
 
@@ -123,17 +123,17 @@ export const courses: {
       },
       {
         name: {
-          zh: "崔梦茜",
-          en: "Mengqian Cui",
+          zh: "任越",
+          en: "Yue Ren",
         },
         affiliation: {
           zh: "中国美术学院",
           en: "China Academy of Art",
         },
-        photo: PhotoCMQ,
+        photo: PhotoRY,
         description: {
-          zh: "中国美术学院视觉传播学院，助理教授。芝加哥艺术学院艺术创作硕士(MFA)，中国美术学院文学学士。曾先后任教于芝加哥艺术学院、温州肯恩大学，现从事数字媒体艺术、信息可视化设计与设计教育研究，主持课程《UIUX设计》获浙江省一流课程; 参与省部级科研项目《教育数字化战略背景下高校MOOC学习机制探索与改革实践》。相关作品多次入选Tokyo TDC, GDC, Graphis等国内外设计奖项，学术论文发表于《Asian Culture and History》、《艺术与设计》、《AHFE (Applied Human Factors and Ergonomics International Conference) 》等国内外刊物。",
-          en: 'Assistant Professor at the School of Visual Communication, China Academy of Art. Master of Fine Arts (MFA) in Art Creation from the School of the Art Institute of Chicago, Bachelor of Arts from China Academy of Art. Previously taught at the School of the Art Institute of Chicago and Wenzhou-Kean University, currently engaged in research on digital media art, information visualization design, and design education. She has led the course "UI/UX Design", which was recognized as a first-class course in Zhejiang Province; participated in provincial and ministerial research projects exploring and reforming the MOOC learning mechanism in the context of educational digital strategy. Her related works have been selected for various domestic and international design awards such as Tokyo TDC, GDC, and Graphis. Her academic papers have been published in journals such as "Asian Culture and History", "Art and Design", "AHFE (Applied Human Factors and Ergonomics International Conference)", among others.',
+          zh: "中国美术学院视觉传播学院在读博士、独立策展人。关注系统化叙事，在内容与策展、视觉与编辑领域进行跨媒介研究实践。策划展览“变戏法：仿真世界的后台表演”获选上海当代艺术博物馆“青策计划2024”；曾任“缓存在/Being Theoria”第四届杭州纤维艺术三年展助理策展人、“天问2020：世界观的对话”、“天问2023:文明的互鉴”执行策展、获“设计互联”设计策展计划研究伙伴奖。参与浙江省高等教育学会2024年度高等教育研究课题《基于知识图谱技术的课程建设实践研究》等科研项目；参与编写教材《人文基础》和《内容与图解》入选浙江省“十三五”省级一流本科教材。作品曾于浙江美术馆、上海当代艺术博物馆、上海油罐艺术中心等地展出；学术论文发表于《艺术当代》等国内外刊物。",
+          en: 'PhD candidate and independent curator at the School of Visual Communication, China Academy of Art. Focused on systematic narrative, conducting cross-media research practices in content and curation, as well as visual and editorial fields. Curated the exhibition "Magic Tricks: The Backstage Performance of the Simulated World", which was selected for the Shanghai Contemporary Art Museum’s "Youth Curatorial Project 2024"; served as assistant curator for the "Being Theoria" 4th Hangzhou Fiber Art Triennial, and executive curator for "Tianwen 2020: Dialogue of Worldviews" and "Tianwen 2023: Mutual Learning of Civilizations", winning the "Design Interconnection" Design Curatorial Program Research Partner Award. Participated in the 2024 Higher Education Research Project of the Zhejiang Higher Education Society, "Research on Curriculum Construction Practice Based on Knowledge Graph Technology", among other research projects; contributed to the compilation of textbooks "Humanities Foundation" and "Content and Graphic Design", which were selected as provincial first-class undergraduate textbooks during the 13th Five-Year Plan in Zhejiang Province. Her works have been exhibited at the Zhejiang Art Museum, Shanghai Contemporary Art Museum, Shanghai Oil Tank Art Center, and other venues; academic papers have been published in domestic and international journals such as "Contemporary Art".',
         },
       },
     ],
