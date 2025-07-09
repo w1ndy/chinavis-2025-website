@@ -82,7 +82,7 @@ export const program: ProgramDay[] = [
           {
             type: "activity",
             title: {
-              zh: "会议签到以及现场注册",
+              zh: "会议签到及现场注册",
               en: "Conference Registration and Check-in",
             },
             location: {
@@ -102,8 +102,8 @@ export const program: ProgramDay[] = [
               en: "Course 1: Visual Encoding and Interactive Analysis in Data Visualization",
             },
             location: {
-              zh: "文轩厅",
-              en: "Wenxuan Hall",
+              zh: "四楼文轩厅",
+              en: "Wenxuan Hall, 4F",
             },
             href: {
               zh: "/2025/zh/course#visual-encoding-interactive-analysis",
@@ -117,8 +117,8 @@ export const program: ProgramDay[] = [
               en: "Course 2: Our Forest Growth Tree",
             },
             location: {
-              zh: "清河坊厅",
-              en: "Qinghefang Hall",
+              zh: "四楼清河坊厅",
+              en: "Qinghefang Hall, 4F",
             },
             href: {
               zh: "/2025/zh/course#growing-trees-with-our-forest",
@@ -132,8 +132,8 @@ export const program: ProgramDay[] = [
               en: "Doctoral Colloquium",
             },
             location: {
-              zh: "兰桥厅",
-              en: "Lanqiao Hall",
+              zh: "三楼兰桥厅",
+              en: "Lanqiao Hall, 3F",
             },
             href: {
               zh: "/2025/zh/doctoralcolloquium",
@@ -147,8 +147,8 @@ export const program: ProgramDay[] = [
               en: "China-Japan-Korea Joint Visualization Workshop",
             },
             location: {
-              zh: "青芝坞厅",
-              en: "Qingzhuwu Hall",
+              zh: "四楼青芝坞厅",
+              en: "Qingzhiwu Hall, 4F",
             },
             href: {
               zh: "/2025/zh/cjkworkshop",
@@ -167,8 +167,8 @@ export const program: ProgramDay[] = [
               en: "Meeting: Technical Committee on Visualization and Visual Analytics",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
         ],
@@ -183,8 +183,8 @@ export const program: ProgramDay[] = [
               en: "ChinaVis 2025 Committee Meeting",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
           },
         ],
@@ -203,7 +203,7 @@ export const program: ProgramDay[] = [
           {
             type: "activity",
             title: {
-              zh: "会议签到以及现场注册",
+              zh: "会议签到及现场注册",
               en: "Conference Registration and Check-in",
             },
             location: {
@@ -223,8 +223,8 @@ export const program: ProgramDay[] = [
               en: "Opening Ceremony",
             },
             location: {
-              zh: "文澜厅 + 文锦厅",
-              en: "Wenlan Hall + Wenjing Hall",
+              zh: "二楼文澜厅 + 三楼文锦厅",
+              en: "Wenlan Hall, 2F + Wenjing Hall, 3F",
             },
           },
         ],
@@ -240,8 +240,8 @@ export const program: ProgramDay[] = [
               en: "Keynote 1: Embracing AI for Digital Twins: Key Technologies and Trends",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
             speaker: {
               name: {
@@ -288,8 +288,8 @@ export const program: ProgramDay[] = [
               en: "Keynote 2: Are We on the Verge of a Revolution in Visualization?",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
             speaker: {
               name: {
@@ -323,8 +323,8 @@ export const program: ProgramDay[] = [
               en: "Panel 1: Development Strategy of Visualization Discipline",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
           },
         ],
@@ -335,50 +335,28 @@ export const program: ProgramDay[] = [
           {
             type: "paper",
             title: {
-              zh: "论文速览",
-              en: "Paper Fastforward",
+              zh: "论文速览和海报速览",
+              en: "Paper and Poster Fast-forward",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
           },
         ],
       },
       {
-        time: "9:00 - 12:20",
+        time: "9:00 - 12:00",
         sessions: [
           {
             type: "exhibition",
             title: {
-              zh: "企业与竞赛展",
-              en: "Industry and Challenge Exhibition",
+              zh: "企业展、论文海报展、艺术展",
+              en: "Industry, Poster, and Art Exhibition",
             },
             location: {
-              zh: "文澜厅门口",
-              en: "Wenlan Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "海报展",
-              en: "Poster Exhibition",
-            },
-            location: {
-              zh: "文锦厅门口",
-              en: "Wenjing Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "艺术展",
-              en: "Art Exhibition",
-            },
-            location: {
-              zh: "文悦厅",
-              en: "Wenyue Hall",
+              zh: "三楼文悦厅",
+              en: "Wenyue Hall, 3F",
             },
           },
         ],
@@ -401,19 +379,19 @@ export const program: ProgramDay[] = [
               en: "Topic 1: Large Models and Visual Analytics",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
             type: "activity",
             title: {
-              zh: "艺术项目开幕和艺术家讲座",
+              zh: "艺术项目开幕与艺术家讲座",
               en: "Art Program Opening and Artist Talks",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
           {
@@ -423,8 +401,8 @@ export const program: ProgramDay[] = [
               en: "Paper Session 1: Graph and Network Analytics",
             },
             location: {
-              zh: "兰桥厅",
-              en: "Lanqiao Hall",
+              zh: "三楼兰桥厅",
+              en: "Lanqiao Hall, 3F",
             },
           },
         ],
@@ -451,8 +429,8 @@ export const program: ProgramDay[] = [
               en: "Topic 2: High-Performance Scientific Visualization for Industrial Manufacturing",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
@@ -462,8 +440,8 @@ export const program: ProgramDay[] = [
               en: "Topic 3: Cultural Heritage Visualization",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
         ],
@@ -478,8 +456,8 @@ export const program: ProgramDay[] = [
               en: "Topic 4: Visual Storytelling",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
@@ -489,8 +467,8 @@ export const program: ProgramDay[] = [
               en: "Paper Session 2: AI-Driven Visual Analytics",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
         ],
@@ -505,8 +483,8 @@ export const program: ProgramDay[] = [
               en: "Data Visualization Challenges and Award Ceremony",
             },
             location: {
-              zh: "文澜厅B",
-              en: "Wenlan Hall B",
+              zh: "二楼文澜厅B",
+              en: "Wenlan Hall B, 2F",
             },
           },
         ],
@@ -517,34 +495,12 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业与竞赛展",
-              en: "Industry and Challenge Exhibition",
+              zh: "企业展、论文海报展、艺术展",
+              en: "Industry, Poster, and Art Exhibition",
             },
             location: {
-              zh: "文澜厅门口",
-              en: "Wenlan Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "海报展",
-              en: "Poster Exhibition",
-            },
-            location: {
-              zh: "文锦厅门口",
-              en: "Wenjing Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "艺术展",
-              en: "Art Exhibition",
-            },
-            location: {
-              zh: "文悦厅",
-              en: "Wenyue Hall",
+              zh: "三楼文悦厅",
+              en: "Wenyue Hall, 3F",
             },
           },
         ],
@@ -563,7 +519,7 @@ export const program: ProgramDay[] = [
           {
             type: "activity",
             title: {
-              zh: "会议签到以及现场注册",
+              zh: "会议签到及现场注册",
               en: "Conference Registration and Check-in",
             },
             location: {
@@ -583,8 +539,8 @@ export const program: ProgramDay[] = [
               en: "Topic 5: Immersive Visualization and Interaction",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
@@ -594,8 +550,8 @@ export const program: ProgramDay[] = [
               en: "Topic 6: Experience Sharing by Young Scholars",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
           {
@@ -605,8 +561,8 @@ export const program: ProgramDay[] = [
               en: "Paper Session 3: Theory, Evaluation, and Tools",
             },
             location: {
-              zh: "兰桥厅",
-              en: "Lanqiao Hall",
+              zh: "三楼兰桥厅",
+              en: "Lanqiao Hall, 3F",
             },
           },
           {
@@ -616,8 +572,8 @@ export const program: ProgramDay[] = [
               en: "Panel 2: Opportunities and Challenges for Young Visualization Scholars",
             },
             location: {
-              zh: "文澜厅B",
-              en: "Wenlan Hall B",
+              zh: "二楼文澜厅B",
+              en: "Wenlan Hall B, 2F",
             },
           },
         ],
@@ -644,8 +600,8 @@ export const program: ProgramDay[] = [
               en: "Topic 7: Visualization from a Female Perspective",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
@@ -655,8 +611,8 @@ export const program: ProgramDay[] = [
               en: "Topic 8: Data-Driven Art Visualization",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
           {
@@ -666,8 +622,8 @@ export const program: ProgramDay[] = [
               en: "Paper Session 4: Geospatial Data Visualization",
             },
             location: {
-              zh: "兰桥厅",
-              en: "Lanqiao Hall",
+              zh: "三楼兰桥厅",
+              en: "Lanqiao Hall, 3F",
             },
           },
           {
@@ -677,8 +633,8 @@ export const program: ProgramDay[] = [
               en: "Topic 9: Industrial Visualization Applications",
             },
             location: {
-              zh: "文澜厅B",
-              en: "Wenlan Hall B",
+              zh: "二楼文澜厅B",
+              en: "Wenlan Hall B, 2F",
             },
           },
         ],
@@ -689,34 +645,12 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业与竞赛展",
-              en: "Industry and Challenge Exhibition",
+              zh: "企业展、论文海报展、艺术展",
+              en: "Industry, Poster, and Art Exhibition",
             },
             location: {
-              zh: "文澜厅门口",
-              en: "Wenlan Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "海报展",
-              en: "Poster Exhibition",
-            },
-            location: {
-              zh: "文锦厅门口",
-              en: "Wenjing Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "艺术展",
-              en: "Art Exhibition",
-            },
-            location: {
-              zh: "文悦厅",
-              en: "Wenyue Hall",
+              zh: "三楼文悦厅",
+              en: "Wenyue Hall, 3F",
             },
           },
         ],
@@ -739,8 +673,8 @@ export const program: ProgramDay[] = [
               en: "Topic 10: Historical Origins of Visualization",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
@@ -750,8 +684,8 @@ export const program: ProgramDay[] = [
               en: "Topic 11: Frontier Papers Session 1",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
           {
@@ -761,8 +695,8 @@ export const program: ProgramDay[] = [
               en: "Paper Session 5: Application & System",
             },
             location: {
-              zh: "兰桥厅",
-              en: "Lanqiao Hall",
+              zh: "三楼兰桥厅",
+              en: "Lanqiao Hall, 3F",
             },
           },
         ],
@@ -789,8 +723,8 @@ export const program: ProgramDay[] = [
               en: "Topic 12: Artistic Transformation of Visualization and Cultural Memory",
             },
             location: {
-              zh: "文锦厅",
-              en: "Wenjing Hall",
+              zh: "三楼文锦厅",
+              en: "Wenjing Hall, 3F",
             },
           },
           {
@@ -800,8 +734,8 @@ export const program: ProgramDay[] = [
               en: "Topic 13: Frontier Papers Session 2",
             },
             location: {
-              zh: "文澜厅A",
-              en: "Wenlan Hall A",
+              zh: "二楼文澜厅A",
+              en: "Wenlan Hall A, 2F",
             },
           },
           {
@@ -811,8 +745,8 @@ export const program: ProgramDay[] = [
               en: "Paper Session 6: Design and Narrative Visualization",
             },
             location: {
-              zh: "兰桥厅",
-              en: "Lanqiao Hall",
+              zh: "三楼兰桥厅",
+              en: "Lanqiao Hall, 3F",
             },
           },
         ],
@@ -827,8 +761,8 @@ export const program: ProgramDay[] = [
               en: "Industry Talks",
             },
             location: {
-              zh: "文澜厅B",
-              en: "Wenlan Hall B",
+              zh: "二楼文澜厅B",
+              en: "Wenlan Hall B, 2F",
             },
           },
         ],
@@ -839,34 +773,12 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业与竞赛展",
-              en: "Industry and Challenge Exhibition",
+              zh: "企业展、论文海报展、艺术展",
+              en: "Industry, Poster, and Art Exhibition",
             },
             location: {
-              zh: "文澜厅门口",
-              en: "Wenlan Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "海报展",
-              en: "Poster Exhibition",
-            },
-            location: {
-              zh: "文锦厅门口",
-              en: "Wenjing Hall Entrance",
-            },
-          },
-          {
-            type: "exhibition",
-            title: {
-              zh: "艺术展",
-              en: "Art Exhibition",
-            },
-            location: {
-              zh: "文悦厅",
-              en: "Wenyue Hall",
+              zh: "三楼文悦厅",
+              en: "Wenyue Hall, 3F",
             },
           },
         ],
@@ -879,10 +791,6 @@ export const program: ProgramDay[] = [
             title: {
               zh: "家国情怀文化学习活动",
               en: "Cultural Learning",
-            },
-            location: {
-              zh: "待定",
-              en: "TBD",
             },
           },
         ],
@@ -906,8 +814,8 @@ export const program: ProgramDay[] = [
               en: "Keynote 3: Real-time Neural Rendering Technology and Pipeline for Global Full-spectrum Illumination",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
             speaker: {
               name: {
@@ -953,8 +861,8 @@ export const program: ProgramDay[] = [
               en: "Panel 3: The Tide of the Times in Visualization Research: Adherence and Inheritance",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
           },
         ],
@@ -969,8 +877,8 @@ export const program: ProgramDay[] = [
               en: "Closing Ceremony",
             },
             location: {
-              zh: "文澜厅",
-              en: "Wenlan Hall",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
           },
         ],
