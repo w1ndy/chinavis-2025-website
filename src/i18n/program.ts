@@ -81,6 +81,15 @@ import PhotoGL from "~/assets/program/gl.avif";
 import PhotoXN from "~/assets/program/xn.avif";
 import PhotoSZH from "~/assets/program/szh.avif";
 import PhotoSR from "~/assets/program/sr.avif";
+import PhotoXJZ from "~/assets/program/xjz.avif";
+import PhotoCW from "~/assets/program/cw.avif";
+import PhotoLSX from "~/assets/program/lsx.avif";
+import PhotoZJW from "~/assets/program/zjw.avif";
+import PhotoZXL from "~/assets/program/zxl.avif";
+import PhotoCQ from "~/assets/program/cq.avif";
+import PhotoMYX from "~/assets/program/myx.avif";
+import PhotoZengW from "~/assets/program/zengw.avif";
+import PhotoTJ from "~/assets/program/tj.avif";
 
 export const zh = {
   PageTitle: "会议议程 - ChinaVis 2025",
@@ -129,6 +138,7 @@ export interface ProgramSession {
   id?: string;
   type: ProgramSessionType;
   title: { zh: string; en: string };
+  description?: { zh: string; en: string };
   location?: { zh: string; en: string };
   href?: {
     zh: string;
@@ -409,6 +419,11 @@ export const program: ProgramDay[] = [
         sessions: [
           {
             type: "panel",
+            id: "panel-1",
+            href: {
+              zh: "/2025/zh/panel/1",
+              en: "/2025/en/panel/1",
+            },
             title: {
               zh: "圆桌论坛 1：可视化学科发展战略论坛",
               en: "Panel 1: Development Strategy of Visualization Discipline",
@@ -417,6 +432,100 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅",
               en: "Wenlan Hall, 2F",
             },
+            description: {
+              zh: "可视化在数据驱动的科学发现和工程探索中的重要作用日趋凸显，是图形学、人工智能、认知心理学、数据挖掘等多个学科的交叉前沿。生成式人工智能、基座大模型的突破性进展，进一步推动了可视化的发展浪潮。本论坛邀请了国内外可视化领域的资深学者，共同探讨可视化学科的核心科学问题，研判学科发展趋势，培育学科发展力量，促进可视化在新时代的新发展。",
+              en: "The important role of visualization in data-driven scientific discovery and engineering exploration is becoming increasingly prominent, as it intersects with multiple disciplines such as computer graphics, artificial intelligence, cognitive psychology, and data mining. The breakthrough advancements in generative artificial intelligence and foundational large models have further propelled the wave of visualization development. This panel invites senior scholars in the field of visualization from both domestic and international communities to jointly explore core scientific issues in visualization, assess trends in the discipline's development, cultivate the discipline's growth, and promote new developments in visualization in the new era.",
+            },
+            chairs: [
+              {
+                name: {
+                  zh: "夏佳志",
+                  en: "Jiazhi Xia",
+                },
+                affiliation: {
+                  zh: "中南大学",
+                  en: "Central South University",
+                },
+                photo: PhotoXJZ,
+              },
+            ],
+            speakers: [
+              {
+                name: {
+                  zh: "陈为",
+                  en: "Wei Chen",
+                },
+                affiliation: {
+                  zh: "浙江大学",
+                  en: "Zhejiang University",
+                },
+                photo: PhotoCW,
+                description: {
+                  zh: "陈为，浙江大学求是特聘教授，国家“万人计划”科技创新领军人才，CCF会士。现任浙江大学计算机辅助设计与图形系统全国重点实验室副主任，浙江大学艺术与考古图像数据实验室常务副主任，浙大城市学院计算学院院长（兼任），浙大拱墅研究院理事长，中国图学学会非遗文化数字化专业委员会主任。承担国家自然科学基金重点项目等十余项。“十三五”国家重点研发计划“云计算与大数据”重点专项专家组成员，“十四五”国家重点研发计划“先进计算与新兴软件”重点专项专家组成员。研究领域为大数据可视分析和人机混合智能。研究成果获中国计算机学会技术发明奖一等奖1项（2020）、浙江省自然科学奖一等奖2项（2017、2021）、浙江省科技进步奖一等奖（2023）、教育部科技进步二等奖、浙江省科技进步二等奖等。",
+                  en: "Wei Chen, Qiushi Distinguished Professor at Zhejiang University, National 'Ten Thousand Talents Program' leading talent in scientific and technological innovation, and CCF Fellow. He is currently Deputy Director of the National Key Laboratory of Computer-Aided Design and Graphics Systems at Zhejiang University, Executive Deputy Director of the Art and Archaeological Image Data Laboratory, Dean of the School of Computing at ZJU City College (concurrent), Chairman of the Gongshu Research Institute, and Director of the Digitalization of Intangible Cultural Heritage Committee of the China Society for Graphics. He has led more than ten major projects including National Natural Science Foundation key projects. He is an expert group member of the '13th Five-Year' National Key R&D Program 'Cloud Computing and Big Data' and the '14th Five-Year' National Key R&D Program 'Advanced Computing and Emerging Software.' His research focuses on big data visual analytics and human-machine hybrid intelligence. His achievements have won the First Prize of CCF Technical Invention Award (2020), First Prize of Zhejiang Provincial Natural Science Award (2017, 2021), First Prize of Zhejiang Provincial Science and Technology Progress Award (2023), Second Prize of Ministry of Education Science and Technology Progress Award, and Second Prize of Zhejiang Provincial Science and Technology Progress Award.",
+                },
+              },
+              {
+                name: {
+                  zh: "刘世霞",
+                  en: "Shixia Liu",
+                },
+                affiliation: {
+                  zh: "清华大学",
+                  en: "Tsinghua University",
+                },
+                photo: PhotoLSX,
+                description: {
+                  zh: "刘世霞，清华大学教授，国家级人才计划入选者，IEEE Fellow，AAIA Fellow。主要研究方向是大数据可视分析与可解释人工智能。获IEEE可视化技术成就奖（2022）；入选福布斯中国科技女性50（2022）和可视化名人堂（2020）。担任CCF A类会议IEEE VIS(VAST) 2016和2017的论文主席，IEEE VIS 2020-2023指导委员会委员；担任IEEE Transactions on Visualization and Computer Graphics副主编、曾任编委；担任CCF A类期刊Artificial Intelligence编委；担任IEEE Transactions on Big Data和ACM Transactions on Interactive Intelligent Systems的编委。",
+                  en: "Shixia Liu, Professor at Tsinghua University, National-level talent program recipient, IEEE Fellow, AAIA Fellow. Her main research areas are big data visual analytics and explainable artificial intelligence. She received the IEEE Visualization Technical Achievement Award (2022), was selected for Forbes China Top 50 Women in Tech (2022) and the Visualization Hall of Fame (2020). She served as paper chair for IEEE VIS (VAST) 2016 and 2017, IEEE VIS 2020-2023 Steering Committee member; Associate Editor and former Editorial Board member of IEEE Transactions on Visualization and Computer Graphics; Editorial Board member of Artificial Intelligence; Editorial Board member of IEEE Transactions on Big Data and ACM Transactions on Interactive Intelligent Systems.",
+                },
+              },
+              {
+                name: {
+                  zh: "袁晓如",
+                  en: "Xiaoru Yuan",
+                },
+                affiliation: {
+                  zh: "北京大学",
+                  en: "Peking University",
+                },
+                photo: PhotoYXR,
+                description: {
+                  zh: "袁晓如，北京大学智能学院研究员，教材建设博雅特聘教授，大数据分析与应用技术国家工程实验室常务副主任。主要研究方向为可视化通用基础方法及其在社会、人文领域的应用。多次获IEEE VIS, ChinaVis等可视化国内外学术会议最佳论文或提名奖，现任IEEE VIS, PacificVis, ChinaVis指导委员会成员。中国计算机学会杰出会员，中国图象图形学学会可视化与可视分析专业委员会主任。",
+                  en: "Xiaoru Yuan, Researcher at the School of Intelligence Science and Technology, Peking University, Boya Distinguished Professor for Textbook Construction, and Executive Deputy Director of the National Engineering Laboratory for Big Data Analysis and Application Technology. His main research direction is general basic methods of visualization and their applications in social and humanistic fields. He has won best paper awards or nominations at IEEE VIS, ChinaVis and other visualization conferences, and currently serves as a member of the steering committees of IEEE VIS, PacificVis, and ChinaVis. He is a distinguished member of the China Computer Federation and director of the Visualization and Visual Analytics Professional Committee of the China Society of Image and Graphics.",
+                },
+              },
+              {
+                name: {
+                  zh: "张加万",
+                  en: "Jiawan Zhang",
+                },
+                affiliation: {
+                  zh: "天津大学 / 贵阳学院",
+                  en: "Tianjin University / Guiyang University",
+                },
+                photo: PhotoZJW,
+                description: {
+                  zh: "张加万，天津大学智能与计算学部教授、博导、现任贵阳学院党委委员，副校长（对口支援）。担任CSIG常务理事、贵州省文化遗产数字化保护与传承利用全省重点实验室主任、文化部建筑文化遗产保护传承信息技术重点实验室副主任、天津市文化遗产保护与传承工程技术中心主任。以首席科学家完成国家重点研究计划项目1项和国家社科基金重大项目1项。以第一作者（或通讯）在国际著名学术期刊、会议发表学术论文100余篇。获国家发明专利授权20多项。",
+                  en: "Jiawan Zhang, Professor and doctoral supervisor at the School of Intelligence and Computing, Tianjin University, currently Party Committee member and Vice President (counterpart support) of Guiyang University. He serves as Executive Director of CSIG, Director of Guizhou Provincial Key Laboratory for Digital Protection and Utilization of Cultural Heritage, Deputy Director of the Ministry of Culture Key Laboratory for Information Technology of Architectural Cultural Heritage Protection and Inheritance, and Director of Tianjin Engineering Technology Center for Cultural Heritage Protection and Inheritance. He has led one National Key Research Program project and one major National Social Science Fund project as chief scientist. He has published over 100 academic papers as first author or corresponding author in international journals and conferences, and holds more than 20 authorized national invention patents.",
+                },
+              },
+              {
+                name: {
+                  zh: "张小龙",
+                  en: "Xiaolong Zhang",
+                },
+                affiliation: {
+                  zh: "宾夕法尼亚州州立大学",
+                  en: "Pennsylvania State University",
+                },
+                photo: PhotoZXL,
+                description: {
+                  zh: "张小龙博士是美国宾夕法尼亚州州立大学信息科学与技术学院副教授，该学院知识可视化实验室主任。其主要研究涉及人机交互、信息可视化与可视分析、社交网络分析、协同系统等领域。张博士是中国计算机学会人机交互专委会委员、中国图象图形学会可视化与可视分析专委会委员。张博士获清华大学学士和硕士学位、密歇根大学博士学位。",
+                  en: "Dr. Xiaolong Zhang is an Associate Professor at the College of Information Sciences and Technology, Pennsylvania State University, and Director of the Knowledge Visualization Lab. His main research involves human-computer interaction, information visualization and visual analytics, social network analysis, and collaborative systems. Dr. Zhang is a committee member of the CCF Human-Computer Interaction Committee and the CSIG Visualization and Visual Analytics Committee. He holds bachelor's and master's degrees from Tsinghua University and a PhD from the University of Michigan.",
+                },
+              },
+            ],
           },
         ],
       },
@@ -752,7 +861,7 @@ export const program: ProgramDay[] = [
             id: "topic-3",
             type: "topic",
             title: {
-              zh: "专题 3: 文化遗产可视化",
+              zh: "专题 3：文化遗产可视化",
               en: "Topic 3: Cultural Heritage Visualization",
             },
             location: {
@@ -1330,6 +1439,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "panel",
+            id: "panel-2",
+            href: {
+              zh: "/2025/zh/panel/2",
+              en: "/2025/en/panel/2",
+            },
             title: {
               zh: "圆桌论坛 2：青年可视化学者的机遇与挑战",
               en: "Panel 2: Opportunities and Challenges for Young Visualization Scholars",
@@ -1338,6 +1452,100 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅B",
               en: "Wenlan Hall B, 2F",
             },
+            description: {
+              zh: "青年学者们站在创新的前沿，也面临着前所未有的机遇与挑战。本次圆桌论坛将聚焦青年学者在科研和职业发展中的关键议题，提供一个交流、合作与成长的平台。我们将深入探讨青年学者在职业规划、论文发表、项目申请、跨学科合作等方面的常见诉求和难题，并分享有效的应对策略和建议。通过本次论坛，我们期待为青年学者提供一个展示自我、拓展视野、建立合作的机会，共同推动可视化领域的创新与发展。",
+              en: "Youth scholars are at the forefront of innovation, facing unprecedented opportunities and challenges. This panel will focus on key issues in research and career development for young scholars, providing a platform for communication, collaboration, and growth. We will delve into common demands and challenges faced by young scholars in career planning, paper publication, project application, interdisciplinary collaboration, and share effective coping strategies and suggestions. Through this forum, we hope to provide young scholars with an opportunity to showcase themselves, broaden their horizons, and establish collaborations, jointly promoting innovation and development in the field of visualization.",
+            },
+            chairs: [
+              {
+                name: {
+                  zh: "蓝星宇",
+                  en: "Xingyu Lan",
+                },
+                affiliation: {
+                  zh: "复旦大学",
+                  en: "Fudan University",
+                },
+                photo: PhotoLXY,
+              },
+            ],
+            speakers: [
+              {
+                name: {
+                  zh: "陈晴",
+                  en: "Qing Chen",
+                },
+                affiliation: {
+                  zh: "同济大学",
+                  en: "Tongji University",
+                },
+                photo: PhotoCQ, // Note: Photo import needs to be added at top
+                description: {
+                  zh: "陈晴，同济大学设计创意学院/上海自主智能无人系统科学中心双聘副教授，博士生导师，上海海外高层次计划引进人才，入选上海市晨光计划。先后于浙江大学及香港科技大学计算机学院获本科及博士学位，曾任法国国家信息与自动化研究所INRIA及巴黎综合理工École Polytechnique博士后研究员。研究方向包括信息可视化、大数据分析、人机交互、生成式人工智能及其在智能设计、智慧教育、智慧医疗及商业智能中的应用，在IEEE TVCG/VIS及ACM CHI等国际顶级期刊及会议发表论文三十余篇，获得CSIG自然科学奖二等奖、香港ICT最佳创新奖银奖等奖项。担任VIS领域多个国际学术会议程序委员会委员，曾任IEEE VIS社区主席，主持国家自然科学基金青年项目、国家自然科学基金面上项目、上海市自然科学基金面上项目、上海市教委纵向课题、教育部产学研合作育人项目，及多项与蚂蚁集团、腾讯、智谱AI等公司的校企合作课题。",
+                  en: "Qing Chen is an Associate Professor at both the College of Design and Innovation and Shanghai Center for Autonomous and Intelligent Systems, Tongji University. She is a doctoral supervisor and a high-level overseas talent in Shanghai, selected for the Shanghai Chenguang Program. She received her bachelor's and doctoral degrees from Zhejiang University and Hong Kong University of Science and Technology respectively. She was a postdoctoral researcher at INRIA (French National Institute for Research in Digital Science and Technology) and École Polytechnique. Her research interests include information visualization, big data analytics, human-computer interaction, generative AI and their applications in intelligent design, smart education, smart healthcare, and business intelligence. She has published over 30 papers in top international journals and conferences such as IEEE TVCG/VIS and ACM CHI, and received awards including the Second Prize of CSIG Natural Science Award and Silver Award of Hong Kong ICT Best Innovation Award. She serves on program committees of multiple international conferences in the VIS field and was the IEEE VIS Community Chair. She leads projects funded by the National Natural Science Foundation of China (Youth and General Programs), Shanghai Natural Science Foundation, Shanghai Education Commission, and Ministry of Education Industry-Academia Collaboration Programs, as well as multiple joint projects with companies like Ant Group, Tencent, and Zhipu AI.",
+                },
+              },
+              {
+                name: {
+                  zh: "蓝星宇",
+                  en: "Xingyu Lan",
+                },
+                affiliation: {
+                  zh: "复旦大学",
+                  en: "Fudan University",
+                },
+                photo: PhotoLXY, // Already imported above
+                description: {
+                  zh: `蓝星宇，复旦大学新闻学院青年副研究员、计算与智能传播研究中心成员，上海市"晨光学者"。研究方向为叙事可视化、用户体验、信息设计、智能传播等，于IEEE VIS、IEEE TVCG ACM CHI等CCF-A类期刊和会议上发表论文，并担任多份SCI/SSCI期刊和国内核心期刊的审稿人，以及国际会议的程序委员会成员。曾获IEEE VIS最佳论文奖、最佳论文提名奖、IEEE PacificVis 最佳论文奖、CSIG自然科学奖等学术奖项，以及中国数据新闻大赛一等奖、中国数据内容大赛最佳数据新闻金奖、中国数字人文开放数据创新研究大赛一等奖等实践奖项。`,
+                  en: "Xingyu Lan is a Young Associate Researcher at the School of Journalism and member of the Computing and Intelligent Communication Research Center, Fudan University. She is a Shanghai 'Chenguang Scholar'. Her research focuses on narrative visualization, user experience, information design, and intelligent communication. She has published papers in CCF-A journals and conferences such as IEEE VIS, IEEE TVCG, and ACM CHI, and serves as a reviewer for multiple SCI/SSCI journals and domestic core journals, as well as program committee member for international conferences. She has received academic awards including IEEE VIS Best Paper Award, Best Paper Nomination Award, IEEE PacificVis Best Paper Award, and CSIG Natural Science Award, as well as practical awards including First Prize in China Data Journalism Competition, Best Data News Gold Award in China Data Content Competition, and First Prize in China Digital Humanities Open Data Innovation Research Competition.",
+                },
+              },
+              {
+                name: {
+                  zh: "李权",
+                  en: "Quan Li",
+                },
+                affiliation: {
+                  zh: "上海科技大学",
+                  en: "ShanghaiTech University",
+                },
+                photo: PhotoLQ, // Already imported above
+                description: {
+                  zh: "李权，上海科技大学信息科学与技术学院助理教授（终身教授序列）、研究员、博士生导师，从事人工智能及可视分析、可解释性机器学习以及人机交互技术的研究。他博士毕业于香港科技大学计算机科学与工程学系。任中国图象图形学学会可视化与可视分析专委会委员，IEEE VIS Paper程序委员会委员、ChinaVis论文国际程序委员会委员、IEEE VIS, EuroVis, PacificVis, ChinaVis, ACM CHI/CSCW及TVCG等顶级学术会议期刊审稿人，他曾任美国佐治亚理工学院计算机科学与工程学院的访问研究员、微众银行人工智能部资深研究员及网易游戏资深研究员。他的学术成果发表在IEEE VIS, EuroVis, IEEE PacificVis, ACM CHI, CSCW, UIST, IUI, CGF, TVCG等可视化及人机交互顶级期刊和会议，获得ACM CHI 2025最佳论文奖，并主持国家自然科学基金面上项目。",
+                  en: "Quan Li is an Assistant Professor (tenure-track), Researcher, and doctoral supervisor at the School of Information Science and Technology, ShanghaiTech University. He conducts research in artificial intelligence and visual analytics, explainable machine learning, and human-computer interaction technologies. He received his PhD from the Department of Computer Science and Engineering at HKUST. He serves as a committee member of the CSIG Visualization and Visual Analytics Committee, IEEE VIS Paper Program Committee, ChinaVis International Program Committee, and reviewer for top conferences and journals including IEEE VIS, EuroVis, PacificVis, ChinaVis, ACM CHI/CSCW, and TVCG. He was previously a visiting researcher at Georgia Tech's School of Computer Science and Engineering, senior researcher at WeBank AI Department, and senior researcher at NetEase Games. His research has been published in top visualization and HCI journals and conferences including IEEE VIS, EuroVis, IEEE PacificVis, ACM CHI, CSCW, UIST, IUI, CGF, and TVCG. He received the ACM CHI 2025 Best Paper Award and leads a National Natural Science Foundation project.",
+                },
+              },
+              {
+                name: {
+                  zh: "唐谈",
+                  en: "Tan Tang",
+                },
+                affiliation: {
+                  zh: "浙江大学",
+                  en: "Zhejiang University",
+                },
+                photo: PhotoTT, // Already imported above
+                description: {
+                  zh: `唐谈，浙江大学艺术与考古学院"百人计划"研究员（博士生导师），在人机交互/可视化/虚拟现实等方向国际顶级学术会议和期刊（如IEEE TVCG, IEEE VIS/VR, ACM CHI/UIST）上发表论文30余篇，并多次获最佳论文提名奖，作为"中国历代绘画大系"展览策划组成员参与第60届威尼斯国际艺术双年展中国国家馆项目，相关工作获得了央视等权威媒体多次报道。`,
+                  en: "Tan Tang is a 'Hundred Talents Program' Researcher (doctoral supervisor) at the School of Art and Archaeology, Zhejiang University. She has published over 30 papers in top international conferences and journals in human-computer interaction, visualization, and virtual reality (such as IEEE TVCG, IEEE VIS/VR, ACM CHI/UIST), receiving multiple best paper nomination awards. As a member of the 'Complete Collection of Chinese Paintings Throughout History' exhibition planning team, she participated in the 60th Venice International Art Biennale Chinese National Pavilion project. Her work has been reported multiple times by authoritative media such as CCTV.",
+                },
+              },
+              {
+                name: {
+                  zh: "马昱欣",
+                  en: "Yuxin Ma",
+                },
+                affiliation: {
+                  zh: "南方科技大学",
+                  en: "Southern University of Science and Technology",
+                },
+                photo: PhotoMYX, // Note: Photo import needs to be added at top
+                description: {
+                  zh: "马昱欣，南方科技大学计算机科学与工程系副教授、研究员，于浙江大学计算机科学与技术学院获得学士与博士学位，曾任美国亚利桑那州立大学VADER实验室博士后。主要研究方向为数据可视化、交互式数据分析、人机交互，包括基于数据可视化方法的人工智能可解释性研究、高维数据和时空数据的可视分析方法、结合智能计算的交互式教学和创意设计系统等。目前发表论文四十余篇，在IEEE TVCG、IEEE VIS、ACM CHI等国际顶级期刊会议上发表十余篇长文，曾获得ACM CHI最佳论文提名、CVMJ期刊年度最佳论文提名、陆增镛CAD&CG高科技奖等奖项，以及参与国内首部数据可视化专著的编写工作。",
+                  en: "Yuxin Ma is an Associate Professor and Researcher in the Department of Computer Science and Engineering at Southern University of Science and Technology. She received her bachelor's and doctoral degrees from the College of Computer Science and Technology at Zhejiang University, and was a postdoctoral researcher at the VADER Lab, Arizona State University. Her main research interests include data visualization, interactive data analysis, and human-computer interaction, including AI interpretability research based on data visualization methods, visual analytics methods for high-dimensional and spatiotemporal data, and interactive teaching and creative design systems combined with intelligent computing. She has published over 40 papers, including more than 10 full papers in top international journals and conferences such as IEEE TVCG, IEEE VIS, and ACM CHI. She has received awards including ACM CHI Best Paper Nomination, CVMJ Journal Annual Best Paper Nomination, and Lu Zengyong CAD&CG High-Tech Award, and participated in writing China's first monograph on data visualization.",
+                },
+              },
+            ],
           },
         ],
       },
@@ -2707,14 +2915,98 @@ export const program: ProgramDay[] = [
         sessions: [
           {
             type: "panel",
+            id: "panel-3",
             title: {
               zh: "圆桌论坛 3：可视化研究的时代浪潮：坚守与传承",
               en: "Panel 3: The Tide of the Times in Visualization Research: Adherence and Inheritance",
+            },
+            href: {
+              zh: "/2025/zh/panel/3",
+              en: "/2025/en/panel/3",
             },
             location: {
               zh: "二楼文澜厅",
               en: "Wenlan Hall, 2F",
             },
+            description: {
+              zh: "本论坛将聚集可视化研究领域具有10年以上经验的学术导师，共同回顾可视化研究在大数据、人工智能和大模型等多轮技术浪潮中的定位演变。讨论将聚焦三个核心问题：在每次技术变革中，可视化研究如何既拥抱创新又保持学科本质？哪些核心价值和方法论应该坚守？作为硕博士导师，最希望传承给下一代研究者的又是什么？通过嘉宾的亲身经历分享，为可视化研究的未来发展提供方向性思考。",
+              en: "This panel will gather academic mentors with over 10 years of experience in the field of visualization research to jointly review the evolution of visualization research's positioning amidst multiple technological waves such as big data, artificial intelligence, and large models. The discussion will focus on three core questions: How does visualization research embrace innovation while maintaining its disciplinary essence during each technological transformation? What core values and methodologies should be upheld? As mentors for master's and doctoral students, what do they hope to pass on to the next generation of researchers? Through the sharing of personal experiences by the guests, the panel aims to provide directional insights for the future development of visualization research.",
+            },
+            chairs: [
+              {
+                name: {
+                  zh: "曾伟",
+                  en: "Wei Zeng",
+                },
+                affiliation: {
+                  zh: "香港科技大学（广州）",
+                  en: "Hong Kong University of Science and Technology (Guangzhou)",
+                },
+                photo: PhotoZengW,
+              },
+            ],
+            speakers: [
+              {
+                name: {
+                  zh: "毕重科",
+                  en: "Zhongke Bi",
+                },
+                affiliation: {
+                  zh: "天津大学",
+                  en: "Tianjin University",
+                },
+                photo: PhotoBCK,
+                description: {
+                  zh: "天津大学智能与计算学部英才教授、博士生导师，国家重点研发计划首席科学家员。2012年于东京大学获理学博士学位，2012年至2016年在日本理化学研究所担任研究员，2016年加入天津大学。主要研究方向为高性能计算、可视化和人工智能。现任CSIG可视化与可视分析专委会常务委员，CCF高性能计算专委会委员，CCF计算机辅助设计与图形学专委会委员，天津市人工智能学会理事，天津市智能科学与研究会监事，中国图学学会可视化与认知计算专委会等10个专业委员会委员。近5年，主持国家重点研发计划1项，173项目1项，国家自然基金2项，预研项目2项，国家数值风洞重点项目2项，各部委项目2项。参与国家自然基金3项（包括重点项目1项），各部委项目4项，天津市基金重点项目1项。在高性能计算和可视化领域发表论文100余篇。成果在核电、环境保护、数值风洞等领域得到应用。",
+                  en: "Distinguished Professor and doctoral supervisor at the School of Intelligence and Computing, Tianjin University, Chief Scientist of National Key R&D Program. He received his PhD in Science from the University of Tokyo in 2012, worked as a researcher at RIKEN from 2012 to 2016, and joined Tianjin University in 2016. His main research areas are high-performance computing, visualization, and artificial intelligence. He currently serves as a standing committee member of CSIG Visualization and Visual Analytics, CCF High-Performance Computing, and CCF Computer-Aided Design and Graphics committees, director of Tianjin AI Society, supervisor of Tianjin Intelligent Science and Research Society, and member of 10 professional committees including China Graphics Society Visualization and Cognitive Computing. In the past 5 years, he has led one National Key R&D Program, one 173 Project, two National Natural Science Foundation projects, two pre-research projects, two National Numerical Wind Tunnel key projects, and two ministerial projects. He has participated in three National Natural Science Foundation projects (including one key project), four ministerial projects, and one Tianjin Fund key project. He has published over 100 papers in high-performance computing and visualization. His achievements have been applied in nuclear power, environmental protection, numerical wind tunnels and other fields.",
+                },
+              },
+              {
+                name: {
+                  zh: "刘乐",
+                  en: "Le Liu",
+                },
+                affiliation: {
+                  zh: "西北工业大学",
+                  en: "Northwestern Polytechnical University",
+                },
+                photo: PhotoLiuL,
+                description: {
+                  zh: `刘乐博士毕业于美国克莱姆森大学，现任西北工业大学副教授，空天地海一体化大数据应用技术国家工程实验室可视互动方向负责人，入选陕西省高层次人才、陕西省高校青年创新团队，担任中国图象图形学学会可视化与可视分析专委会秘书、中国可视化与可视分析大会网站主席、智能视觉产业发展大会专题主席等。长期从事可视化、视觉认知、计算机图形学和人工智能交叉领域研究，在IEEE VIS、TVCG、IJCV、IMWUT 、ACM MM等会议和期刊发表论文近30篇，成果获得Scientific American、US Newsweek、雅虎、中国网等国内外知名媒体专题报道。主持国家自然科学基金等项目。获教育部和科技部颁发"春晖杯"中国留学人员创新创业大赛优胜奖。指导学生获得中国国际大学生创新大赛全国银奖。`,
+                  en: "Dr. Le Liu graduated from Clemson University, USA, and is currently an Associate Professor at Northwestern Polytechnical University, leading the visual interaction direction at the National Engineering Laboratory for Integrated Applications of Big Data for Aerospace, Ground, Sea Integration. He was selected as a high-level talent in Shaanxi Province and a member of the Young Innovation Team of Shaanxi Higher Education Institutions. He serves as the secretary of the Visualization and Visual Analytics Committee of CSIG, website chair of ChinaVis, and topic chair of the Intelligent Vision Industry Development Conference. His long-term research focuses on visualization, visual cognition, computer graphics, and artificial intelligence intersection. He has published nearly 30 papers in conferences and journals such as IEEE VIS, TVCG, IJCV, IMWUT, and ACM MM. His achievements have been featured in media such as Scientific American, US Newsweek, Yahoo, and China.com. He leads projects including National Natural Science Foundation projects. He won the 'Chunhui Cup' Innovation and Entrepreneurship Competition Award for Chinese Overseas Students from the Ministry of Education and Ministry of Science and Technology. He guided students to win the national silver award in the China International College Students Innovation Competition.",
+                },
+              },
+              {
+                name: {
+                  zh: "陶钧",
+                  en: "Jun Tao",
+                },
+                affiliation: {
+                  zh: "中山大学",
+                  en: "Sun Yat-sen University",
+                },
+                photo: PhotoTJ,
+                description: {
+                  zh: "陶钧，中山大学计算机学院及国家超级计算广州中心副教授，博士生导师。于2015年获得密歇根理工大学计算机科学专业博士学位，2015至2018年于圣母大学计算机科学与工程系任博士后研究员。其主要研究方向主要包括对大规模科学模拟数据的可视化，尤其是深度学习，信息论，优化方法，和交互探索方法在流场可视化方面的应用；以及对大规模科学数据的高性能分析方法的研究。",
+                  en: "Jun Tao is an Associate Professor at the School of Computer Science, Sun Yat-sen University and the National Supercomputer Center in Guangzhou, and a doctoral supervisor. He received his PhD in Computer Science from Michigan Technological University in 2015 and was a postdoctoral researcher at the Department of Computer Science and Engineering, University of Notre Dame from 2015 to 2018. His main research directions include visualization of large-scale scientific simulation data, particularly the application of deep learning, information theory, optimization methods, and interactive exploration methods in flow field visualization; and research on high-performance analysis methods for large-scale scientific data.",
+                },
+              },
+              {
+                name: {
+                  zh: "俞凌云",
+                  en: "Lingyun Yu",
+                },
+                affiliation: {
+                  zh: "西交利物浦大学",
+                  en: "Xi'an Jiaotong-Liverpool University",
+                },
+                photo: PhotoYLY,
+                description: {
+                  zh: "俞凌云，副教授，博士生导师，交互视觉科研组负责人，主要从事沉浸式可视化、扩展现实、人机交互。发表可视化和人机交互相关领域论文80余篇，主持国家自然科学基金项目（面上1项，青年1项）。以第一作者获可视化领域顶会（IEEE VIS）科学可视化十二年时间检验奖、最佳论文提名奖，多次在领域顶会担任论文主席。",
+                  en: "Lingyun Yu, Associate Professor, doctoral supervisor, head of the Interactive Visualization Research Group, mainly engaged in immersive visualization, extended reality, and human-computer interaction. Has published over 80 papers in visualization and human-computer interaction fields, and has led National Natural Science Foundation projects (1 general project, 1 youth project). As first author, won the IEEE VIS Scientific Visualization Twelve-Year Test of Time Award and Best Paper Nomination Award, and has served as paper chair multiple times at top conferences in the field.",
+                },
+              },
+            ],
           },
         ],
       },
