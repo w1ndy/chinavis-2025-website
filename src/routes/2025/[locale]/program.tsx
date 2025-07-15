@@ -30,7 +30,7 @@ function ProgramTableTimeSlot(props: { timeslot: Dict.ProgramTimeSlot }) {
                       <a href={href!()}>{title()}</a>
                     </Show>
                   </div>
-                  <Show when={session.speakers}>
+                  <Show when={session.id && session.id.startsWith("keynote-")}>
                     <For each={session.speakers}>
                       {(speaker) => (
                         <SpeakerInfo class="justify-center md:justify-start" speaker={speaker} nameOnly={true} />

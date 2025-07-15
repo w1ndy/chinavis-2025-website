@@ -134,7 +134,7 @@ export interface ProgramSession {
     zh: string;
     en: string;
   };
-  chair?: Speaker[];
+  chairs?: Speaker[];
   speakers?: Speaker[];
 }
 
@@ -328,10 +328,6 @@ export const program: ProgramDay[] = [
                   zh: "谭建荣",
                   en: "Jianrong Tan",
                 },
-                suffix: {
-                  zh: "教授",
-                  en: "(Professor)",
-                },
                 affiliation: {
                   zh: "浙江大学",
                   en: "Zhejiang University",
@@ -373,7 +369,7 @@ export const program: ProgramDay[] = [
             id: "keynote-2",
             type: "keynote",
             title: {
-              zh: "大会特邀报告 2：我们是否正站在可视化领域变革的前夜？",
+              zh: "大会特邀报告 2：Are we between breakthroughs making a transformative shift of the visualization field?",
               en: "Keynote 2: Are we between breakthroughs making a transformative shift of the visualization field?",
             },
             location: {
@@ -386,10 +382,6 @@ export const program: ProgramDay[] = [
                   zh: "Kwan-Liu Ma",
                   en: "Kwan-Liu Ma",
                 },
-                suffix: {
-                  zh: "教授",
-                  en: "(Professor)",
-                },
                 affiliation: {
                   zh: "加州大学戴维斯分校",
                   en: "University of California, Davis",
@@ -397,11 +389,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoKLM,
                 abstract: {
                   en: "The advancement of visualization has had a deep and profound impact across science, industry, and society. Mainstream visualization tools and dashboards have reached a level of maturity, leading to better data literacy, more accessible information and analytics, and improved decision making. What are outstanding research topics for us to pursue? In particular, as a swarm of researchers and students in our field go after AI/ML work, what else we must address to ensure real innovation is happening so our field will continue to grow. In this talk, I will use my own projects to reflect on a transformative shift we are observing.",
-                  zh: "可视化的进步对科学、工业和社会产生了深远的影响。主流的可视化工具和仪表盘已经达到了一定的成熟度，促进了更好的数据素养、更易获取的信息和分析，以及更有效的决策。我们应该追求哪些杰出的研究课题？特别是，随着越来越多的研究人员和学生投身于人工智能/机器学习工作，我们还必须解决哪些问题，以确保真正的创新发生，从而使我们的领域继续发展。在本次报告中，我将通过自己的项目反思我们正在观察到的变革性转变。",
+                  zh: "The advancement of visualization has had a deep and profound impact across science, industry, and society. Mainstream visualization tools and dashboards have reached a level of maturity, leading to better data literacy, more accessible information and analytics, and improved decision making. What are outstanding research topics for us to pursue? In particular, as a swarm of researchers and students in our field go after AI/ML work, what else we must address to ensure real innovation is happening so our field will continue to grow. In this talk, I will use my own projects to reflect on a transformative shift we are observing.",
                 },
                 description: {
                   en: "Kwan-Liu Ma (马匡六) is a distinguished professor of computer science at the University of California, Davis, where he leads the VIDI Research Group. Before joining UC Davis, he was a staff scientist at ICASE of the NASA Langley Research Center (1993-1999). Professor Ma received his PhD degree in computer science from the University of Utah in 1993. His research interests include visualization, computer graphics, human computer interaction, and high-performance computing. For his significant research accomplishments, Professor Ma has received many recognitions, including the NSF PECASE award in 2000, elected IEEE Fellow in 2012, the IEEE VGTC Visualization Technical Achievement Award in 2013, inducted into the IEEE Visualization Academy in 2019, and elected ACM Fellow in 2023. Professor Ma presently serves on both the IEEE VIS Steering Committee and IEEE PacificVis Steering Committee.",
-                  zh: "马匡六（Kwan-Liu Ma）是加州大学戴维斯分校计算机科学系的杰出教授，领导着VIDI研究组。在加入加州大学戴维斯分校之前，他曾在NASA兰利研究中心的ICASE担任科学家（1993-1999）。马教授于1993年在犹他大学获得计算机科学博士学位。他的研究兴趣包括可视化、计算机图形学、人机交互和高性能计算。由于其显著的研究成就，马教授获得了许多荣誉，包括2000年的NSF PECASE奖、2012年当选IEEE Fellow、2013年获得IEEE VGTC可视化技术成就奖、2019年入选IEEE可视化学院，以及2023年当选ACM Fellow。马教授目前同时担任IEEE VIS指导委员会和IEEE PacificVis指导委员会的成员。",
+                  zh: "Kwan-Liu Ma (马匡六) is a distinguished professor of computer science at the University of California, Davis, where he leads the VIDI Research Group. Before joining UC Davis, he was a staff scientist at ICASE of the NASA Langley Research Center (1993-1999). Professor Ma received his PhD degree in computer science from the University of Utah in 1993. His research interests include visualization, computer graphics, human computer interaction, and high-performance computing. For his significant research accomplishments, Professor Ma has received many recognitions, including the NSF PECASE award in 2000, elected IEEE Fellow in 2012, the IEEE VGTC Visualization Technical Achievement Award in 2013, inducted into the IEEE Visualization Academy in 2019, and elected ACM Fellow in 2023. Professor Ma presently serves on both the IEEE VIS Steering Committee and IEEE PacificVis Steering Committee.",
                 },
               },
             ],
@@ -473,6 +465,10 @@ export const program: ProgramDay[] = [
         sessions: [
           {
             id: "topic-1",
+            href: {
+              zh: "/2025/zh/topic/1",
+              en: "/2025/en/topic/1",
+            },
             type: "topic",
             title: {
               zh: "专题 1：大模型与可视分析",
@@ -482,8 +478,8 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
-                {
+            chairs: [
+              {
                 name: {
                   zh: "陈长建",
                   en: "Changjian Chen",
@@ -493,7 +489,7 @@ export const program: ProgramDay[] = [
                   en: "Hunan University",
                 },
                 photo: PhotoCCJ,
-              }
+              },
             ],
             speakers: [
               {
@@ -589,10 +585,6 @@ export const program: ProgramDay[] = [
                 },
               },
             ],
-            href: {
-              zh: "/2025/zh/topic/1",
-              en: "/2025/en/topic/1",
-            }
           },
           {
             type: "activity",
@@ -644,8 +636,8 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
-                {
+            chairs: [
+              {
                 name: {
                   zh: "郭栋梁",
                   en: "Dongliang Guo",
@@ -655,7 +647,7 @@ export const program: ProgramDay[] = [
                   en: "Yanshan University",
                 },
                 photo: PhotoGDL,
-              }
+              },
             ],
             speakers: [
               {
@@ -754,7 +746,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/2",
               en: "/2025/en/topic/2",
-            }
+            },
           },
           {
             id: "topic-3",
@@ -767,8 +759,8 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
-            chair: [
-                {
+            chairs: [
+              {
                 name: {
                   zh: "陈晓皎",
                   en: "Xiaojiao Chen",
@@ -778,7 +770,7 @@ export const program: ProgramDay[] = [
                   en: "Zhejiang University",
                 },
                 photo: PhotoCXJ,
-              }
+              },
             ],
             speakers: [
               {
@@ -801,7 +793,7 @@ export const program: ProgramDay[] = [
                 },
                 description: {
                   zh: "1984年毕业于上海大学文学院历史系考古与博物馆学专业，同年进上海博物馆工作。2000年开始从事博物馆数字化建设工作，是上博藏品数据库和上博官方网站的主要设计者。曾主持完成的上博数字中心项目、上海博物馆决策辅助系统；董其昌数字人文项目及“宋徽宗与他的时代”数字人文专题；民国纸币数字化研究系统等。",
-                  en: "Graduated from Shanghai University School of Literature, Department of History, majoring in Archaeology and Museology in 1984, and joined the Shanghai Museum in the same year. Started working on museum digitization construction in 2000, and is the main designer of the Shanghai Museum collection database and official website. Has led and completed projects including the Shanghai Museum Digital Center project, Shanghai Museum Decision Support System; Dong Qichang Digital Humanities project and the \"Emperor Huizong of Song and His Era\" digital humanities theme; Republic of China banknote digitization research system, among others.",
+                  en: 'Graduated from Shanghai University School of Literature, Department of History, majoring in Archaeology and Museology in 1984, and joined the Shanghai Museum in the same year. Started working on museum digitization construction in 2000, and is the main designer of the Shanghai Museum collection database and official website. Has led and completed projects including the Shanghai Museum Digital Center project, Shanghai Museum Decision Support System; Dong Qichang Digital Humanities project and the "Emperor Huizong of Song and His Era" digital humanities theme; Republic of China banknote digitization research system, among others.',
                 },
               },
               {
@@ -820,11 +812,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoCJ,
                 abstract: {
                   zh: "北京作为具有悠久建城与建都历史的文化名城，沉积了丰富多层的“文化地层”。本研究基于人文学科的“空间转向”与数字人文技术发展，围绕城市“文化地标”展开，整合历史事件、水文气候、地理植被、人口物产、制度沿革、人物建筑等多维历史数据，运用HGIS、知识图谱、可视分析和可视化等方法，重构地标的文化语境与历史叙事。项目旨在揭示城市记忆的空间机制，探索文化信息的可计算表达与可视化再现，为首都文化根脉的数字表达提供新路径。",
-                  en: "Beijing, as a cultural city with a long history of city construction and capital establishment, has accumulated rich multi-layered \"cultural strata\". Based on the \"spatial turn\" in humanities and the development of digital humanities technology, this research focuses on urban \"cultural landmarks\", integrating multi-dimensional historical data including historical events, hydrology and climate, geographical vegetation, population and products, institutional evolution, and architectural figures. Using methods such as HGIS, knowledge graphs, visual analytics, and visualization, the project reconstructs the cultural context and historical narrative of landmarks. The project aims to reveal the spatial mechanisms of urban memory, explore the computable expression and visual representation of cultural information, and provide new pathways for the digital expression of the capital's cultural roots.",
+                  en: 'Beijing, as a cultural city with a long history of city construction and capital establishment, has accumulated rich multi-layered "cultural strata". Based on the "spatial turn" in humanities and the development of digital humanities technology, this research focuses on urban "cultural landmarks", integrating multi-dimensional historical data including historical events, hydrology and climate, geographical vegetation, population and products, institutional evolution, and architectural figures. Using methods such as HGIS, knowledge graphs, visual analytics, and visualization, the project reconstructs the cultural context and historical narrative of landmarks. The project aims to reveal the spatial mechanisms of urban memory, explore the computable expression and visual representation of cultural information, and provide new pathways for the digital expression of the capital\'s cultural roots.',
                 },
                 description: {
                   zh: "陈静，博士，南京大学艺术学院副教授。主要研究兴趣为：数字人文、数字遗产和数字艺术研究。发表中英文论文20多篇，主持并参与国际科研项目、国家社会科学基金项目、省部级及校级项目十多项。同时还担任中国文艺理论学会数字人文专委会秘书长及《数字人文》《数字人文研究》《数位典藏与数字人文》期刊的编委。",
-                  en: "Jing Chen, PhD, Associate Professor at the School of Arts, Nanjing University. Main research interests include digital humanities, digital heritage, and digital art studies. Has published over 20 Chinese and English papers, and led or participated in more than ten international research projects, National Social Science Foundation projects, provincial and ministerial level projects, and university-level projects. Also serves as Secretary-General of the Digital Humanities Committee of the Chinese Literary Theory Society and editorial board member of journals including \"Digital Humanities\", \"Digital Humanities Research\", and \"Digital Archive and Digital Humanities\".",
+                  en: 'Jing Chen, PhD, Associate Professor at the School of Arts, Nanjing University. Main research interests include digital humanities, digital heritage, and digital art studies. Has published over 20 Chinese and English papers, and led or participated in more than ten international research projects, National Social Science Foundation projects, provincial and ministerial level projects, and university-level projects. Also serves as Secretary-General of the Digital Humanities Committee of the Chinese Literary Theory Society and editorial board member of journals including "Digital Humanities", "Digital Humanities Research", and "Digital Archive and Digital Humanities".',
                 },
               },
               {
@@ -870,14 +862,14 @@ export const program: ProgramDay[] = [
                 },
                 description: {
                   zh: "浙江大学艺术与考古学院“百人计划”研究员（博士生导师），在人机交互/可视化/虚拟现实等方向国际顶级学术会议和期刊（如IEEE TVCG, IEEE VIS/VR, ACM CHI/UIST）上发表论文30余篇，并多次获最佳论文提名奖，作为“中国历代绘画大系”展览策划组成员参与第60届威尼斯国际艺术双年展中国国家馆项目，相关工作获得了央视等权威媒体多次报道。",
-                  en: "Assistant Professor in the \"ZJU 100 Young Professor\" (doctoral supervisor) at the School of Art and Archaeology, Zhejiang University. Has published over 30 papers in top international academic conferences and journals in human-computer interaction, visualization, and virtual reality (such as IEEE TVCG, IEEE VIS/VR, ACM CHI/UIST), receiving multiple best paper nominations. As a member of the \"Complete Collection of Chinese Paintings Throughout History\" exhibition planning team, participated in the 60th Venice International Art Biennale Chinese National Pavilion project. Related work has been reported multiple times by authoritative media such as CCTV.",
+                  en: 'Assistant Professor in the "ZJU 100 Young Professor" (doctoral supervisor) at the School of Art and Archaeology, Zhejiang University. Has published over 30 papers in top international academic conferences and journals in human-computer interaction, visualization, and virtual reality (such as IEEE TVCG, IEEE VIS/VR, ACM CHI/UIST), receiving multiple best paper nominations. As a member of the "Complete Collection of Chinese Paintings Throughout History" exhibition planning team, participated in the 60th Venice International Art Biennale Chinese National Pavilion project. Related work has been reported multiple times by authoritative media such as CCTV.',
                 },
               },
             ],
             href: {
               zh: "/2025/zh/topic/3",
               en: "/2025/en/topic/3",
-            }
+            },
           },
         ],
       },
@@ -895,8 +887,8 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
-                {
+            chairs: [
+              {
                 name: {
                   zh: "路强",
                   en: "Qiang Lu",
@@ -906,7 +898,7 @@ export const program: ProgramDay[] = [
                   en: "Hefei University of Technology",
                 },
                 photo: PhotoLuQ,
-              }
+              },
             ],
             speakers: [
               {
@@ -929,7 +921,7 @@ export const program: ProgramDay[] = [
                 },
                 description: {
                   zh: "蓝星宇，复旦大学新闻学院青年副研究员，上海市“晨光学者”，研究方向为叙事可视化、用户体验、信息设计、智能传播等，于IEEE VIS、ACM CHI等CCF-A类期刊和会议上发表多篇论文，并担任多份SCI/SSCI期刊和国内核心期刊的审稿人。曾获IEEE VIS最佳论文奖、最佳论文提名奖、IEEE PacificVIS 最佳论文奖、CSIG自然科学奖等科研奖项，以及中国数据新闻大赛一等奖、中国数据内容大赛最佳数据新闻金奖、中国数字人文开放数据创新研究大赛一等奖等实践奖项。",
-                  en: "Xingyu Lan, Young Associate Researcher at the School of Journalism, Fudan University, Shanghai \"Chenguang Scholar\". Her research areas include narrative visualization, user experience, information design, and intelligent communication. She has published multiple papers in CCF-A journals and conferences such as IEEE VIS and ACM CHI, and serves as a reviewer for multiple SCI/SSCI journals and domestic core journals. She has won research awards including IEEE VIS Best Paper Award, Best Paper Nomination Award, IEEE PacificVIS Best Paper Award, and CSIG Natural Science Award, as well as practical awards including First Prize in China Data Journalism Competition, Best Data Journalism Gold Award in China Data Content Competition, and First Prize in China Digital Humanities Open Data Innovation Research Competition.",
+                  en: 'Xingyu Lan, Young Associate Researcher at the School of Journalism, Fudan University, Shanghai "Chenguang Scholar". Her research areas include narrative visualization, user experience, information design, and intelligent communication. She has published multiple papers in CCF-A journals and conferences such as IEEE VIS and ACM CHI, and serves as a reviewer for multiple SCI/SSCI journals and domestic core journals. She has won research awards including IEEE VIS Best Paper Award, Best Paper Nomination Award, IEEE PacificVIS Best Paper Award, and CSIG Natural Science Award, as well as practical awards including First Prize in China Data Journalism Competition, Best Data Journalism Gold Award in China Data Content Competition, and First Prize in China Digital Humanities Open Data Innovation Research Competition.',
                 },
               },
               {
@@ -971,7 +963,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoXX,
                 abstract: {
                   zh: "叙事可视化已逐渐超越信息传达的工具属性，成为融合艺术表达与技术媒介的跨界实践。本次报告将以“以镜头之名：将电影叙事策略迁移至数据可视化”为题，探讨如何借鉴电影语言中的构图、剪辑与节奏等叙事手法，丰富数据可视化的表达张力与观众情感共鸣。报告将分享讲者在影视与数据交叉创作中的实践经验，展示多项电影及数据视频的案例作品。同时也将反思在“电影化”设计趋势下，如何平衡叙事表达与数据真实之间的张力，避免视觉修辞掩盖信息透明性，推动更具批判意识的叙事可视化方法论建构。",
-                  en: "Narrative visualization has gradually transcended its tool attributes of information transmission, becoming an interdisciplinary practice that integrates artistic expression with technological media. This report will explore how to borrow narrative techniques such as composition, editing, and rhythm from film language to enrich the expressive tension and emotional resonance of data visualization. The report will share the speaker's practical experience in cross-creation between film and data, showcasing multiple case works of films and data videos. It will also reflect on how to balance the tension between narrative expression and data authenticity under the trend of \"cinematization\" design, avoiding visual rhetoric from obscuring information transparency, and promoting the construction of more critically conscious narrative visualization methodologies.",
+                  en: 'Narrative visualization has gradually transcended its tool attributes of information transmission, becoming an interdisciplinary practice that integrates artistic expression with technological media. This report will explore how to borrow narrative techniques such as composition, editing, and rhythm from film language to enrich the expressive tension and emotional resonance of data visualization. The report will share the speaker\'s practical experience in cross-creation between film and data, showcasing multiple case works of films and data videos. It will also reflect on how to balance the tension between narrative expression and data authenticity under the trend of "cinematization" design, avoiding visual rhetoric from obscuring information transparency, and promoting the construction of more critically conscious narrative visualization methodologies.',
                 },
                 description: {
                   zh: "徐娴，香港科技大学跨学科学院研究助理教授，剑桥大学和牛津大学访问学者、编剧、畅销书作家。研究方向涵盖艺术与科技、数据叙事、人机交互、虚拟现实与元宇宙中的教育等，已在ACM CHI、ACM SIGGRAPH、IEEE VIS、IEEE VR、ACM Multimedia等CCF-A类顶级会议和期刊上发表二十余篇论文，并担任多份国际会议程序委员及SCI期刊审稿人及区域主席。其作品曾在SIGGRAPH艺术展、ICRA艺术项目、亚洲数字艺术节等展出，VR教育项目荣获IEEE VR最佳论文荣誉提名奖。曾参与主办首届HKUST AI电影节，吸引全球82个国家逾700份投稿，获300余家国际媒体报道。其参与编剧作品获浙江卫视和东方卫视收视率第一名。",
@@ -1005,7 +997,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/4",
               en: "/2025/en/topic/4",
-            }
+            },
           },
           {
             type: "paper",
@@ -1090,8 +1082,8 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
-                {
+            chairs: [
+              {
                 name: {
                   zh: "刘乐",
                   en: "Le Liu",
@@ -1101,7 +1093,7 @@ export const program: ProgramDay[] = [
                   en: "Northwestern Polytechnical University",
                 },
                 photo: PhotoLiuL,
-              }
+              },
             ],
             speakers: [
               {
@@ -1200,7 +1192,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/5",
               en: "/2025/en/topic/5",
-            }
+            },
           },
           {
             id: "topic-6",
@@ -1213,8 +1205,8 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
-            chair: [
-                {
+            chairs: [
+              {
                 name: {
                   zh: "骆昱宇",
                   en: "Yuyu Luo",
@@ -1224,7 +1216,7 @@ export const program: ProgramDay[] = [
                   en: "Hong Kong University of Science and Technology (Guangzhou)",
                 },
                 photo: PhotoLYY,
-              }
+              },
             ],
             speakers: [
               {
@@ -1289,11 +1281,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoLYN,
                 abstract: {
                   zh: "本次报告将介绍我在博士期间围绕“如何结合数据可视化与人机交互技术提升数据科学流程效率”所开展的一系列系统性研究。工作重点聚焦于目前广泛使用的分析工具Computational Notebook （如 Jupyter Notebook），旨在支持具备不同需求背景的数据分析者，更高效地完成结果交流与知识传达。尽管这类工具在数据科学中已成为标配，但其在促进内容理解与协同交流方面仍存在诸多挑战。尽管此类工具已成为数据科学工作的重要基础设施，但在内容理解、结构组织与协同交流方面仍存在诸多挑战。为此，我们提出了一系列设计策略，从cell内部的信息生成、cell之间的逻辑关联，到整个Notebook的结构总览，逐步提升其使用体验与沟通效率。与此同时，我也将结合自己在 VisLab 团队从科研小白逐步成长为博士研究者的经历，分享团队在学生培养方面的一些实践机制。",
-                  en: "This report will introduce a series of systematic research I conducted during my doctoral studies on \"how to combine data visualization and human-computer interaction technologies to improve data science process efficiency.\" The work focuses on the widely used analysis tool Computational Notebook (such as Jupyter Notebook), aiming to support data analysts with different needs and backgrounds to more efficiently complete result communication and knowledge transfer. Although these tools have become standard in data science, they still face many challenges in promoting content understanding and collaborative communication. Although such tools have become important infrastructure for data science work, there are still many challenges in content understanding, structural organization, and collaborative communication. To this end, we propose a series of design strategies, from information generation within cells, logical associations between cells, to the overall structural overview of the entire Notebook, gradually improving its user experience and communication efficiency. At the same time, I will also combine my own experience of gradually growing from a research novice to a doctoral researcher in the VisLab team, sharing some practical mechanisms of the team in student training.",
+                  en: 'This report will introduce a series of systematic research I conducted during my doctoral studies on "how to combine data visualization and human-computer interaction technologies to improve data science process efficiency." The work focuses on the widely used analysis tool Computational Notebook (such as Jupyter Notebook), aiming to support data analysts with different needs and backgrounds to more efficiently complete result communication and knowledge transfer. Although these tools have become standard in data science, they still face many challenges in promoting content understanding and collaborative communication. Although such tools have become important infrastructure for data science work, there are still many challenges in content understanding, structural organization, and collaborative communication. To this end, we propose a series of design strategies, from information generation within cells, logical associations between cells, to the overall structural overview of the entire Notebook, gradually improving its user experience and communication efficiency. At the same time, I will also combine my own experience of gradually growing from a research novice to a doctoral researcher in the VisLab team, sharing some practical mechanisms of the team in student training.',
                 },
                 description: {
                   zh: "林燕娜，香港科技大学博士后研究员，师从屈华民教授。她曾获香港政府最高奖项“香港博士研究生奖学金”（HKPFS），在可视化与人机交互领域的国际顶级会议与期刊（如 IEEE VIS、ACM CHI、IEEE TVCG）发表十余篇论文，曾获 IEEE VIS 和 ChinaVis 最佳论文提名奖。她担任 CHI、CIKM、ChinaVis 等会议的程序委员，并长期担任 IEEE VIS、TVCG、UIST 等国际顶会与期刊的审稿人。她的研究聚焦于数据分析、可视分析与人机交互，致力于优化探索式数据分析的工作流程。更多信息请见个人主页: https://yannahhh.github.io。",
-                  en: "Yanna Lin, Postdoctoral Researcher at Hong Kong University of Science and Technology, supervised by Professor Huamin Qu. She has received the Hong Kong Government's highest award \"Hong Kong PhD Fellowship Scheme\" (HKPFS), published more than ten papers in international top conferences and journals in visualization and human-computer interaction fields (such as IEEE VIS, ACM CHI, IEEE TVCG), and received Best Paper Nomination Awards from IEEE VIS and ChinaVis. She serves as a program committee member for conferences such as CHI, CIKM, and ChinaVis, and has long served as a reviewer for international top conferences and journals such as IEEE VIS, TVCG, and UIST. Her research focuses on data analysis, visual analytics, and human-computer interaction, committed to optimizing exploratory data analysis workflows. For more information, please visit her personal homepage: https://yannahhh.github.io.",
+                  en: 'Yanna Lin, Postdoctoral Researcher at Hong Kong University of Science and Technology, supervised by Professor Huamin Qu. She has received the Hong Kong Government\'s highest award "Hong Kong PhD Fellowship Scheme" (HKPFS), published more than ten papers in international top conferences and journals in visualization and human-computer interaction fields (such as IEEE VIS, ACM CHI, IEEE TVCG), and received Best Paper Nomination Awards from IEEE VIS and ChinaVis. She serves as a program committee member for conferences such as CHI, CIKM, and ChinaVis, and has long served as a reviewer for international top conferences and journals such as IEEE VIS, TVCG, and UIST. Her research focuses on data analysis, visual analytics, and human-computer interaction, committed to optimizing exploratory data analysis workflows. For more information, please visit her personal homepage: https://yannahhh.github.io.',
                 },
               },
               {
@@ -1323,7 +1315,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/6",
               en: "/2025/en/topic/6",
-            }
+            },
           },
           {
             type: "paper",
@@ -1375,7 +1367,7 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
+            chairs: [
               {
                 name: {
                   zh: "左家莉",
@@ -1397,7 +1389,7 @@ export const program: ProgramDay[] = [
                   en: "Xi'an Jiaotong-Liverpool University",
                 },
                 photo: PhotoYLY,
-              }
+              },
             ],
             speakers: [
               {
@@ -1439,7 +1431,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoLM,
                 abstract: {
                   zh: "在这个报告中，我将分享一些自己在科研道路上的经历和经验，从“内在”自我和“外在”环境两个角度，谈论自己对科研中自我修炼与团队塑造的理解和心得，讨论女性科研工作者在两者之间容易落入的一些误区。",
-                  en: "In this report, I will share some of my experiences and insights on the path of scientific research. From the perspectives of \"internal\" self and \"external\" environment, I will discuss my understanding and insights on self-cultivation and team building in scientific research, and explore some common pitfalls that female researchers may fall into between these two aspects.",
+                  en: 'In this report, I will share some of my experiences and insights on the path of scientific research. From the perspectives of "internal" self and "external" environment, I will discuss my understanding and insights on self-cultivation and team building in scientific research, and explore some common pitfalls that female researchers may fall into between these two aspects.',
                 },
                 description: {
                   zh: "陆旻，深圳大学副教授。在科研道路上积累了丰富的经验，对科研中的自我修炼与团队塑造有着深刻的理解和独特的见解，特别关注女性科研工作者在科研环境中面临的挑战与机遇。",
@@ -1449,7 +1441,7 @@ export const program: ProgramDay[] = [
               {
                 talk: {
                   zh: "从“她视角”探索科研与教学的平衡",
-                  en: "Exploring the Balance Between Research and Teaching from a \"Female Perspective\"",
+                  en: 'Exploring the Balance Between Research and Teaching from a "Female Perspective"',
                 },
                 name: {
                   zh: "曾琼",
@@ -1462,7 +1454,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoZQ,
                 abstract: {
                   zh: "本次报告将从色彩计算与科学数据可视化科研实践出发，延伸至依此构建的协同跨学科与PBL的教学方式，分享本人在科研与教学之间寻求平衡的成长经历——如何在双重压力下持续探索，又如何在学生的信任与成长中获得反向治愈。站在“她视角”，那些曾被质疑的“玻璃心”，也逐渐沉淀为照亮他人与自我的微光。",
-                  en: "This report will start from the research practice of color computing and scientific data visualization, extend to the collaborative interdisciplinary and PBL teaching methods built upon it, and share my growth experience in seeking balance between research and teaching - how to continue exploring under dual pressures, and how to gain reverse healing from students' trust and growth. From the \"female perspective\", those \"glass hearts\" that were once questioned have gradually settled into glimmers that illuminate others and oneself.",
+                  en: 'This report will start from the research practice of color computing and scientific data visualization, extend to the collaborative interdisciplinary and PBL teaching methods built upon it, and share my growth experience in seeking balance between research and teaching - how to continue exploring under dual pressures, and how to gain reverse healing from students\' trust and growth. From the "female perspective", those "glass hearts" that were once questioned have gradually settled into glimmers that illuminate others and oneself.',
                 },
                 description: {
                   zh: "曾琼，山东大学计算机科学与技术学院副教授、博士生导师，计算机系副主任、泰山学堂计算机取向拔尖班教授小组成员，主要研究方向是色彩计算、科学数据可视分析。主持国家自然科学基金、国家重点研发计划子课题、省自然科学基金等项目5项，在ACM CHI、IEEE TVCG、CVMJ等国内外高水平会议及期刊发表论文20余篇。获IEEE VIS 2024科学可视化挑战赛冠军奖、中国智能机器人学术年会最佳论文奖；获全国高校教师教学创新大赛（山东赛区）三等奖、山东省人工智能学会教学成果奖特等奖、山东大学教学成果奖一等奖。",
@@ -1485,7 +1477,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoWJJ,
                 abstract: {
                   zh: "分享作为艺术与设计工作者，对“女性”这一角色和身份，从不愿被定义的自我性别偏见与回避，到客观面对性别差异与特性的正视，到尝试超越性别属性的感知历程。",
-                  en: "As an art and design worker, I will share my perceptual journey regarding the role and identity of \"women\" - from self-gender bias and avoidance of being defined, to objectively confronting gender differences and characteristics, to attempting to transcend gender attributes.",
+                  en: 'As an art and design worker, I will share my perceptual journey regarding the role and identity of "women" - from self-gender bias and avoidance of being defined, to objectively confronting gender differences and characteristics, to attempting to transcend gender attributes.',
                 },
                 description: {
                   zh: "魏婧婧，南京艺术学院设计学院副教授，硕士生导师，中央美术学院博士，中国图像图形学学会可视化与可视分析专委会委员。主要研究方向为数据可视化设计、视觉传达设计、媒体艺术设计。在数据可视化设计领域主持、参与国家、省、市级课题多项，发表论文十余篇，作品获多项国家级奖项，课程成果获国家、省、市级赛事奖项二十余项，参与中央美术学院等高校的数据可视化设计项目。",
@@ -1496,7 +1488,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/7",
               en: "/2025/en/topic/7",
-            }
+            },
           },
           {
             id: "topic-8",
@@ -1509,7 +1501,7 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
-           chair: [
+            chairs: [
               {
                 name: {
                   zh: "阳芷倩",
@@ -1520,7 +1512,7 @@ export const program: ProgramDay[] = [
                   en: "Hubei Institute of Fine Arts",
                 },
                 photo: PhotoYZQ,
-              }
+              },
             ],
             speakers: [
               {
@@ -1539,11 +1531,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoWZ,
                 abstract: {
                   zh: "长期以来，中国绘画史研究多关注个案画家的艺术风格与影响力，忽视了广泛存在且意义重大的群体性现象，特别是因风格相近、声誉相当而被并称的“齐名”画家群体。本研究首次从数字人文视角入手，以量化方法系统梳理了历史文献中涵盖三国至近代共633位画家的齐名现象，构建了跨时代、跨地域的齐名画家社会网络关系图谱。基于文本挖掘、Transformer语言模型与社会网络分析（SNA），提出并系统验证了“传递式齐名”理论，揭示出潜藏于传统文献之下、通过画家间间接联系而形成的隐性艺术传播路径。同时借助D3.js与Three.js技术，设计开发了名为“图绘乾坤”的交互式可视化平台，以丰富直观的视觉交互方式呈现历史上传播链路复杂、动态的齐名网络，不仅弥合了传统文献考证方法在宏观分析上的不足，也为数字人文时代的中国绘画史研究提供了全新的技术路径与理论范式。",
-                  en: "For a long time, Chinese painting history research has focused on individual painters' artistic styles and influence, neglecting the widespread and significant group phenomena, especially the \"equal renown\" painter groups who are named together due to similar styles and comparable reputation. This study takes a digital humanities perspective for the first time, systematically sorting out the equal renown phenomena of 633 painters from the Three Kingdoms to modern times in historical literature using quantitative methods, constructing a cross-era, cross-regional social network map of equal renown painters. Based on text mining, Transformer language models, and social network analysis (SNA), the \"transmissive equal renown\" theory is proposed and systematically verified, revealing the hidden artistic transmission paths formed through indirect connections between painters that lurk beneath traditional literature. At the same time, using D3.js and Three.js technologies, an interactive visualization platform called \"Mapping the Universe\" was designed and developed, presenting the complex and dynamic equal renown networks in history with rich and intuitive visual interaction methods. This not only bridges the gap in macro-analysis of traditional literature verification methods, but also provides new technical paths and theoretical paradigms for Chinese painting history research in the digital humanities era.",
+                  en: 'For a long time, Chinese painting history research has focused on individual painters\' artistic styles and influence, neglecting the widespread and significant group phenomena, especially the "equal renown" painter groups who are named together due to similar styles and comparable reputation. This study takes a digital humanities perspective for the first time, systematically sorting out the equal renown phenomena of 633 painters from the Three Kingdoms to modern times in historical literature using quantitative methods, constructing a cross-era, cross-regional social network map of equal renown painters. Based on text mining, Transformer language models, and social network analysis (SNA), the "transmissive equal renown" theory is proposed and systematically verified, revealing the hidden artistic transmission paths formed through indirect connections between painters that lurk beneath traditional literature. At the same time, using D3.js and Three.js technologies, an interactive visualization platform called "Mapping the Universe" was designed and developed, presenting the complex and dynamic equal renown networks in history with rich and intuitive visual interaction methods. This not only bridges the gap in macro-analysis of traditional literature verification methods, but also provides new technical paths and theoretical paradigms for Chinese painting history research in the digital humanities era.',
                 },
                 description: {
                   zh: "王征，北京交通大学建筑与艺术学院教授，设计系系主任、美育中心主任。曾为上海大学上海美术学院虚拟艺术实验室主任。中国图象图形学学会可视化与可视分析专委会委员、工业设计协会信息与交互设计专委会委员。作品多次入选国内外重要展览。信息与交互设计作品“图绘乾坤：中国历代齐名画家关系网”入选2024年第十四届全国美展、交互装置《珠光人影共徘徊》入选2014年全国壁画大展暨第十二届全国美展壁画展。与希腊雅典艺术学院合作“No Word”项目；合作“Shang-Pool”虚拟现实项目参加英国利物浦双年展，主创作品多次入选上海设计大展、香港创意与科技博览会、澳门设计双年展等国内外重要展览。交互装置作品被上海地铁7号线后滩站、2010上海世博会博物馆、上海宝山民间艺术博览馆等场馆长期展示。主持教育部人文社科基金项目“基于大数据视角的中国古代书画家源流分析研究”并免予鉴定结项。在SCI，《装饰》、《南艺学报》、《美术》等CSSCI核心期刊发表多篇数字人文领域论文，获设计类权威期刊《装饰》杂志2019年优秀投稿论文奖、2022中国数字人文年会优秀论文二等奖。出版学术专著《犹言一瓣香：中国画师承师法关系数据谱》、《数码构成》等4本。曾获上海市教学成果奖三等奖、北京市教学成果二等奖、上海大学优秀青年教师、北京交通大学“三育人”先进个人等教学称号。",
-                  en: "Zheng Wang, Professor at the School of Architecture and Arts, Beijing Jiaotong University, Director of the Design Department and Director of the Aesthetic Education Center. Former Director of the Virtual Art Laboratory at Shanghai University's Shanghai Academy of Fine Arts. Committee member of the Visualization and Visual Analytics Committee of the Chinese Society for Image and Graphics, and committee member of the Information and Interaction Design Committee of the Industrial Design Association. His works have been selected for important domestic and international exhibitions multiple times. His information and interaction design work \"Mapping the Universe: Network of Chinese Painters of Equal Renown Throughout History\" was selected for the 14th National Art Exhibition in 2024, and his interactive installation \"Wandering Shadows of Pearl Light\" was selected for the 2014 National Mural Exhibition and the 12th National Art Exhibition Mural Exhibition. He collaborated with the Athens School of Fine Arts in Greece on the \"No Word\" project; collaborated on the \"Shang-Pool\" virtual reality project for the Liverpool Biennial in the UK. His main creative works have been selected for important domestic and international exhibitions including Shanghai Design Exhibition, Hong Kong Creative and Technology Expo, and Macau Design Biennial. His interactive installation works are permanently displayed at Shanghai Metro Line 7 Houtan Station, 2010 Shanghai World Expo Museum, Shanghai Baoshan Folk Art Museum, and other venues. He led the Ministry of Education Humanities and Social Sciences Fund project \"Analysis of the Origins of Ancient Chinese Calligraphers and Painters from a Big Data Perspective\" and completed it without evaluation. He has published multiple papers in the field of digital humanities in SCI, \"Decoration,\" \"Journal of Nanjing Arts Institute,\" \"Fine Arts,\" and other CSSCI core journals, winning the 2019 Excellent Submission Paper Award from the authoritative design journal \"Decoration\" and the Second Prize for Excellent Papers at the 2022 China Digital Humanities Annual Conference. He has published 4 academic monographs including \"Like a Petal of Incense: Data Genealogy of Chinese Painting Master-Student Relationships\" and \"Digital Composition.\" He has won teaching honors including the Third Prize of Shanghai Teaching Achievement Award, the Second Prize of Beijing Teaching Achievement Award, Outstanding Young Teacher of Shanghai University, and Advanced Individual in \"Three Education\" at Beijing Jiaotong University.",
+                  en: 'Zheng Wang, Professor at the School of Architecture and Arts, Beijing Jiaotong University, Director of the Design Department and Director of the Aesthetic Education Center. Former Director of the Virtual Art Laboratory at Shanghai University\'s Shanghai Academy of Fine Arts. Committee member of the Visualization and Visual Analytics Committee of the Chinese Society for Image and Graphics, and committee member of the Information and Interaction Design Committee of the Industrial Design Association. His works have been selected for important domestic and international exhibitions multiple times. His information and interaction design work "Mapping the Universe: Network of Chinese Painters of Equal Renown Throughout History" was selected for the 14th National Art Exhibition in 2024, and his interactive installation "Wandering Shadows of Pearl Light" was selected for the 2014 National Mural Exhibition and the 12th National Art Exhibition Mural Exhibition. He collaborated with the Athens School of Fine Arts in Greece on the "No Word" project; collaborated on the "Shang-Pool" virtual reality project for the Liverpool Biennial in the UK. His main creative works have been selected for important domestic and international exhibitions including Shanghai Design Exhibition, Hong Kong Creative and Technology Expo, and Macau Design Biennial. His interactive installation works are permanently displayed at Shanghai Metro Line 7 Houtan Station, 2010 Shanghai World Expo Museum, Shanghai Baoshan Folk Art Museum, and other venues. He led the Ministry of Education Humanities and Social Sciences Fund project "Analysis of the Origins of Ancient Chinese Calligraphers and Painters from a Big Data Perspective" and completed it without evaluation. He has published multiple papers in the field of digital humanities in SCI, "Decoration," "Journal of Nanjing Arts Institute," "Fine Arts," and other CSSCI core journals, winning the 2019 Excellent Submission Paper Award from the authoritative design journal "Decoration" and the Second Prize for Excellent Papers at the 2022 China Digital Humanities Annual Conference. He has published 4 academic monographs including "Like a Petal of Incense: Data Genealogy of Chinese Painting Master-Student Relationships" and "Digital Composition." He has won teaching honors including the Third Prize of Shanghai Teaching Achievement Award, the Second Prize of Beijing Teaching Achievement Award, Outstanding Young Teacher of Shanghai University, and Advanced Individual in "Three Education" at Beijing Jiaotong University.',
                 },
               },
               {
@@ -1562,7 +1554,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoWX,
                 abstract: {
                   zh: "在人工智能、神经科学与新媒体融合发展的当下，感知数据与交互数据共同构成了未来艺术创作中最具潜力的媒介与语汇。本报告将聚焦脑机接口、生理传感、生物反馈等感知技术如何被引入互动艺术设计，以捕捉观众情绪、生理状态与认知意向，进而塑造具有人机共感特征的艺术体验。同时，结合我在用户界面与行为数据分析领域的研究经验，探讨交互数据（如触发路径、行为节奏、空间移动等）在作品生成逻辑与互动机制建构中的核心作用。通过多个实践案例——包括AI驱动的沉浸式环境、基于脑电与行为感知的生成式叙事系统，以及展览空间中观众行为轨迹的数据记录与响应系统——本报告呈现感知与交互数据如何作为创作材料与社会介质，激发艺术与技术交汇处的新形式与表达方式。在“潮生万象”的时代语境中，我们希望借助这些融合探索，推动新媒体艺术更深入地介入人类感知与技术演化的现场。",
-                  en: "In the current context of the integrated development of artificial intelligence, neuroscience, and new media, perceptual data and interactive data together constitute the most potential media and vocabulary in future artistic creation. This report will focus on how perceptual technologies such as brain-computer interfaces, physiological sensing, and biofeedback are introduced into interactive art design to capture audience emotions, physiological states, and cognitive intentions, thereby shaping artistic experiences with human-machine empathy characteristics. At the same time, combining my research experience in user interface and behavioral data analysis, I will explore the core role of interactive data (such as trigger paths, behavioral rhythms, spatial movement, etc.) in the construction of work generation logic and interactive mechanisms. Through multiple practical cases - including AI-driven immersive environments, generative narrative systems based on EEG and behavioral perception, and data recording and response systems for audience behavioral trajectories in exhibition spaces - this report presents how perceptual and interactive data serve as creative materials and social media, inspiring new forms and expressions at the intersection of art and technology. In the era context of \"tide generating myriad phenomena,\" we hope to use these fusion explorations to promote new media art to more deeply intervene in the scene of human perception and technological evolution.",
+                  en: 'In the current context of the integrated development of artificial intelligence, neuroscience, and new media, perceptual data and interactive data together constitute the most potential media and vocabulary in future artistic creation. This report will focus on how perceptual technologies such as brain-computer interfaces, physiological sensing, and biofeedback are introduced into interactive art design to capture audience emotions, physiological states, and cognitive intentions, thereby shaping artistic experiences with human-machine empathy characteristics. At the same time, combining my research experience in user interface and behavioral data analysis, I will explore the core role of interactive data (such as trigger paths, behavioral rhythms, spatial movement, etc.) in the construction of work generation logic and interactive mechanisms. Through multiple practical cases - including AI-driven immersive environments, generative narrative systems based on EEG and behavioral perception, and data recording and response systems for audience behavioral trajectories in exhibition spaces - this report presents how perceptual and interactive data serve as creative materials and social media, inspiring new forms and expressions at the intersection of art and technology. In the era context of "tide generating myriad phenomena," we hope to use these fusion explorations to promote new media art to more deeply intervene in the scene of human perception and technological evolution.',
                 },
                 description: {
                   zh: "南京大学艺术学院副研究员、南京大学艺术与建筑智能实验室技术负责人，主要从事基于人工智能的艺术与科技交叉研究。他在香港城市大学获得创意媒体博士学位，研究方向主要为脑机接口、创新型用户界面及以用户为中心的交互系统在新媒体艺术项目中的应用；在南京大学建筑与城市规划学院从事博士后研究期间，重点探讨数字技术支持的人境交互与空间体验，探索空间设计与计算机科学、神经科学的交叉应用。王潇的研究将AI技术与新媒体艺术、人机交互系统相结合，尤其关注基于脑电图、人工智能、生物反馈和区块链的互动艺术设计与研究。目前，他正在进行基于AI的智能交互探索，旨在通过人工智能技术提升人机交互在创意媒体领域的互动性和智能性，推动艺术与科技的创新发展。王潇曾任香港城市大学应用计算与互动媒体中心(ACIM)神经设计实验室(Neuro-Design Lab)副研究员及技术负责人，并担任香港奥沙艺术基金会特聘技术创意顾问。他主持和参与了20项艺术与科技类研究项目，获得多项政府资助，发表了多篇国际论文，并以创意与技术总监身份参与了34次国际展览，其中4次获得国内外奖项，包括国际电子艺术研讨会(ISEA)、林茨电子艺术节(Ars Electronica Festival)和Siggraph Asia等。",
@@ -1608,7 +1600,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoWW,
                 abstract: {
                   zh: "作为信息艺术设计的核心基础，交互式信息可视化课程的重要性不言而喻。报告围绕湖北美术学院信息艺术设计专业的“信息交互设计课程”教学实践展开，以信息图形创意能力培养、任务驱动信息可视化人机界面设计方法讲授、信息交互界面概念原型生成三阶段的教学内容为线索，探讨一系列教学概念与教学辅助工具的应用可能性，如以数据追问与信息建构为导向的平面视觉叙事训练、以表示性映射为基础的数据建模与视觉编码工作坊、以数据驱动信息交互行为的设计实践等，试图为未来更进一步的信息艺术设计教学打下基础。",
-                  en: "As the core foundation of information art design, the importance of interactive information visualization courses is self-evident. The report unfolds around the teaching practice of the \"Information Interaction Design Course\" in the Information Art Design major at Hubei Institute of Fine Arts, using the three-stage teaching content of information graphics creative ability cultivation, task-driven information visualization human-computer interface design method instruction, and information interaction interface concept prototype generation as clues. It explores the application possibilities of a series of teaching concepts and teaching auxiliary tools, such as graphic visual narrative training oriented by data questioning and information construction, data modeling and visual encoding workshops based on representational mapping, and design practice of data-driven information interaction behavior, attempting to lay the foundation for further information art design teaching in the future.",
+                  en: 'As the core foundation of information art design, the importance of interactive information visualization courses is self-evident. The report unfolds around the teaching practice of the "Information Interaction Design Course" in the Information Art Design major at Hubei Institute of Fine Arts, using the three-stage teaching content of information graphics creative ability cultivation, task-driven information visualization human-computer interface design method instruction, and information interaction interface concept prototype generation as clues. It explores the application possibilities of a series of teaching concepts and teaching auxiliary tools, such as graphic visual narrative training oriented by data questioning and information construction, data modeling and visual encoding workshops based on representational mapping, and design practice of data-driven information interaction behavior, attempting to lay the foundation for further information art design teaching in the future.',
                 },
                 description: {
                   zh: "王薇，清华大学美术学院学士、硕士。现任湖北美术学院视觉艺术设计学院副教授、信息设计教研室主任、湖北省美术家协会会员。长期致力于信息视觉化设计的教学与研究。主持国家级一流本科课程1门、省部级科研教研项目4项、湖北美术学院精品在线开放课程1门。出版《信息图形设计》教材1部，发表学术论文10余篇。作品入选第十三、十四届（进京）全国美术作品展，第七届中国可视化与可视分析大会，第六、七、九届全国书籍设计艺术展等重要专业展览20余次。教学作品荣获（英）Kantar Information Is Beautiful Awards大赛铜奖、ChinaVis中国可视化与可视分析大会银奖、中国数据内容大赛银奖、中国数据新闻大赛铜奖等专业赛事65项。",
@@ -1631,18 +1623,18 @@ export const program: ProgramDay[] = [
                 photo: PhotoBY,
                 abstract: {
                   zh: "我们在创作中探索了一种分布式具身叙事策略。通过对公共媒体图像与个人档案的三维重建，构建了融合群体记忆的异步时空。无数电子孤岛隐喻了后人工智能时代隐含的赛博地理政治状况。以“电子漫游者”为中心的分布式叙事系统革新了沉浸式叙事的协作环境，诗意地创造了一种乐观的未来考古景观：电子轨道连接了数据孤岛，成为分布式虚拟叙事空间。",
-                  en: "We explored a distributed embodied narrative strategy in our creation. Through three-dimensional reconstruction of public media images and personal archives, we constructed an asynchronous spatiotemporal space that integrates collective memory. Countless electronic islands metaphorize the implicit cyber-geopolitical conditions of the post-artificial intelligence era. The distributed narrative system centered on \"electronic wanderers\" revolutionizes the collaborative environment of immersive narrative, poetically creating an optimistic future archaeological landscape: electronic orbits connect data islands, becoming a distributed virtual narrative space.",
+                  en: 'We explored a distributed embodied narrative strategy in our creation. Through three-dimensional reconstruction of public media images and personal archives, we constructed an asynchronous spatiotemporal space that integrates collective memory. Countless electronic islands metaphorize the implicit cyber-geopolitical conditions of the post-artificial intelligence era. The distributed narrative system centered on "electronic wanderers" revolutionizes the collaborative environment of immersive narrative, poetically creating an optimistic future archaeological landscape: electronic orbits connect data islands, becoming a distributed virtual narrative space.',
                 },
                 description: {
                   zh: "设计学博士，动画导演、多媒体艺术家。中国美术学院媒介交互研究所超视觉工作室主任，中国美术学院AI中心副研究员，数字艺术显示文化和旅游部创新中心研究员，文化和旅游部青研计划扶持人才。主要研究方向包括延展动画、科学数据可视化及神经影像。近期作品在北京国际电影节、林茨电子艺术节、釜山电影节、SIGGRAPH Art Gallery等展出。担任中国科幻大会“设计·幻象”大展（2023）、首届中国数字艺术大展（2024）的执行策展人。",
-                  en: "PhD in Design, animation director, and multimedia artist. Director of the Super-Vision Studio at the Media Interaction Institute of China Academy of Art, Associate Researcher at the AI Center of China Academy of Art, Researcher at the Digital Art Display Innovation Center of the Ministry of Culture and Tourism, and supported talent of the Youth Research Program of the Ministry of Culture and Tourism. Main research directions include extended animation, scientific data visualization, and neuroimaging. Recent works have been exhibited at Beijing International Film Festival, Ars Electronica Festival, Busan International Film Festival, SIGGRAPH Art Gallery, and others. Served as executive curator for the China Science Fiction Convention \"Design·Phantasm\" Exhibition (2023) and the First China Digital Art Exhibition (2024).",
+                  en: 'PhD in Design, animation director, and multimedia artist. Director of the Super-Vision Studio at the Media Interaction Institute of China Academy of Art, Associate Researcher at the AI Center of China Academy of Art, Researcher at the Digital Art Display Innovation Center of the Ministry of Culture and Tourism, and supported talent of the Youth Research Program of the Ministry of Culture and Tourism. Main research directions include extended animation, scientific data visualization, and neuroimaging. Recent works have been exhibited at Beijing International Film Festival, Ars Electronica Festival, Busan International Film Festival, SIGGRAPH Art Gallery, and others. Served as executive curator for the China Science Fiction Convention "Design·Phantasm" Exhibition (2023) and the First China Digital Art Exhibition (2024).',
                 },
               },
             ],
             href: {
               zh: "/2025/zh/topic/8",
               en: "/2025/en/topic/8",
-            }
+            },
           },
           {
             type: "paper",
@@ -1666,7 +1658,7 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅B",
               en: "Wenlan Hall B, 2F",
             },
-            chair: [
+            chairs: [
               {
                 name: {
                   zh: "李文超",
@@ -1677,7 +1669,7 @@ export const program: ProgramDay[] = [
                   en: "Huawei Technologies Co., Ltd.",
                 },
                 photo: PhotoLWC,
-              }
+              },
             ],
             speakers: [
               {
@@ -1776,7 +1768,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/9",
               en: "/2025/en/topic/9",
-            }
+            },
           },
         ],
       },
@@ -1818,7 +1810,7 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
+            chairs: [
               {
                 name: {
                   zh: "刘子鹏",
@@ -1829,7 +1821,7 @@ export const program: ProgramDay[] = [
                   en: "Beihang University",
                 },
                 photo: PhotoLZP,
-              }
+              },
             ],
             speakers: [
               {
@@ -1858,7 +1850,7 @@ export const program: ProgramDay[] = [
               {
                 talk: {
                   zh: "从“立象尽意”到“索象於图”——中国古代可视化设计研究",
-                  en: "From \"Establishing Symbols to Exhaust Meaning\" to \"Seeking Symbols in Diagrams\" - Research on Ancient Chinese Visualization Design",
+                  en: 'From "Establishing Symbols to Exhaust Meaning" to "Seeking Symbols in Diagrams" - Research on Ancient Chinese Visualization Design',
                 },
                 name: {
                   zh: "陈皓",
@@ -1871,11 +1863,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoCH,
                 abstract: {
                   zh: "中国古代的可视化表达体系，肇端于《周易》“立象以尽意”的哲思，深化于郑樵《图谱略》“索象於图”的方法论自觉，其间贯穿着“以象载道”的认知传统。“立象”者，以抽象符号凝练天地之理；“索象”者，以具象图谱征考万物之形。从卦爻的玄奥图式，到山川疆索的实测舆图，从本草图像的格物致知，到方志图谱的经世致用，这些可视化实践不仅构成了古代先人知识传承的视觉谱系，更彰显了中华文明独特的视觉思维方式。报告将以“象”为枢机，勾勒先秦至明清可视化思维的演进脉络，解析中国古代可视化系统中设计思维的双重价值：在视觉认知层面，它构建了抽象概念与具象表现的有机联系；在信息传播维度，它确立了高效的信息传达范式，二者共同塑造了中国古代文明独特的视觉认知体系。",
-                  en: "The visualization expression system of ancient China originated from the philosophical thinking of \"establishing symbols to exhaust meaning\" in the Book of Changes, and was deepened by Zheng Qiao's methodological consciousness of \"seeking symbols in diagrams\" in his Treatise on Diagrams and Charts, throughout which runs the cognitive tradition of \"carrying the Way through symbols.\" Those who \"establish symbols\" refine the principles of heaven and earth with abstract symbols; those who \"seek symbols\" examine the forms of all things with concrete diagrams. From the mysterious schemas of hexagrams to the surveyed maps of mountains and rivers, from herbal images for investigating things to achieve knowledge to local gazetteers for practical governance, these visualization practices not only constitute the visual genealogy of ancient ancestors' knowledge inheritance, but also highlight the unique visual thinking mode of Chinese civilization. The report will use \"symbol\" as the pivot to outline the evolutionary trajectory of visualization thinking from pre-Qin to Ming and Qing dynasties, analyzing the dual value of design thinking in ancient Chinese visualization systems: at the visual cognitive level, it constructs an organic connection between abstract concepts and concrete representations; in the information dissemination dimension, it establishes an efficient information transmission paradigm. Together, they shape the unique visual cognitive system of ancient Chinese civilization.",
+                  en: 'The visualization expression system of ancient China originated from the philosophical thinking of "establishing symbols to exhaust meaning" in the Book of Changes, and was deepened by Zheng Qiao\'s methodological consciousness of "seeking symbols in diagrams" in his Treatise on Diagrams and Charts, throughout which runs the cognitive tradition of "carrying the Way through symbols." Those who "establish symbols" refine the principles of heaven and earth with abstract symbols; those who "seek symbols" examine the forms of all things with concrete diagrams. From the mysterious schemas of hexagrams to the surveyed maps of mountains and rivers, from herbal images for investigating things to achieve knowledge to local gazetteers for practical governance, these visualization practices not only constitute the visual genealogy of ancient ancestors\' knowledge inheritance, but also highlight the unique visual thinking mode of Chinese civilization. The report will use "symbol" as the pivot to outline the evolutionary trajectory of visualization thinking from pre-Qin to Ming and Qing dynasties, analyzing the dual value of design thinking in ancient Chinese visualization systems: at the visual cognitive level, it constructs an organic connection between abstract concepts and concrete representations; in the information dissemination dimension, it establishes an efficient information transmission paradigm. Together, they shape the unique visual cognitive system of ancient Chinese civilization.',
                 },
                 description: {
                   zh: "南京艺术学院设计学院副教授、硕士生导师，视觉传达设计专业副主任、艺科创研中心主任。“江苏省紫金文化人才培养工程”文化创意优秀青年，江苏省文旅厅评审专家，中国图象图形学学会（CSIG）可视化与可视分析专委会委员，江苏省科普美术家协会理事。国家社科基金项目艺术学重大项目子课题组成员，国家社科基金项目艺术学重点项目、教育部人文社会科学研究规划基金项目课题组成员。设计作品入选第十二届、第十三届全国美术作品展，第四届中国设计大展，获德国红点奖、德国iF设计奖、意大利A'Design设计奖等。主持设计“文都时空大数据可视化平台”“《国家珍贵古籍名录图录》数字资源平台”“《燕都记忆》北京建城建都史数字化展示平台”等文化数字化建设项目。指导学生信息设计作品获国内、外奖项200余项，其中9件入选近三届全国美术作品展览，英国凯度信息之美大赛银奖、铜奖，全国大学生艺术展演一等奖等。",
-                  en: "Associate Professor and Master's supervisor at the School of Design, Nanjing University of the Arts, Deputy Director of Visual Communication Design major, and Director of the Art-Science Innovation Research Center. Outstanding youth in cultural creativity under the 'Jiangsu Zijin Cultural Talent Cultivation Project,' evaluation expert of Jiangsu Provincial Department of Culture and Tourism, committee member of the Visualization and Visual Analytics Committee of the China Society of Image and Graphics (CSIG), and director of the Jiangsu Science Popularization Artists Association. Member of the sub-project group of the major project in art studies of the National Social Science Fund, and member of the project group of the key project in art studies of the National Social Science Fund and the Ministry of Education Humanities and Social Sciences Research Planning Fund project. Design works have been selected for the 12th and 13th National Art Exhibitions, the 4th China Design Exhibition, and won the German Red Dot Award, German iF Design Award, Italian A'Design Award, etc. He has led the design of cultural digitization construction projects such as the \"Cultural Capital Spatiotemporal Big Data Visualization Platform,\" the \"National Precious Ancient Books Catalog Digital Resource Platform,\" and the \"Yandu Memory Beijing City Construction History Digital Display Platform.\" He has guided students' information design works to win more than 200 domestic and international awards, including 9 works selected for the recent three National Art Exhibitions, silver and bronze awards at the UK Kantar Information is Beautiful Awards, and first prizes at the National College Student Art Performance.",
+                  en: 'Associate Professor and Master\'s supervisor at the School of Design, Nanjing University of the Arts, Deputy Director of Visual Communication Design major, and Director of the Art-Science Innovation Research Center. Outstanding youth in cultural creativity under the \'Jiangsu Zijin Cultural Talent Cultivation Project,\' evaluation expert of Jiangsu Provincial Department of Culture and Tourism, committee member of the Visualization and Visual Analytics Committee of the China Society of Image and Graphics (CSIG), and director of the Jiangsu Science Popularization Artists Association. Member of the sub-project group of the major project in art studies of the National Social Science Fund, and member of the project group of the key project in art studies of the National Social Science Fund and the Ministry of Education Humanities and Social Sciences Research Planning Fund project. Design works have been selected for the 12th and 13th National Art Exhibitions, the 4th China Design Exhibition, and won the German Red Dot Award, German iF Design Award, Italian A\'Design Award, etc. He has led the design of cultural digitization construction projects such as the "Cultural Capital Spatiotemporal Big Data Visualization Platform," the "National Precious Ancient Books Catalog Digital Resource Platform," and the "Yandu Memory Beijing City Construction History Digital Display Platform." He has guided students\' information design works to win more than 200 domestic and international awards, including 9 works selected for the recent three National Art Exhibitions, silver and bronze awards at the UK Kantar Information is Beautiful Awards, and first prizes at the National College Student Art Performance.',
                 },
               },
               {
@@ -1940,18 +1932,18 @@ export const program: ProgramDay[] = [
                 photo: PhotoLL,
                 abstract: {
                   zh: "本报告旨在突破传统科学可视化史的西方中心叙事，构建更为宏观的比较框架，揭示中国古代独特的以算法为核心的视觉计算范式。在此范式中，可视化不再是对结果的静态图解，而是深度嵌入计算过程、服务于问题求解的动态工具与机械化程序。我们将这一独特传统定义为“视觉算法”。报告聚焦数学与天文两个领域，深入剖析“视觉算法”的内在逻辑与实践形态。在数学方面，分析古人如何将算筹作为计算工具并使其符号化和可视化，以及如何将几何证明转化为可操作的视觉算法。在天文学方面，考察圭表测影等观测方法如何将时空数据转化为直观的视觉关系，并重点阐述明清历法计算中“立成”（速算表）、“细草”（操作手册）与“算式”（计算模板）的结合使用，如何构成一套完整且高度程式化的天文计算可视化系统。这些实践不仅展现了高超的计算技巧，也体现了中国古代计算“机械化”和“程式化”的思维方式。此外，从可视分析视角看，中国古代数学和天文的一些计算方法堪称前数字时代的“计算引导式可视化”系统——一种可执行、可交互，用以驱动计算、构造证明和模拟复杂推算的计算体系。",
-                  en: "This report aims to break through the Western-centered narrative of traditional scientific visualization history, construct a more macroscopic comparative framework, and reveal the unique visual computing paradigm centered on algorithms in ancient China. In this paradigm, visualization is no longer a static diagram of results, but a dynamic tool and mechanized procedure deeply embedded in the computing process and serving problem-solving. We define this unique tradition as \"visual algorithms.\" The report focuses on mathematics and astronomy, deeply analyzing the internal logic and practical forms of \"visual algorithms.\" In mathematics, it analyzes how ancient people used counting rods as computing tools and made them symbolic and visual, and how they transformed geometric proofs into operable visual algorithms. In astronomy, it examines how observation methods such as gnomon shadow measurement transform spatiotemporal data into intuitive visual relationships, and focuses on how the combined use of \"licheng\" (quick calculation tables), \"xicao\" (operation manuals), and \"suanshi\" (calculation templates) in Ming and Qing calendar calculations constitutes a complete and highly stylized astronomical calculation visualization system. These practices not only demonstrate superb computational skills, but also reflect the \"mechanization\" and \"stylization\" thinking modes of ancient Chinese computation. In addition, from the perspective of visual analytics, some computational methods in ancient Chinese mathematics and astronomy can be called \"computation-guided visualization\" systems of the pre-digital era - an executable, interactive computing system used to drive computation, construct proofs, and simulate complex calculations.",
+                  en: 'This report aims to break through the Western-centered narrative of traditional scientific visualization history, construct a more macroscopic comparative framework, and reveal the unique visual computing paradigm centered on algorithms in ancient China. In this paradigm, visualization is no longer a static diagram of results, but a dynamic tool and mechanized procedure deeply embedded in the computing process and serving problem-solving. We define this unique tradition as "visual algorithms." The report focuses on mathematics and astronomy, deeply analyzing the internal logic and practical forms of "visual algorithms." In mathematics, it analyzes how ancient people used counting rods as computing tools and made them symbolic and visual, and how they transformed geometric proofs into operable visual algorithms. In astronomy, it examines how observation methods such as gnomon shadow measurement transform spatiotemporal data into intuitive visual relationships, and focuses on how the combined use of "licheng" (quick calculation tables), "xicao" (operation manuals), and "suanshi" (calculation templates) in Ming and Qing calendar calculations constitutes a complete and highly stylized astronomical calculation visualization system. These practices not only demonstrate superb computational skills, but also reflect the "mechanization" and "stylization" thinking modes of ancient Chinese computation. In addition, from the perspective of visual analytics, some computational methods in ancient Chinese mathematics and astronomy can be called "computation-guided visualization" systems of the pre-digital era - an executable, interactive computing system used to drive computation, construct proofs, and simulate complex calculations.',
                 },
                 description: {
                   zh: "中国科学技术大学科学技术史专业博士，巴黎第七大学博士后，法国巴黎天文台客座教授，德国马普科学技术史研究所访问学者。现为中国科学院自然科学史研究所研究员，博士生导师，所务委员。英文期刊Journal for the History of Astronomy和中文期刊《中国科技史杂志》 编委，中国科学院“青年创新促进会”会员。著有《大统历法研究》《灿烂星河：中国古代星图》《明朝科技》《古历兴衰—授时历与大统历》《铜与古代科技》等，古籍整理有《历引三种》《治历缘起》《明大统历法汇编》《崇祯历书未刊与补遗汇编》《回回历法三种》等。发表中英文学术论文四十余篇，主持多项国家自然科学基金和国家社会科学基金项目。曾获中国科学院院长奖、教育部“博士学术新人奖”等奖项。此外，还出版有《星汉灿烂：中国天文五千年》《天上疆域：星图中的故事》《天体运行论（少儿彩绘版）》《少年读天工开物》等科普著作。相关作品获“文津图书奖”“全国优秀科普作品”“首都科普好书”等奖项。",
-                  en: "PhD in History of Science and Technology from University of Science and Technology of China, postdoctoral researcher at University of Paris VII, visiting professor at Paris Observatory, France, and visiting scholar at Max Planck Institute for the History of Science, Germany. Currently a researcher, doctoral supervisor, and executive committee member at the Institute for the History of Natural Sciences, Chinese Academy of Sciences. Editorial board member of the English journal Journal for the History of Astronomy and the Chinese journal Chinese Journal of History of Science and Technology, and member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences. Author of works including \"Research on the Datong Calendar,\" \"Brilliant Stars: Ancient Chinese Star Maps,\" \"Ming Dynasty Science and Technology,\" \"The Rise and Fall of Ancient Calendars - The Shoushi Calendar and Datong Calendar,\" \"Bronze and Ancient Science and Technology,\" etc. Ancient book compilations include \"Three Types of Historical References,\" \"Origins of Calendar Management,\" \"Compilation of Ming Datong Calendar Methods,\" \"Unpublished and Supplementary Compilation of Chongzhen Calendar Books,\" \"Three Types of Islamic Calendar Methods,\" etc. Published over 40 Chinese and English academic papers, and led multiple National Natural Science Foundation and National Social Science Foundation projects. Received awards including the President's Award of the Chinese Academy of Sciences and the Ministry of Education's \"Doctoral Academic Newcomer Award.\" Additionally, published popular science works including \"Brilliant Stars: Five Thousand Years of Chinese Astronomy,\" \"Celestial Territory: Stories in Star Maps,\" \"De Revolutionibus Orbium Coelestium (Children's Illustrated Edition),\" \"Young Readers' Tiangong Kaiwu,\" etc. Related works have won awards including the \"Wenjin Book Award,\" \"National Excellent Popular Science Works,\" and \"Capital Popular Science Good Books.\"",
+                  en: 'PhD in History of Science and Technology from University of Science and Technology of China, postdoctoral researcher at University of Paris VII, visiting professor at Paris Observatory, France, and visiting scholar at Max Planck Institute for the History of Science, Germany. Currently a researcher, doctoral supervisor, and executive committee member at the Institute for the History of Natural Sciences, Chinese Academy of Sciences. Editorial board member of the English journal Journal for the History of Astronomy and the Chinese journal Chinese Journal of History of Science and Technology, and member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences. Author of works including "Research on the Datong Calendar," "Brilliant Stars: Ancient Chinese Star Maps," "Ming Dynasty Science and Technology," "The Rise and Fall of Ancient Calendars - The Shoushi Calendar and Datong Calendar," "Bronze and Ancient Science and Technology," etc. Ancient book compilations include "Three Types of Historical References," "Origins of Calendar Management," "Compilation of Ming Datong Calendar Methods," "Unpublished and Supplementary Compilation of Chongzhen Calendar Books," "Three Types of Islamic Calendar Methods," etc. Published over 40 Chinese and English academic papers, and led multiple National Natural Science Foundation and National Social Science Foundation projects. Received awards including the President\'s Award of the Chinese Academy of Sciences and the Ministry of Education\'s "Doctoral Academic Newcomer Award." Additionally, published popular science works including "Brilliant Stars: Five Thousand Years of Chinese Astronomy," "Celestial Territory: Stories in Star Maps," "De Revolutionibus Orbium Coelestium (Children\'s Illustrated Edition)," "Young Readers\' Tiangong Kaiwu," etc. Related works have won awards including the "Wenjin Book Award," "National Excellent Popular Science Works," and "Capital Popular Science Good Books."',
                 },
               },
             ],
             href: {
               zh: "/2025/zh/topic/10",
               en: "/2025/en/topic/10",
-            }
+            },
           },
           {
             id: "topic-11",
@@ -1964,7 +1956,7 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
-            chair: [
+            chairs: [
               {
                 name: {
                   zh: "李泽宇",
@@ -1975,7 +1967,7 @@ export const program: ProgramDay[] = [
                   en: "Communication University of China",
                 },
                 photo: PhotoLZY,
-              }
+              },
             ],
             speakers: [
               {
@@ -2040,7 +2032,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoYL,
                 abstract: {
                   zh: "数据图表在各个领域广泛应用，因其能够有效传达复杂的数据关系。然而，静态图表有时可能难以吸引读者并有效呈现复杂信息，可能导致理解有限。我们引入了“实时图表”，这是一种新的呈现格式，它将图表中的复杂信息分解，并通过丰富的动画和伴随的音频叙述按顺序解释信息片段。我们提出了一种自动化方法，将静态图表转换为实时图表。我们的方法集成了基于GNN的技术来分析图表组件并从图表中提取数据。然后我们采用大型自然语言模型来生成适当的动画视觉效果以及配音，从静态图表制作实时图表。我们对我们的方法进行了全面评估，包括模型性能、使用案例、众包用户研究和专家访谈。结果表明，实时图表提供了一种多感官体验，读者可以跟随信息并更好地理解数据洞察。我们分析了实时图表相对于静态图表作为新信息消费体验的优势和劣势。",
-                  en: "Data charts are prevalent across various fields due to their efficacy in conveying complex data relationships. However, static charts may sometimes struggle to engage readers and efficiently present intricate information, potentially resulting in limited understanding. We introduce \"Live Charts,\" a new format of presentation that decomposes complex information within a chart and explains the information pieces sequentially through rich animations and accompanying audio narration. We propose an automated approach to revive static charts into Live Charts. Our method integrates GNN-based techniques to analyze the chart components and extract data from charts. Then we adopt large natural language models to generate appropriate animated visuals along with a voice-over to produce Live Charts from static ones. We conducted a thorough evaluation of our approach, which involved the model performance, use cases, a crowd-sourced user study, and expert interviews. The results demonstrate Live Charts offer a multi-sensory experience where readers can follow the information and understand the data insights better. We analyze the benefits and drawbacks of Live Charts over static charts as a new information consumption experience.",
+                  en: 'Data charts are prevalent across various fields due to their efficacy in conveying complex data relationships. However, static charts may sometimes struggle to engage readers and efficiently present intricate information, potentially resulting in limited understanding. We introduce "Live Charts," a new format of presentation that decomposes complex information within a chart and explains the information pieces sequentially through rich animations and accompanying audio narration. We propose an automated approach to revive static charts into Live Charts. Our method integrates GNN-based techniques to analyze the chart components and extract data from charts. Then we adopt large natural language models to generate appropriate animated visuals along with a voice-over to produce Live Charts from static ones. We conducted a thorough evaluation of our approach, which involved the model performance, use cases, a crowd-sourced user study, and expert interviews. The results demonstrate Live Charts offer a multi-sensory experience where readers can follow the information and understand the data insights better. We analyze the benefits and drawbacks of Live Charts over static charts as a new information consumption experience.',
                 },
                 description: {
                   zh: "浙江大学计算机科学与技术学院博士在读，导师为巫英才教授，研究方向为数据叙事与图符可视化，致力于将人工智能技术融入可视化设计，提升可视化创作的智能化与效率。目前她的研究涵盖智能可视化生成、信息可视化叙事以及可视分析领域的基础理论与关键技术，相关成果已经在IEEE VIS、IEEE TVCG、ACM CHI、IEEE TPAMI等会议或期刊发表可视化与可视分析、人工智能相关论文十余篇，其中计算机领域顶级CCF-A类论文8篇，包括4篇一作CCF-A类论文。",
@@ -2189,7 +2181,7 @@ export const program: ProgramDay[] = [
             href: {
               zh: "/2025/zh/topic/11",
               en: "/2025/en/topic/11",
-            }
+            },
           },
           {
             type: "paper",
@@ -2230,7 +2222,7 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅",
               en: "Wenjin Hall, 3F",
             },
-            chair: [
+            chairs: [
               {
                 name: {
                   zh: "陈慰平",
@@ -2241,7 +2233,7 @@ export const program: ProgramDay[] = [
                   en: "Central Academy of Fine Arts",
                 },
                 photo: PhotoCWP,
-              }
+              },
             ],
             speakers: [
               {
@@ -2283,11 +2275,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoLYH,
                 abstract: {
                   zh: "透视法的发明，使人类第一次通过生物之眼，以一个明确的比例和坐标认识到人与世界的关系。经由透视法，本文要探讨的是其结构性背后对整个“世界图景”的构建意义，通过梳理历史、理论与技术的宏观框架，以透视法的系统性范式变迁为主线，探讨其对视觉现代性的塑造，世界是如何逐渐成为图像的世界，又是如何被把握成图像的。",
-                  en: "The invention of perspective enabled humanity to understand the relationship between humans and the world through biological eyes for the first time, with clear proportions and coordinates. Through perspective, this paper aims to explore the structural significance behind the construction of the entire \"world picture.\" By sorting out the macro framework of history, theory, and technology, with the systematic paradigm shift of perspective as the main line, it discusses its shaping of visual modernity, how the world gradually became a world of images, and how it was grasped as images.",
+                  en: 'The invention of perspective enabled humanity to understand the relationship between humans and the world through biological eyes for the first time, with clear proportions and coordinates. Through perspective, this paper aims to explore the structural significance behind the construction of the entire "world picture." By sorting out the macro framework of history, theory, and technology, with the systematic paradigm shift of perspective as the main line, it discusses its shaping of visual modernity, how the world gradually became a world of images, and how it was grasped as images.',
                 },
                 description: {
                   zh: "刘益红，策展人，设计师，中国美术学院视觉传播学院副院长，中国美术学院跨媒体艺术学院当代艺术与社会思想（ICAST）博士、法国国家工业设计学院（ENSCI, Les Ateliers）硕士。研究领域涵盖当代艺术策展、内容谱系研究、网络社会研究、视觉文化研究。近期主策划项目包含：“Inter-World-View”（2019）、“首届之江国际青年艺术周”（2019）、“天问：世界观的对话”（2020）、“Playshop / 玩吧国际设计联合项目”（2019—2023）、“浙江省首届青年科学家节”（2022）、“杭州国际纤维三年展”（2022）、“天问：文明的互鉴”（2023）；“世界树”中国美术学院毕业季（2024）；“良渚十二律”威尼斯建筑双年展（2025）；“七十二变”中国美术学院毕业季（2025）等。",
-                  en: "Yihong Liu, curator and designer, Vice Dean of the School of Visual Communication, China Academy of Art, PhD in Contemporary Art and Social Thought (ICAST) from the Inter-Media Art School of China Academy of Art, and Master's from the French National School of Industrial Design (ENSCI, Les Ateliers). Research fields include contemporary art curation, content genealogy research, network society research, and visual culture research. Recent major curatorial projects include: \"Inter-World-View\" (2019), \"First Zhijiang International Youth Art Week\" (2019), \"Tianwen: Dialogue of Worldviews\" (2020), \"Playshop / International Design Joint Project\" (2019-2023), \"First Zhejiang Youth Scientists Festival\" (2022), \"Hangzhou International Fiber Triennial\" (2022), \"Tianwen: Mutual Learning of Civilizations\" (2023); \"World Tree\" China Academy of Art Graduation Season (2024); \"Liangzhu Twelve Laws\" Venice Architecture Biennale (2025); \"Seventy-two Transformations\" China Academy of Art Graduation Season (2025), etc.",
+                  en: 'Yihong Liu, curator and designer, Vice Dean of the School of Visual Communication, China Academy of Art, PhD in Contemporary Art and Social Thought (ICAST) from the Inter-Media Art School of China Academy of Art, and Master\'s from the French National School of Industrial Design (ENSCI, Les Ateliers). Research fields include contemporary art curation, content genealogy research, network society research, and visual culture research. Recent major curatorial projects include: "Inter-World-View" (2019), "First Zhijiang International Youth Art Week" (2019), "Tianwen: Dialogue of Worldviews" (2020), "Playshop / International Design Joint Project" (2019-2023), "First Zhejiang Youth Scientists Festival" (2022), "Hangzhou International Fiber Triennial" (2022), "Tianwen: Mutual Learning of Civilizations" (2023); "World Tree" China Academy of Art Graduation Season (2024); "Liangzhu Twelve Laws" Venice Architecture Biennale (2025); "Seventy-two Transformations" China Academy of Art Graduation Season (2025), etc.',
                 },
               },
               {
@@ -2306,11 +2298,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoCSJ,
                 abstract: {
                   zh: "可视化工具让中国设计学的思想脉络变得清晰可触。本报告将通过知识图谱，梳理学科从晚清《癸卯学制》的工艺启蒙，到计划经济时期“工艺美术”的民生服务，再到全球化浪潮中本土性与现代性的融合实践，直至“一分为三”的当代学科布局。分析聚焦两条演进线索：知识体系从移植借鉴转向自主构建的思想觉醒、学科边界伴随国家发展需求持续拓展的功能演化，正通过可视化成为可续写的当代视觉档案。报告最后将思考：这种由可视化呈现的会通、细分与重构的学科动态，如何成为理解中国设计学当代境遇的关键维度。",
-                  en: "Visualization tools make the intellectual threads of Chinese design studies clear and tangible. This report will use knowledge graphs to trace the discipline from the craft enlightenment of the late Qing \"Guimao School System,\" to the livelihood services of \"arts and crafts\" during the planned economy period, to the integration practice of locality and modernity in the wave of globalization, and finally to the contemporary disciplinary layout of \"one divided into three.\" The analysis focuses on two evolutionary threads: the intellectual awakening of knowledge systems from transplantation and borrowing to autonomous construction, and the functional evolution of disciplinary boundaries continuously expanding with national development needs, which are becoming renewable contemporary visual archives through visualization. The report will finally consider: how this disciplinary dynamic of integration, subdivision, and reconstruction presented by visualization becomes a key dimension for understanding the contemporary situation of Chinese design studies.",
+                  en: 'Visualization tools make the intellectual threads of Chinese design studies clear and tangible. This report will use knowledge graphs to trace the discipline from the craft enlightenment of the late Qing "Guimao School System," to the livelihood services of "arts and crafts" during the planned economy period, to the integration practice of locality and modernity in the wave of globalization, and finally to the contemporary disciplinary layout of "one divided into three." The analysis focuses on two evolutionary threads: the intellectual awakening of knowledge systems from transplantation and borrowing to autonomous construction, and the functional evolution of disciplinary boundaries continuously expanding with national development needs, which are becoming renewable contemporary visual archives through visualization. The report will finally consider: how this disciplinary dynamic of integration, subdivision, and reconstruction presented by visualization becomes a key dimension for understanding the contemporary situation of Chinese design studies.',
                 },
                 description: {
                   zh: "南京艺术学院设计学院副院长、博士生导师，江苏省青蓝工程中青年学科带头人。从事设计管理与策划、艺术策展、中国设计文化理论与实践研究。主持国家社科基金艺术学重点项目1项，参与国家社科基金艺术学重大项目2项，国家社科基金艺术学重点项目1项；主持江苏省教育规划重点课题、江苏省社科基金项目、江苏高校哲学社会科学项目等5项。主持国家4A级景区景观规划设计、国家旅游度假区规划、产业园总体规划、国际旅游岛导视系统设计等10余项文化产业规划项目；策划“融合之光”纽约展、“园见南京”波士顿展，“遇鉴汉字”联合国汉字艺术设计展、“雅正·和鸣：中国汉字中的生活美学”波兰展等展览活动。",
-                  en: "Vice Dean of the School of Design, Nanjing University of the Arts, doctoral supervisor, and young and middle-aged discipline leader of Jiangsu Province's Blue Project. Engaged in design management and planning, art curation, and research on Chinese design culture theory and practice. Has led 1 key project of the National Social Science Fund in art studies, participated in 2 major projects of the National Social Science Fund in art studies and 1 key project of the National Social Science Fund in art studies; has led 5 projects including key topics of Jiangsu Province education planning, Jiangsu Province social science fund projects, and Jiangsu higher education philosophy and social science projects. Has led more than 10 cultural industry planning projects including national 4A scenic area landscape planning and design, national tourism resort planning, industrial park overall planning, and international tourism island wayfinding system design; has curated exhibition activities such as \"Light of Integration\" New York Exhibition, \"Garden Meets Nanjing\" Boston Exhibition, \"Encountering Chinese Characters\" UN Chinese Character Art Design Exhibition, and \"Elegant and Harmonious: Life Aesthetics in Chinese Characters\" Poland Exhibition.",
+                  en: 'Vice Dean of the School of Design, Nanjing University of the Arts, doctoral supervisor, and young and middle-aged discipline leader of Jiangsu Province\'s Blue Project. Engaged in design management and planning, art curation, and research on Chinese design culture theory and practice. Has led 1 key project of the National Social Science Fund in art studies, participated in 2 major projects of the National Social Science Fund in art studies and 1 key project of the National Social Science Fund in art studies; has led 5 projects including key topics of Jiangsu Province education planning, Jiangsu Province social science fund projects, and Jiangsu higher education philosophy and social science projects. Has led more than 10 cultural industry planning projects including national 4A scenic area landscape planning and design, national tourism resort planning, industrial park overall planning, and international tourism island wayfinding system design; has curated exhibition activities such as "Light of Integration" New York Exhibition, "Garden Meets Nanjing" Boston Exhibition, "Encountering Chinese Characters" UN Chinese Character Art Design Exhibition, and "Elegant and Harmonious: Life Aesthetics in Chinese Characters" Poland Exhibition.',
                 },
               },
               {
@@ -2329,11 +2321,11 @@ export const program: ProgramDay[] = [
                 photo: PhotoMX,
                 abstract: {
                   zh: "中国工业设计1949-1989线上博物馆（网站）是国家社会科学基金艺术学一般项目“基于知识图谱技术的中国近现代工业设计资源库建设”的主要成果之一，是中国，也是全球第一个以中国工业设计为主题的线上博物馆，具有首创性和唯一性。“中国工业设计1949-1989线上博物馆”是华东师范大学设计学院、计算机学院、软件学院共同合作的成果。第一期展示的产品含4个产业矩阵：设备和重工业、交通工具、轻工业、电子工业等，产品生产和研发时间选取1949年-1989年这段中国现代化建设的重要时期。展示了500多个产品的图片和文字介绍。",
-                  en: "The Online Museum of Chinese Industrial Design 1949-1989 (website) is one of the main achievements of the National Social Science Fund general project in art studies \"Construction of Chinese Modern Industrial Design Resource Database Based on Knowledge Graph Technology.\" It is the first online museum in China and globally with Chinese industrial design as its theme, possessing originality and uniqueness. The \"Online Museum of Chinese Industrial Design 1949-1989\" is a collaborative result of the School of Design, School of Computer Science, and School of Software at East China Normal University. The first phase displays products in 4 industrial matrices: equipment and heavy industry, transportation, light industry, and electronics industry. The product production and R&D time span covers 1949-1989, an important period of China's modernization construction. It displays images and text introductions of more than 500 products.",
+                  en: 'The Online Museum of Chinese Industrial Design 1949-1989 (website) is one of the main achievements of the National Social Science Fund general project in art studies "Construction of Chinese Modern Industrial Design Resource Database Based on Knowledge Graph Technology." It is the first online museum in China and globally with Chinese industrial design as its theme, possessing originality and uniqueness. The "Online Museum of Chinese Industrial Design 1949-1989" is a collaborative result of the School of Design, School of Computer Science, and School of Software at East China Normal University. The first phase displays products in 4 industrial matrices: equipment and heavy industry, transportation, light industry, and electronics industry. The product production and R&D time span covers 1949-1989, an important period of China\'s modernization construction. It displays images and text introductions of more than 500 products.',
                 },
                 description: {
                   zh: "华东师范大学设计学院副教授，国家级众创空间联合创始人，主要科研项目有，中国国家社科基金艺术类项目：“基于知识图谱技术的中国近现代工业设计资源库建设”结项中；“人工智能交互教室及系统开发”——国家可信嵌入式软件工程技术研究中心开放研究项目；曾出版有《中国民族工业设计100年》被选入法兰克福书展，并获得2015年出版系统金牛奖银奖。",
-                  en: "Associate Professor at the School of Design, East China Normal University, co-founder of a national-level makerspace. Main research projects include the Chinese National Social Science Fund art project: \"Construction of Chinese Modern Industrial Design Resource Database Based on Knowledge Graph Technology\" (currently concluding); \"Artificial Intelligence Interactive Classroom and System Development\" - an open research project of the National Trusted Embedded Software Engineering Technology Research Center. Has published \"100 Years of Chinese National Industrial Design,\" which was selected for the Frankfurt Book Fair and won the Silver Award of the 2015 Publishing System Golden Bull Award.",
+                  en: 'Associate Professor at the School of Design, East China Normal University, co-founder of a national-level makerspace. Main research projects include the Chinese National Social Science Fund art project: "Construction of Chinese Modern Industrial Design Resource Database Based on Knowledge Graph Technology" (currently concluding); "Artificial Intelligence Interactive Classroom and System Development" - an open research project of the National Trusted Embedded Software Engineering Technology Research Center. Has published "100 Years of Chinese National Industrial Design," which was selected for the Frankfurt Book Fair and won the Silver Award of the 2015 Publishing System Golden Bull Award.',
                 },
               },
             ],
@@ -2353,7 +2345,7 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
-            chair: [
+            chairs: [
               {
                 name: {
                   zh: "李晨辉",
@@ -2364,7 +2356,7 @@ export const program: ProgramDay[] = [
                   en: "East China Normal University",
                 },
                 photo: PhotoLCH,
-              }
+              },
             ],
             speakers: [
               {
@@ -2383,7 +2375,7 @@ export const program: ProgramDay[] = [
                 photo: PhotoPYC,
                 abstract: {
                   zh: "数据可视化越来越多地被新闻媒体在社交媒体上用于向广大受众传达洞察。然而，关于读者如何在这些快速消费环境中与数据可视化互动和响应，我们知之甚少。在这项工作中，我们引入了一个概念模型，该模型将导致Instagram点赞传播效应的可视化阅读进行分类。该模型是通过对解释点赞背后推理的陈述进行扎根理论分析开发的，这些陈述是从初步研究中记录的。受到从可视化范围和设计模式两个维度编码陈述的启发，我们的模型由三个层次组成：描述可视化的“外观”（如艺术风格和配色方案）；解释可视化的“血肉”（如可视化和叙述）；以及阐明可视化的“心灵和灵魂”（如洞察和结论）。我们还进行了一项有200名参与者的在线众包用户研究，以展示我们的模型如何通过比较这三个层次来改善可视化的传播效果。",
-                  en: "Data visualizations are increasingly used by news outlets on social media to communicate insights to a broad audience. However, little is known about how readers interact with and respond to data visualizations in these quick-consumption environments. In this work, we introduce a conceptual model that categorizes visualization reading that leads to the communication effect of likes on Instagram. The model was developed through a grounded theory analysis of the statements explaining the reasoning behind the likes of visualization, which were recorded from a preliminary study. Informed by coding the statements from two dimensions including scopes and design patterns concerning visualization, our model consists of three levels: depicting the \"look\" of a visualization (e.g., artistic style and color scheme); interpreting the \"flesh and bones\" of a visualization (e.g., visualization and narrative); and elucidating the \"heart and soul\" of a visualization (e.g., insights and conclusion). We also conducted an online crowdsourcing user study with 200 participants to demonstrate how our model can be applied to improve the communication of visualization by comparing the three levels.",
+                  en: 'Data visualizations are increasingly used by news outlets on social media to communicate insights to a broad audience. However, little is known about how readers interact with and respond to data visualizations in these quick-consumption environments. In this work, we introduce a conceptual model that categorizes visualization reading that leads to the communication effect of likes on Instagram. The model was developed through a grounded theory analysis of the statements explaining the reasoning behind the likes of visualization, which were recorded from a preliminary study. Informed by coding the statements from two dimensions including scopes and design patterns concerning visualization, our model consists of three levels: depicting the "look" of a visualization (e.g., artistic style and color scheme); interpreting the "flesh and bones" of a visualization (e.g., visualization and narrative); and elucidating the "heart and soul" of a visualization (e.g., insights and conclusion). We also conducted an online crowdsourcing user study with 200 participants to demonstrate how our model can be applied to improve the communication of visualization by comparing the three levels.',
                 },
                 description: {
                   zh: "同济大学设计创意学院博士研究生，导师为石洋副教授，研究方向为数据可视化理论。研究兴趣聚焦于可视化在公共传播与集体感知中的作用机制，致力于探讨设计在数据与社会之间的桥梁作用。以第一作者或学生一作的身份发表CCF A类论文3篇。",
@@ -2648,18 +2640,6 @@ export const program: ProgramDay[] = [
           },
         ],
       },
-      {
-        time: "19:30 - 20:30",
-        sessions: [
-          {
-            type: "activity",
-            title: {
-              zh: "家国情怀文化学习活动",
-              en: "Cultural Learning",
-            },
-          },
-        ],
-      },
     ],
   },
   {
@@ -2687,10 +2667,6 @@ export const program: ProgramDay[] = [
                 name: {
                   zh: "鲍虎军",
                   en: "Hujun Bao",
-                },
-                suffix: {
-                  zh: "教授",
-                  en: "(Professor)",
                 },
                 affiliation: {
                   zh: "浙江大学",
