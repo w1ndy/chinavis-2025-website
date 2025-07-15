@@ -6,14 +6,14 @@ import { Page } from "~/components/Page";
 import { SpeakerInfo } from "~/components/SpeakerInfo";
 import { useParams } from "@solidjs/router";
 
-import * as Dict from "~/i18n/keynote";
+import * as Dict from "~/i18n/topic";
 import { program } from "~/i18n/program";
 
-export default function Keynote() {
+export default function Topic() {
   const t = useTranslator(Dict);
 
   const sessionInfo = createMemo(() => {
-    const id = `keynote-${useParams().id}`;
+    const id = `topic-${useParams().id}`;
     for (const day of program) {
       for (const timeslot of day.timeslots) {
         for (const session of timeslot.sessions) {
@@ -39,7 +39,7 @@ export default function Keynote() {
     <>
       <Title>{t("PageTitle")}</Title>
       <Page class="program" title={<span innerHTML={title ? title() : ""}></span>}>
-        <Show when={sessionInfo() && sessionInfo()!.session.speakers}>
+        <Show when={sessionInfo()}>
           <div>
             <h2>{t("Information")}</h2>
             <p class="!indent-0"><b>{t("Time")}</b>{date ? date() : ""}, {time ?? ""}</p>
@@ -47,11 +47,18 @@ export default function Keynote() {
           </div>
 
           <div>
-            <h2>{t("InvitedSpeaker")}</h2>
-            <For each={sessionInfo()!.session.speakers}>
-              {(speaker) => <SpeakerInfo speaker={speaker} />}
-            </For>
+            <h2>{t("Chair")}</h2>
+            <SpeakerInfo speaker={sessionInfo()!.session.chair!} />
           </div>
+
+          <Show when={sessionInfo()!.session.speakers}>
+            <h2>{t("Talks")}</h2>
+            <div class="space-y-4">
+              <For each={sessionInfo()!.session.speakers}>
+                {(speaker) => <SpeakerInfo speaker={speaker} />}
+              </For>
+            </div>
+          </Show>
         </Show>
       </Page>
     </>
