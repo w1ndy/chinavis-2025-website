@@ -48,7 +48,11 @@ export default function Topic() {
 
           <div>
             <h2>{t("Chair")}</h2>
-            <SpeakerInfo speaker={sessionInfo()!.session.chair!} />
+            <div class="space-y-4">
+              <For each={sessionInfo()!.session.chair}>
+                {(speaker) => <SpeakerInfo speaker={speaker} />}
+              </For>
+            </div>
           </div>
 
           <Show when={sessionInfo()!.session.speakers}>
