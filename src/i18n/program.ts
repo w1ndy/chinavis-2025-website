@@ -1,4 +1,5 @@
 import { Speaker } from "~/components/SpeakerInfo";
+import { Paper } from "~/components/PaperInfo";
 
 import PhotoTJR from "~/assets/program/tjr.avif?inline";
 import PhotoKLM from "~/assets/program/klm.avif?inline";
@@ -90,7 +91,11 @@ import PhotoCQ from "~/assets/program/cq.avif";
 import PhotoMYX from "~/assets/program/myx.avif";
 import PhotoZengW from "~/assets/program/zengw.avif";
 import PhotoTJ from "~/assets/program/tj.avif";
-import { Paper } from "~/components/PaperInfo";
+import PhotoJQ from "~/assets/program/jq.avif";
+import PhotoYWK from "~/assets/program/ywk.avif";
+import PhotoYLJ from "~/assets/program/ylj.avif";
+import PhotoDY from "~/assets/program/dy.avif";
+import PhotoCS from "~/assets/program/cs.avif";
 
 export const zh = {
   PageTitle: "会议议程 - ChinaVis 2025",
@@ -701,7 +706,7 @@ export const program: ProgramDay[] = [
             type: "activity",
             title: {
               zh: "艺术项目开幕与艺术家讲座",
-              en: "Art Program Opening and Artist Talks",
+              en: "Arts Program Opening and Artist Talks",
             },
             location: {
               zh: "二楼文澜厅A",
@@ -711,6 +716,10 @@ export const program: ProgramDay[] = [
           {
             type: "paper",
             id: "paper-1",
+            href: {
+              zh: "/2025/zh/paper/1",
+              en: "/2025/en/paper/1",
+            },
             title: {
               zh: "论文报告 1：Graph and Network Analytics",
               en: "Paper Session 1: Graph and Network Analytics",
@@ -729,6 +738,7 @@ export const program: ProgramDay[] = [
                   zh: "浙江科技大学",
                   en: "Zhejiang University of Science and Technology",
                 },
+                photo: PhotoJQ,
               },
             ],
             papers: [
@@ -1139,7 +1149,7 @@ export const program: ProgramDay[] = [
                 },
                 description: {
                   zh: "徐娴，香港科技大学跨学科学院研究助理教授，剑桥大学和牛津大学访问学者、编剧、畅销书作家。研究方向涵盖艺术与科技、数据叙事、人机交互、虚拟现实与元宇宙中的教育等，已在ACM CHI、ACM SIGGRAPH、IEEE VIS、IEEE VR、ACM Multimedia等CCF-A类顶级会议和期刊上发表二十余篇论文，并担任多份国际会议程序委员及SCI期刊审稿人及区域主席。其作品曾在SIGGRAPH艺术展、ICRA艺术项目、亚洲数字艺术节等展出，VR教育项目荣获IEEE VR最佳论文荣誉提名奖。曾参与主办首届HKUST AI电影节，吸引全球82个国家逾700份投稿，获300余家国际媒体报道。其参与编剧作品获浙江卫视和东方卫视收视率第一名。",
-                  en: "Xian Xu, Research Assistant Professor at the Interdisciplinary School of Hong Kong University of Science and Technology, Visiting Scholar at Cambridge University and Oxford University, screenwriter, and bestselling author. Her research covers art and technology, data narrative, human-computer interaction, virtual reality and education in the metaverse. She has published over twenty papers in CCF-A top conferences and journals such as ACM CHI, ACM SIGGRAPH, IEEE VIS, IEEE VR, ACM Multimedia, and serves as program committee member for multiple international conferences and SCI journal reviewer and area chair. Her works have been exhibited at SIGGRAPH Art Gallery, ICRA Art Program, Asia Digital Art Festival, and other venues. Her VR education project received the IEEE VR Best Paper Honorable Mention Award. She participated in organizing the first HKUST AI Film Festival, attracting over 700 submissions from 82 countries worldwide and receiving coverage from over 300 international media outlets. Her screenwriting works achieved first place in viewership ratings on Zhejiang TV and Dragon TV.",
+                  en: "Xian Xu, Research Assistant Professor at the Interdisciplinary School of Hong Kong University of Science and Technology, Visiting Scholar at Cambridge University and Oxford University, screenwriter, and bestselling author. Her research covers art and technology, data narrative, human-computer interaction, virtual reality and education in the metaverse. She has published over twenty papers in CCF-A top conferences and journals such as ACM CHI, ACM SIGGRAPH, IEEE VIS, IEEE VR, ACM Multimedia, and serves as program committee member for multiple international conferences and SCI journal reviewer and area chair. Her works have been exhibited at SIGGRAPH Art Gallery, ICRA Arts Program, Asia Digital Art Festival, and other venues. Her VR education project received the IEEE VR Best Paper Honorable Mention Award. She participated in organizing the first HKUST AI Film Festival, attracting over 700 submissions from 82 countries worldwide and receiving coverage from over 300 international media outlets. Her screenwriting works achieved first place in viewership ratings on Zhejiang TV and Dragon TV.",
                 },
               },
               {
@@ -1173,6 +1183,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "paper",
+            id: "paper-2",
+            href: {
+              zh: "/2025/zh/paper/2",
+              en: "/2025/en/paper/2",
+            },
             title: {
               zh: "论文报告 2：AI-Driven Visual Analytics",
               en: "Paper Session 2: AI-Driven Visual Analytics",
@@ -1181,6 +1196,76 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "杨维铠",
+                  en: "Weikai Yang",
+                },
+                affiliation: {
+                  zh: "香港科技大学（广州）",
+                  en: "Hong Kong University of Science and Technology (Guangzhou)",
+                },
+                photo: PhotoYWK,
+              },
+            ],
+            papers: [
+              {
+                title:
+                  "ZSLViz: Interactive Optimization of Class-Attribute Matrix for Zero-Shot Learning via Visual Analytics",
+                authors: [
+                  "Zhen Liu",
+                  "Yi Ren",
+                  "Zhihao Zhu",
+                  "Gang Xu",
+                  "Xiangyang Wu",
+                ],
+              },
+              {
+                title:
+                  "Visual Analytics for Taxi Dispatching Based on Multi-Agent Reinforcement Learning",
+                authors: [
+                  "Qiushi Xia",
+                  "Xinru Wang",
+                  "Huijie Zhang",
+                  "Yiming Lin",
+                  "Zhaohan Lv",
+                ],
+              },
+              {
+                title:
+                  "Visual Analytics for Interpretable Food Safety Risk Prediction via Metapath-Driven Heterogeneous Graph Learning",
+                authors: ["Ying Tang", "Kexin Lin", "Yu Han", "Weihua Zhou"],
+              },
+              {
+                title:
+                  "QuantVisExplorer: Explainable Visual Analytics for Quantitative Investment Return Prediction Model",
+                authors: [
+                  "Xi Huang",
+                  "Xinchi Luo",
+                  "Xuan He",
+                  "Baocheng Tang",
+                  "Hongxing Qin",
+                  "Haibo Hu",
+                ],
+              },
+              {
+                title:
+                  "A Hierarchical Electricity Consumption Forecasting Visualization System Based on Multi-scale LSTM-KAN Model",
+                authors: [
+                  "Hang Yin",
+                  "Yize Li",
+                  "Ning Xu",
+                  "Ruiqi Yu",
+                  "Ningxin Li",
+                  "Wei Xu",
+                  "Xiangyang Wu",
+                  "Jie Xu",
+                  "Yongheng Wang",
+                  "Zhiguang Zhou",
+                ],
+              },
+            ],
           },
         ],
       },
@@ -1491,6 +1576,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "paper",
+            id: "paper-3",
+            href: {
+              zh: "/2025/zh/paper/3",
+              en: "/2025/en/paper/3",
+            },
             title: {
               zh: "论文报告 3：Theory, Evaluation, and Tools",
               en: "Paper Session 3: Theory, Evaluation, and Tools",
@@ -1499,6 +1589,54 @@ export const program: ProgramDay[] = [
               zh: "三楼兰桥厅",
               en: "Lanqiao Hall, 3F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "姚李捷",
+                  en: "Lijie Yao",
+                },
+                affiliation: {
+                  zh: "西交利物浦大学",
+                  en: "Xi'an Jiaotong-Liverpool University",
+                },
+                photo: PhotoYLJ,
+              },
+            ],
+            papers: [
+              {
+                title: "复杂认知：可视分析系统设计与和评估的新理论基础",
+                authors: ["Xiaolong Zhang"],
+              },
+              {
+                title: "A Design Study Process Model for Medical Visualization",
+                authors: ["Mengjie Fan", "Liang Zhou"],
+              },
+              {
+                title:
+                  "A Survey of Visual Insight Mining: Connecting Data and Insights via Visualization",
+                authors: ["Yijie Lian", "Jianing Hao", "Wei Zeng", "Qiong Luo"],
+              },
+              {
+                title:
+                  "An Interactive Review on COVID-19 Visualization Dashboards in the Wild",
+                authors: ["Guijuan Wang", "Yadong Wu", "Lijuan Peng"],
+              },
+              {
+                title:
+                  "HiVis: A Web-Based Library for Financial Data Visualizations",
+                authors: [
+                  "Dongming Han",
+                  "Rufei Han",
+                  "Changju Zhou",
+                  "Ziyan Lin",
+                  "Yi Hu",
+                  "Yi Chai",
+                  "Tianyi Ma",
+                  "Haiyang Zhu",
+                  "Wei Chen",
+                ],
+              },
+            ],
           },
           {
             type: "panel",
@@ -1909,6 +2047,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "paper",
+            id: "paper-4",
+            href: {
+              zh: "/2025/zh/paper/4",
+              en: "/2025/en/paper/4",
+            },
             title: {
               zh: "论文报告 4：Geospatial Data Visualization",
               en: "Paper Session 4: Geospatial Data Visualization",
@@ -1917,6 +2060,48 @@ export const program: ProgramDay[] = [
               zh: "三楼兰桥厅",
               en: "Lanqiao Hall, 3F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "董禹",
+                  en: "Yu Dong",
+                },
+                affiliation: {
+                  zh: "中国科学院计算机网络信息中心",
+                  en: "Computer Network Information Center, Chinese Academy of Sciences",
+                },
+                photo: PhotoDY,
+              },
+            ],
+            papers: [
+              {
+                title:
+                  "Is My Route Well-Planned? A Visual Analytics Approach for Evaluating Planning Behaviors of Autonomous Driving",
+                authors: [
+                  "Linbing Xiang",
+                  "Chunyuan Chen",
+                  "Yuqi Jin",
+                  "Yu Wang",
+                  "Chengshun Wang",
+                  "Dong Sun",
+                  "Siming Chen",
+                ],
+              },
+              {
+                title: "GoMA: A Grammar of Semantic Annotations on Maps",
+                authors: ["Hanning Shao", "Haoyu Xu", "Xiaoru Yuan"],
+              },
+              {
+                title:
+                  "Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration",
+                authors: ["Qiuyao Cheng", "Lingyun Yu", "Yu Liu"],
+              },
+              {
+                title:
+                  "GeoAnimation: A Grammar for Animated Geographic Visualization",
+                authors: ["Jie Yu", "Zhenning Chen", "Di Weng", "Yingcai Wu"],
+              },
+            ],
           },
           {
             id: "topic-9",
@@ -2456,6 +2641,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "paper",
+            id: "paper-5",
+            href: {
+              zh: "/2025/zh/paper/5",
+              en: "/2025/en/paper/5",
+            },
             title: {
               zh: "论文报告 5：Application & System",
               en: "Paper Session 5: Application & System",
@@ -2464,6 +2654,73 @@ export const program: ProgramDay[] = [
               zh: "三楼兰桥厅",
               en: "Lanqiao Hall, 3F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "陈帅",
+                  en: "Shuai Chen",
+                },
+                affiliation: {
+                  zh: "江苏海洋大学",
+                  en: "Jiangsu Ocean University",
+                },
+                photo: PhotoCS,
+              },
+            ],
+            papers: [
+              {
+                title:
+                  "TemporalFlowViz: Parameter-Aware Visual Analytics for Interpreting Scramjet Combustion Evolution",
+                authors: [
+                  "Yifei Jia",
+                  "Shiyu Cheng",
+                  "Yu Dong",
+                  "Guan Li",
+                  "Yu Wang",
+                  "Wei Yao",
+                  "Guihua Shan",
+                ],
+              },
+              {
+                title: "可视化增强的火电机组控制策略交互探索分析",
+                authors: [
+                  "Wenbo Wang",
+                  "Xinyuan Zhang",
+                  "Xi Zhang",
+                  "Jianfeng Wang",
+                  "Huikai Wang",
+                  "Lianen Ji",
+                ],
+              },
+              {
+                title: "基于代理模型的锅炉燃烧优化不确定性可视分析",
+                authors: [
+                  "Xi Zhang",
+                  "Zitong Liu",
+                  "Jinlei Shi",
+                  "Jianfeng Wang",
+                  "Bin Tian",
+                  "Lianen Ji",
+                ],
+              },
+              {
+                title:
+                  "A Visualization Retrieval Framework for 3D Wheel Models with User-selected Geometric Features Regions",
+                authors: [
+                  "Dongliang Guo",
+                  "Lisha Zhou",
+                  "Jiaqi Zhang",
+                  "Ji Wang",
+                  "Tianxiao Yuan",
+                  "Yanfen Wang",
+                ],
+              },
+              {
+                title:
+                  "GazeSport: A Visual Analytics Framework for Visual Attention and Action Correlation in Sports Videos",
+                authors: ["Yuxi Li", "Dufei Huang", "Zhuo Yang"],
+              },
+            ],
           },
         ],
       },
@@ -2868,6 +3125,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "paper",
+            id: "paper-6",
+            href: {
+              zh: "/2025/zh/paper/6",
+              en: "/2025/en/paper/6",
+            },
             title: {
               zh: "论文报告 6：Design and Narrative Visualization",
               en: "Paper Session 6: Design and Narrative Visualization",
@@ -2876,6 +3138,63 @@ export const program: ProgramDay[] = [
               zh: "三楼兰桥厅",
               en: "Lanqiao Hall, 3F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "蓝星宇",
+                  en: "Xingyu Lan",
+                },
+                affiliation: {
+                  zh: "复旦大学",
+                  en: "Fudan University",
+                },
+                photo: PhotoLXY,
+              },
+            ],
+            papers: [
+              {
+                title:
+                  "Teasers That Speak: Exploring the Visual Design of Teaser Images in Visualization Publications",
+                authors: [
+                  "Xiaoke Jia",
+                  "Zexi Li",
+                  "Zijian Yin",
+                  "Ya Pei",
+                  "Jifan Yang",
+                  "Lingyun Yu",
+                ],
+              },
+              {
+                title: `科普数据视频中的可视化设计及叙事研究——以"星球研究所"为例`,
+                authors: ["Wenyue Huang", "Xingyu Lan"],
+              },
+              {
+                title:
+                  "Scroller: A WYSIWYG System for Creating Expressive Scrollytelling",
+                authors: [
+                  "Renzhong Li",
+                  "Weiwei Cui",
+                  "Yuchen Yang",
+                  "Xinyu Mao",
+                  "Di Weng",
+                  "Haidong Zhang",
+                  "Yingcai Wu",
+                ],
+              },
+              {
+                title:
+                  "An Age-based Study into Interactive Narrative Visualization Engagement",
+                authors: [
+                  "Nina Errey",
+                  "Yi Chen",
+                  "Yu Dong",
+                  "Quang Vinh Nguyen",
+                  "Xiaoru Yuan",
+                  "Tuck Wah Leong",
+                  "Christy Jie Liang",
+                ],
+              },
+            ],
           },
         ],
       },

@@ -37,6 +37,6 @@ export const en = {
   Sponsorship: "Sponsorship",
   Volunteer: "Volunteer",
   Committee: "Committee",
-  ArtProgram: "Art Program",
+  ArtProgram: "Arts Program",
   History: "History",
 };

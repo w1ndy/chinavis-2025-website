@@ -451,7 +451,7 @@ export const committee: {
     ],
   },
   {
-    role: { zh: "艺术项目主席", en: "Art Program Chairs" },
+    role: { zh: "艺术项目主席", en: "Arts Program Chairs" },
     members: [
       {
         name: { zh: "孙效华", en: "Xiaohua Sun" },
@@ -474,7 +474,7 @@ export const committee: {
     ],
   },
   {
-    role: { zh: "艺术项目委员会委员", en: "Art Program Committee Members" },
+    role: { zh: "艺术项目委员会委员", en: "Arts Program Committee Members" },
     members: [
       {
         name: { zh: "毛雪", en: "Xue Mao" },
@@ -549,8 +549,8 @@ export const committee: {
       {
         name: { zh: "邴寅", en: "Yin Bing" },
         affiliation: {
-          zh: "西安邮电大学",
-          en: "Xi'an University of Posts & Telecommunications",
+          zh: "中国美术学院",
+          en: "China Academy of Art",
         },
         photo: PhotoBY,
       },
