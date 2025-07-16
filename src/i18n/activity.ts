@@ -1,15 +1,15 @@
 export const zh = {
-  PageTitle: "圆桌论坛 - ChinaVis 2025",
-  Information: "论坛信息",
+  PageTitle: "活动 - ChinaVis 2025",
+  Information: "活动信息",
   Time: "时间：",
   Location: "地点：",
-  Introduction: "论坛简介",
+  Introduction: "活动简介",
   Chair: "主持人",
   Speakers: "特邀嘉宾",
 };
 
 export const en = {
-  PageTitle: "Panel - ChinaVis 2025",
+  PageTitle: "Activity - ChinaVis 2025",
   Information: "Information",
   Time: "Time: ",
   Location: "Location: ",

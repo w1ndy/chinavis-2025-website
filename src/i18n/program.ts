@@ -96,6 +96,11 @@ import PhotoYWK from "~/assets/program/ywk.avif";
 import PhotoYLJ from "~/assets/program/ylj.avif";
 import PhotoDY from "~/assets/program/dy.avif";
 import PhotoCS from "~/assets/program/cs.avif";
+import PhotoZWD from "~/assets/program/zwd.avif";
+import PhotoMHL from "~/assets/program/mhl.avif";
+import PhotoZJJ from "~/assets/program/zjj.avif";
+import PhotoOYYK from "~/assets/program/oyyk.avif";
+import PhotoLT from "~/assets/program/lt.avif";
 
 export const zh = {
   PageTitle: "会议议程 - ChinaVis 2025",
@@ -319,8 +324,8 @@ export const program: ProgramDay[] = [
               en: "Opening Ceremony",
             },
             location: {
-              zh: "二楼文澜厅 + 三楼文锦厅",
-              en: "Wenlan Hall, 2F + Wenjin Hall, 3F",
+              zh: "主会场/三楼文锦厅",
+              en: "Main Venue / Wenjin Hall, 3F",
             },
           },
         ],
@@ -704,6 +709,11 @@ export const program: ProgramDay[] = [
           },
           {
             type: "activity",
+            id: "activity-arts",
+            href: {
+              zh: "/2025/zh/activity/arts",
+              en: "/2025/en/activity/arts",
+            },
             title: {
               zh: "艺术项目开幕与艺术家讲座",
               en: "Arts Program Opening and Artist Talks",
@@ -712,6 +722,97 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅A",
               en: "Wenlan Hall A, 2F",
             },
+            speakers: [
+              {
+                talk: {
+                  zh: "从个人低语到集体共享：参与式数据驱动生成艺术的研究",
+                  en: "From Personal Whispers to Collective Sharing: Research on Participatory Data-Driven Generative Art",
+                },
+                name: {
+                  zh: "张味迪",
+                  en: "Weidi Zhang",
+                },
+                affiliation: {
+                  zh: "亚利桑那州立大学",
+                  en: "Arizona State University",
+                },
+                photo: PhotoZWD,
+                abstract: {
+                  zh: `《you only have seven seconds》源自交互式AI装置 ReCollection，通过语言输入与生成图像，探讨机器智能如何重构集体记忆。项目灵感来自艺术家对祖母认知衰退的回应，并借鉴"批判性失智研究"中"重构记忆"的理念。参与者贡献七秒低语回忆，结合AI生成图像，经策展后转化为电影形式的生成式可视化艺术，融合定制智能系统与实验性视觉策略。`,
+                  en: "'you only have seven seconds' originates from the interactive AI installation ReCollection, exploring how machine intelligence reconstructs collective memory through language input and generated images. The project is inspired by the artist's response to her grandmother's cognitive decline and draws from the concept of 'memory reconstruction' in critical dementia studies. Participants contribute seven-second whispered memories, which are combined with AI-generated images and curated into cinematic generative visualization art, integrating customized intelligent systems and experimental visual strategies.",
+                },
+              },
+              {
+                talk: {
+                  zh: "Capillary Network：在可视化中感受跨物种亲缘关系",
+                  en: "Capillary Network: Experiencing Cross-Species Kinship through Visualization",
+                },
+                name: {
+                  zh: "马菡璐",
+                  en: "Hanlu Ma",
+                },
+                affiliation: {
+                  zh: "香港科技大学",
+                  en: "Hong Kong University of Science and Technology",
+                },
+                photo: PhotoMHL,
+                abstract: {
+                  zh: `Capillary Network 是一项数据驱动的互动体验。通过追踪有毒物质在不同生物体之间的积累路径，作品揭示了一种容易被忽视但切实存在的跨物种亲缘关系。在本次分享中，我们将介绍如何将生物隐喻、生态数据与互动设计相结合，构建一个如同有机体般"活着"的系统，让毒素如血液般在其中循环流动。观众将成为网络的一部分，亲身感受人与非人生命之间复杂而纠缠的生态关联。`,
+                  en: "Capillary Network is a data-driven interactive experience. By tracking the accumulation paths of toxic substances between different organisms, the work reveals an easily overlooked but real cross-species kinship. In this sharing, we will introduce how to combine biological metaphors, ecological data, and interactive design to build a system that is 'alive' like an organism, allowing toxins to circulate like blood within it. The audience will become part of the network, personally experiencing the complex and entangled ecological connections between human and non-human life.",
+                },
+              },
+              {
+                talk: {
+                  zh: "Water Music Stone",
+                  en: "Water Music Stone",
+                },
+                name: {
+                  zh: "张俊杰",
+                  en: "Junjie Zhang",
+                },
+                affiliation: {
+                  zh: "湖北美术学院",
+                  en: "Hubei Institute of Fine Arts",
+                },
+                photo: PhotoZJJ,
+                abstract: {
+                  zh: `作品立足于"长江大保护"国家战略与长江国家文化公园的生态文明建设背景，聚焦于湖北省长江流域，选取该区域作为生态信息的观察与表达场域。以"石"为生态数据与人文感知的媒介载体，融合水质、气候、水位等多维生态数据，探索数据艺术表达与跨感官体验之间的关系路径。通过数据的联觉转译技术，将湖北省长江流域的生态数据转化为可视、可听、可思的诗性表达，构建起"以石映水"的叙事逻辑，拓展了数据与自然物质之间的语义联结与数字互动方式，赋予生态数据以人文温度，激发观众对生态议题的感知与共鸣。`,
+                  en: "Based on the national strategy of 'Yangtze River Protection' and the ecological civilization construction background of the Yangtze River National Cultural Park, this work focuses on the Yangtze River Basin in Hubei Province as a field for ecological information observation and expression. Using 'stone' as a medium for ecological data and humanistic perception, it integrates multidimensional ecological data such as water quality, climate, and water levels to explore the relationship between data artistic expression and cross-sensory experience. Through synesthetic translation of data, it transforms ecological data from the Yangtze River Basin in Hubei Province into visible, audible, and contemplative poetic expressions, constructing a narrative logic of 'reflecting water through stone.'",
+                },
+              },
+              {
+                talk: {
+                  zh: "太空回响：中国太空数字艺术的多维信息构建研究",
+                  en: "Space Echoes: Research on Multidimensional Information Construction in Chinese Space Digital Art",
+                },
+                name: {
+                  zh: "欧阳永康",
+                  en: "Yongkang Ouyang",
+                },
+                affiliation: {
+                  zh: "中国美术学院",
+                  en: "China Academy of Art",
+                },
+                photo: PhotoOYYK,
+                cospeakers: [
+                  {
+                    name: {
+                      zh: "李天",
+                      en: "Tian Li",
+                    },
+                    affiliation: {
+                      zh: "中国美术学院",
+                      en: "China Academy of Art",
+                    },
+                    photo: PhotoLT,
+                  },
+                ],
+                abstract: {
+                  zh: "从古至今，人类从未停止过对宇宙的探索，时至今日以太空为题材的艺术创作数不胜数。从绘画作品到科幻小说，太空美术作为独立存在的艺术种类日渐成型。随着科技的发展，人类对太空的探索越来越深入，太空数字媒体艺术作为一种新型的艺术形式，将科技与艺术巧妙结合，为人们提供了一个全新的视角来理解和感知宇宙。整体而言，该图解通过数据深挖逻辑，创新图解叙事手法，实现转译联觉，智能共想。",
+                  en: "Throughout history, humans have never ceased exploring the universe, and today there are countless artistic creations themed around space. From paintings to science fiction, space art has gradually taken shape as an independent art form. With technological advancement, human exploration of space has deepened, and space digital media art, as a new art form, cleverly combines technology and art, providing people with a fresh perspective to understand and perceive the universe. Overall, this visualization delves into data logic, innovates diagrammatic narrative methods, achieves synesthetic translation, and enables intelligent co-imagination.",
+                },
+              },
+            ],
           },
           {
             type: "paper",
@@ -1274,6 +1375,10 @@ export const program: ProgramDay[] = [
         sessions: [
           {
             type: "challenge",
+            href: {
+              zh: "/2025/zh/challenge",
+              en: "/2025/en/challenge",
+            },
             title: {
               zh: "数据可视化竞赛与颁奖",
               en: "Data Visualization Challenges and Award Ceremony",
@@ -3203,6 +3308,11 @@ export const program: ProgramDay[] = [
         sessions: [
           {
             type: "activity",
+            id: "activity-industry",
+            href: {
+              zh: "/2025/zh/activity/industry",
+              en: "/2025/en/activity/industry",
+            },
             title: {
               zh: "校企面对面",
               en: "Industry Talks",
@@ -3211,6 +3321,114 @@ export const program: ProgramDay[] = [
               zh: "二楼文澜厅B",
               en: "Wenlan Hall B, 2F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "丁治宇",
+                  en: "Zhiyu Ding",
+                },
+                affiliation: {
+                  zh: "华为技术有限公司",
+                  en: "Huawei Technologies Co., Ltd.",
+                },
+              },
+              {
+                name: {
+                  zh: "胡海波",
+                  en: "Haibo Hu",
+                },
+                affiliation: {
+                  zh: "重庆大学",
+                  en: "Chongqing University",
+                },
+              },
+            ],
+            speakers: [
+              {
+                talk: {
+                  zh: "AI时代可视化与体验技术生产新范式",
+                  en: "New Paradigm of Visualization and Experience Technology Production in the AI Era",
+                },
+                name: {
+                  zh: "黄兆嵩",
+                  en: "Zhaosong Huang",
+                },
+                affiliation: {
+                  zh: "支付宝（杭州）信息技术有限公司",
+                  en: "Alipay (Hangzhou) Information Technology Co., Ltd.",
+                },
+              },
+              {
+                talk: {
+                  zh: "实时数据驱动下的智能可视化创新应用",
+                  en: "Innovative Applications of Intelligent Visualization Driven by Real-time Data",
+                },
+                name: {
+                  zh: "唐兴波",
+                  en: "Xingbo Tang",
+                },
+                affiliation: {
+                  zh: "艾迪普科技股份有限公司",
+                  en: "EDP Technology Corporation",
+                },
+              },
+              {
+                talk: {
+                  zh: "重新定义工业智造新场景",
+                  en: "Redefining New Scenarios in Industrial Intelligent Manufacturing",
+                },
+                name: {
+                  zh: "伍景辉",
+                  en: "Jinghui Wu",
+                },
+                affiliation: {
+                  zh: "苏州中科先进技术研究院",
+                  en: "Suzhou Institute of Advanced Technology, Chinese Academy of Sciences",
+                },
+              },
+              {
+                talk: {
+                  zh: "生成式AI与终端用户体验：未来展望与挑战",
+                  en: "Generative AI and End-User Experience: Future Prospects and Challenges",
+                },
+                name: {
+                  zh: "吴思举",
+                  en: "Siju Wu",
+                },
+                affiliation: {
+                  zh: "2012HMI交互实验室",
+                  en: "2012HMI Interaction Laboratory",
+                },
+              },
+              {
+                talk: {
+                  zh: "从数据到评估：基于视觉-语言模型的幻灯片动画理解全链路方法",
+                  en: "From Data to Evaluation: End-to-End Method for Understanding Slide Animations Based on Vision-Language Models",
+                },
+                name: {
+                  zh: "徐常亮",
+                  en: "Changliang Xu",
+                },
+                affiliation: {
+                  zh: "中国科学院大学杭州高等研究院",
+                  en: "Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences",
+                },
+              },
+              {
+                talk: {
+                  zh: "AntV x DeepInsight：数据智能可视化在蚂蚁集团 BI 产品中的探索实践",
+                  en: "AntV x DeepInsight: Exploration and Practice of Data Intelligent Visualization in Ant Group's BI Products",
+                },
+                name: {
+                  zh: "邓绍婷",
+                  en: "Shaoting Deng",
+                },
+                affiliation: {
+                  zh: "蚂蚁集团",
+                  en: "Ant Group",
+                },
+              },
+            ],
           },
         ],
       },

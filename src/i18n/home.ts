@@ -12,10 +12,10 @@ export const zh = {
 
     ## 会议赞助
 
-    ### 钻石赞助
-
-    <div style="margin-top: 20px;">
-      <img style="height: 150px;" src="{{ AIHLogo }}" alt="杭州全息智能技术研究院"/>
+    <div style="margin-top: 20px; text-align: center;">
+      <img style="height: 150px; margin: 10px auto" src="{{ AIHLogo }}" alt="杭州全息智能技术研究院"/>
+      <div><h3 style="margin: 0 auto">杭州全息智能技术研究院</h3></div>
+      <div style="color: #de0000; font-weight: 700">钻石赞助</div>
     </div>
 
     `.replace(/^    /gm, ""),
