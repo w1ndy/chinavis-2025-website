@@ -90,6 +90,7 @@ import PhotoCQ from "~/assets/program/cq.avif";
 import PhotoMYX from "~/assets/program/myx.avif";
 import PhotoZengW from "~/assets/program/zengw.avif";
 import PhotoTJ from "~/assets/program/tj.avif";
+import { Paper } from "~/components/PaperInfo";
 
 export const zh = {
   PageTitle: "会议议程 - ChinaVis 2025",
@@ -146,6 +147,7 @@ export interface ProgramSession {
   };
   chairs?: Speaker[];
   speakers?: Speaker[];
+  papers?: Paper[];
 }
 
 export interface ProgramTimeSlot {
@@ -708,6 +710,7 @@ export const program: ProgramDay[] = [
           },
           {
             type: "paper",
+            id: "paper-1",
             title: {
               zh: "论文报告 1：Graph and Network Analytics",
               en: "Paper Session 1: Graph and Network Analytics",
@@ -716,6 +719,66 @@ export const program: ProgramDay[] = [
               zh: "三楼兰桥厅",
               en: "Lanqiao Hall, 3F",
             },
+            chairs: [
+              {
+                name: {
+                  zh: "江棨",
+                  en: "Qi Jiang",
+                },
+                affiliation: {
+                  zh: "浙江科技大学",
+                  en: "Zhejiang University of Science and Technology",
+                },
+              },
+            ],
+            papers: [
+              {
+                title:
+                  "Visual Evaluation for Attribute Differences in Graph Sampling",
+                authors: [
+                  "Yong Zhang",
+                  "Yuqi Zhou",
+                  "Jiajia Kou",
+                  "Yuhua Liu",
+                  "Yongheng Wang",
+                  "Xiangyang Wu",
+                  "Zhiguang Zhou",
+                ],
+              },
+              {
+                title:
+                  "Industry Chain Visual Exploration Based on Heterogeneous Graphs Analysis",
+                authors: [
+                  "Yi Wan",
+                  "Xiaowen Zhang",
+                  "Xiaoxu Chen",
+                  "Jiacheng Tang",
+                  "Siming Chen",
+                ],
+              },
+              {
+                title:
+                  "LSN-VA: A Visual Analysis System for Ancient Chinese Literati Social Network",
+                authors: [
+                  "Yingping Yang",
+                  "Guangtao You",
+                  "JiaYi Chen",
+                  "Zhichao Zhang",
+                  "Jiazhou Chen",
+                  "Xinguo Xu",
+                ],
+              },
+              {
+                title:
+                  "CamouflageVis: A Visual Analytics Approach for Discovering Camouflaged Malicious Entities in E-Commerce",
+                authors: ["Yanhong Wu", "Tan Tang", "Yuhong Li", "Yingcai Wu"],
+              },
+              {
+                title:
+                  "RepoTale: A Visual Analytics Framework for Exploring Software Repository Evolution on Issue Tracking",
+                authors: ["Yingying Huang", "Zhenglei Liu", "Yuxin Ma"],
+              },
+            ],
           },
         ],
       },
