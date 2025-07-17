@@ -22,7 +22,7 @@ export default function App() {
   return (
     <MetaProvider>
       <Link rel="manifest" href="/2025/manifest.webmanifest"></Link>
-      <Meta name="theme-color" content="#f030ff"></Meta>
+      <Meta name="theme-color" content="#000000"></Meta>
       <Router
         root={props => (
           <>
