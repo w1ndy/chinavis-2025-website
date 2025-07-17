@@ -1,0 +1,20 @@
+{
+  "name": "ChinaVis 2025",
+  "short_name": "ChinaVis 2025",
+  "start_url": "/2025",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#f030ff",
+  "icons": [
+    {
+      "src": "/2025/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/2025/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
