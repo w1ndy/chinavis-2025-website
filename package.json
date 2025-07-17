@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vinxi dev --config dev.config.ts",
     "build": "vinxi build",
+    "cf-build": "vinxi build && rm -rf dist && mkdir dist && mv .output/public dist/2025 && cp index.html dist/index.html",
     "start": "vinxi start"
   },
   "dependencies": {
