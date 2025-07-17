@@ -114,7 +114,18 @@ self.addEventListener("fetch", (event) => {
         })
         .catch(() => cached); // fallback
 
-      return cached || fetchAndUpdate;
+      return (
+        cached ||
+        fetchAndUpdate.then((res) => {
+          return (
+            res ||
+            new Response("Offline or not cached", {
+              status: 503,
+              statusText: "Service Unavailable",
+            })
+          );
+        })
+      );
     })
   );
 });
