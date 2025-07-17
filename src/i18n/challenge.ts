@@ -21,25 +21,25 @@ export const zh = {
 
    <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">一等作品</span></div>
 
-    1. **参赛单位：** 重庆大学    <a href="/2025/challenge/1-cqu-yyq.zip" target="_blank">作品下载</a>
+    1. **参赛单位：** 重庆大学    <a href="https://storage.chinavis.dev/1-cqu-yyq.zip" target="_blank">作品下载</a>
 
       **提名人员：** 姚颖茜 唐葆程 黄茜 梁兴竞 曾余茹 王昕月 胡海波（指导老师）
 
     <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">二等作品</span></div>
 
-    1. **参赛单位：** 信息工程大学    <a href="/2025/challenge/2-ieu-tzw.zip" target="_blank">作品下载</a>
+    1. **参赛单位：** 信息工程大学    <a href="https://storage.chinavis.dev/2-ieu-tzw.zip" target="_blank">作品下载</a>
 
       **提名人员：** 涂泽文 邱阳 冯智博 张炜 蒋禹 李硕 陈晓慧（指导老师） 李静（指导老师）
 
-    2. **参赛单位：** 西安电子科技大学    <a href="/2025/challenge/2-xdu-ywc.zip" target="_blank">作品下载</a>
+    2. **参赛单位：** 西安电子科技大学    <a href="https://storage.chinavis.dev/2-xdu-ywc.zip" target="_blank">作品下载</a>
 
       **提名人员：** 杨文川 张庆 李瑞雨 李杨 职芮铭 董画心 权义宁（指导老师） 韩晓阳（指导老师）
 
-    3. **参赛单位：** 东北师范大学   <a href="/2025/challenge/2-nenu-lx.zip" target="_blank">作品下载</a>
+    3. **参赛单位：** 东北师范大学   <a href="https://storage.chinavis.dev/2-nenu-lx.zip" target="_blank">作品下载</a>
 
       **提名人员：** 刘欣 于芷川 鹿雅秋 李佳欣 国馨元 周楠 张慧杰（指导老师） 封子军（指导老师）
 
-    4. **参赛单位：** 重庆大学    <a href="/2025/challenge/2-cqu-dyj.zip" target="_blank">作品下载</a>
+    4. **参赛单位：** 重庆大学    <a href="https://storage.chinavis.dev/2-cqu-dyj.zip" target="_blank">作品下载</a>
 
       **提名人员：** 邓怡杰 曹陆铖 付婉婷 朱清杨 陈研 胡海波（指导老师）
 
@@ -323,25 +323,25 @@ export const en = {
 
     <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">First Prize</span></div>
 
-    1. **Institution:** Chongqing University    <a href="/2025/challenge/1-cqu-yyq.zip" target="_blank">Download</a>
+    1. **Institution:** Chongqing University    <a href="https://storage.chinavis.dev/1-cqu-yyq.zip" target="_blank">Download</a>
 
       **Team Members:** Yao Yingxi, Tang Baocheng, Huang Qian, Liang Xingjing, Zeng Yuru, Wang Xinyue, Hu Haibo (Supervisor)
 
     <div style="text-indent: 0; margin-top: 6px"><span style="color: #de0000; font-weight: 700">Second Prize</span></div>
 
-    1. **Institution:** Information Engineering University    <a href="/2025/challenge/2-ieu-tzw.zip" target="_blank">Download</a>
+    1. **Institution:** Information Engineering University    <a href="https://storage.chinavis.dev/2-ieu-tzw.zip" target="_blank">Download</a>
 
       **Team Members:** Tu Zewen, Qiu Yang, Feng Zhibo, Zhang Wei, Jiang Yu, Li Shuo, Chen Xiaohui (Supervisor), Li Jing (Supervisor)
 
-    2. **Institution:** Xidian University    <a href="/2025/challenge/2-xdu-ywc.zip" target="_blank">Download</a>
+    2. **Institution:** Xidian University    <a href="https://storage.chinavis.dev/2-xdu-ywc.zip" target="_blank">Download</a>
 
       **Team Members:** Yang Wenchuan, Zhang Qing, Li Ruiyu, Li Yang, Zhi Ruiming, Dong Huaxin, Quan Yining (Supervisor), Han Xiaoyang (Supervisor)
 
-    3. **Institution:** Northeast Normal University   <a href="/2025/challenge/2-nenu-lx.zip" target="_blank">Download</a>
+    3. **Institution:** Northeast Normal University   <a href="https://storage.chinavis.dev/2-nenu-lx.zip" target="_blank">Download</a>
 
       **Team Members:** Liu Xin, Yu Zhichuan, Lu Yaqiu, Li Jiaxin, Guo Xinyuan, Zhou Nan, Zhang Huijie (Supervisor), Feng Zijun (Supervisor)
 
-    4. **Institution:** Chongqing University    <a href="/2025/challenge/2-cqu-dyj.zip" target="_blank">Download</a>
+    4. **Institution:** Chongqing University    <a href="https://storage.chinavis.dev/2-cqu-dyj.zip" target="_blank">Download</a>
 
       **Team Members:** Deng Yijie, Cao Lucheng, Fu Wanting, Zhu Qingyang, Chen Yan, Hu Haibo (Supervisor)
 

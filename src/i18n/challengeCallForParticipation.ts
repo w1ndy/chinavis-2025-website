@@ -160,9 +160,9 @@ export const zh = {
 
     1. **赛道1-I： 可视分析挑战赛**
         - 作品文档答卷模板 <a href="/2025/challenge/1i_answer_sheet.docx" target="_blank">Download</a>
-        - 数据下载链接 <a href="/2025/challenge/dataset.zip" target="_blank">Download</a>（数据可视化竞赛所提供数据仅限于竞赛作品使用）
+        - 数据下载链接 <a href="https://storage.chinavis.dev/dataset.zip" target="_blank">Download</a>（数据可视化竞赛所提供数据仅限于竞赛作品使用）
     2. **赛道1-II：人文可视化创意赛**
-        - 数据下载链接 <a href="/2025/challenge/dataset.zip" target="_blank">Download</a>（数据可视化竞赛所提供数据仅限于竞赛作品使用）
+        - 数据下载链接 <a href="https://storage.chinavis.dev/dataset.zip" target="_blank">Download</a>（数据可视化竞赛所提供数据仅限于竞赛作品使用）
     3. **赛道2： 艺术可视化竞赛**
         - 自备数据集，并提供原始数据片段作为评价参考。
 
@@ -370,9 +370,9 @@ export const en = {
 
     1. **Track 1-I: Visual Analytics Challenge**
         - Work description document template: <a href="/2025/challenge/1i_answer_sheet.docx" target="_blank">Download</a>
-        - Data download link: <a href="/2025/challenge/dataset.zip" target="_blank">Download</a> (The data provided is limited to use in competition entries)
+        - Data download link: <a href="https://storage.chinavis.dev/dataset.zip" target="_blank">Download</a> (The data provided is limited to use in competition entries)
     2. **Track 1-II: Visualization Creative Challenge**
-        - Data download link: <a href="/2025/challenge/dataset.zip" target="_blank">Download</a> (The data provided is limited to use in competition entries)
+        - Data download link: <a href="https://storage.chinavis.dev/dataset.zip" target="_blank">Download</a> (The data provided is limited to use in competition entries)
     3. **Track 2：Art Visualization Competition**
         - Self-selected dataset, and provide the original data snippet for evaluation reference along with the dataset.
 
