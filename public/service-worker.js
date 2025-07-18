@@ -102,30 +102,37 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-  if (event.request.method !== "GET") return;
+  if (
+    event.request.method !== "GET" ||
+    !event.request.url.startsWith(self.location.origin)
+  )
+    return;
 
   event.respondWith(
     caches.open(CACHE_NAME).then(async (cache) => {
-      const cached = await cache.match(event.request);
-      const fetchAndUpdate = fetch(event.request)
-        .then((response) => {
-          cache.put(event.request, response.clone());
-          return response;
+      return fetch(event.request)
+        .then(async (resp) => {
+          if (resp.ok) {
+            await cache.put(event.request, resp.clone());
+          }
+          return resp;
         })
-        .catch(() => cached); // fallback
+        .catch(async () => {
+          self.clients.matchAll().then((clients) => {
+            for (const client of clients) {
+              client.postMessage({ type: "OFFLINE_STATUS", isOffline: true });
+            }
+          });
 
-      return (
-        cached ||
-        fetchAndUpdate.then((res) => {
+          const cached = await cache.match(event.request);
           return (
-            res ||
+            cached ||
             new Response("Offline or not cached", {
               status: 503,
               statusText: "Service Unavailable",
             })
           );
-        })
-      );
+        });
     })
   );
 });

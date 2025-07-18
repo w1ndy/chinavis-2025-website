@@ -1,3 +1,4 @@
+import { Suspense } from "solid-js";
 import { Router } from "@solidjs/router";
 import { Link, Meta, MetaProvider } from "@solidjs/meta";
 import { FileRoutes } from "@solidjs/start/router";
@@ -8,7 +9,7 @@ import { Navbar } from "~/components/Navbar";
 import { Teaser } from "~/components/Teaser";
 import { Footer } from "~/components/Footer";
 import { ScrollToTopButton } from "~/components/ScrollToTopButton";
-import { Suspense } from "solid-js";
+import { ServiceWorkerNotification } from "~/components/ServiceWorkerNotification";
 
 export default function App() {
   if ('serviceWorker' in navigator) {
@@ -31,6 +32,7 @@ export default function App() {
             <Suspense>{props.children}</Suspense>
             <Footer />
             <ScrollToTopButton />
+            <ServiceWorkerNotification />
           </>
         )}
       >
