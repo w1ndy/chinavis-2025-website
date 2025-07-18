@@ -4,14 +4,16 @@ export function ServiceWorkerNotification() {
   const [closed, setClosed] = createSignal(true);
   const [message, setMessage] = createSignal("已离线。");
 
-  navigator.serviceWorker.addEventListener('message', event => {
-    const { type } = event.data;
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.addEventListener('message', event => {
+      const { type } = event.data;
 
-    if (type === 'OFFLINE_STATUS') {
-      setMessage('您已离线');
-      setClosed(false);
-    }
-  });
+      if (type === 'OFFLINE_STATUS') {
+        setMessage('您已离线');
+        setClosed(false);
+      }
+    });
+  }
 
   return (
     <Show when={!closed()}>
