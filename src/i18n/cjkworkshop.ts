@@ -20,6 +20,10 @@ export const zh = {
     `
     ## 论坛信息
 
+    ### 主题：交互式数据可视化：增强人机协作
+
+    交互式数据可视化在弥合人机之间的差距方面发挥着关键作用，使得对数据集中的复杂模式进行直观探索和理解成为可能。本论坛将讨论数据可视化如何促进人机之间的无缝协作。主题将包括如何集成 AI 来增强跨领域的实际应用可视化，以及设计交互式可视化工具时需要考虑的关键因素。
+
     - **时间：** 2025 年 7 月 19 日上午 9-12 点
     - **地点：** 杭州城北文澜大酒店 青芝坞厅
     `.replace(/^    /gm, ""),
@@ -52,6 +56,10 @@ export const en = {
   Information: marked.parse(
     `
     ## Information
+
+    ### Topic: Interactive Data Visualization: Enhancing Human-Machine Collaboration
+
+    Interactive data visualization plays a pivotal role in bridging the gap between humans and machines, enabling intuitive exploration and understanding of complex patterns in datasets. This panel will discuss how data visualization facilitates seamless collaboration between humans and machines. Topics will include how to integrate AI to enhance visualization for real-world applications across domains and what the key considerations are for designing interactive visualization tools.
 
     - **Date:** July 19, 2025, 9:00 AM - 12:00 PM
     - **Location:** Wenlan Hotel Northern Hangzhou, Qingzhuwu Hall
