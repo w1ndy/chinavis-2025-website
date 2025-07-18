@@ -324,8 +324,8 @@ export const program: ProgramDay[] = [
               en: "Opening Ceremony",
             },
             location: {
-              zh: "主会场/三楼文锦厅",
-              en: "Main Venue / Wenjin Hall, 3F",
+              zh: "二楼文澜厅",
+              en: "Wenlan Hall, 2F",
             },
           },
         ],
