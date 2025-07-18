@@ -7,6 +7,7 @@ import { Page } from "~/components/Page";
 import { SpeakerInfo } from "~/components/SpeakerInfo";
 
 import "./program.css"
+import FloorPlan from "~/assets/program/floorplan.avif";
 
 function ProgramTableTimeSlot(props: { timeslot: Dict.ProgramTimeSlot }) {
   return (
@@ -112,6 +113,7 @@ export default function Program() {
             </For>
           </tbody>
         </table>
+        <img src={FloorPlan} alt="FloorPlan" class="w-full max-w-4xl mx-auto my-10" />
       </Page>
     </>
   );

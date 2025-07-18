@@ -563,8 +563,30 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展、论文海报展、艺术展",
-              en: "Industry, Poster, and Art Exhibition",
+              zh: "企业展",
+              en: "Industry Exhibition",
+            },
+            location: {
+              zh: "二楼文澜厅前厅",
+              en: "Wenlan Hall Front, 2F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "论文海报展",
+              en: "Poster Exhibition",
+            },
+            location: {
+              zh: "三楼文锦厅前厅",
+              en: "Wenjin Hall Front, 3F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "艺术展",
+              en: "Art Exhibition",
             },
             location: {
               zh: "三楼文悦厅",
@@ -1396,8 +1418,30 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展、论文海报展、艺术展",
-              en: "Industry, Poster, and Art Exhibition",
+              zh: "企业展",
+              en: "Industry Exhibition",
+            },
+            location: {
+              zh: "二楼文澜厅前厅",
+              en: "Wenlan Hall Front, 2F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "论文海报展",
+              en: "Poster Exhibition",
+            },
+            location: {
+              zh: "三楼文锦厅前厅",
+              en: "Wenjin Hall Front, 3F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "艺术展",
+              en: "Art Exhibition",
             },
             location: {
               zh: "三楼文悦厅",
@@ -2339,8 +2383,30 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展、论文海报展、艺术展",
-              en: "Industry, Poster, and Art Exhibition",
+              zh: "企业展",
+              en: "Industry Exhibition",
+            },
+            location: {
+              zh: "二楼文澜厅前厅",
+              en: "Wenlan Hall Front, 2F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "论文海报展",
+              en: "Poster Exhibition",
+            },
+            location: {
+              zh: "三楼文锦厅前厅",
+              en: "Wenjin Hall Front, 3F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "艺术展",
+              en: "Art Exhibition",
             },
             location: {
               zh: "三楼文悦厅",
@@ -3438,8 +3504,30 @@ export const program: ProgramDay[] = [
           {
             type: "exhibition",
             title: {
-              zh: "企业展、论文海报展、艺术展",
-              en: "Industry, Poster, and Art Exhibition",
+              zh: "企业展",
+              en: "Industry Exhibition",
+            },
+            location: {
+              zh: "二楼文澜厅前厅",
+              en: "Wenlan Hall Front, 2F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "论文海报展",
+              en: "Poster Exhibition",
+            },
+            location: {
+              zh: "三楼文锦厅前厅",
+              en: "Wenjin Hall Front, 3F",
+            },
+          },
+          {
+            type: "exhibition",
+            title: {
+              zh: "艺术展",
+              en: "Art Exhibition",
             },
             location: {
               zh: "三楼文悦厅",
@@ -3636,8 +3724,8 @@ export const program: ProgramDay[] = [
               en: "Art Exhibition",
             },
             location: {
-              zh: "文悦厅",
-              en: "Wenyue Hall",
+              zh: "三楼文悦厅",
+              en: "Wenyue Hall, 3F",
             },
           },
         ],
