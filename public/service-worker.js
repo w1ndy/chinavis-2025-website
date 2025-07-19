@@ -120,17 +120,25 @@ self.addEventListener("fetch", (event) => {
     event.request.method !== "GET" ||
     !event.request.url.startsWith(self.location.origin) ||
     event.request.url.includes("favicon.ico")
-  )
+  ) {
     return;
+  }
 
   const fetchAndUpdate = async () => {
     const cache = await caches.open(CACHE_NAME);
+
     try {
-      const response = await fetch(event.request);
-      if (response.ok) {
-        await cache.put(event.request, response.clone());
+      // Force the network fetch to *follow* redirects
+      const networkResponse = await fetch(
+        new Request(event.request, { redirect: "follow" })
+      );
+
+      // Only cache real, same‑origin, non‑redirect responses
+      if (networkResponse.ok && networkResponse.type !== "opaqueredirect") {
+        cache.put(event.request, networkResponse.clone());
       }
-      return response;
+
+      return networkResponse;
     } catch (error) {
       self.clients.matchAll().then((clients) => {
         for (const client of clients) {
@@ -152,11 +160,10 @@ self.addEventListener("fetch", (event) => {
     caches.open(CACHE_NAME).then(async (cache) => {
       const cached = await cache.match(event.request);
       if (cached) {
-        event.waitUntil(fetchAndUpdate());
-        return cached;
-      } else {
-        return fetchAndUpdate();
+        event.waitUntil(fetchAndUpdate()); // revalidate in background
+        return cached; // stale‑while‑revalidate
       }
+      return fetchAndUpdate(); // no cache → go network
     })
   );
 });
