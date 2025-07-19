@@ -2,14 +2,14 @@ import { createSignal, Show } from "solid-js";
 
 export function ServiceWorkerNotification() {
   const [closed, setClosed] = createSignal(true);
-  const [message, setMessage] = createSignal("已离线。");
+  const [message, setMessage] = createSignal("");
 
   if (navigator.serviceWorker) {
     navigator.serviceWorker.addEventListener('message', event => {
       const { type } = event.data;
 
       if (type === 'OFFLINE_STATUS') {
-        setMessage('您已离线');
+        setMessage('无法连接到服务器。');
         setClosed(false);
       }
     });
