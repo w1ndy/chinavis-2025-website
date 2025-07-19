@@ -354,6 +354,10 @@ export const program: ProgramDay[] = [
                   zh: "浙江大学",
                   en: "Zhejiang University",
                 },
+                suffix: {
+                  zh: " 教授",
+                  en: ", Professor",
+                },
                 photo: PhotoTJR,
                 abstract: {
                   zh: "如何将数字孪生技术作为基础技术，并结合新一代信息与通信技术、大数据分析技术、增强现实技术等先进技术有机融为一体，是当前数字化转型的一项重要内容。我们应用互联网、人工智能、数字化、网络化等技术时，需要结合国家实际情况、行业具体情况以及企业自身发展规律。为此，报告将分享智能制造和数字化转型方面的工作和体会，剖析数字设计与数字孪生的关联，探讨数字孪生的关键技术和发展趋势。",
@@ -407,6 +411,10 @@ export const program: ProgramDay[] = [
                 affiliation: {
                   zh: "加州大学戴维斯分校",
                   en: "University of California, Davis",
+                },
+                suffix: {
+                  zh: " 教授",
+                  en: ", Professor",
                 },
                 photo: PhotoKLM,
                 abstract: {
@@ -3567,6 +3575,10 @@ export const program: ProgramDay[] = [
                 affiliation: {
                   zh: "浙江大学",
                   en: "Zhejiang University",
+                },
+                suffix: {
+                  zh: " 教授",
+                  en: ", Professor",
                 },
                 photo: PhotoBHJ,
                 abstract: {

@@ -36,7 +36,7 @@ export function SpeakerName(props: { class?: string; speaker: Speaker }) {
         <img class="w-13 h-13 object-cover border border-gray-300 rounded-full mr-3" src={props.speaker.photo} alt={name()} />
       </Show>
       <div class="flex flex-col justify-center">
-        <div class="font-semibold leading-6 text-left">{name()} <Show when={suffix}>{suffix!()}</Show></div>
+        <div class="font-semibold leading-6 text-left">{name()}<Show when={suffix}>{suffix!()}</Show></div>
         <div class="text-gray-600 dark:text-gray-400  leading-6 text-left">{affiliation()}</div>
       </div>
     </div>
