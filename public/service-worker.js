@@ -1,4 +1,4 @@
-const CACHE_NAME = "chinavis-2025-cache-v2";
+const CACHE_NAME = "chinavis-2025-cache-v3";
 
 const urlsToCache = [
   "/2025/",
