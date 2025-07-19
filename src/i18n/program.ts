@@ -101,6 +101,11 @@ import PhotoMHL from "~/assets/program/mhl.avif";
 import PhotoZJJ from "~/assets/program/zjj.avif";
 import PhotoOYYK from "~/assets/program/oyyk.avif";
 import PhotoLT from "~/assets/program/lt.avif";
+import PhotoXCL from "~/assets/program/xcl.avif";
+import PhotoTXB from "~/assets/program/txb.avif";
+import PhotoHZS from "~/assets/program/hzs.avif";
+import PhotoWJH from "~/assets/program/wjh.avif";
+import PhotoDST from "~/assets/program/dst.avif";
 
 export const zh = {
   PageTitle: "会议议程 - ChinaVis 2025",
@@ -3448,16 +3453,25 @@ export const program: ProgramDay[] = [
             speakers: [
               {
                 talk: {
-                  zh: "AI时代可视化与体验技术生产新范式",
-                  en: "New Paradigm of Visualization and Experience Technology Production in the AI Era",
+                  zh: "从数据到评估：基于视觉-语言模型的幻灯片动画理解全链路方法",
+                  en: "From Data to Evaluation: End-to-End Method for Understanding Slide Animations Based on Vision-Language Models",
                 },
                 name: {
-                  zh: "黄兆嵩",
-                  en: "Zhaosong Huang",
+                  zh: "徐常亮",
+                  en: "Changliang Xu",
                 },
+                photo: PhotoXCL,
                 affiliation: {
-                  zh: "支付宝（杭州）信息技术有限公司",
-                  en: "Alipay (Hangzhou) Information Technology Co., Ltd.",
+                  zh: "中国科学院大学杭州高等研究院",
+                  en: "Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences",
+                },
+                abstract: {
+                  zh: "本研究为PPT动画自动解说与理解提供了新的数据集、方法和评估体系，推动了多模态视觉语言模型在结构化文档动态化展示中的应用。未来的工作将进一步扩展数据集、优化推理效率，并探索更多动画类型的泛化能力。本工作有望为幻灯片动效智能生成方向奠定基础，实现从静态PPT到动态解说视频的端到端生成流程，为教育、展示和数字出版等行业提供可迁移的解决方案。",
+                  en: "This research provides a new dataset, method, and evaluation system for automatic narration and understanding of PPT animations, promoting the application of multimodal vision-language models in dynamic presentations of structured documents. Future work will further expand the dataset, optimize inference efficiency, and explore the generalization capabilities of more animation types. This work is expected to lay the foundation for intelligent generation of slide animations, achieving an end-to-end generation process from static PPTs to dynamic narrated videos, providing transferable solutions for industries such as education, presentations, and digital publishing.",
+                },
+                description: {
+                  zh: "徐常亮，现任中国科学院大学杭州高等研究院研究员，组建大模型复杂智能体实验室并任主任，聚焦通过多模态大模型、多智能体解决复杂工作流全自动化的研究。同时创办牧语工场，致力于视频生产和知识构建智能体的研发与商业化落地。之前曾任阿里云大数据总经理、新华社与阿里巴巴合资公司新华智云CEO。",
+                  en: "Changliang Xu is currently a researcher at the Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, where he leads the Large Model Complex Agent Laboratory, focusing on automating complex workflows using multimodal large models and multi-agent systems. He also founded MuYu GongChang, dedicated to the research and commercialization of video production and knowledge construction agents. Previously, he served as General Manager of Big Data at Alibaba Cloud and CEO of Xinhua Zhiyun, a joint venture between Xinhua News Agency and Alibaba.",
                 },
               },
               {
@@ -3473,6 +3487,38 @@ export const program: ProgramDay[] = [
                   zh: "艾迪普科技股份有限公司",
                   en: "EDP Technology Corporation",
                 },
+                abstract: {
+                  zh: "在实时数据驱动的智能化时代，可视化技术正成为信息交互与决策分析的核心工具。本报告将围绕公司在三维图形渲染引擎、数字图形资产云平台及实时可视化工具链等核心技术领域的突破，实现了海量多源数据的动态融合与高效渲染，结合AI算法与交互式设计，在智慧城市、工业仿真、媒体传播等领域打造了低延迟、高精度的可视化解决方案。演讲将重点探讨如何通过实时数据中台与可视化引擎的协同创新，推动从静态展示到智能交互的范式升级，为行业提供可复用的技术路径与实践案例。",
+                  en: "In the era of real-time data-driven intelligence, visualization technology is becoming a core tool for information interaction and decision analysis. This talk will focus on the company's breakthroughs in core technology areas such as 3D graphics rendering engines, digital graphic asset cloud platforms, and real-time visualization toolchains, achieving dynamic integration and efficient rendering of massive multi-source data. By combining AI algorithms and interactive design, low-latency and high-precision visualization solutions have been created in fields such as smart cities, industrial simulation, and media communication. The talk will emphasize how to promote the paradigm shift from static display to intelligent interaction through collaborative innovation between real-time data platforms and visualization engines, providing reusable technical paths and practical cases for the industry.",
+                },
+                description: {
+                  zh: "唐兴波，艾迪普科技股份有限公司创始人 、中国产学研合作促进会理事、中国虚拟现实与产业技术平台副理事长、中国信通院元宇宙创新探索方阵个人高级专家、中国图象图形学学会会员，自2003年带领团队研发国产3D图形图像实时渲染、跟踪、识别、处理引擎、零代码创作工具及数字资产管理平台。以数字内容产业为依托，结合云计算、大数据、人工智能、区块链等多项前沿技术，构建了数字内容产业全链路闭环体系，广泛应用于虚拟现实、增强现实、虚拟仿真、数字孪生及工业元宇宙等应用领域的产业化。曾参与多项国家核心技术攻关项目与课题。",
+                  en: "Xingbo Tang, founder of EDP Technology Corporation, director of the China Association for Promoting Science and Technology Cooperation, vice chairman of the China Virtual Reality and Industry Technology Platform, senior expert in the Metaverse Innovation Exploration Matrix of the China Academy of Information and Communications Technology, and member of the China Society of Image and Graphics. Since 2003, he has led a team to develop domestic 3D graphics real-time rendering, tracking, recognition, processing engines, no-code creation tools, and digital asset management platforms. Relying on the digital content industry and combining cutting-edge technologies such as cloud computing, big data, artificial intelligence, and blockchain, he has built a closed-loop system for the entire digital content industry chain, widely applied in virtual reality, augmented reality, virtual simulation, digital twin, and industrial metaverse fields. He has participated in several national core technology research projects and topics.",
+                },
+                photo: PhotoTXB,
+              },
+              {
+                talk: {
+                  zh: "AI时代可视化与体验技术生产新范式",
+                  en: "New Paradigm of Visualization and Experience Technology Production in the AI Era",
+                },
+                name: {
+                  zh: "黄兆嵩",
+                  en: "Zhaosong Huang",
+                },
+                affiliation: {
+                  zh: "支付宝（杭州）信息技术有限公司",
+                  en: "Alipay (Hangzhou) Information Technology Co., Ltd.",
+                },
+                abstract: {
+                  zh: "AI时代toC产品迎来富可视化趋势。当业务迭代速度超过 UI 产能, 当用户需求变化快于设计节奏, 当数据呈现要求千人千面, 一场新时代的 UI/可视化 生产方式革命正在发生。我们推出了🐯卧虎 - UI 生成中心，通过「数据秒变界面」「能承接百/千/万级QPS的运行时UI生成方案」「多轮对话」「创意增强」等能力，“让前端生产自动运转、让用户体验随需而变”。分享新时代可视化技术在大厂的落地实践与展望。",
+                  en: "In the AI era, consumer products are experiencing a trend towards rich visualization. When business iteration speed exceeds UI production capacity, when user demand changes faster than design rhythm, and when data presentation requires personalized experiences, a revolution in UI/visualization production methods is occurring. We have launched the 🐯卧虎 - UI Generation Center, which enables 'data to interface in seconds', 'runtime UI generation solutions capable of handling hundreds/thousands/millions of QPS', 'multi-round dialogue', and 'creative enhancement', allowing frontend production to operate automatically and user experience to change on demand. This talk will share the implementation and prospects of new era visualization technology in large companies.",
+                },
+                description: {
+                  zh: "黄兆嵩，支付宝（杭州）信息技术有限公司。前端/aigc&可视化 技术专家。博士毕业于浙江大学计算机专业。主要从事生成式UI相关工作。",
+                  en: "Zhaosong Huang, Alipay (Hangzhou) Information Technology Co., Ltd. Frontend/AIGC & Visualization Technology Expert. Obtained PhD in Computer Science from Zhejiang University. Mainly engaged in generative UI-related work.",
+                },
+                photo: PhotoHZS,
               },
               {
                 talk: {
@@ -3487,34 +3533,15 @@ export const program: ProgramDay[] = [
                   zh: "苏州中科先进技术研究院",
                   en: "Suzhou Institute of Advanced Technology, Chinese Academy of Sciences",
                 },
-              },
-              {
-                talk: {
-                  zh: "生成式AI与终端用户体验：未来展望与挑战",
-                  en: "Generative AI and End-User Experience: Future Prospects and Challenges",
+                abstract: {
+                  zh: `中科具身为解决传统工业机器人的“场景泛化能力弱"、人机协作效率低”、"工艺迭代成本高"三大痛点，本项目依托具身智能一体机，基于自研具身智能操作系统(EOS)、语言-视觉-触觉-力觉的多模态融合模型(ELM)，覆盖任务仿真、数据采集、模型训练、推理部署、系统集成的全流程工具链(ETC)，来支持多种机器人本体，提供丰富的具身机器人工艺包，助力自动化系统集成商快速导入具身智能驱动的机器人，在数据可视化和虚拟现实仿真应用。`,
+                  en: `To address the three major pain points of traditional industrial robots, namely "weak scene generalization ability", "low human-robot collaboration efficiency", and "high cost of process iteration", this project relies on an embodied intelligent all-in-one machine. It is based on a self-developed embodied intelligent operating system (EOS) and a multimodal fusion model (ELM) that integrates language, vision, touch, and force perception. It covers the entire process toolchain (ETC) for task simulation, data collection, model training, inference deployment, and system integration to support various robot bodies and provide rich embodied robotic process packages. This will assist automation system integrators in quickly adopting robots driven by embodied intelligence in data visualization and virtual reality simulation applications.`,
                 },
-                name: {
-                  zh: "吴思举",
-                  en: "Siju Wu",
+                description: {
+                  zh: `伍景辉，全景科技投资集团董事长，现任苏州中科先进技术研究院特聘研究员，并兼任中科示云联合创始人兼首席科学家，任全景未来实验室主任，毕业于澳大利亚新南威尔士州大学UNSW MBA(TECH)硕士，曾担任IBM澳大利亚WATSON ANALYTICS 技术总监，曾代表国家中国青年代表团在金砖国家BRICS青年峰会围绕大数据可持续发展主题发言，当选全球华裔新生代联盟副会长，担任深圳市人工智能协会特聘专家主力围绕企业AI大数据战略数智化升级专家咨询和人工智能相关专业培训方向，2015年回国创业数据可视化分析初创公司于2021年被并购后成为科技投资人，并成功通过IT技术战略投资中科示云、示云科技、珠海中科示云全景、极景科技、南京全景、中科创智等10+家公司。`,
+                  en: `Jinghui Wu, Chairman of Quanjing Technology Investment Group, currently serves as a distinguished researcher at the Suzhou Institute of Advanced Technology, Chinese Academy of Sciences, and is also the co-founder and Chief Scientist of Zhongke Shiyun. He is the director of Quanjing Future Laboratory and graduated with a Master's degree in MBA (TECH) from the University of New South Wales (UNSW) in Australia. He previously served as the Technical Director of IBM Australia's Watson Analytics, represented China at the BRICS Youth Summit on sustainable development themes related to big data, was elected Vice President of the Global Chinese New Generation Alliance, and serves as a distinguished expert for the Shenzhen Artificial Intelligence Association focusing on AI big data strategic digital transformation consulting and professional training. In 2015, he returned to China to start a data visualization analysis startup, which was acquired in 2021, becoming a technology investor and successfully investing in over 10 companies including Zhongke Shiyun, Shiyun Technology, Zhuhai Zhongke Shiyun Quanjing, Jijing Technology, Nanjing Quanjing, and Zhongke Chuangzhi through IT technology strategic investments.`,
                 },
-                affiliation: {
-                  zh: "2012HMI交互实验室",
-                  en: "2012HMI Interaction Laboratory",
-                },
-              },
-              {
-                talk: {
-                  zh: "从数据到评估：基于视觉-语言模型的幻灯片动画理解全链路方法",
-                  en: "From Data to Evaluation: End-to-End Method for Understanding Slide Animations Based on Vision-Language Models",
-                },
-                name: {
-                  zh: "徐常亮",
-                  en: "Changliang Xu",
-                },
-                affiliation: {
-                  zh: "中国科学院大学杭州高等研究院",
-                  en: "Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences",
-                },
+                photo: PhotoWJH,
               },
               {
                 talk: {
@@ -3529,6 +3556,15 @@ export const program: ProgramDay[] = [
                   zh: "蚂蚁集团",
                   en: "Ant Group",
                 },
+                abstract: {
+                  zh: "AI 大模型时代下，BI 产品的形态已逐渐从传统的报表、仪表盘、自助分析等向新一代的 Copilot、ChatBI、Data Agent 演进。数据可视化技术如何在新的业务形态中持续发挥价值，帮助用户提升数据分析决策效率，是数据可视化领域的新课题。本次分享将会介绍 AntV 在数据智能可视化技术方向的探索，以及其在蚂蚁集团BI产品DeepInsight中的实践。",
+                  en: "In the era of AI large models, the form of BI products has gradually evolved from traditional reports, dashboards, and self-service analysis to the new generation of Copilot, ChatBI, and Data Agent. How data visualization technology continues to add value in these new business forms and helps users improve data analysis and decision-making efficiency is a new topic in the field of data visualization. This talk will introduce AntV's exploration in the direction of data intelligent visualization technology and its practice in Ant Group's BI product DeepInsight.",
+                },
+                description: {
+                  zh: "邓绍婷，蚂蚁集团前端技术专家，BI 产品 DeepInsight 前端负责人，AntV AVA 负责人。2017 年毕业于武汉理工大学，获硕士学位。2019 年加入蚂蚁集团，现任蚂蚁集团BI 产品 DeepInsight 前端负责人，通过数据可视化技术 AntV G2、S2、AVA 等为业务提供核心技术支撑，对内服务 7W+ 用户，对外以标杆数据产品商业化。技术上近 5 年聚焦数据可视化分析领域，获得 3 个国家专利授权，发表 1 篇 AntV 图可视化解决方案白皮书，当前专注于 AntV AVA 数据智能可视化的探索实践。",
+                  en: "Shaoting Deng, Frontend Technology Expert at Ant Group, Frontend Lead of BI Product DeepInsight, and Head of AntV AVA. Graduated from Wuhan University of Technology in 2017 with a Master's degree. Joined Ant Group in 2019 and currently leads the frontend of Ant Group's BI product DeepInsight, providing core technical support for the business through data visualization technologies such as AntV G2, S2, and AVA, serving over 70,000 internal users and commercializing benchmark data products externally. Technically focused on the field of data visualization analysis for nearly 5 years, has obtained 3 national patent authorizations, published 1 AntV visual solution white paper, and is currently focused on exploring and practicing AntV AVA data intelligent visualization.",
+                },
+                photo: PhotoDST,
               },
             ],
           },
