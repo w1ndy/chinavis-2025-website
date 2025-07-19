@@ -492,17 +492,17 @@ export const program: ProgramDay[] = [
               },
               {
                 name: {
-                  zh: "刘世霞",
-                  en: "Shixia Liu",
+                  zh: "Kwan-Liu Ma",
+                  en: "Kwan-Liu Ma",
                 },
                 affiliation: {
-                  zh: "清华大学",
-                  en: "Tsinghua University",
+                  zh: "加州大学戴维斯分校",
+                  en: "University of California, Davis",
                 },
-                photo: PhotoLSX,
+                photo: PhotoKLM,
                 description: {
-                  zh: "刘世霞，清华大学教授，国家级人才计划入选者，IEEE Fellow，AAIA Fellow。主要研究方向是大数据可视分析与可解释人工智能。获IEEE可视化技术成就奖（2022）；入选福布斯中国科技女性50（2022）和可视化名人堂（2020）。担任CCF A类会议IEEE VIS(VAST) 2016和2017的论文主席，IEEE VIS 2020-2023指导委员会委员；担任IEEE Transactions on Visualization and Computer Graphics副主编、曾任编委；担任CCF A类期刊Artificial Intelligence编委；担任IEEE Transactions on Big Data和ACM Transactions on Interactive Intelligent Systems的编委。",
-                  en: "Shixia Liu, Professor at Tsinghua University, National-level talent program recipient, IEEE Fellow, AAIA Fellow. Her main research areas are big data visual analytics and explainable artificial intelligence. She received the IEEE Visualization Technical Achievement Award (2022), was selected for Forbes China Top 50 Women in Tech (2022) and the Visualization Hall of Fame (2020). She served as paper chair for IEEE VIS (VAST) 2016 and 2017, IEEE VIS 2020-2023 Steering Committee member; Associate Editor and former Editorial Board member of IEEE Transactions on Visualization and Computer Graphics; Editorial Board member of Artificial Intelligence; Editorial Board member of IEEE Transactions on Big Data and ACM Transactions on Interactive Intelligent Systems.",
+                  en: "Kwan-Liu Ma (马匡六) is a distinguished professor of computer science at the University of California, Davis, where he leads the VIDI Research Group. Before joining UC Davis, he was a staff scientist at ICASE of the NASA Langley Research Center (1993-1999). Professor Ma received his PhD degree in computer science from the University of Utah in 1993. His research interests include visualization, computer graphics, human computer interaction, and high-performance computing. For his significant research accomplishments, Professor Ma has received many recognitions, including the NSF PECASE award in 2000, elected IEEE Fellow in 2012, the IEEE VGTC Visualization Technical Achievement Award in 2013, inducted into the IEEE Visualization Academy in 2019, and elected ACM Fellow in 2023. Professor Ma presently serves on both the IEEE VIS Steering Committee and IEEE PacificVis Steering Committee.",
+                  zh: "Kwan-Liu Ma (马匡六) is a distinguished professor of computer science at the University of California, Davis, where he leads the VIDI Research Group. Before joining UC Davis, he was a staff scientist at ICASE of the NASA Langley Research Center (1993-1999). Professor Ma received his PhD degree in computer science from the University of Utah in 1993. His research interests include visualization, computer graphics, human computer interaction, and high-performance computing. For his significant research accomplishments, Professor Ma has received many recognitions, including the NSF PECASE award in 2000, elected IEEE Fellow in 2012, the IEEE VGTC Visualization Technical Achievement Award in 2013, inducted into the IEEE Visualization Academy in 2019, and elected ACM Fellow in 2023. Professor Ma presently serves on both the IEEE VIS Steering Committee and IEEE PacificVis Steering Committee.",
                 },
               },
               {
