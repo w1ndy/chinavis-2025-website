@@ -22,6 +22,7 @@ export default function App() {
 
   return (
     <MetaProvider>
+      <Link rel="icon" href="/2025/icons/icon-192.png" />
       <Link rel="manifest" href="/2025/manifest.webmanifest"></Link>
       <Meta name="theme-color" content="#000000"></Meta>
       <Router

@@ -91,11 +91,12 @@ const urlsToCache = [
 // Install: Cache files
 self.addEventListener("install", async (event) => {
   self.skipWaiting();
+  const cache = await caches.open(CACHE_NAME);
   for (const url of urlsToCache) {
     try {
       await cache.add(url);
     } catch (e) {
-      console.warn("Skip", url);
+      console.warn("Skip", url, "due to error:", e);
     }
   }
 });
@@ -117,7 +118,8 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (
     event.request.method !== "GET" ||
-    !event.request.url.startsWith(self.location.origin)
+    !event.request.url.startsWith(self.location.origin) ||
+    event.request.url.includes("favicon.ico")
   )
     return;
 
@@ -136,7 +138,8 @@ self.addEventListener("fetch", (event) => {
         }
       });
       return new Response(
-        '暂时无法连接到服务器。备用网址<a href="https://chinavis.dev/2025">https://chinavis.dev/2025</a>。',
+        "暂时无法连接到服务器。备用网址https://chinavis.dev/2025/。" +
+          error.message,
         {
           status: 503,
           statusText: "Service Unavailable",
