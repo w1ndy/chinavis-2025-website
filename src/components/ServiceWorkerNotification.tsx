@@ -1,19 +1,26 @@
-import { createSignal, Show } from "solid-js";
+import { createSignal, onMount, Show } from "solid-js";
 
 export function ServiceWorkerNotification() {
   const [closed, setClosed] = createSignal(true);
   const [message, setMessage] = createSignal("");
 
-  if (navigator.serviceWorker) {
-    navigator.serviceWorker.addEventListener('message', event => {
-      const { type } = event.data;
+  onMount(() => {
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.addEventListener('message', event => {
+        const { type } = event.data;
 
-      if (type === 'OFFLINE_STATUS') {
-        setMessage('无法连接到服务器。');
-        setClosed(false);
-      }
-    });
-  }
+        if (type === 'DEAD') {
+          setMessage('无法连接到服务器。');
+          setClosed(false);
+        } else if (type === 'ALIVE') {
+          setClosed(true);
+        } else if (type === 'UPDATE') {
+          setMessage('有新版本可用，请刷新页面。');
+          setClosed(false);
+        }
+      });
+    }
+  })
 
   return (
     <Show when={!closed()}>

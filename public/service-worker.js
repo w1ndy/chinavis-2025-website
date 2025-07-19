@@ -1,4 +1,4 @@
-const CACHE_NAME = "chinavis-2025-cache-v3";
+const CACHE_NAME = "chinavis-2025-cache-v4";
 
 const urlsToCache = [
   "/2025/",
@@ -88,6 +88,8 @@ const urlsToCache = [
   "/2025/en/activity/industry/",
 ];
 
+let offline = false;
+
 // Install: Cache files
 self.addEventListener("install", async (event) => {
   self.skipWaiting();
@@ -124,35 +126,74 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  const request = (() => {
+    if (event.request.mode === "navigate") {
+      const url = new URL(event.request.url);
+      if (!url.pathname.endsWith("/")) {
+        // add the slash
+        url.pathname += "/";
+        return new Request(url, event.request);
+      }
+    }
+    return event.request;
+  })();
+
   const fetchAndUpdate = async () => {
     const cache = await caches.open(CACHE_NAME);
 
     try {
       // Force the network fetch to *follow* redirects
-      const networkResponse = await fetch(
-        new Request(event.request, { redirect: "follow" })
-      );
+      const modifiedRequest = new Request(request, { redirect: "follow" });
+      let response = await fetch(modifiedRequest);
 
-      // Only cache real, same‑origin, non‑redirect responses
-      if (networkResponse.ok && networkResponse.type !== "opaqueredirect") {
-        cache.put(event.request, networkResponse.clone());
+      if (response.redirected) {
+        const body = await response.clone().blob();
+        response = new Response(body, {
+          status: response.status,
+          statusText: response.statusText,
+          headers: response.headers,
+        });
       }
 
-      return networkResponse;
+      // Only cache real, same‑origin, non‑redirect responses
+      if (response.ok && response.type === "basic") {
+        if (offline) {
+          offline = false;
+          self.clients.matchAll().then((clients) => {
+            for (const client of clients) {
+              client.postMessage({ type: "ALIVE" });
+            }
+          });
+        }
+
+        const cached = await cache.match(modifiedRequest);
+        if (cached) {
+          const clone = response.clone();
+          if ((await clone.text()) !== (await cached.text())) {
+            self.clients.matchAll().then((clients) => {
+              for (const client of clients) {
+                client.postMessage({
+                  type: "UPDATE",
+                });
+              }
+            });
+          }
+        }
+        cache.put(modifiedRequest, response.clone());
+      }
+
+      return response;
     } catch (error) {
+      offline = true;
       self.clients.matchAll().then((clients) => {
         for (const client of clients) {
-          client.postMessage({ type: "OFFLINE_STATUS", isOffline: true });
+          client.postMessage({ type: "DEAD" });
         }
       });
-      return new Response(
-        "暂时无法连接到服务器。备用网址https://chinavis.dev/2025/。" +
-          error.message,
-        {
-          status: 503,
-          statusText: "Service Unavailable",
-        }
-      );
+      return new Response("暂时无法连接到服务器。\n错误：" + error.message, {
+        status: 503,
+        statusText: "Service Unavailable",
+      });
     }
   };
 
