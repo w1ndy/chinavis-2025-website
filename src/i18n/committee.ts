@@ -791,7 +791,7 @@ export const committee: {
       },
       {
         name: { zh: "王祖超", en: "Zuchao Wang" },
-        affiliation: { zh: "奇虎360有限公司", en: "Qihoo 360 Co., Ltd." },
+        affiliation: { zh: "奇安信", en: "QAX Technology Group" },
         photo: PhotoWZC,
       },
       {
