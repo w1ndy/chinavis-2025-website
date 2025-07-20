@@ -40,7 +40,7 @@ function ProgramTableTimeSlot(props: { timeslot: Dict.ProgramTimeSlot }) {
                   </Show>
                 </div>
                 <Show when={session.location}>
-                  <span class="md:ml-2 flex-none text-gray-500">{location!()} 📍</span>
+                  <span class="md:ml-2 flex-none text-gray-500 dark:text-gray-300">{location!()} 📍</span>
                 </Show>
               </div>
             </td>
@@ -56,7 +56,7 @@ function ProgramTableDay(props: { day: Dict.ProgramDay }) {
   return (
     <>
       <tr>
-        <td colSpan={2} class="text-center font-semibold bg-gray-100 py-1">
+        <td colSpan={2} class="text-center font-semibold bg-gray-100 dark:bg-transparent py-1">
           {date()}
         </td>
       </tr>
@@ -87,7 +87,7 @@ export default function Program() {
     <>
       <Title>{t("PageTitle")}</Title>
       <Page class="program" title={<span innerHTML={t("Title")}></span>}>
-        <div class="text-center *:inline-block *:mr-3 *:mb-3 *:px-2 *:py-1 *:rounded *:w-22 *:text-center *:border *:border-primary-darker *:cursor-pointer *:hover:bg-gray-100 *:[.active]:bg-primary-darker *:[.active]:text-white">
+        <div class="text-center *:inline-block *:mr-3 *:mb-3 *:px-2 *:py-1 *:rounded *:w-22 *:text-center *:border *:border-primary-darker *:cursor-pointer *:hover:bg-gray-100 dark:*:hover:bg-gray-800 *:[.active]:bg-primary-darker *:[.active]:text-white">
           <div classList={{ "active": filter() === "keynote" }} onClick={() => filter() == "keynote" ? setFilter("") : setFilter("keynote")}>{t("Keynote")}</div>
           <div classList={{ "active": filter() === "panel" }} onClick={() => filter() == "panel" ? setFilter("") : setFilter("panel")}>{t("Panel")}</div>
           <div classList={{ "active": filter() === "workshop" }} onClick={() => filter() == "workshop" ? setFilter("") : setFilter("workshop")}>{t("Workshop")}</div>

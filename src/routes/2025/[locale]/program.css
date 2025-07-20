@@ -4,3 +4,10 @@
 .program td {
   @apply border-b border-primary-darker px-2;
 }
+
+@media (prefers-color-scheme: dark) {
+  .program th,
+  .program td {
+    border-color: color-mix(in oklab, var(--color-primary) 60%, black);
+  }
+}

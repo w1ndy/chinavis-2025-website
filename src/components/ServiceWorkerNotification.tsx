@@ -24,9 +24,9 @@ export function ServiceWorkerNotification() {
 
   return (
     <Show when={!closed()}>
-      <div class="fixed bottom-10 right-1/2 translate-x-1/2 py-2 px-3 opacity-90 rounded border border-primary-darker bg-white text-sm">
+      <div class="fixed bottom-10 right-1/2 translate-x-1/2 py-2 px-3 opacity-90 rounded border border-primary-darker bg-white dark:bg-black text-sm">
         <span>{message()}</span>
-        <button class="inline-block ml-2 w-4 h-4 rounded-full bg-gray-400 text-white text-xs cursor-pointer" onClick={() => setClosed(true)}>✕</button>
+        <button class="inline-block ml-2 w-4 h-4 rounded-full bg-gray-400 dark:bg-gray-600 text-white text-xs cursor-pointer" onClick={() => setClosed(true)}>✕</button>
       </div>
     </Show>
   );

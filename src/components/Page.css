@@ -14,12 +14,6 @@
   text-decoration-color: color-mix(in oklab, var(--color-primary) 30%, white);
 }
 
-@media (prefers-color-scheme: dark) {
-  .page h3 {
-    text-decoration-color: color-mix(in oklab, var(--color-primary) 60%, black);
-  }
-}
-
 .page h4 {
   @apply relative font-bold mt-2;
 }
@@ -54,4 +48,13 @@
 
 .page .speaker-grid {
   @apply grid md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page h3 {
+    text-decoration-color: color-mix(in oklab, var(--color-primary) 60%, black);
+  }
+  .page a {
+    @apply text-primary;
+  }
 }
