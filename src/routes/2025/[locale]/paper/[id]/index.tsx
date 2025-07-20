@@ -4,7 +4,7 @@ import { Title } from "@solidjs/meta";
 import { useTranslator } from "~/locale";
 import { Page } from "~/components/Page";
 import { SpeakerInfo } from "~/components/SpeakerInfo";
-import * as Dict from "~/i18n/paper";
+import * as Dict from "~/i18n/paperSession";
 import { PaperInfo } from "~/components/PaperInfo";
 import { useSessionInfo } from "~/utils/useSessionInfo";
 

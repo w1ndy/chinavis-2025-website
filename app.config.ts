@@ -78,6 +78,7 @@ export default defineConfig({
         "/2025/en/topic/12",
         "/2025/zh/topic/13",
         "/2025/en/topic/13",
+        "/2025/zh/paper",
         "/2025/zh/paper/1",
         "/2025/en/paper/1",
         "/2025/zh/paper/2",
