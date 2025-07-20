@@ -595,6 +595,10 @@ export const program: ProgramDay[] = [
               zh: "三楼文锦厅前厅",
               en: "Wenjin Hall Front, 3F",
             },
+            href: {
+              zh: "/2025/zh/poster",
+              en: "/2025/en/poster",
+            },
           },
           {
             type: "exhibition",
@@ -1340,6 +1344,10 @@ export const program: ProgramDay[] = [
             location: {
               zh: "三楼文锦厅前厅",
               en: "Wenjin Hall Front, 3F",
+            },
+            href: {
+              zh: "/2025/zh/poster",
+              en: "/2025/en/poster",
             },
           },
           {
@@ -2237,6 +2245,10 @@ export const program: ProgramDay[] = [
             location: {
               zh: "三楼文锦厅前厅",
               en: "Wenjin Hall Front, 3F",
+            },
+            href: {
+              zh: "/2025/zh/poster",
+              en: "/2025/en/poster",
             },
           },
           {
@@ -3287,6 +3299,10 @@ export const program: ProgramDay[] = [
             location: {
               zh: "三楼文锦厅前厅",
               en: "Wenjin Hall Front, 3F",
+            },
+            href: {
+              zh: "/2025/zh/poster",
+              en: "/2025/en/poster",
             },
           },
           {
