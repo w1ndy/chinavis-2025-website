@@ -4,6 +4,7 @@ export interface Paper {
   title: string;
   authors: string[];
   link?: string;
+  abstract?: string;
 }
 
 export function PaperInfo(props: { paper: Paper }) {
@@ -11,6 +12,9 @@ export function PaperInfo(props: { paper: Paper }) {
     <div>
       <div class="font-semibold"><Show when={props.paper.link} fallback={<span>{props.paper.title}</span>}><a href={props.paper.link} target="_blank">{props.paper.title}</a></Show></div>
       <div class="text-gray-600 dark:text-gray-400">{props.paper.authors.join(", ")}</div>
+      <Show when={props.paper.abstract}>
+        <div innerHTML={props.paper.abstract}></div>
+      </Show>
     </div>
   );
 }

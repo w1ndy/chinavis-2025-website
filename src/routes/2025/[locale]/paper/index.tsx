@@ -25,6 +25,7 @@ export default function PaperSessions() {
             {([id, session]) => (
               <div class="space-y-2">
                 <h3>{session.title[locale()]}</h3>
+                <a href={`/2025/${locale()}/paper/${id.split('-')[1]}`} class="mb-2 block">{t("ViewSessionInfo")}</a>
                 <For each={session.papers}>
                   {(paper) => <PaperInfo paper={paper} />}
                 </For>

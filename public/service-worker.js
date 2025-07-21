@@ -90,6 +90,8 @@ const urlsToCache = [
   "/2025/en/activity/arts/",
   "/2025/zh/activity/industry/",
   "/2025/en/activity/industry/",
+  "/2025/zh/art_exhition/",
+  "/2025/en/art_exhition/",
 ];
 
 let offline = false;

@@ -610,6 +610,10 @@ export const program: ProgramDay[] = [
               zh: "三楼文悦厅",
               en: "Wenyue Hall, 3F",
             },
+            href: {
+              zh: "/2025/zh/art_exhibition",
+              en: "/2025/en/art_exhibition",
+            },
           },
         ],
       },
@@ -1359,6 +1363,10 @@ export const program: ProgramDay[] = [
             location: {
               zh: "三楼文悦厅",
               en: "Wenyue Hall, 3F",
+            },
+            href: {
+              zh: "/2025/zh/art_exhibition",
+              en: "/2025/en/art_exhibition",
             },
           },
         ],
@@ -2260,6 +2268,10 @@ export const program: ProgramDay[] = [
             location: {
               zh: "三楼文悦厅",
               en: "Wenyue Hall, 3F",
+            },
+            href: {
+              zh: "/2025/zh/art_exhibition",
+              en: "/2025/en/art_exhibition",
             },
           },
         ],
@@ -3315,6 +3327,10 @@ export const program: ProgramDay[] = [
               zh: "三楼文悦厅",
               en: "Wenyue Hall, 3F",
             },
+            href: {
+              zh: "/2025/zh/art_exhibition",
+              en: "/2025/en/art_exhibition",
+            },
           },
         ],
       },
@@ -3512,6 +3528,10 @@ export const program: ProgramDay[] = [
             location: {
               zh: "三楼文悦厅",
               en: "Wenyue Hall, 3F",
+            },
+            href: {
+              zh: "/2025/zh/art_exhibition",
+              en: "/2025/en/art_exhibition",
             },
           },
         ],
